@@ -9,37 +9,40 @@
  * }
  */
 class Solution {
-
-    class ListNodeComparator implements Comparator<ListNode> {
-        @Override
-        public int compare(ListNode a, ListNode b) {
-            return a.val - b.val;
-        }
-    }
-
     public ListNode mergeKLists(ListNode[] lists) {
-        if(lists.length == 0 || lists == null) return null;
-
-        PriorityQueue<ListNode> pq = new PriorityQueue<ListNode>(new ListNodeComparator());
-
-        for(ListNode listnode : lists) {
-            if(listnode != null) {
-            pq.offer(listnode);
-            }
+        if(lists.length == 0 || lists == null) {
+            return null;
         }
-
-        ListNode dummy = new ListNode(0);
-        ListNode head = dummy;
-
-        while(!pq.isEmpty()) {
-            ListNode remove = pq.poll();
-            head.next = remove;
-            if(remove.next != null) {
-                pq.offer(remove.next);
-            }
-            head = head.next;
-        }
-
-        return dummy.next;
+        return mergeLists(lists, 0, lists.length -1);
     }
+
+    ListNode mergeLists(ListNode[] lists, int start, int end) {
+        if(start == end) {
+            return lists[start];
+        }
+        int mid = start + (end - start)/2;
+        ListNode left = mergeLists(lists, start, mid);
+        ListNode right = mergeLists(lists, mid+1, end);
+
+        return merge(left, right);
+    }
+
+    ListNode merge(ListNode list1, ListNode list2) {
+        if(list1 == null) {
+            return list2;
+        }
+
+        if(list2 == null) {
+            return list1;
+        }
+
+        if(list1.val < list2.val) {
+            list1.next = merge(list1.next, list2);
+            return list1;
+        } else {
+            list2.next = merge(list1, list2.next);
+            return list2;
+        }
+    }
+
 }
