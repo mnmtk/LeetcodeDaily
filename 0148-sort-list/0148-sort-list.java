@@ -20,7 +20,6 @@ class Solution {
         ListNode slow = head;
         ListNode fast = head;
 
-
         while(fast!=null && fast.next != null) {
             prev = slow;
             slow = slow.next;
@@ -28,7 +27,6 @@ class Solution {
         }
 
         prev.next = null;
-
 
         //split the list
         ListNode left = sortList(head);
