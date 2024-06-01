@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/mnmtk/LeetcodeDaily/tree/master/0021-merge-two-sorted-lists) |
 | [0023-merge-k-sorted-lists](https://github.com/mnmtk/LeetcodeDaily/tree/master/0023-merge-k-sorted-lists) |
+| [0148-sort-list](https://github.com/mnmtk/LeetcodeDaily/tree/master/0148-sort-list) |
 # Recursion
 |  |
 | ------- |
@@ -15,6 +16,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/mnmtk/LeetcodeDaily/tree/master/0023-merge-k-sorted-lists) |
+| [0148-sort-list](https://github.com/mnmtk/LeetcodeDaily/tree/master/0148-sort-list) |
 # Heap (Priority Queue)
 |  |
 | ------- |
@@ -23,3 +25,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/mnmtk/LeetcodeDaily/tree/master/0023-merge-k-sorted-lists) |
+| [0148-sort-list](https://github.com/mnmtk/LeetcodeDaily/tree/master/0148-sort-list) |
+# Two Pointers
+|  |
+| ------- |
+| [0148-sort-list](https://github.com/mnmtk/LeetcodeDaily/tree/master/0148-sort-list) |
+# Sorting
+|  |
+| ------- |
+| [0148-sort-list](https://github.com/mnmtk/LeetcodeDaily/tree/master/0148-sort-list) |
