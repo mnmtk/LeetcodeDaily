@@ -61,6 +61,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # String
 |  |
 | ------- |
+| [0211-design-add-and-search-words-data-structure](https://github.com/mnmtk/LeetcodeDaily/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0212-word-search-ii) |
 # Backtracking
 |  |
@@ -69,8 +70,17 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Trie
 |  |
 | ------- |
+| [0211-design-add-and-search-words-data-structure](https://github.com/mnmtk/LeetcodeDaily/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0212-word-search-ii) |
 # Matrix
 |  |
 | ------- |
 | [0212-word-search-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0212-word-search-ii) |
+# Depth-First Search
+|  |
+| ------- |
+| [0211-design-add-and-search-words-data-structure](https://github.com/mnmtk/LeetcodeDaily/tree/master/0211-design-add-and-search-words-data-structure) |
+# Design
+|  |
+| ------- |
+| [0211-design-add-and-search-words-data-structure](https://github.com/mnmtk/LeetcodeDaily/tree/master/0211-design-add-and-search-words-data-structure) |
