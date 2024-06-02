@@ -6,23 +6,23 @@ class Solution {
             map.put(num, map.getOrDefault(num, 0) + 1);
         }
 
-        PriorityQueue<Integer> minHeap = new PriorityQueue<>(
-            (n1, n2) -> map.get(n1) - map.get(n2)
+        PriorityQueue<Integer> pq = new PriorityQueue<>(
+            (n1,n2) -> map.get(n1) - map.get(n2)
         );
-        
+
         for(int key : map.keySet()) {
-            minHeap.offer(key);
-            if(minHeap.size() > k) {
-                minHeap.remove();
+            pq.offer(key);
+
+            if(pq.size() > k) {
+                pq.remove();
             }
         }
 
         int[] ans = new int[k];
-
-        for(int i=0; i<k;i++) {
-            ans[i] = minHeap.poll();
+        for(int i = 0 ;i<k;i++) {
+            ans[i] = pq.poll();
         }
-
+        
         return ans;
     }
 }
