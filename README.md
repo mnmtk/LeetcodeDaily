@@ -82,6 +82,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Depth-First Search
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0098-validate-binary-search-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/mnmtk/LeetcodeDaily/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0230-kth-smallest-element-in-a-bst) |
 # Design
@@ -92,12 +93,15 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0098-validate-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0230-kth-smallest-element-in-a-bst) |
 # Binary Search Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0098-validate-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0230-kth-smallest-element-in-a-bst) |
 # Binary Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0098-validate-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0230-kth-smallest-element-in-a-bst) |
