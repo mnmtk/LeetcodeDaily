@@ -85,6 +85,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0098-validate-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0098-validate-binary-search-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/mnmtk/LeetcodeDaily/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [0572-subtree-of-another-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0572-subtree-of-another-tree) |
 # Design
 |  |
 | ------- |
@@ -95,6 +96,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0098-validate-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [0572-subtree-of-another-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0572-subtree-of-another-tree) |
 # Binary Search Tree
 |  |
 | ------- |
@@ -105,3 +107,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0098-validate-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [0572-subtree-of-another-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0572-subtree-of-another-tree) |
+# String Matching
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0572-subtree-of-another-tree) |
+# Hash Function
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0572-subtree-of-another-tree) |
