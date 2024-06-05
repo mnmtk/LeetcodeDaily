@@ -47,6 +47,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0208-implement-trie-prefix-tree) |
 | [0347-top-k-frequent-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/0347-top-k-frequent-elements) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0438-find-all-anagrams-in-a-string) |
 # Bucket Sort
 |  |
 | ------- |
@@ -111,8 +112,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # String Matching
 |  |
 | ------- |
+| [0438-find-all-anagrams-in-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0572-subtree-of-another-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0572-subtree-of-another-tree) |
 # Hash Function
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0572-subtree-of-another-tree) |
+# Sliding Window
+|  |
+| ------- |
+| [0438-find-all-anagrams-in-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0438-find-all-anagrams-in-a-string) |
