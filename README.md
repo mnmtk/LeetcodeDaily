@@ -95,6 +95,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/mnmtk/LeetcodeDaily/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0969-number-of-recent-calls](https://github.com/mnmtk/LeetcodeDaily/tree/master/0969-number-of-recent-calls) |
 # Tree
 |  |
 | ------- |
@@ -132,3 +133,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/mnmtk/LeetcodeDaily/tree/master/0300-longest-increasing-subsequence) |
+# Queue
+|  |
+| ------- |
+| [0969-number-of-recent-calls](https://github.com/mnmtk/LeetcodeDaily/tree/master/0969-number-of-recent-calls) |
+# Data Stream
+|  |
+| ------- |
+| [0969-number-of-recent-calls](https://github.com/mnmtk/LeetcodeDaily/tree/master/0969-number-of-recent-calls) |
