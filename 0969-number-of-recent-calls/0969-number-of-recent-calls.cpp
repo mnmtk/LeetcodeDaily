@@ -13,46 +13,17 @@ public:
 
         int target = t-3000;
 
-        if (target <= 0) {
-            return arr.size();
-        }
-
-        // cout<<endl;
-
-        while(low <= high) {
-            int mid = low + (high-low)/2;
-
-            // cout<<low<<" "<<mid<<" "<<high<<endl;
-
+        while (low < high) {
+            int mid = low + (high - low) / 2;
             if (arr[mid] < target) {
-                if (mid + 1 < arr.size() && arr[mid+1] > target) {
-                    return arr.size() - mid - 1;
-                }
                 low = mid + 1;
-            }
-            else if (arr[mid] == target) {
-                if (mid == 0) {
-                    return arr.size();
-                }
-                if (mid - 1 >= 0 && arr[mid-1] < target) {
-                    return arr.size() - mid;
-                }
-                high = mid - 1;
-            }
-            else if (arr[mid] > target) {
-                if (mid==0) {
-                    return arr.size();
-                }
-                // if (arr[mid-1] < target) {
-                //     return arr.size()
-                // }
-                high = mid - 1;
+            } else {
+                high = mid;
             }
         }
 
-        
 
-        return arr.size();
+        return arr.size() - low;
     }
 };
 
