@@ -41,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0033-search-in-rotated-sorted-array) |
+| [0057-insert-interval](https://github.com/mnmtk/LeetcodeDaily/tree/master/0057-insert-interval) |
 | [0128-longest-consecutive-sequence](https://github.com/mnmtk/LeetcodeDaily/tree/master/0128-longest-consecutive-sequence) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0212-word-search-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0212-word-search-ii) |
