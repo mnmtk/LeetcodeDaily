@@ -13,8 +13,8 @@ class Solution {
 
         ListNode dummyNode = new ListNode(0);
         ListNode list = dummyNode;
-
-        while(list1 != null && list2 !=null) {
+        
+        while(list1 != null && list2 != null) {
             if(list1.val <= list2.val) {
                 list.next = list1;
                 list1 = list1.next;
@@ -24,7 +24,6 @@ class Solution {
                 list2 = list2.next;
                 list = list.next;
             }
-           
         }
 
         if(list1 == null) {
@@ -32,8 +31,7 @@ class Solution {
         } else {
             list.next = list1;
         }
-
-        return dummyNode.next;
         
+        return dummyNode.next;
     }
 }
