@@ -10,41 +10,38 @@
  */
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
-
-        if(lists.length == 0 || lists == null) 
-        return null;
-        
-        return merge (lists, 0, lists.length - 1);
+        if(lists == null || lists.length == 0) {
+            return null;
+        }
+       return merge(lists, 0, lists.length-1);
     }
 
-    ListNode merge(ListNode[] lists, int start, int end) {
+    public ListNode merge(ListNode[] lists, int start , int end) {
         if(start == end) {
             return lists[start];
         }
-
-        //find middle
         int mid = start + (end-start)/2;
-        ListNode left= merge(lists, start, mid);
+        ListNode left = merge(lists, start, mid);
         ListNode right = merge(lists, mid+1, end);
 
-        return mergeList(left, right);
+        return mergeTwoLists(left, right);
     }
 
-    ListNode mergeList(ListNode left, ListNode right) {
-        if(left == null) {
-            return right;
+    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+        if (list1 == null) {
+            return list2;
         }
 
-        if(right == null) {
-            return left;
+        if(list2 == null) {
+            return list1;
         }
 
-        if(left.val < right.val) {
-            left.next = mergeList(left.next, right);
-            return left;
+        if(list1.val <= list2.val) {
+            list1.next = mergeTwoLists(list1.next, list2);
+            return list1;
         } else {
-            right.next = mergeList(left, right.next);
-            return right;
+            list2.next = mergeTwoLists(list1, list2.next);
+            return list2;
         }
     }
 }
