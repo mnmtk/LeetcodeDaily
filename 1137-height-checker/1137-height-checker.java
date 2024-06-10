@@ -1,21 +1,22 @@
-import java.util.Arrays;
-
 class Solution {
     public int heightChecker(int[] heights) {
-        // Create a copy of the original heights array
-        int[] expected = Arrays.copyOf(heights, heights.length);
-        
-        // Sort the expected array
-        Arrays.sort(expected);
-        
-        // Count the number of indices where the heights differ
-        int count = 0;
-        for (int i = 0; i < heights.length; i++) {
-            if (heights[i] != expected[i]) {
-                count++;
-            }
+        int[] count = new int[101];
+
+        for(int height : heights) {
+            count[height]++;
         }
-        
-        return count;
+
+        int ans = 0;
+        int j=0;
+        for(int i = 0;i<heights.length;i++) {
+            while(j < count.length && count[j] == 0) {
+                j++;
+            }
+            if(heights[i] != j) {
+                ans++;
+            }
+            count[j]--;
+        }
+        return ans;
     }
 }
