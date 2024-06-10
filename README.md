@@ -43,6 +43,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0148-sort-list](https://github.com/mnmtk/LeetcodeDaily/tree/master/0148-sort-list) |
 | [0347-top-k-frequent-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/mnmtk/LeetcodeDaily/tree/master/0435-non-overlapping-intervals) |
+| [1137-height-checker](https://github.com/mnmtk/LeetcodeDaily/tree/master/1137-height-checker) |
 # Array
 |  |
 | ------- |
@@ -56,6 +57,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/mnmtk/LeetcodeDaily/tree/master/0435-non-overlapping-intervals) |
 | [0792-binary-search](https://github.com/mnmtk/LeetcodeDaily/tree/master/0792-binary-search) |
+| [1137-height-checker](https://github.com/mnmtk/LeetcodeDaily/tree/master/1137-height-checker) |
 # Hash Table
 |  |
 | ------- |
@@ -164,3 +166,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0435-non-overlapping-intervals](https://github.com/mnmtk/LeetcodeDaily/tree/master/0435-non-overlapping-intervals) |
+# Counting Sort
+|  |
+| ------- |
+| [1137-height-checker](https://github.com/mnmtk/LeetcodeDaily/tree/master/1137-height-checker) |
