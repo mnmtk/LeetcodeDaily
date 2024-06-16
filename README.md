@@ -35,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/mnmtk/LeetcodeDaily/tree/master/0005-longest-palindromic-substring) |
+| [0075-sort-colors](https://github.com/mnmtk/LeetcodeDaily/tree/master/0075-sort-colors) |
 | [0141-linked-list-cycle](https://github.com/mnmtk/LeetcodeDaily/tree/master/0141-linked-list-cycle) |
 | [0148-sort-list](https://github.com/mnmtk/LeetcodeDaily/tree/master/0148-sort-list) |
 # Sorting
@@ -42,6 +43,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0049-group-anagrams](https://github.com/mnmtk/LeetcodeDaily/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/mnmtk/LeetcodeDaily/tree/master/0056-merge-intervals) |
+| [0075-sort-colors](https://github.com/mnmtk/LeetcodeDaily/tree/master/0075-sort-colors) |
 | [0148-sort-list](https://github.com/mnmtk/LeetcodeDaily/tree/master/0148-sort-list) |
 | [0347-top-k-frequent-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/mnmtk/LeetcodeDaily/tree/master/0435-non-overlapping-intervals) |
@@ -53,6 +55,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/mnmtk/LeetcodeDaily/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/mnmtk/LeetcodeDaily/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/mnmtk/LeetcodeDaily/tree/master/0057-insert-interval) |
+| [0075-sort-colors](https://github.com/mnmtk/LeetcodeDaily/tree/master/0075-sort-colors) |
 | [0128-longest-consecutive-sequence](https://github.com/mnmtk/LeetcodeDaily/tree/master/0128-longest-consecutive-sequence) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0212-word-search-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0212-word-search-ii) |
