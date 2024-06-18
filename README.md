@@ -39,6 +39,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0141-linked-list-cycle](https://github.com/mnmtk/LeetcodeDaily/tree/master/0141-linked-list-cycle) |
 | [0148-sort-list](https://github.com/mnmtk/LeetcodeDaily/tree/master/0148-sort-list) |
 | [0633-sum-of-square-numbers](https://github.com/mnmtk/LeetcodeDaily/tree/master/0633-sum-of-square-numbers) |
+| [0853-most-profit-assigning-work](https://github.com/mnmtk/LeetcodeDaily/tree/master/0853-most-profit-assigning-work) |
 # Sorting
 |  |
 | ------- |
@@ -48,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0148-sort-list](https://github.com/mnmtk/LeetcodeDaily/tree/master/0148-sort-list) |
 | [0347-top-k-frequent-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/mnmtk/LeetcodeDaily/tree/master/0435-non-overlapping-intervals) |
+| [0853-most-profit-assigning-work](https://github.com/mnmtk/LeetcodeDaily/tree/master/0853-most-profit-assigning-work) |
 | [1137-height-checker](https://github.com/mnmtk/LeetcodeDaily/tree/master/1137-height-checker) |
 # Array
 |  |
@@ -64,6 +66,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/mnmtk/LeetcodeDaily/tree/master/0435-non-overlapping-intervals) |
 | [0792-binary-search](https://github.com/mnmtk/LeetcodeDaily/tree/master/0792-binary-search) |
+| [0853-most-profit-assigning-work](https://github.com/mnmtk/LeetcodeDaily/tree/master/0853-most-profit-assigning-work) |
 | [1137-height-checker](https://github.com/mnmtk/LeetcodeDaily/tree/master/1137-height-checker) |
 # Hash Table
 |  |
@@ -135,6 +138,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0300-longest-increasing-subsequence](https://github.com/mnmtk/LeetcodeDaily/tree/master/0300-longest-increasing-subsequence) |
 | [0633-sum-of-square-numbers](https://github.com/mnmtk/LeetcodeDaily/tree/master/0633-sum-of-square-numbers) |
 | [0792-binary-search](https://github.com/mnmtk/LeetcodeDaily/tree/master/0792-binary-search) |
+| [0853-most-profit-assigning-work](https://github.com/mnmtk/LeetcodeDaily/tree/master/0853-most-profit-assigning-work) |
 # Binary Tree
 |  |
 | ------- |
@@ -178,6 +182,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0435-non-overlapping-intervals](https://github.com/mnmtk/LeetcodeDaily/tree/master/0435-non-overlapping-intervals) |
+| [0853-most-profit-assigning-work](https://github.com/mnmtk/LeetcodeDaily/tree/master/0853-most-profit-assigning-work) |
 # Counting Sort
 |  |
 | ------- |
