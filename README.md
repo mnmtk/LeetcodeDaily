@@ -25,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/mnmtk/LeetcodeDaily/tree/master/0023-merge-k-sorted-lists) |
+| [0295-find-median-from-data-stream](https://github.com/mnmtk/LeetcodeDaily/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/0347-top-k-frequent-elements) |
 # Merge Sort
 |  |
@@ -38,6 +39,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0075-sort-colors](https://github.com/mnmtk/LeetcodeDaily/tree/master/0075-sort-colors) |
 | [0141-linked-list-cycle](https://github.com/mnmtk/LeetcodeDaily/tree/master/0141-linked-list-cycle) |
 | [0148-sort-list](https://github.com/mnmtk/LeetcodeDaily/tree/master/0148-sort-list) |
+| [0295-find-median-from-data-stream](https://github.com/mnmtk/LeetcodeDaily/tree/master/0295-find-median-from-data-stream) |
 | [0633-sum-of-square-numbers](https://github.com/mnmtk/LeetcodeDaily/tree/master/0633-sum-of-square-numbers) |
 | [0853-most-profit-assigning-work](https://github.com/mnmtk/LeetcodeDaily/tree/master/0853-most-profit-assigning-work) |
 # Sorting
@@ -47,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0056-merge-intervals](https://github.com/mnmtk/LeetcodeDaily/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/mnmtk/LeetcodeDaily/tree/master/0075-sort-colors) |
 | [0148-sort-list](https://github.com/mnmtk/LeetcodeDaily/tree/master/0148-sort-list) |
+| [0295-find-median-from-data-stream](https://github.com/mnmtk/LeetcodeDaily/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/mnmtk/LeetcodeDaily/tree/master/0435-non-overlapping-intervals) |
 | [0853-most-profit-assigning-work](https://github.com/mnmtk/LeetcodeDaily/tree/master/0853-most-profit-assigning-work) |
@@ -121,6 +124,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/mnmtk/LeetcodeDaily/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0295-find-median-from-data-stream](https://github.com/mnmtk/LeetcodeDaily/tree/master/0295-find-median-from-data-stream) |
 | [0969-number-of-recent-calls](https://github.com/mnmtk/LeetcodeDaily/tree/master/0969-number-of-recent-calls) |
 # Tree
 |  |
@@ -173,6 +177,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Data Stream
 |  |
 | ------- |
+| [0295-find-median-from-data-stream](https://github.com/mnmtk/LeetcodeDaily/tree/master/0295-find-median-from-data-stream) |
 | [0969-number-of-recent-calls](https://github.com/mnmtk/LeetcodeDaily/tree/master/0969-number-of-recent-calls) |
 # Union Find
 |  |
