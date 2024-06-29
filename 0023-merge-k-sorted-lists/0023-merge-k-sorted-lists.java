@@ -28,20 +28,30 @@ class Solution {
     }
 
     ListNode merge(ListNode l1, ListNode l2) {
-        if(l1== null) {
-            return l2;
+        ListNode dummy = new ListNode(0);
+        ListNode dt = dummy;
+
+        while(l1!= null && l2!=null ) {
+
+            if(l1.val <=l2.val) {
+                dt.next = l1;
+                l1 = l1.next;
+                dt = dt.next;
+            }
+            else if(l2.val <= l1.val) {
+                dt.next = l2;
+                l2 =l2.next;
+                dt = dt.next;
+            }
         }
 
-        if(l2 == null) {
-            return l1;
-        }
-
-        if(l1.val <= l2.val) {
-            l1.next = merge(l1.next, l2);
-            return l1;
+        if(l1 != null) {
+            dt.next = l1;
         } else {
-            l2.next = merge(l1, l2.next);
-            return l2;
+            dt.next = l2;
         }
+
+        return dummy.next;
+
     }
 }
