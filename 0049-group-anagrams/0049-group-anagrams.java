@@ -1,28 +1,22 @@
-import java.util.*;
-
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
-        List<List<String>> result = new ArrayList<>();
+        List<List<String>> ans = new ArrayList<>();
         Map<String, List<String>> map = new HashMap<>();
-        
-        for (String str : strs) {
-            String key = createKey(str);
-            List<String> currentLists = map.getOrDefault(key, new ArrayList<>());
-            currentLists.add(str);  // Corrected this line to add the original string
-            map.put(key, currentLists);
+        for(String str : strs) {
+            String key = generateKey(str);
+            map.computeIfAbsent(key, k-> new ArrayList<>()).add(str);
         }
 
-        for (String entry : map.keySet()) {
-            result.add(map.get(entry));
+        for(String key : map.keySet()) {
+            ans.add(map.get(key));
         }
-        return result;
+
+        return ans;
     }
 
-    String createKey(String str) {
+    public String generateKey(String str) {
         char[] key = str.toCharArray();
         Arrays.sort(key);
         return new String(key);
     }
-
-   
 }
