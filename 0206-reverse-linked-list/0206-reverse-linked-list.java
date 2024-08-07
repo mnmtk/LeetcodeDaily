@@ -21,8 +21,7 @@ class Solution {
             reverse = current;
             current = temp;
         }
-
-        return reverse;
         
+        return reverse;
     }
 }
