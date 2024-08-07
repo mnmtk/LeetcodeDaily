@@ -310,11 +310,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 ## Binary Tree
 |  |
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 ## String
 |  |
@@ -339,6 +341,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/mnmtk/LeetcodeDaily/tree/master/0005-longest-palindromic-substring) |
 | [0053-maximum-subarray](https://github.com/mnmtk/LeetcodeDaily/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/mnmtk/LeetcodeDaily/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0124-binary-tree-maximum-path-sum) |
 ## Binary Search
 |  |
 | ------- |
@@ -352,6 +355,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 |  |
 | ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 ## Binary Search Tree
 |  |
