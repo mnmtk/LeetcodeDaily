@@ -1,30 +1,31 @@
 class Solution {
     List<List<Integer>> v = new ArrayList<>();
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
-        combinationK(candidates, target, 0,new ArrayList<>());
+
+        combine(candidates, 0, target, new ArrayList<>());
         return v;
     }
 
+    public void combine(int[] candidates, int index, int target, List<Integer> list) {
 
-    void combinationK(int[] candidates, int target, int index, List<Integer> list) {
 
-        if(target < 0 || index >= candidates.length) return;
+        if(target < 0 || index >= candidates.length) {
+            return;
+        }
 
         if(target == 0) {
             v.add(new ArrayList<>(list));
             return;
         }
 
-        //dont include current
-        combinationK(candidates, target, index+1, list);
 
+        //dont include
+        combine(candidates, index + 1, target, list);
 
-        // include current
+         //include
         list.add(candidates[index]);
-        combinationK(candidates, target - candidates[index], index, list);
+        combine(candidates, index, target - candidates[index], list);
         list.remove(list.size() - 1);
-
     }
-
 
 }
