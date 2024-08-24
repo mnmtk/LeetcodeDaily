@@ -259,6 +259,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0039-combination-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0039-combination-sum) |
 | [0049-group-anagrams](https://github.com/mnmtk/LeetcodeDaily/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/mnmtk/LeetcodeDaily/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0055-jump-game) |
 | [0066-plus-one](https://github.com/mnmtk/LeetcodeDaily/tree/master/0066-plus-one) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/mnmtk/LeetcodeDaily/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -342,6 +343,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/mnmtk/LeetcodeDaily/tree/master/0005-longest-palindromic-substring) |
 | [0053-maximum-subarray](https://github.com/mnmtk/LeetcodeDaily/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0055-jump-game) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/mnmtk/LeetcodeDaily/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0124-binary-tree-maximum-path-sum) |
 ## Binary Search
@@ -385,4 +387,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0043-multiply-strings](https://github.com/mnmtk/LeetcodeDaily/tree/master/0043-multiply-strings) |
+## Greedy
+|  |
+| ------- |
+| [0055-jump-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0055-jump-game) |
 <!---LeetCode Topics End-->
