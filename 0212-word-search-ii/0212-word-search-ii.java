@@ -1,55 +1,70 @@
 class Solution {
-    class Trie{
-        Trie[] next = new Trie[26];
+
+   class TrieNode {
+        TrieNode[] next = new TrieNode[26];
         String word = null;
     }
+    TrieNode root = new TrieNode();
     Set<String> ans = new HashSet<>();
+
     public List<String> findWords(char[][] board, String[] words) {
-       Trie trie = buildTrie(words);   
+        
+        buildTrie(words);
 
-       int row = board.length;
-       int col = board[0].length;
 
-       for(int i = 0 ; i< row ;i++) {
-        for(int j = 0 ; j< col ; j++) {
-            dfs(trie, i, j, board);
-        }
-       }
-
-       return new ArrayList<>(ans);
-    }
-
-    void dfs(Trie trie, int i, int j, char[][] board) {
-        if(i<0 || j< 0 || i >= board.length || j>= board[0].length || board[i][j] == '#' || trie.next[board[i][j] - 'a'] == null) return;
-
-        if(trie.next[board[i][j] - 'a'].word != null){
-            ans.add(trie.next[board[i][j] - 'a'].word);
-        }
-        trie = trie.next[board[i][j] - 'a'];
-        char c = board[i][j];
-        board[i][j] = '#';
-        //dfs
-        dfs(trie, i-1, j, board);
-              dfs(trie, i+1, j, board);
-                    dfs(trie, i, j+1, board);
-                          dfs(trie, i, j-1, board);
-
-        board[i][j] = c;
-
-    }
-
-    Trie buildTrie(String[] words) {
-        Trie root = new Trie();
-        for(String w : words) {
-            Trie p = root;
-            for(char c : w.toCharArray()) {
-                if(p.next[c - 'a'] == null) {
-                    p.next[c - 'a'] = new Trie();
-                }
-                p = p.next[c - 'a'];
+        for(int i = 0 ; i < board.length ; i ++) {
+            for(int j = 0 ; j < board[0].length - 1; j ++) {
+                dfs(board, i , j, root);
             }
-            p.word = w;
         }
-        return root;
+
+
+        return new ArrayList<>(ans);
+
+    }
+
+
+    public void dfs(char[][] grid, int i, int j, TrieNode trie) {
+
+         if(i<0 || j< 0 
+
+        || i >= grid.length 
+        || j>= grid[0].length 
+
+        || grid[i][j] == '#' 
+        || trie.next[grid[i][j] - 'a'] == null) return;
+
+        if (trie.next[grid[i][j] - 'a'].word != null) {
+          ans.add(trie.next[grid[i][j] - 'a'].word); //word.   
+        }
+        trie = trie.next[grid[i][j] - 'a']; //next letter.
+
+
+        char c = grid[i][j];
+
+        grid[i][j] = '#'; // start the visit
+        dfs(grid, i+1, j, trie);
+        dfs(grid, i, j+1, trie);
+        dfs(grid, i-1, j, trie);
+        dfs(grid, i, j-1, trie);
+        grid[i][j] = c; // visit  complete
+
+    }
+
+    void buildTrie(String[] words) {
+        for(String word : words) {
+            addToTrie(word, root);
+        }
+    }
+
+    void addToTrie(String word, TrieNode dict) {
+        TrieNode p = dict;
+        for(char c : word.toCharArray()) {
+            if(p.next[c - 'a'] == null) {
+                p.next[c - 'a'] = new TrieNode();
+            }
+            p = p.next[c - 'a'];
+        }
+        p.word = word;
     }
 }
