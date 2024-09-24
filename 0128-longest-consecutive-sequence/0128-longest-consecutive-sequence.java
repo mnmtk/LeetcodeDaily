@@ -31,19 +31,17 @@ class Solution {
                 }
             }
         }
-
         return 1;
     }
 
     int findParent(int i) {
         while(i != parents.get(i)) {
+
             //path compression ?
             parents.put(i, i = parents.get(i));
+            }
+            return parents.get(i);
         }
-
-        return parents.get(i);
-    }
-
     }
 
   
@@ -57,7 +55,5 @@ class Solution {
         }
 
         return max;
-        
-        
     }
 }
