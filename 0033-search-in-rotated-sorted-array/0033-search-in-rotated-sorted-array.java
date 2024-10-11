@@ -5,7 +5,7 @@ class Solution {
         int right = nums.length - 1;
 
         while(left <= right) {
- int mid = (right + left)/2;
+int mid = left + (right - left) / 2;
             if(nums[mid] == target) {
                 return mid;
             }
@@ -13,7 +13,7 @@ class Solution {
            
             if(nums[left] <= nums[mid]) { // left sort
                 if(target >= nums[left] && target < nums[right]) {
-                    right = mid; //ethe lbhio
+                    right = mid - 1; //ethe lbhio
                 } else {
                     left = mid + 1; //nooooooooooo
                 }
@@ -24,7 +24,7 @@ class Solution {
 
                 left = mid +1; //etho ?
             } else {
-                right = mid; //naaa
+                right = mid -1 ; //naaa
             }
 
             
