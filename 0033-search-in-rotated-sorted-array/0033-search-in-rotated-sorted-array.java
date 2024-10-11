@@ -1,31 +1,38 @@
 class Solution {
     public int search(int[] nums, int target) {
-        int left = 0;
+
+        int left =0;
         int right = nums.length - 1;
 
-        while (left <= right) {
-            int mid = left + (right - left) / 2;
-
-            if (nums[mid] == target) {
-                return mid; // Return the index of the target
+        while(left <= right) {
+ int mid = (right + left)/2;
+            if(nums[mid] == target) {
+                return mid;
             }
 
-            // Determine which segment is sorted
-            if (nums[left] <= nums[mid]) { // Left segment is sorted
-                if (target >= nums[left] && target < nums[mid]) {
-                    right = mid - 1; // Search in the left segment
+           
+            if(nums[left] <= nums[mid]) { // left sort
+                if(target >= nums[left] && target < nums[right]) {
+                    right = mid; //ethe lbhio
                 } else {
-                    left = mid + 1; // Search in the right segment
+                    left = mid + 1; //nooooooooooo
                 }
-            } else { // Right segment is sorted
-                if (target > nums[mid] && target <= nums[right]) {
-                    left = mid + 1; // Search in the right segment
-                } else {
-                    right = mid - 1; // Search in the left segment
-                }
+
+            } else { //ruight sorted
+
+            if(target > nums[mid] && target <= nums[right]) {
+
+                left = mid +1; //etho ?
+            } else {
+                right = mid; //naaa
             }
+
+            
         }
-
-        return -1; // Target not found
+        }
+        return -1;
     }
+
+
+    
 }
