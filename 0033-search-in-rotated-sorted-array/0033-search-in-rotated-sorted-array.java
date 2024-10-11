@@ -12,7 +12,7 @@ int mid = left + (right - left) / 2;
 
            
             if(nums[left] <= nums[mid]) { // left sort
-                if(target >= nums[left] && target < nums[right]) {
+                if(target >= nums[left] && target < nums[mid]) {
                     right = mid - 1; //ethe lbhio
                 } else {
                     left = mid + 1; //nooooooooooo
