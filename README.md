@@ -372,6 +372,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0033-search-in-rotated-sorted-array) |
+| [0069-sqrtx](https://github.com/mnmtk/LeetcodeDaily/tree/master/0069-sqrtx) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0268-missing-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0268-missing-number) |
 | [0278-first-bad-version](https://github.com/mnmtk/LeetcodeDaily/tree/master/0278-first-bad-version) |
@@ -397,6 +398,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0043-multiply-strings](https://github.com/mnmtk/LeetcodeDaily/tree/master/0043-multiply-strings) |
 | [0066-plus-one](https://github.com/mnmtk/LeetcodeDaily/tree/master/0066-plus-one) |
+| [0069-sqrtx](https://github.com/mnmtk/LeetcodeDaily/tree/master/0069-sqrtx) |
 | [0268-missing-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0268-missing-number) |
 ## Bit Manipulation
 |  |
