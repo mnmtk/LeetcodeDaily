@@ -1,18 +1,20 @@
 class Solution {
-  public int mySqrt(long x) {
-    long l = 1;
-    long r = x + 1;
+    public int mySqrt(int x) {
+        
+        long left = 1;
+        long right = x + 1;
 
-    while (l < r) {
-      final long m = (l + r) / 2;
+        while(left < right) {
+            long mid = left + (right-left)/2;
 
-      if (m*m > x)
-        r = m;
-      else
-        l = m + 1;
+            if(mid*mid <= x) {
+                left = mid+1;
+            } else {
+                right = mid;
+            }
+        } 
+
+        return (int)left - 1;
+        
     }
-
-    
-    return (int) l - 1;
-  }
 }
