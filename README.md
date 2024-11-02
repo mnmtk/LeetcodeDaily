@@ -263,6 +263,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0015-3sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0033-search-in-rotated-sorted-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0033-search-in-rotated-sorted-array) |
+| [0035-search-insert-position](https://github.com/mnmtk/LeetcodeDaily/tree/master/0035-search-insert-position) |
 | [0039-combination-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0039-combination-sum) |
 | [0049-group-anagrams](https://github.com/mnmtk/LeetcodeDaily/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/mnmtk/LeetcodeDaily/tree/master/0053-maximum-subarray) |
@@ -372,6 +373,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0033-search-in-rotated-sorted-array) |
+| [0035-search-insert-position](https://github.com/mnmtk/LeetcodeDaily/tree/master/0035-search-insert-position) |
 | [0069-sqrtx](https://github.com/mnmtk/LeetcodeDaily/tree/master/0069-sqrtx) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0268-missing-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0268-missing-number) |
