@@ -1,5 +1,5 @@
 class Solution {
-    public int mySqrt(int x) {
+    public int mySqrt(long x) {
         
         long left = 1;
         long right = x + 1;
