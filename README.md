@@ -388,6 +388,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0268-missing-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0268-missing-number) |
 | [0278-first-bad-version](https://github.com/mnmtk/LeetcodeDaily/tree/master/0278-first-bad-version) |
 | [0410-split-array-largest-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0410-split-array-largest-sum) |
+| [0668-kth-smallest-number-in-multiplication-table](https://github.com/mnmtk/LeetcodeDaily/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [0907-koko-eating-bananas](https://github.com/mnmtk/LeetcodeDaily/tree/master/0907-koko-eating-bananas) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/mnmtk/LeetcodeDaily/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/mnmtk/LeetcodeDaily/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
@@ -415,6 +416,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0066-plus-one](https://github.com/mnmtk/LeetcodeDaily/tree/master/0066-plus-one) |
 | [0069-sqrtx](https://github.com/mnmtk/LeetcodeDaily/tree/master/0069-sqrtx) |
 | [0268-missing-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0268-missing-number) |
+| [0668-kth-smallest-number-in-multiplication-table](https://github.com/mnmtk/LeetcodeDaily/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 ## Bit Manipulation
 |  |
 | ------- |
