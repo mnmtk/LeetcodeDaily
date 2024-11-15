@@ -7,6 +7,7 @@ class Solution {
     if(m > n) {
         findKthNumber(n, m, k);
     }
+    
 
 	while (low < high) {
 		int mid = low + (high - low) / 2;
