@@ -3,6 +3,11 @@ class Solution {
 	int low = 1;
 	int high = m * n;
 
+
+    if(m > n) {
+        findKthNumber(n, m, k);
+    }
+
 	while (low < high) {
 		int mid = low + (high - low) / 2;
 
