@@ -3,7 +3,7 @@
 
 public class Solution extends VersionControl {
     public int firstBadVersion(int n) {
-        int left = 0;
+        int left =0;
         int right = n;
 
         while(left < right) {
@@ -11,10 +11,10 @@ public class Solution extends VersionControl {
             if(isBadVersion(mid)) {
                 right = mid;
             } else {
-                left = mid+1;
+                left = mid + 1;
             }
         }
-    
+
         return left;
     }
 }
