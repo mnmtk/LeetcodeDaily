@@ -7,7 +7,7 @@ class Solution {
         while(left < right) {
             int mid = left + (right-left)/2;
 
-            if (nums[mid] >= target) {
+            if (nums[mid] >= target) { //min jo yeh satisfy kreee1!
                 right = mid;
             } else {
                 left = mid + 1;
