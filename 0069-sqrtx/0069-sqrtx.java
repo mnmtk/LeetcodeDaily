@@ -1,8 +1,8 @@
 class Solution {
-    public int mySqrt(int x) {
+    public int mySqrt(long x) {
 
         int left = 1;
-        int right = x;
+        int right = x + 1;
 
         while(left < right) {
             int mid = right + (left - right)/2 ;
@@ -14,6 +14,6 @@ class Solution {
 
         }
 
-        return left -1 ;
+        return (int)left -1 ;
     }
 }
