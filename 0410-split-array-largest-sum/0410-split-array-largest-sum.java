@@ -1,18 +1,17 @@
 class Solution {
-    public boolean feasible(int cuts, int[] nums, int k) {
 
-        int splits = 1;
+    public boolean feasible(int max, int[] nums, int k) {
+
+        int split = 1;
         int sum = 0;
-
         for(int num : nums) {
-            sum += num;
-            if(sum > cuts) {
+            sum+=num;
+            if(sum > max) {
                 sum = num;
-                splits++;
-                if(splits > k) {
+                split++;
+                if(split > k) {
                     return false;
                 }
-
             }
         }
 
@@ -20,24 +19,24 @@ class Solution {
     }
 
     public int splitArray(int[] nums, int k) {
-        int left = 0;
-        int right = 0;
 
-        for(int num : nums) {
-            right += num;
-            left = Math.max(num, left);
+        int left = 0;
+        int right = nums.length - 1;
+
+        for (int num : nums) {
+            left = Math.max(left, num);
+            right+= num;
         }
 
-
-        while (left < right) {
-            int mid = left + (right-left)/2;
+        while(left < right) {
+            int mid = left + (right - left)/2;
             if(feasible(mid, nums, k)) {
                 right = mid;
             } else {
                 left = mid + 1;
             }
         }
-
+        
         return left;
     }
 }
