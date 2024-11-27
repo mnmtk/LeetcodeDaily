@@ -1,30 +1,32 @@
 class Solution {
+
     public boolean feasible(int speed, int[] piles, int h) {
-        int hours = 0;
-        for (int pile : piles) {
-            //hours += (pile + speed - 1) / speed; // Calculates the ceiling without Math.ceil
-            hours += (int) Math.ceil((double) pile / (double)speed);
-            if (hours > h) {
-                return false;
-            }
+
+        int sum = 0;
+
+        for(int pile : piles) {
+           sum += (pile + speed - 1) / speed; 
         }
-        return true;
+
+        return sum <= h;
+
     }
 
     public int minEatingSpeed(int[] piles, int h) {
+
         int left = 1;
-        int right = 0;
-        for (int pile : piles) {
+        int right = 1;
+
+        for(int pile : piles) {
             right = Math.max(right, pile);
         }
 
-        while (left < right) {
-            int mid = left + (right - left) / 2;
-
-            if (feasible(mid, piles, h)) {
+        while(left < right) {
+            int mid = left + (right - left)/2;
+            if(feasible(mid, piles, h)) {
                 right = mid;
             } else {
-                left = mid + 1;
+                left = mid + 1; 
             }
         }
 
