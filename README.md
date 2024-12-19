@@ -483,4 +483,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1307-ugly-number-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1307-ugly-number-iii) |
+## Database
+|  |
+| ------- |
+| [1908-recyclable-and-low-fat-products](https://github.com/mnmtk/LeetcodeDaily/tree/master/1908-recyclable-and-low-fat-products) |
 <!---LeetCode Topics End-->
