@@ -228,6 +228,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0011-container-with-most-water](https://github.com/mnmtk/LeetcodeDaily/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0042-trapping-rain-water](https://github.com/mnmtk/LeetcodeDaily/tree/master/0042-trapping-rain-water) |
 | [0125-valid-palindrome](https://github.com/mnmtk/LeetcodeDaily/tree/master/0125-valid-palindrome) |
 | [0295-find-median-from-data-stream](https://github.com/mnmtk/LeetcodeDaily/tree/master/0295-find-median-from-data-stream) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/mnmtk/LeetcodeDaily/tree/master/0719-find-k-th-smallest-pair-distance) |
@@ -267,6 +268,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0033-search-in-rotated-sorted-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/mnmtk/LeetcodeDaily/tree/master/0035-search-insert-position) |
 | [0039-combination-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0039-combination-sum) |
+| [0042-trapping-rain-water](https://github.com/mnmtk/LeetcodeDaily/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/mnmtk/LeetcodeDaily/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/mnmtk/LeetcodeDaily/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0055-jump-game) |
@@ -373,6 +375,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/mnmtk/LeetcodeDaily/tree/master/0005-longest-palindromic-substring) |
+| [0042-trapping-rain-water](https://github.com/mnmtk/LeetcodeDaily/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/mnmtk/LeetcodeDaily/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0055-jump-game) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/mnmtk/LeetcodeDaily/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -403,6 +406,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/mnmtk/LeetcodeDaily/tree/master/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/mnmtk/LeetcodeDaily/tree/master/0042-trapping-rain-water) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -488,4 +492,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1908-recyclable-and-low-fat-products](https://github.com/mnmtk/LeetcodeDaily/tree/master/1908-recyclable-and-low-fat-products) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/mnmtk/LeetcodeDaily/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
