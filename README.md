@@ -242,6 +242,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0015-3sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/mnmtk/LeetcodeDaily/tree/master/0049-group-anagrams) |
+| [0056-merge-intervals](https://github.com/mnmtk/LeetcodeDaily/tree/master/0056-merge-intervals) |
 | [0088-merge-sorted-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0088-merge-sorted-array) |
 | [0217-contains-duplicate](https://github.com/mnmtk/LeetcodeDaily/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0268-missing-number) |
@@ -275,6 +276,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/mnmtk/LeetcodeDaily/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/mnmtk/LeetcodeDaily/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0055-jump-game) |
+| [0056-merge-intervals](https://github.com/mnmtk/LeetcodeDaily/tree/master/0056-merge-intervals) |
 | [0066-plus-one](https://github.com/mnmtk/LeetcodeDaily/tree/master/0066-plus-one) |
 | [0088-merge-sorted-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0088-merge-sorted-array) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
