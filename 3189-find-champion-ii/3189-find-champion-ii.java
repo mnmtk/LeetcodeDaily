@@ -13,7 +13,6 @@ class Solution {
         }
 
         for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
-
             if(entry.getValue() == 0) {
                 if(found) {
                     return -1;
@@ -22,10 +21,8 @@ class Solution {
                     found = true;
                 }
             }
-            
         }
 
         return champ;
-        
     }
 }
