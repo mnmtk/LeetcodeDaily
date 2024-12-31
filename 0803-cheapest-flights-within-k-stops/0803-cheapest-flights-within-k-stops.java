@@ -23,8 +23,7 @@ class Solution {
             if (steps > k + 1) continue;
 
             if (node == dst) {
-                minCost = Math.min(minCost, dist);
-                continue; // Allow exploring other possible paths
+                return dist;
             }
 
             if (steps > stops[node]) continue;
