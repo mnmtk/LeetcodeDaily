@@ -8,31 +8,35 @@ class Solution {
         int[] stops = new int[n];
         Arrays.fill(stops, Integer.MAX_VALUE);
 
-
         PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[0] - b[0]);
 
+        // Format: [cost, current node, number of stops]
         pq.offer(new int[] { 0, src, 0 });
+        int minCost = Integer.MAX_VALUE;
+
         while (!pq.isEmpty()) {
             int[] temp = pq.poll();
             int dist = temp[0];
             int node = temp[1];
             int steps = temp[2];
 
-           
-            if (steps > stops[node] || steps > k + 1)
-                continue;
+            if (steps > k + 1) continue;
+
+            if (node == dst) {
+                minCost = Math.min(minCost, dist);
+                continue; // Allow exploring other possible paths
+            }
+
+            if (steps > stops[node]) continue;
 
             stops[node] = steps;
-            if (node == dst)
-                return dist;
-                
-            if (!adj.containsKey(node))
-                continue;
+
+            if (!adj.containsKey(node)) continue;
             for (int[] a : adj.get(node)) {
                 pq.offer(new int[] { dist + a[1], a[0], steps + 1 });
             }
         }
 
-        return -1;
+        return minCost == Integer.MAX_VALUE ? -1 : minCost;
     }
 }
