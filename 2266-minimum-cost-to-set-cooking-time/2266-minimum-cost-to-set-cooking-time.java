@@ -18,7 +18,7 @@ class Solution {
 
         if (s >= 40 || m == 0) return same;
         if (m > 99) return one;
-
+        
         return Math.min(same, one);
     }
 
