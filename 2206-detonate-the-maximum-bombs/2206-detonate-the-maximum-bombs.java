@@ -12,6 +12,8 @@ class Solution {
                 int y2 = bombs[j][1];
 
                 int r = bombs[i][2];
+                
+             
 
 
                 if((long)r*r >= (long)(x1 - x2) * (x1 - x2) + (long)(y1 - y2) * (y1 - y2)) {
