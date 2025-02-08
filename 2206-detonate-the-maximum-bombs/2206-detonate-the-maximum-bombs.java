@@ -45,16 +45,21 @@ class Solution {
     }
 
     public int dfs(int curr, Map<Integer, List<Integer>> graph, Set<Integer> visited) {
-        int count = 1;
+        Stack<Integer> stack = new Stack<>();
+
+        stack.push(curr);
         visited.add(curr);
 
-        for(int neigh : graph.getOrDefault(curr, new ArrayList<>())) {
-            if(!visited.contains(neigh)) {
-                count+=dfs(neigh, graph, visited);
+        while (!stack.isEmpty()) {
+            int cur = stack.pop();
+            for (int neib : graph.getOrDefault(cur, new ArrayList<>())) {
+                if (!visited.contains(neib)) {
+                    visited.add(neib);
+                    stack.push(neib);
+                }
             }
         }
 
-
-        return count;
+        return visited.size();
     }
 }
