@@ -13,7 +13,18 @@ class Solution {
 
                 int r = bombs[i][2];
                 
-             
+            //   System.out.println(r*r);
+
+            //     System.out.println((long)r*r);
+
+            //     System.out.println((x1 - x2) * (x1 - x2));
+
+            //     System.out.println((long)(x1 - x2) * (x1 - x2));
+
+            //     System.out.println((y1 - y2) * (y1 - y2));
+
+            //     System.out.println((long)(y1 - y2) * (y1 - y2));
+            //logs can cause TLE!
 
 
                 if((long)r*r >= (long)(x1 - x2) * (x1 - x2) + (long)(y1 - y2) * (y1 - y2)) {
