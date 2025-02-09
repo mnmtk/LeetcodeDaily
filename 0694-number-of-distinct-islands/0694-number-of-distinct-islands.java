@@ -37,7 +37,6 @@ class Solution {
     private boolean currentIslandUnique() {
         for(List<int[]> otherIsland : uniqueIslands) {
             if(currentIsland.size() != otherIsland.size()) continue;
-
             if(equalIslands(currentIsland, otherIsland)) return false;
         }
 
