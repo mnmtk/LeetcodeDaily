@@ -237,6 +237,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/mnmtk/LeetcodeDaily/tree/master/0295-find-median-from-data-stream) |
+| [0307-range-sum-query-mutable](https://github.com/mnmtk/LeetcodeDaily/tree/master/0307-range-sum-query-mutable) |
 ## Sorting
 |  |
 | ------- |
@@ -300,6 +301,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0218-the-skyline-problem](https://github.com/mnmtk/LeetcodeDaily/tree/master/0218-the-skyline-problem) |
 | [0219-contains-duplicate-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0219-contains-duplicate-ii) |
 | [0268-missing-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0268-missing-number) |
+| [0307-range-sum-query-mutable](https://github.com/mnmtk/LeetcodeDaily/tree/master/0307-range-sum-query-mutable) |
 | [0322-coin-change](https://github.com/mnmtk/LeetcodeDaily/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/0347-top-k-frequent-elements) |
 | [0410-split-array-largest-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0410-split-array-largest-sum) |
@@ -591,10 +593,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0218-the-skyline-problem](https://github.com/mnmtk/LeetcodeDaily/tree/master/0218-the-skyline-problem) |
+| [0307-range-sum-query-mutable](https://github.com/mnmtk/LeetcodeDaily/tree/master/0307-range-sum-query-mutable) |
 ## Segment Tree
 |  |
 | ------- |
 | [0218-the-skyline-problem](https://github.com/mnmtk/LeetcodeDaily/tree/master/0218-the-skyline-problem) |
+| [0307-range-sum-query-mutable](https://github.com/mnmtk/LeetcodeDaily/tree/master/0307-range-sum-query-mutable) |
 ## Line Sweep
 |  |
 | ------- |
