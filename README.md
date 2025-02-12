@@ -447,6 +447,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0124-binary-tree-maximum-path-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0133-clone-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/0133-clone-graph) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0261-graph-valid-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0261-graph-valid-tree) |
 | [0499-the-maze-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0499-the-maze-iii) |
 | [0547-number-of-provinces](https://github.com/mnmtk/LeetcodeDaily/tree/master/0547-number-of-provinces) |
 | [0694-number-of-distinct-islands](https://github.com/mnmtk/LeetcodeDaily/tree/master/0694-number-of-distinct-islands) |
@@ -511,12 +512,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/mnmtk/LeetcodeDaily/tree/master/0128-longest-consecutive-sequence) |
+| [0261-graph-valid-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0261-graph-valid-tree) |
 | [0547-number-of-provinces](https://github.com/mnmtk/LeetcodeDaily/tree/master/0547-number-of-provinces) |
 | [0694-number-of-distinct-islands](https://github.com/mnmtk/LeetcodeDaily/tree/master/0694-number-of-distinct-islands) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/0133-clone-graph) |
+| [0261-graph-valid-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0261-graph-valid-tree) |
 | [0322-coin-change](https://github.com/mnmtk/LeetcodeDaily/tree/master/0322-coin-change) |
 | [0499-the-maze-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0499-the-maze-iii) |
 | [0547-number-of-provinces](https://github.com/mnmtk/LeetcodeDaily/tree/master/0547-number-of-provinces) |
@@ -557,6 +560,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/0133-clone-graph) |
+| [0261-graph-valid-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0261-graph-valid-tree) |
 | [0499-the-maze-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0499-the-maze-iii) |
 | [0547-number-of-provinces](https://github.com/mnmtk/LeetcodeDaily/tree/master/0547-number-of-provinces) |
 | [0744-network-delay-time](https://github.com/mnmtk/LeetcodeDaily/tree/master/0744-network-delay-time) |
