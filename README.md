@@ -473,6 +473,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0066-plus-one](https://github.com/mnmtk/LeetcodeDaily/tree/master/0066-plus-one) |
 | [0069-sqrtx](https://github.com/mnmtk/LeetcodeDaily/tree/master/0069-sqrtx) |
 | [0268-missing-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0268-missing-number) |
+| [0292-nim-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0292-nim-game) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/mnmtk/LeetcodeDaily/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [1307-ugly-number-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1307-ugly-number-iii) |
 | [2206-detonate-the-maximum-bombs](https://github.com/mnmtk/LeetcodeDaily/tree/master/2206-detonate-the-maximum-bombs) |
@@ -614,4 +615,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0218-the-skyline-problem](https://github.com/mnmtk/LeetcodeDaily/tree/master/0218-the-skyline-problem) |
+## Brainteaser
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0292-nim-game) |
+## Game Theory
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0292-nim-game) |
 <!---LeetCode Topics End-->
