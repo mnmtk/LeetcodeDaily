@@ -1,61 +1,64 @@
 class Solution {
-    //AdjajencyList
-   Map<Integer, List<Pair<Integer, Integer>>> adj = new HashMap<>();
-
-
-
-    public void BFS(int[] signalRecievedAt, int sourceNode) {
-        Queue<Integer> queue = new LinkedList<>();
-        queue.add(sourceNode);
-
-        signalRecievedAt[sourceNode] = 0;
-
-        while(!queue.isEmpty()) {
-            int currNode = queue.remove();
-
-            if(!adj.containsKey(currNode)) {
-                continue;
-            }
-
-            //In the adjacency list representation, if currNode is not a key in the adj map, it means that there are no outgoing edges from currNode.
-            //For such nodes, there's no need to broadcast the signal further because there are no neighboring nodes to proces.
-           for(Pair<Integer, Integer> edge : adj.get(currNode)) {
-            int time = edge.getKey();
-            int neighborNode = edge.getValue();
-
-            int arrivalTime = signalRecievedAt[currNode] + time;
-            if(signalRecievedAt[neighborNode] > arrivalTime) {
-                signalRecievedAt[neighborNode] = arrivalTime;
-                queue.add(neighborNode);
-            }
-           }
-        }
-
-    }
-
+    Map<Integer, List<int[]>> map = new HashMap<>();
 
     public int networkDelayTime(int[][] times, int n, int k) {
 
+        buildGraph(times);
+
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[1] - b[1]);
+
+        int[] shortest = new int[n + 1];
+        Arrays.fill(shortest, -1);
+
+        pq.offer(new int[] { k, 0 });
+
+        System.out.println(n + "n");
+        System.out.println(k + "k");
+
+        while (!pq.isEmpty()) {
+
+            int[] current = pq.poll();
+            int node = current[0];
+            int time = current[1];
+
+            System.out.println("node" + node);
+            System.out.println("shortest node" + shortest[node]);
+
+            if (shortest[node] != -1) continue;
+            shortest[node] = time;
+
+            if(map.getOrDefault(node, new ArrayList<>()).size() < 1) continue;
+            // System.out.println( "map" + map.get(node));
+
+            for (int[] next : map.getOrDefault(node, new ArrayList<>())) {
+                System.out.println( "next" + next[0] + next[1]);
+                pq.offer(new int[] { next[0], next[1] + time });
+            }
+
+        }
+
+        int ans = shortest[1];
+        boolean no = false;
+
+        for (int i = 1; i <= n; i++) {
+            System.out.print(" each" + shortest[i]);
+            ans = Math.max(shortest[i], ans);
+            if(shortest[i] == -1) no = true; 
+        }
+
+        if (no) return -1;
+
+        return ans == 0 ? -1: ans == -1 ? -1 : ans;
+    }
+
+    public void buildGraph(int[][] times) {
+
         for (int[] time : times) {
-            int source = time[0];
-            int des = time[1];
-            int time1 = time[2];
 
-            adj.putIfAbsent(source, new ArrayList<>());
-            adj.get(source).add(new Pair(time1, des));
+            map.computeIfAbsent(time[0], k -> new ArrayList<>()).add(new int[] { time[1], time[2] });
+
+            
         }
 
-        int[] signalRecievedAt = new int[n+1];
-        Arrays.fill(signalRecievedAt, Integer.MAX_VALUE);
-
-        BFS(signalRecievedAt, k);
-
-        int answer = Integer.MIN_VALUE;
-        for(int i = 1; i <= n; i++) {
-            answer = Math.max(answer, signalRecievedAt[i]);
-        }
-
-
-        return answer == Integer.MAX_VALUE ? -1 : answer;
     }
 }
