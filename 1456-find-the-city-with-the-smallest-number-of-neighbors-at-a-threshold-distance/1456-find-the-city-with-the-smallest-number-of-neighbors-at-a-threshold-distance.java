@@ -1,10 +1,9 @@
 class Solution {
 
     public void dijkstra(int n, List<int[]>[] adjList, int[] shortPath, int source) {
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) ->
-            (a[1] - b[1])
-        );
-        pq.add(new int[] { source, 0 });
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> (a[1] - b[1]));
+
+        pq.add(new int[] {source, 0});
         Arrays.fill(shortPath, Integer.MAX_VALUE);
 
         while(!pq.isEmpty()) {
@@ -12,34 +11,29 @@ class Solution {
             int city = curr[0];
             int dist = curr[1];
 
-            if(dist > shortPath[city]) {
+             if(dist > shortPath[city]) {
                 continue;
             }
 
-            for(int[] neighbor : adjList[city]) {
-
-                int ncity = neighbor[0];
-                int ndist = neighbor[1];
+            for(int[] neigh : adjList[city]) {
+                int ncity = neigh[0];
+                int ndist = neigh[1];
 
                 if(shortPath[ncity] > dist + ndist) {
                     shortPath[ncity] = dist + ndist;
                     pq.add(new int[] {ncity, shortPath[ncity]});
                 }
-
             }
-
-
         }
-
-
     }
+
     public int findTheCity(int n, int[][] edges, int distanceThreshold) {
 
-         List<int[]>[] adjacencyList = new List[n];
+        List<int[]>[] adjacencyList = new List[n];
 
         int[][] shortestPathMatrix = new int[n][n];
 
-        for(int i = 0; i <n ; i++) {
+        for(int i = 0; i < n ; i ++) {
             Arrays.fill(shortestPathMatrix[i], Integer.MAX_VALUE);
             shortestPathMatrix[i][i] = 0;
             adjacencyList[i] = new ArrayList<>();
@@ -50,16 +44,15 @@ class Solution {
             int end = edge[1];
             int weight = edge[2];
 
-            adjacencyList[start].add(new int[] { end, weight });
-            adjacencyList[end].add(new int[] { start, weight });
+            adjacencyList[start].add(new int[] {end, weight});
+            adjacencyList[end].add(new int[] {start, weight});
         }
 
-        for (int i = 0; i < n; i++) {
+        for(int i = 0 ; i < n ; i++) {
             dijkstra(n, adjacencyList, shortestPathMatrix[i], i);
         }
-
-        return getCity(n, shortestPathMatrix, distanceThreshold);
-
+        
+        return getCity(n, shortestPathMatrix, distanceThreshold); 
     }
 
     int getCity(int n, int[][] shortestPathMatrix, int k
@@ -78,11 +71,7 @@ class Solution {
                     reachable++;
                 }
             }
-            
-            // if (reachable <= few) {
-            //     count = reachable;
-            //     fewest = i;
-            // }
+        
 
               if (reachable < count || (reachable == count && fewest < i)) {
                 count = reachable;
