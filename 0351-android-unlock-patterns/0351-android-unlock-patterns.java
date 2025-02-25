@@ -1,126 +1,79 @@
 class Solution {
 
-    // All possible single-step moves on the lock pattern grid
-    // Each array represents a move as {row change, column change}
-    private static final int[][] SINGLE_STEP_MOVES = {
-        { 0, 1 },
-        { 0, -1 },
-        { 1, 0 },
-        { -1, 0 }, // Adjacent moves (right, left, down, up)
-        { 1, 1 },
-        { -1, 1 },
-        { 1, -1 },
-        { -1, -1 }, // Diagonal moves
-        { -2, 1 },
-        { -2, -1 },
-        { 2, 1 },
-        { 2, -1 }, // Extended moves (knight-like moves)
-        { 1, -2 },
-        { -1, -2 },
-        { 1, 2 },
-        { -1, 2 },
-    };
-
-    // Moves that require a dot to be visited in between
-    // These moves "jump" over a dot, which must have been previously visited
-    private static final int[][] SKIP_DOT_MOVES = {
-        { 0, 2 },
-        { 0, -2 },
-        { 2, 0 },
-        { -2, 0 }, // Straight skip moves (e.g., 1 to 3, 4 to 6)
-        { -2, -2 },
-        { 2, 2 },
-        { 2, -2 },
-        { -2, 2 }, // Diagonal skip moves (e.g., 1 to 9, 3 to 7)
-    };
-
     public int numberOfPatterns(int m, int n) {
+        int[][] jump = new int[10][10];
+
+        // Initialize the jump over numbers for all valid jumps
+        jump[1][3] = jump[3][1] = 2;
+        jump[4][6] = jump[6][4] = 5;
+        jump[7][9] = jump[9][7] = 8;
+        jump[1][7] = jump[7][1] = 4;
+        jump[2][8] = jump[8][2] = 5;
+        jump[3][9] = jump[9][3] = 6;
+        jump[1][9] = jump[9][1] = jump[3][7] = jump[7][3] = 5;
+
+        boolean[] visitedNumbers = new boolean[10];
         int totalPatterns = 0;
-        // Start from each of the 9 dots on the grid
-        for (int row = 0; row < 3; row++) {
-            for (int col = 0; col < 3; col++) {
-                boolean[][] visitedDots = new boolean[3][3];
-                // Count patterns starting from this dot
-                totalPatterns +=
-                countPatternsFromDot(m, n, 1, row, col, visitedDots);
-            }
-        }
+
+        // Count patterns starting from corner numbers (1, 3, 7, 9) and multiply by 4 due to symmetry
+        totalPatterns +=
+        countPatternsFromNumber(1, 1, m, n, jump, visitedNumbers) * 4;
+
+        // Count patterns starting from edge numbers (2, 4, 6, 8) and multiply by 4 due to symmetry
+        totalPatterns +=
+        countPatternsFromNumber(2, 1, m, n, jump, visitedNumbers) * 4;
+
+        // Count patterns starting from the center number (5)
+        totalPatterns +=
+        countPatternsFromNumber(5, 1, m, n, jump, visitedNumbers);
+
         return totalPatterns;
     }
 
-    private int countPatternsFromDot(
-        int m,
-        int n,
+    private int countPatternsFromNumber(
+        int currentNumber,
         int currentLength,
-        int currentRow,
-        int currentCol,
-        boolean[][] visitedDots
+        int minLength,
+        int maxLength,
+        int[][] jump,
+        boolean[] visitedNumbers
     ) {
-        // Base case: if current pattern length exceeds n, stop exploring
-        if (currentLength > n) {
-            return 0;
-        }
+        // Base case: if current pattern length exceeds maxLength, stop exploring
+        if (currentLength > maxLength) return 0;
 
         int validPatterns = 0;
-
         // If current pattern length is within the valid range, count it
-        if (currentLength >= m) validPatterns++;
+        if (currentLength >= minLength) {
+            validPatterns++;
+        }
 
-        // Mark current dot as visited
-        visitedDots[currentRow][currentCol] = true;
+        visitedNumbers[currentNumber] = true;
 
-        // Explore all single-step moves
-        for (int[] move : SINGLE_STEP_MOVES) {
-            int newRow = currentRow + move[0];
-            int newCol = currentCol + move[1];
-            if (isValidMove(newRow, newCol, visitedDots)) {
-                // Recursively count patterns from the new position
+        // Explore all possible next numbers
+        for (int nextNumber = 1; nextNumber <= 9; nextNumber++) {
+            int jumpOverNumber = jump[currentNumber][nextNumber];
+            // Check if the next number is unvisited and either:
+            // 1. There's no number to jump over, or
+            // 2. The number to jump over has been visited
+            if (
+                !visitedNumbers[nextNumber] &&
+                (jumpOverNumber == 0 || visitedNumbers[jumpOverNumber])
+            ) {
                 validPatterns +=
-                countPatternsFromDot(
-                    m,
-                    n,
+                countPatternsFromNumber(
+                    nextNumber,
                     currentLength + 1,
-                    newRow,
-                    newCol,
-                    visitedDots
+                    minLength,
+                    maxLength,
+                    jump,
+                    visitedNumbers
                 );
             }
         }
 
-        // Explore all skip-dot moves
-        for (int[] move : SKIP_DOT_MOVES) {
-            int newRow = currentRow + move[0];
-            int newCol = currentCol + move[1];
-            
-            if (isValidMove(newRow, newCol, visitedDots)) {
-                // Check if the middle dot has been visited
-                int middleRow = currentRow + move[0] / 2;
-                int middleCol = currentCol + move[1] / 2;
-                if (visitedDots[middleRow][middleCol]) {
-                    // If middle dot is visited, this move is valid
-                    validPatterns +=
-                    countPatternsFromDot(
-                        m,
-                        n,
-                        currentLength + 1,
-                        newRow,
-                        newCol,
-                        visitedDots
-                    );
-                }
-            }
-        }
+        // Backtrack: unmark the current number before returning
+        visitedNumbers[currentNumber] = false;
 
-        // Backtrack: unmark the current dot before returning
-        visitedDots[currentRow][currentCol] = false;
         return validPatterns;
-    }
-
-    // Helper method to check if a move is valid
-    private boolean isValidMove(int row, int col, boolean[][] visitedDots) {
-        // A move is valid if it's within the grid and the dot hasn't been visited
-        return (
-            row >= 0 && col >= 0 && row < 3 && col < 3 && !visitedDots[row][col]
-        );
     }
 }
