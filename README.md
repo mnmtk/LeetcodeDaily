@@ -426,6 +426,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0124-binary-tree-maximum-path-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0139-word-break](https://github.com/mnmtk/LeetcodeDaily/tree/master/0139-word-break) |
 | [0322-coin-change](https://github.com/mnmtk/LeetcodeDaily/tree/master/0322-coin-change) |
+| [0351-android-unlock-patterns](https://github.com/mnmtk/LeetcodeDaily/tree/master/0351-android-unlock-patterns) |
 | [0410-split-array-largest-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0410-split-array-largest-sum) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/mnmtk/LeetcodeDaily/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0909-stone-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0909-stone-game) |
@@ -499,11 +500,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0268-missing-number) |
+| [0351-android-unlock-patterns](https://github.com/mnmtk/LeetcodeDaily/tree/master/0351-android-unlock-patterns) |
 ## Backtracking
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0039-combination-sum) |
 | [0212-word-search-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0212-word-search-ii) |
+| [0351-android-unlock-patterns](https://github.com/mnmtk/LeetcodeDaily/tree/master/0351-android-unlock-patterns) |
 ## Simulation
 |  |
 | ------- |
@@ -657,4 +660,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1912-number-of-restricted-paths-from-first-to-last-node](https://github.com/mnmtk/LeetcodeDaily/tree/master/1912-number-of-restricted-paths-from-first-to-last-node) |
+## Bitmask
+|  |
+| ------- |
+| [0351-android-unlock-patterns](https://github.com/mnmtk/LeetcodeDaily/tree/master/0351-android-unlock-patterns) |
 <!---LeetCode Topics End-->
