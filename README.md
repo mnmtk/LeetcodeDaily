@@ -292,6 +292,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0056-merge-intervals](https://github.com/mnmtk/LeetcodeDaily/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/mnmtk/LeetcodeDaily/tree/master/0057-insert-interval) |
 | [0066-plus-one](https://github.com/mnmtk/LeetcodeDaily/tree/master/0066-plus-one) |
+| [0068-text-justification](https://github.com/mnmtk/LeetcodeDaily/tree/master/0068-text-justification) |
 | [0088-merge-sorted-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0088-merge-sorted-array) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/mnmtk/LeetcodeDaily/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -403,6 +404,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0020-valid-parentheses](https://github.com/mnmtk/LeetcodeDaily/tree/master/0020-valid-parentheses) |
 | [0043-multiply-strings](https://github.com/mnmtk/LeetcodeDaily/tree/master/0043-multiply-strings) |
 | [0049-group-anagrams](https://github.com/mnmtk/LeetcodeDaily/tree/master/0049-group-anagrams) |
+| [0068-text-justification](https://github.com/mnmtk/LeetcodeDaily/tree/master/0068-text-justification) |
 | [0076-minimum-window-substring](https://github.com/mnmtk/LeetcodeDaily/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/mnmtk/LeetcodeDaily/tree/master/0125-valid-palindrome) |
 | [0139-word-break](https://github.com/mnmtk/LeetcodeDaily/tree/master/0139-word-break) |
@@ -516,6 +518,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0043-multiply-strings](https://github.com/mnmtk/LeetcodeDaily/tree/master/0043-multiply-strings) |
+| [0068-text-justification](https://github.com/mnmtk/LeetcodeDaily/tree/master/0068-text-justification) |
 ## Greedy
 |  |
 | ------- |
