@@ -326,6 +326,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/mnmtk/LeetcodeDaily/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/mnmtk/LeetcodeDaily/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
+| [1663-detect-cycles-in-2d-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1753-path-with-minimum-effort](https://github.com/mnmtk/LeetcodeDaily/tree/master/1753-path-with-minimum-effort) |
 | [2206-detonate-the-maximum-bombs](https://github.com/mnmtk/LeetcodeDaily/tree/master/2206-detonate-the-maximum-bombs) |
 | [3158-maximum-length-of-semi-decreasing-subarrays](https://github.com/mnmtk/LeetcodeDaily/tree/master/3158-maximum-length-of-semi-decreasing-subarrays) |
@@ -478,6 +479,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0694-number-of-distinct-islands](https://github.com/mnmtk/LeetcodeDaily/tree/master/0694-number-of-distinct-islands) |
 | [0744-network-delay-time](https://github.com/mnmtk/LeetcodeDaily/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/mnmtk/LeetcodeDaily/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1663-detect-cycles-in-2d-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1753-path-with-minimum-effort](https://github.com/mnmtk/LeetcodeDaily/tree/master/1753-path-with-minimum-effort) |
 | [2206-detonate-the-maximum-bombs](https://github.com/mnmtk/LeetcodeDaily/tree/master/2206-detonate-the-maximum-bombs) |
 ## Binary Search Tree
@@ -540,6 +542,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0499-the-maze-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0499-the-maze-iii) |
 | [0505-the-maze-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0505-the-maze-ii) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1663-detect-cycles-in-2d-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1753-path-with-minimum-effort](https://github.com/mnmtk/LeetcodeDaily/tree/master/1753-path-with-minimum-effort) |
 | [3188-find-champion-i](https://github.com/mnmtk/LeetcodeDaily/tree/master/3188-find-champion-i) |
 ## Union Find
@@ -550,6 +553,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/mnmtk/LeetcodeDaily/tree/master/0547-number-of-provinces) |
 | [0694-number-of-distinct-islands](https://github.com/mnmtk/LeetcodeDaily/tree/master/0694-number-of-distinct-islands) |
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/mnmtk/LeetcodeDaily/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
+| [1663-detect-cycles-in-2d-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1753-path-with-minimum-effort](https://github.com/mnmtk/LeetcodeDaily/tree/master/1753-path-with-minimum-effort) |
 ## Breadth-First Search
 |  |
@@ -566,6 +570,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0744-network-delay-time](https://github.com/mnmtk/LeetcodeDaily/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/mnmtk/LeetcodeDaily/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1663-detect-cycles-in-2d-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1753-path-with-minimum-effort](https://github.com/mnmtk/LeetcodeDaily/tree/master/1753-path-with-minimum-effort) |
 | [2206-detonate-the-maximum-bombs](https://github.com/mnmtk/LeetcodeDaily/tree/master/2206-detonate-the-maximum-bombs) |
 ## Interactive
