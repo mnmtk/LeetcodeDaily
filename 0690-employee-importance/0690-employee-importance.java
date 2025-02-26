@@ -11,6 +11,7 @@ class Solution {
     Map<Integer, Employee> emap;
     public int getImportance(List<Employee> employees, int id) {
         emap = new HashMap();
+
         for(Employee e : employees) {
             emap.put(e.id, e);
         }
@@ -18,13 +19,13 @@ class Solution {
         return dfs(id);
     }
 
-    public int dfs(int eid) {
-        Employee emp = emap.get(eid);
-        int ans = emp.importance;
+    public int dfs(int id) {
 
-        for(Integer subId : emp.subordinates) {
-            ans+= dfs(subId);
-        }
+        int ans = emap.get(id).importance;
+
+        for(Integer sub : emap.get(id).subordinates) {
+            ans += dfs(sub);
+        } 
 
         return ans;
     }
