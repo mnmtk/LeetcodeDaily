@@ -313,6 +313,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0490-the-maze](https://github.com/mnmtk/LeetcodeDaily/tree/master/0490-the-maze) |
 | [0499-the-maze-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0499-the-maze-iii) |
 | [0505-the-maze-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0505-the-maze-ii) |
+| [0690-employee-importance](https://github.com/mnmtk/LeetcodeDaily/tree/master/0690-employee-importance) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/mnmtk/LeetcodeDaily/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0907-koko-eating-bananas](https://github.com/mnmtk/LeetcodeDaily/tree/master/0907-koko-eating-bananas) |
 | [0909-stone-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0909-stone-game) |
@@ -344,6 +345,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0268-missing-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/mnmtk/LeetcodeDaily/tree/master/0424-longest-repeating-character-replacement) |
+| [0690-employee-importance](https://github.com/mnmtk/LeetcodeDaily/tree/master/0690-employee-importance) |
 | [0694-number-of-distinct-islands](https://github.com/mnmtk/LeetcodeDaily/tree/master/0694-number-of-distinct-islands) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/mnmtk/LeetcodeDaily/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Divide and Conquer
@@ -385,6 +387,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0690-employee-importance](https://github.com/mnmtk/LeetcodeDaily/tree/master/0690-employee-importance) |
 ## Binary Tree
 |  |
 | ------- |
@@ -468,6 +471,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0499-the-maze-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0499-the-maze-iii) |
 | [0505-the-maze-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0505-the-maze-ii) |
 | [0547-number-of-provinces](https://github.com/mnmtk/LeetcodeDaily/tree/master/0547-number-of-provinces) |
+| [0690-employee-importance](https://github.com/mnmtk/LeetcodeDaily/tree/master/0690-employee-importance) |
 | [0694-number-of-distinct-islands](https://github.com/mnmtk/LeetcodeDaily/tree/master/0694-number-of-distinct-islands) |
 | [0744-network-delay-time](https://github.com/mnmtk/LeetcodeDaily/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/mnmtk/LeetcodeDaily/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -553,6 +557,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0499-the-maze-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0499-the-maze-iii) |
 | [0505-the-maze-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0505-the-maze-ii) |
 | [0547-number-of-provinces](https://github.com/mnmtk/LeetcodeDaily/tree/master/0547-number-of-provinces) |
+| [0690-employee-importance](https://github.com/mnmtk/LeetcodeDaily/tree/master/0690-employee-importance) |
 | [0694-number-of-distinct-islands](https://github.com/mnmtk/LeetcodeDaily/tree/master/0694-number-of-distinct-islands) |
 | [0744-network-delay-time](https://github.com/mnmtk/LeetcodeDaily/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/mnmtk/LeetcodeDaily/tree/master/0803-cheapest-flights-within-k-stops) |
