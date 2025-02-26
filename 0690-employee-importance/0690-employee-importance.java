@@ -1,29 +1,29 @@
+/*
+// Definition for Employee.
+class Employee {
+    public int id;
+    public int importance;
+    public List<Integer> subordinates;
+};
+*/
+
 class Solution {
     Map<Integer, Employee> emap;
-
     public int getImportance(List<Employee> employees, int id) {
-        // Create a map for easy access to employees by ID
-        emap = new HashMap<>();
-        for (Employee e : employees) {
+        emap = new HashMap();
+        for(Employee e : employees) {
             emap.put(e.id, e);
         }
 
-        // Initialize a queue with the employee of the given ID
-        Queue<Employee> queue = new LinkedList<>();
-        queue.offer(emap.get(id));
+        return dfs(id);
+    }
 
-        int ans = 0;
+    public int dfs(int eid) {
+        Employee emp = emap.get(eid);
+        int ans = emp.importance;
 
-        while (!queue.isEmpty()) {
-            // Dequeue an employee
-            Employee current = queue.poll();
-            // Add the importance of the current employee
-            ans += current.importance;
-
-            // Add subordinates to the queue
-            for (int subId : current.subordinates) {
-                queue.offer(emap.get(subId));
-            }
+        for(Integer subId : emp.subordinates) {
+            ans+= dfs(subId);
         }
 
         return ans;
