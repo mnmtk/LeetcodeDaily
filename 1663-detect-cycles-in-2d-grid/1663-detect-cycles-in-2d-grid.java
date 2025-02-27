@@ -1,39 +1,43 @@
 class Solution {
-    public boolean containsCycle(char[][] grid) {
-        int rows = grid.length;
-        int cols = grid[0].length;
-        boolean[][] vis = new boolean[rows][cols];
-        int[] dr = {-1, 0, 1, 0};
-        int[] dc = {0, 1, 0, -1};
+    public static int[] dr = {0, -1, 1, 0};
+    public static int[] dc = {1, 0, 0, -1};
 
-        for(int i=0;i<rows;i++){
-            for(int j=0;j<cols;j++){
-                if(!vis[i][j]){
-                    if(dfs(grid,vis,i,j,-1,-1,dr,dc)){
-                        return true;
-                    }
+    public boolean containsCycle(char[][] grid) {
+        int m = grid.length;
+        int n = grid[0].length;
+
+        boolean[][] visited = new boolean[m][n]; // Track visited cells
+        boolean[][] currentPath = new boolean[m][n]; // Track cells in the current DFS path
+
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (!visited[i][j] && grid[i][j] != '-') {
+                    if (dfs(i, j, -1, -1, grid, visited, currentPath, m, n)) return true;
                 }
             }
         }
 
         return false;
     }
-    
-    private boolean dfs(char[][] grid, boolean[][] vis, int r, int c, int prevR, int prevC, int[] dr, int[] dc) {
-        vis[r][c]=true;
 
-        for(int i=0;i<4;i++){
-            int newr = dr[i]+r;
-            int newc = dc[i]+c;
-            if(newr>=0 && newr<grid.length&&newc>=0&&newc<grid[0].length){
+    public boolean dfs(int i, int j, int prevX, int prevY, char[][] grid, boolean[][] visited, boolean[][] currentPath, int m, int n) {
+        visited[i][j] = true; // Mark as visited
+        currentPath[i][j] = true; // Mark as part of the current path
 
-                if(grid[r][c]!=grid[newr][newc])continue;
-                if(newr==prevR &&newc==prevC) continue;
-                if(vis[newr][newc])return true;
-                if(dfs(grid,vis,newr,newc,r,c,dr,dc))return true;
-                
-                }
+        for (int x = 0; x < 4; x++) {
+            int newX = i + dr[x];
+            int newY = j + dc[x];
+
+            if (newX >= 0 && newY >= 0 && newX < m && newY < n) {
+                if (grid[i][j] != grid[newX][newY]) continue; // Check if characters match
+                if (newX == prevX && newY == prevY) continue; // Skip immediate backtracking
+                if (currentPath[newX][newY]) return true; // Check if already in the current path
+                if (visited[newX][newY]) continue; // Skip if visited but not in the current path
+                if (dfs(newX, newY, i, j, grid, visited, currentPath, m, n)) return true;
             }
+        }
+
+        currentPath[i][j] = false; // Unmark from the current path after exploring neighbors
 
         return false;
     }
