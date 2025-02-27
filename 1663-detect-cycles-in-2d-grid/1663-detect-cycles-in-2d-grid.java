@@ -6,13 +6,12 @@ class Solution {
         int m = grid.length;
         int n = grid[0].length;
 
-        boolean[][] visited = new boolean[m][n]; // Track visited cells
-        boolean[][] currentPath = new boolean[m][n]; // Track cells in the current DFS path
+        int[][] visited = new int[m][n]; // 0: not visited, 1: visited but not in current path, 2: in current path
 
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                if (!visited[i][j] && grid[i][j] != '-') {
-                    if (dfs(i, j, -1, -1, grid, visited, currentPath, m, n)) return true;
+                if (visited[i][j] == 0 && grid[i][j] != '-') {
+                    if (dfs(i, j, -1, -1, grid, visited, m, n)) return true;
                 }
             }
         }
@@ -20,9 +19,8 @@ class Solution {
         return false;
     }
 
-    public boolean dfs(int i, int j, int prevX, int prevY, char[][] grid, boolean[][] visited, boolean[][] currentPath, int m, int n) {
-        visited[i][j] = true; // Mark as visited
-        currentPath[i][j] = true; // Mark as part of the current path
+    public boolean dfs(int i, int j, int prevX, int prevY, char[][] grid, int[][] visited, int m, int n) {
+        visited[i][j] = 2; // Mark as part of the current path
 
         for (int x = 0; x < 4; x++) {
             int newX = i + dr[x];
@@ -31,13 +29,13 @@ class Solution {
             if (newX >= 0 && newY >= 0 && newX < m && newY < n) {
                 if (grid[i][j] != grid[newX][newY]) continue; // Check if characters match
                 if (newX == prevX && newY == prevY) continue; // Skip immediate backtracking
-                if (currentPath[newX][newY]) return true; // Check if already in the current path
-                if (visited[newX][newY]) continue; // Skip if visited but not in the current path
-                if (dfs(newX, newY, i, j, grid, visited, currentPath, m, n)) return true;
+                if (visited[newX][newY] == 2) return true; // Check if already in the current path
+                if (visited[newX][newY] == 1) continue; // Skip if visited but not in the current path
+                if (dfs(newX, newY, i, j, grid, visited, m, n)) return true;
             }
         }
 
-        currentPath[i][j] = false; // Unmark from the current path after exploring neighbors
+        visited[i][j] = 1; // Mark as visited but not in the current path after exploring neighbors
 
         return false;
     }
