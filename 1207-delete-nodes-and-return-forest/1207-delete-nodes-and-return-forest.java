@@ -16,46 +16,60 @@
 class Solution {
     public List<TreeNode> delNodes(TreeNode root, int[] to_delete) {
 
+        if(root == null) {
+            return new ArrayList<>();
+        }
+
         Set<Integer> toDeleteSet = new HashSet<>();
 
         for(int val : to_delete) {
             toDeleteSet.add(val);
         }
+
         List<TreeNode> forest = new ArrayList<>();
+        Queue<TreeNode> queue = new LinkedList<>();
 
-        root = processNode(root, toDeleteSet, forest);
+        queue.add(root);
 
-        if(root != null) {
-            forest.add(root);
-        }
+        while(!queue.isEmpty()) {
 
-        return forest;
-    }
+            TreeNode currentNode = queue.poll();
 
-    private TreeNode processNode(
-        TreeNode node,
-        Set<Integer> toDeleteSet,
-        List<TreeNode> forest
-    ) {
-        if(node == null) {
-            return null;
-        }
+            if(currentNode.left != null) {
+                queue.add(currentNode.left);
 
-        node.left = processNode(node.left, toDeleteSet, forest);
-        node.right = processNode(node.right, toDeleteSet, forest);
-
-        if(toDeleteSet.contains(node.val)) {
-            if(node.left != null) {
-                forest.add(node.left);
-            } 
-
-            if(node.right != null) {
-                forest.add(node.right);
+                if(toDeleteSet.contains(currentNode.left.val)) {
+                    currentNode.left = null;
+                }
             }
 
-            return null;
+            if(currentNode.right != null) {
+
+                queue.add(currentNode.right);
+
+                if(toDeleteSet.contains(currentNode.right.val)) {
+                    currentNode.right = null;
+                }
+            }
+
+            if(toDeleteSet.contains(currentNode.val)) {
+
+                 if (currentNode.left != null) {
+                    forest.add(currentNode.left);
+                }
+                if (currentNode.right != null) {
+                    forest.add(currentNode.right);
+                }
+            }
+
         }
 
-        return node;
+        if(!toDeleteSet.contains(root.val)) {
+            forest.add(root);
+            }
+        
+
+        return forest;
+        
     }
 }
