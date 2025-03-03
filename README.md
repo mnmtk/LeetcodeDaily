@@ -447,6 +447,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/mnmtk/LeetcodeDaily/tree/master/0322-coin-change) |
 | [0351-android-unlock-patterns](https://github.com/mnmtk/LeetcodeDaily/tree/master/0351-android-unlock-patterns) |
 | [0410-split-array-largest-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0410-split-array-largest-sum) |
+| [0576-out-of-boundary-paths](https://github.com/mnmtk/LeetcodeDaily/tree/master/0576-out-of-boundary-paths) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/mnmtk/LeetcodeDaily/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0909-stone-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0909-stone-game) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/mnmtk/LeetcodeDaily/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
