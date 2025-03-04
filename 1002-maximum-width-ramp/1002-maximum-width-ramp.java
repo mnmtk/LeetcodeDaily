@@ -1,26 +1,27 @@
 class Solution {
     public int maxWidthRamp(int[] nums) {
         int n = nums.length;
-        Integer[] indices = new Integer[n];
+        int[] rightMax = new int[n];
 
-        for(int i = 0 ; i < n; i++) {
-            indices[i] = i;
+
+        rightMax[n-1] = nums[n-1];
+
+        for(int i = n-2; i >= 0; i--) {
+            rightMax[i] = Math.max(rightMax[i+1], nums[i]);
         }
-
-        Arrays.sort(indices, (i, j) ->
-            nums[i] != nums[j] ? nums[i] - nums[j] : i - j
-        );
-
-        int minIndex = n;
+        
+        int left = 0;
+        int right = 0;
         int maxWidth = 0;
 
-        for(int i : indices) {
-            maxWidth = Math.max(maxWidth, i - minIndex);
-            minIndex = Math.min(minIndex, i);
+        while(right < n) {
+            while(left < right && nums[left] > rightMax[right]) {
+                left++;
+            }
+            maxWidth = Math.max(maxWidth, right - left);
+            right++;
         }
 
-
         return maxWidth;
-        
     }
 }
