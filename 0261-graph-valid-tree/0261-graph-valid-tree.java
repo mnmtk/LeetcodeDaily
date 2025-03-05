@@ -1,29 +1,44 @@
 class Solution {
     public boolean validTree(int n, int[][] edges) {
 
-        Map<Integer, Set<Integer>> map = new HashMap<>();
-        for (int i = 0; i < n; i++) map.put(i, new HashSet<>());
-        for (int[] edge : edges) {
-            map.get(edge[0]).add(edge[1]);
-            map.get(edge[1]).add(edge[0]);
+        List<List<Integer>> adjajencyList = new ArrayList<>();
+
+        for(int i = 0; i<n; i++) {
+            adjajencyList.add(new ArrayList<>());
         }
 
-        Set<Integer> set = new HashSet<>();
+        for(int[] edge : edges) {
+        adjajencyList.get(edge[0]).add(edge[1]);
+        adjajencyList.get(edge[1]).add(edge[0]);
+        }
+
+        Map<Integer, Integer> parent = new HashMap<>();
+        parent.put(0, -1);
+
         Queue<Integer> queue = new LinkedList<>();
-        queue.add(0);
+        queue.offer(0);
 
         while(!queue.isEmpty()) {
-            int node = queue.remove();
-            if(set.contains(node)) return false;
+            int node = queue.poll();
+            for(int neighbor : adjajencyList.get(node)) {
+                if(parent.get(node) == neighbor) {
+                    continue;
+                }
 
-            for(int node2 : map.get(node)) {
-                // we should remove the edge: node -> top
-                queue.add(node2);
-                map.get(node2).remove(node);
+                if(parent.containsKey(neighbor)) {
+                    return false;
+                }
+
+                queue.offer(neighbor);
+                parent.put(neighbor, node);
+
             }
-
-            set.add(node);
         }
-     return set.size() == n;   
+
+
+        return parent.size() == n;
+
+
+        
     }
 }
