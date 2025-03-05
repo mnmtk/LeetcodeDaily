@@ -252,6 +252,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0295-find-median-from-data-stream](https://github.com/mnmtk/LeetcodeDaily/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/0347-top-k-frequent-elements) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/mnmtk/LeetcodeDaily/tree/master/0719-find-k-th-smallest-pair-distance) |
+| [0808-number-of-matching-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/0808-number-of-matching-subsequences) |
 | [0976-minimum-area-rectangle](https://github.com/mnmtk/LeetcodeDaily/tree/master/0976-minimum-area-rectangle) |
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/mnmtk/LeetcodeDaily/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/mnmtk/LeetcodeDaily/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
@@ -319,6 +320,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0505-the-maze-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0505-the-maze-ii) |
 | [0690-employee-importance](https://github.com/mnmtk/LeetcodeDaily/tree/master/0690-employee-importance) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/mnmtk/LeetcodeDaily/tree/master/0719-find-k-th-smallest-pair-distance) |
+| [0808-number-of-matching-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/0808-number-of-matching-subsequences) |
 | [0907-koko-eating-bananas](https://github.com/mnmtk/LeetcodeDaily/tree/master/0907-koko-eating-bananas) |
 | [0909-stone-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0909-stone-game) |
 | [0976-minimum-area-rectangle](https://github.com/mnmtk/LeetcodeDaily/tree/master/0976-minimum-area-rectangle) |
@@ -358,6 +360,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0424-longest-repeating-character-replacement](https://github.com/mnmtk/LeetcodeDaily/tree/master/0424-longest-repeating-character-replacement) |
 | [0690-employee-importance](https://github.com/mnmtk/LeetcodeDaily/tree/master/0690-employee-importance) |
 | [0694-number-of-distinct-islands](https://github.com/mnmtk/LeetcodeDaily/tree/master/0694-number-of-distinct-islands) |
+| [0808-number-of-matching-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/0808-number-of-matching-subsequences) |
 | [0976-minimum-area-rectangle](https://github.com/mnmtk/LeetcodeDaily/tree/master/0976-minimum-area-rectangle) |
 | [1207-delete-nodes-and-return-forest](https://github.com/mnmtk/LeetcodeDaily/tree/master/1207-delete-nodes-and-return-forest) |
 | [1934-evaluate-the-bracket-pairs-of-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/1934-evaluate-the-bracket-pairs-of-a-string) |
@@ -425,6 +428,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0212-word-search-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0212-word-search-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/mnmtk/LeetcodeDaily/tree/master/0424-longest-repeating-character-replacement) |
 | [0499-the-maze-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0499-the-maze-iii) |
+| [0808-number-of-matching-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/0808-number-of-matching-subsequences) |
 | [1934-evaluate-the-bracket-pairs-of-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/1934-evaluate-the-bracket-pairs-of-a-string) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/mnmtk/LeetcodeDaily/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Sliding Window
@@ -451,6 +455,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0410-split-array-largest-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0410-split-array-largest-sum) |
 | [0576-out-of-boundary-paths](https://github.com/mnmtk/LeetcodeDaily/tree/master/0576-out-of-boundary-paths) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/mnmtk/LeetcodeDaily/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0808-number-of-matching-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/0808-number-of-matching-subsequences) |
 | [0909-stone-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0909-stone-game) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/mnmtk/LeetcodeDaily/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1912-number-of-restricted-paths-from-first-to-last-node](https://github.com/mnmtk/LeetcodeDaily/tree/master/1912-number-of-restricted-paths-from-first-to-last-node) |
@@ -467,6 +472,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0410-split-array-largest-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0410-split-array-largest-sum) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/mnmtk/LeetcodeDaily/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/mnmtk/LeetcodeDaily/tree/master/0719-find-k-th-smallest-pair-distance) |
+| [0808-number-of-matching-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/0808-number-of-matching-subsequences) |
 | [0907-koko-eating-bananas](https://github.com/mnmtk/LeetcodeDaily/tree/master/0907-koko-eating-bananas) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/mnmtk/LeetcodeDaily/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1307-ugly-number-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1307-ugly-number-iii) |
@@ -554,6 +560,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0139-word-break](https://github.com/mnmtk/LeetcodeDaily/tree/master/0139-word-break) |
 | [0212-word-search-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0212-word-search-ii) |
+| [0808-number-of-matching-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/0808-number-of-matching-subsequences) |
 ## Matrix
 |  |
 | ------- |
