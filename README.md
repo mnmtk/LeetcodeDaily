@@ -251,6 +251,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0268-missing-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0268-missing-number) |
 | [0295-find-median-from-data-stream](https://github.com/mnmtk/LeetcodeDaily/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/0347-top-k-frequent-elements) |
+| [0406-queue-reconstruction-by-height](https://github.com/mnmtk/LeetcodeDaily/tree/master/0406-queue-reconstruction-by-height) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/mnmtk/LeetcodeDaily/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0808-number-of-matching-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/0808-number-of-matching-subsequences) |
 | [0976-minimum-area-rectangle](https://github.com/mnmtk/LeetcodeDaily/tree/master/0976-minimum-area-rectangle) |
@@ -313,6 +314,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0307-range-sum-query-mutable](https://github.com/mnmtk/LeetcodeDaily/tree/master/0307-range-sum-query-mutable) |
 | [0322-coin-change](https://github.com/mnmtk/LeetcodeDaily/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/0347-top-k-frequent-elements) |
+| [0406-queue-reconstruction-by-height](https://github.com/mnmtk/LeetcodeDaily/tree/master/0406-queue-reconstruction-by-height) |
 | [0410-split-array-largest-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0410-split-array-largest-sum) |
 | [0444-sequence-reconstruction](https://github.com/mnmtk/LeetcodeDaily/tree/master/0444-sequence-reconstruction) |
 | [0490-the-maze](https://github.com/mnmtk/LeetcodeDaily/tree/master/0490-the-maze) |
@@ -690,11 +692,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0218-the-skyline-problem](https://github.com/mnmtk/LeetcodeDaily/tree/master/0218-the-skyline-problem) |
 | [0307-range-sum-query-mutable](https://github.com/mnmtk/LeetcodeDaily/tree/master/0307-range-sum-query-mutable) |
+| [0406-queue-reconstruction-by-height](https://github.com/mnmtk/LeetcodeDaily/tree/master/0406-queue-reconstruction-by-height) |
 ## Segment Tree
 |  |
 | ------- |
 | [0218-the-skyline-problem](https://github.com/mnmtk/LeetcodeDaily/tree/master/0218-the-skyline-problem) |
 | [0307-range-sum-query-mutable](https://github.com/mnmtk/LeetcodeDaily/tree/master/0307-range-sum-query-mutable) |
+| [0406-queue-reconstruction-by-height](https://github.com/mnmtk/LeetcodeDaily/tree/master/0406-queue-reconstruction-by-height) |
 ## Line Sweep
 |  |
 | ------- |
