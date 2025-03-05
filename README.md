@@ -429,6 +429,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0424-longest-repeating-character-replacement](https://github.com/mnmtk/LeetcodeDaily/tree/master/0424-longest-repeating-character-replacement) |
 | [0499-the-maze-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0499-the-maze-iii) |
 | [0808-number-of-matching-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/0808-number-of-matching-subsequences) |
+| [0977-distinct-subsequences-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0977-distinct-subsequences-ii) |
 | [1934-evaluate-the-bracket-pairs-of-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/1934-evaluate-the-bracket-pairs-of-a-string) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/mnmtk/LeetcodeDaily/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Sliding Window
@@ -457,6 +458,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0803-cheapest-flights-within-k-stops](https://github.com/mnmtk/LeetcodeDaily/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0808-number-of-matching-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/0808-number-of-matching-subsequences) |
 | [0909-stone-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0909-stone-game) |
+| [0977-distinct-subsequences-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0977-distinct-subsequences-ii) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/mnmtk/LeetcodeDaily/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1912-number-of-restricted-paths-from-first-to-last-node](https://github.com/mnmtk/LeetcodeDaily/tree/master/1912-number-of-restricted-paths-from-first-to-last-node) |
 ## Binary Search
