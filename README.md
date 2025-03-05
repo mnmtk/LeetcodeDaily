@@ -500,6 +500,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0133-clone-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/0133-clone-graph) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0261-graph-valid-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0261-graph-valid-tree) |
+| [0386-lexicographical-numbers](https://github.com/mnmtk/LeetcodeDaily/tree/master/0386-lexicographical-numbers) |
 | [0490-the-maze](https://github.com/mnmtk/LeetcodeDaily/tree/master/0490-the-maze) |
 | [0499-the-maze-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0499-the-maze-iii) |
 | [0505-the-maze-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0505-the-maze-ii) |
@@ -566,6 +567,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0139-word-break](https://github.com/mnmtk/LeetcodeDaily/tree/master/0139-word-break) |
 | [0212-word-search-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0212-word-search-ii) |
+| [0386-lexicographical-numbers](https://github.com/mnmtk/LeetcodeDaily/tree/master/0386-lexicographical-numbers) |
 | [0808-number-of-matching-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/0808-number-of-matching-subsequences) |
 ## Matrix
 |  |
