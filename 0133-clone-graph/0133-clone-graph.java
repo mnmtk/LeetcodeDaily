@@ -19,19 +19,38 @@ class Node {
 */
 
 class Solution {
-    Map<Node, Node> seen = new HashMap<>();
-    public Node cloneGraph(Node node) {
+    public Node cloneGraph(Node a) {
+        if(a==null) return a;
 
-        if(node == null ) return node;
-        if(seen.containsKey(node)) return seen.get(node);
+        Node ans = new Node(a.val);
 
-        Node cloneGraph = new Node(node.val, new ArrayList<>());
-        seen.put(node, cloneGraph);
-        for(Node neighbor : node.neighbors) {
-            cloneGraph.neighbors.add(cloneGraph(neighbor));
+        Queue<Node> q1 = new LinkedList<>();
+        q1.add(a);
+
+        Queue<Node> q2 = new LinkedList<>();
+        q2.add(ans);
+
+        HashMap<Node, Node> hp = new HashMap<>();
+        hp.put(a,ans);
+
+        while(q1.size()!=0) {
+            Node a1 = q1.remove();
+            Node a2 = q2.remove();
+            hp.put(a1, a2);
+            List<Node> n = a1.neighbors;
+
+            for(var x : n) {
+                if(!hp.containsKey(x)) {
+                    Node k = new Node(x.val);
+                    hp.put(x,k);
+                    a2.neighbors.add(k);
+                    q1.add(x);
+                    q2.add(k);
+                } else {
+                    a2.neighbors.add(hp.get(x));
+                }
+            }
         }
-
-        return cloneGraph;
-        
+        return ans;
     }
 }
