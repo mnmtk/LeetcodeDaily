@@ -1,32 +1,37 @@
+/*
+// Definition for a Node.
+class Node {
+    public int val;
+    public List<Node> neighbors;
+    public Node() {
+        val = 0;
+        neighbors = new ArrayList<Node>();
+    }
+    public Node(int _val) {
+        val = _val;
+        neighbors = new ArrayList<Node>();
+    }
+    public Node(int _val, ArrayList<Node> _neighbors) {
+        val = _val;
+        neighbors = _neighbors;
+    }
+}
+*/
 
 class Solution {
+    Map<Node, Node> seen = new HashMap<>();
     public Node cloneGraph(Node node) {
+
+        if(node == null ) return node;
+        if(seen.containsKey(node)) return seen.get(node);
+
+        Node cloneGraph = new Node(node.val, new ArrayList<>());
+        seen.put(node, cloneGraph);
+        for(Node neighbor : node.neighbors) {
+            cloneGraph.neighbors.add(cloneGraph(neighbor));
+        }
+
+        return cloneGraph;
         
-        if (node == null) return null;
-        Node ans = new Node(node.val);
-
-        Map<Node, Node> map = new HashMap<>();
-        map.put(node, ans);
-
-        Queue<Node> queue = new LinkedList<>();
-        queue.offer(node);
-
-        while(!queue.isEmpty()) {
-            Node mein = queue.poll();
-            List<Node> sathi = mein.neighbors;
-
-            for(Node ek : sathi) {
-                if(map.get(ek) != null) {
-                    map.get(mein).neighbors.add(map.get(ek));
-                } else {
-                    Node copy = new Node(ek.val);
-                    map.put(ek, copy);
-                    map.get(mein).neighbors.add(map.get(ek));
-                    queue.offer(ek);
-                }
-            }
-        } 
-
-        return ans;
-    } 
+    }
 }
