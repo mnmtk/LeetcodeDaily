@@ -19,38 +19,30 @@ class Node {
 */
 
 class Solution {
-    public Node cloneGraph(Node a) {
-        if(a==null) return a;
+    Map<Node, Node> visited = new HashMap<>();
+    Queue<Node> queue = new LinkedList<>();
+    public Node cloneGraph(Node node) {
 
-        Node ans = new Node(a.val);
+        if(node == null) return node;
 
-        Queue<Node> q1 = new LinkedList<>();
-        q1.add(a);
+        queue.add(node);
+        visited.put(node, new Node(node.val , new ArrayList<>()));
 
-        Queue<Node> q2 = new LinkedList<>();
-        q2.add(ans);
+        while(!queue.isEmpty()) {
 
-        HashMap<Node, Node> hp = new HashMap<>();
-        hp.put(a,ans);
+            Node n = queue.poll();
 
-        while(q1.size()!=0) {
-            Node a1 = q1.remove();
-            Node a2 = q2.remove();
-            hp.put(a1, a2);
-            List<Node> n = a1.neighbors;
-
-            for(var x : n) {
-                if(!hp.containsKey(x)) {
-                    Node k = new Node(x.val);
-                    hp.put(x,k);
-                    a2.neighbors.add(k);
-                    q1.add(x);
-                    q2.add(k);
-                } else {
-                    a2.neighbors.add(hp.get(x));
+            for(Node ne : n.neighbors) {
+                if(!visited.containsKey(ne)) {
+                    visited.put(ne, new Node(ne.val, new ArrayList<>()));
+                    queue.add(ne);
                 }
+
+                visited.get(n).neighbors.add(visited.get(ne));
             }
         }
-        return ans;
+
+        return visited.get(node);
+        
     }
 }
