@@ -355,6 +355,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/mnmtk/LeetcodeDaily/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/mnmtk/LeetcodeDaily/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0127-word-ladder](https://github.com/mnmtk/LeetcodeDaily/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/mnmtk/LeetcodeDaily/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/0133-clone-graph) |
 | [0139-word-break](https://github.com/mnmtk/LeetcodeDaily/tree/master/0139-word-break) |
@@ -432,6 +433,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0068-text-justification](https://github.com/mnmtk/LeetcodeDaily/tree/master/0068-text-justification) |
 | [0076-minimum-window-substring](https://github.com/mnmtk/LeetcodeDaily/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/mnmtk/LeetcodeDaily/tree/master/0125-valid-palindrome) |
+| [0127-word-ladder](https://github.com/mnmtk/LeetcodeDaily/tree/master/0127-word-ladder) |
 | [0139-word-break](https://github.com/mnmtk/LeetcodeDaily/tree/master/0139-word-break) |
 | [0212-word-search-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0212-word-search-ii) |
 | [0399-evaluate-division](https://github.com/mnmtk/LeetcodeDaily/tree/master/0399-evaluate-division) |
@@ -606,6 +608,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Breadth-First Search
 |  |
 | ------- |
+| [0127-word-ladder](https://github.com/mnmtk/LeetcodeDaily/tree/master/0127-word-ladder) |
 | [0133-clone-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/0133-clone-graph) |
 | [0261-graph-valid-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0261-graph-valid-tree) |
 | [0322-coin-change](https://github.com/mnmtk/LeetcodeDaily/tree/master/0322-coin-change) |
