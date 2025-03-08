@@ -1,37 +1,34 @@
 class Solution {
-    Integer[][] dp;
+    private Integer[][] dp;
     public int coinChange(int[] coins, int amount) {
-
         if(amount == 0) return 0;
         if(coins.length == 0) return -1;
 
-        dp = new Integer[coins.length][amount+1];
-        int result = coinChangeKnapSack(coins, 0, amount);
+        dp = new Integer[coins.length][amount + 1];
+        
+        int res = coinChangeFrom(coins, amount, 0);
 
-        return result == Integer.MAX_VALUE ? -1 : result;
+        return res == Integer.MAX_VALUE ? -1 : res;
     }
 
-    int coinChangeKnapSack(int[] coins, int coin, int target) {
+    private int coinChangeFrom(int[] coins, int amount, int currentIndex) {
+        if(amount == 0) return 0;
 
-        if(target == 0) {
-            return 0;
+        if(amount < 0 || currentIndex == coins.length) return Integer.MAX_VALUE;
+
+        if(dp[currentIndex][amount] != null) return dp[currentIndex][amount];
+
+
+        int count1= Integer.MAX_VALUE;
+        int res = coinChangeFrom(coins, amount - coins[currentIndex], currentIndex);
+
+        if(res != Integer.MAX_VALUE) {
+            count1 = res + 1; 
         }
 
-        if(target < 0 || coin >= coins.length) {
-            return Integer.MAX_VALUE;
-        }
+        int coint2 = coinChangeFrom(coins, amount, currentIndex + 1);
 
-        if(dp[coin][target] != null) return dp[coin][target];
+        return dp[currentIndex][amount] = Math.min(count1, coint2);
 
-        int count1 = coinChangeKnapSack(coins, coin, target - coins[coin]);
-
-         if(count1 != Integer.MAX_VALUE) {
-            count1++;
-        }
-
-        int count2 = coinChangeKnapSack(coins, coin + 1, target);
-
-        return dp[coin][target] = Math.min(count1, count2);
     }
-
 }
