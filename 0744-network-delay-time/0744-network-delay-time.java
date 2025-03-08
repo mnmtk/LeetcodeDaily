@@ -21,17 +21,14 @@ class Solution {
             int node = current[0];
             int time = current[1];
 
-            System.out.println("node" + node);
-            System.out.println("shortest node" + shortest[node]);
-
             if (shortest[node] != -1) continue;
             shortest[node] = time;
 
             if(map.getOrDefault(node, new ArrayList<>()).size() < 1) continue;
-            // System.out.println( "map" + map.get(node));
+            
 
             for (int[] next : map.getOrDefault(node, new ArrayList<>())) {
-                System.out.println( "next" + next[0] + next[1]);
+               
                 pq.offer(new int[] { next[0], next[1] + time });
             }
 
