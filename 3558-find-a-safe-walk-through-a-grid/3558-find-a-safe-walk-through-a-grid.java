@@ -1,41 +1,42 @@
 class Solution {
     public boolean findSafeWalk(List<List<Integer>> grid, int health) {
-        int rows = grid.size();
-        int cols = grid.get(0).size();
-
-        int[][] directions = {{1, 0}, {0, -1}, {-1, 0}, {0, 1}};
-        Queue<int[]> queue = new LinkedList<>();
-        int[][] visited = new int[rows][cols];
-
-        queue.offer(new int[] {0, 0});
-        visited[0][0] = health - grid.get(0).get(0);
-
+        // i, j, cost
+        Queue<int[]> queue = new PriorityQueue<>((a, b) -> b[2] - a[2]);
+        
+        queue.add(new int[]{0,0,health - grid.get(0).get(0)});
+        if (health - grid.get(0).get(0) <= 0) {
+            return false;
+        }
+        int[][] max = new int[grid.size()][grid.get(0).size()];
+        max[0][0] = grid.get(0).get(0);
+        for (int[] row : max) Arrays.fill(row, Integer.MIN_VALUE);
+        int[][] dirs = new int[][]{{0,1},{1,0},{-1,0},{0,-1}};
+        
         while (!queue.isEmpty()) {
-            int[] current = queue.poll();
-
-            int row = current[0];
-            int col = current[1];
-            
-            int currHealth = visited[row][col];
-
-            if (row == rows - 1 && col == cols - 1) {
+            int[] data = queue.poll();
+            int i = data[0];
+            int j = data[1];
+            if (i == grid.size() - 1 && j == grid.get(i).size()-1) {
                 return true;
             }
-
-            for (int[] dir : directions) {
-                int newRow = row + dir[0];
-                int newCol = col + dir[1];
-
-                if (newRow >= 0 && newRow < rows && newCol >= 0 && newCol < cols) {
-                    int newHealth = currHealth - grid.get(newRow).get(newCol);
-                    if (newHealth >= 0 && newHealth > visited[newRow][newCol]) {
-                        visited[newRow][newCol] = newHealth;
-                        queue.offer(new int[] {newRow, newCol});
-                    }
+            int h = data[2];
+            for (int[] dir : dirs) {
+                int newI = dir[0] + i;
+                int newJ = dir[1] + j;
+                if (newI < 0 || newJ < 0 || newI >= grid.size() || newJ >= grid.get(i).size()) {
+                    continue;
+                }
+                int newCost = h - grid.get(newI).get(newJ);
+                
+                if (newCost >= 1 && newCost > max[newI][newJ]) {
+                    max[newI][newJ] = newCost;
+                    queue.add(new int[]{newI, newJ, newCost});
                 }
             }
         }
-        
         return false;
+        
+        
     }
+    
 }
