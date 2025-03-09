@@ -338,6 +338,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0808-number-of-matching-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/0808-number-of-matching-subsequences) |
 | [0907-koko-eating-bananas](https://github.com/mnmtk/LeetcodeDaily/tree/master/0907-koko-eating-bananas) |
 | [0909-stone-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0909-stone-game) |
+| [0967-minimum-falling-path-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0967-minimum-falling-path-sum) |
 | [0976-minimum-area-rectangle](https://github.com/mnmtk/LeetcodeDaily/tree/master/0976-minimum-area-rectangle) |
 | [0989-largest-component-size-by-common-factor](https://github.com/mnmtk/LeetcodeDaily/tree/master/0989-largest-component-size-by-common-factor) |
 | [1002-maximum-width-ramp](https://github.com/mnmtk/LeetcodeDaily/tree/master/1002-maximum-width-ramp) |
@@ -494,6 +495,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0803-cheapest-flights-within-k-stops](https://github.com/mnmtk/LeetcodeDaily/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0808-number-of-matching-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/0808-number-of-matching-subsequences) |
 | [0909-stone-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0909-stone-game) |
+| [0967-minimum-falling-path-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0967-minimum-falling-path-sum) |
 | [0977-distinct-subsequences-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0977-distinct-subsequences-ii) |
 | [1025-minimum-cost-for-tickets](https://github.com/mnmtk/LeetcodeDaily/tree/master/1025-minimum-cost-for-tickets) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/mnmtk/LeetcodeDaily/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
@@ -617,6 +619,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0490-the-maze](https://github.com/mnmtk/LeetcodeDaily/tree/master/0490-the-maze) |
 | [0499-the-maze-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0499-the-maze-iii) |
 | [0505-the-maze-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0505-the-maze-ii) |
+| [0967-minimum-falling-path-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0967-minimum-falling-path-sum) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1753-path-with-minimum-effort](https://github.com/mnmtk/LeetcodeDaily/tree/master/1753-path-with-minimum-effort) |
