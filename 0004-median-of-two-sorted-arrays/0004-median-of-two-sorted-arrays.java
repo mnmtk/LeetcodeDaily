@@ -1,60 +1,31 @@
 class Solution {
-    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+    private int p1 = 0, p2 = 0;
 
-        int na = nums1.length;
-        int nb = nums2.length;
+    // Get the smaller value between nums1[p1] and nums2[p2] and move the pointer forwards.
 
-        int totalLength = na + nb;
-        boolean isMedianOdd = totalLength % 2 == 1;
-        
-        if(isMedianOdd) {
-            return binarySearchInSortedArrays(nums1, nums2, 0, na - 1, 0, nb - 1, totalLength/2);
-        } else {
-            int leftMedian = binarySearchInSortedArrays(nums1, nums2, 0, na - 1, 0, nb - 1, totalLength / 2 - 1);
-            int rightMedian = binarySearchInSortedArrays(nums1, nums2, 0, na - 1, 0, nb - 1, totalLength / 2);
-            return (leftMedian + rightMedian) / 2.0;
+    private int getMin(int[] nums1, int[] nums2) {
+        if (p1 < nums1.length && p2 < nums2.length) {
+            return nums1[p1] < nums2[p2] ? nums1[p1++] : nums2[p2++];
+        } else if (p1 < nums1.length) {
+            return nums1[p1++];
+        } else if (p2 < nums2.length) {
+            return nums2[p2++];
         }
+        return -1;
     }
 
-    public int binarySearchInSortedArrays(
-        int[] A,
-        int[] B,
-        int aStart,
-        int aEnd,
-        int bStart,
-        int bEnd,
-        int k
-    ) {
-        if (aEnd < aStart) {
-            return B[k - aStart];
-        }
-        if (bEnd < bStart) {
-            return A[k - bStart];
-        }
-        
-       int aIndex = aStart + (aEnd - aStart) / 2;
-
-       int bIndex = bStart + (bEnd - bStart) / 2;
-
-
-        int aValue = A[aIndex];
-        int bValue = B[bIndex];
-
-        if(k > aIndex + bIndex) {
-            if(aValue <= bValue) {
-                return binarySearchInSortedArrays(A, B, aIndex + 1,aEnd, bStart, bEnd, k);
-            } else {
-                return binarySearchInSortedArrays(A, B, aStart, aEnd, bIndex +1, bEnd, k);
+    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+        int m = nums1.length, n = nums2.length;
+        if ((m + n) % 2 == 0) {
+            for (int i = 0; i < (m + n) / 2 - 1; ++i) {
+                int tmp = getMin(nums1, nums2);
             }
-
+            return (double) (getMin(nums1, nums2) + getMin(nums1, nums2)) / 2;
         } else {
-            if(aValue <= bValue) {
-                return binarySearchInSortedArrays(A, B, aStart, aEnd, bStart, bIndex - 1, k);
-            } else {
-                return binarySearchInSortedArrays(A, B, aStart, aIndex - 1, bStart, bEnd, k);
+            for (int i = 0; i < (m + n) / 2; ++i) {
+                int tmp = getMin(nums1, nums2);
             }
-            
+            return getMin(nums1, nums2);
         }
-
     }
 }
