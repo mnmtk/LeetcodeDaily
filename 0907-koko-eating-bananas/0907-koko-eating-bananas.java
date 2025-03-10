@@ -5,6 +5,7 @@ class Solution {
         int sum = 0;
 
         for(int pile : piles) {
+            //simplifaction of sum += Math.ceil((double)pile / speed); 
            sum += (pile + speed - 1) / speed; 
         }
 
@@ -23,6 +24,7 @@ class Solution {
 
         while(left < right) {
             int mid = left + (right - left)/2;
+            
             if(feasible(mid, piles, h)) {
                 right = mid;
             } else {
