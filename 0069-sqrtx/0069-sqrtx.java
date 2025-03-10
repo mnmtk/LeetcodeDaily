@@ -2,7 +2,7 @@ class Solution {
     public int mySqrt(long x) {
         
         long left = 1;
-        long right = x + 1;
+        long right = x + 1; //this is the reason
 
         while(left < right) {
             long mid = left + (right-left)/2;
