@@ -1,20 +1,16 @@
 class Solution {
     public int smallestDivisor(int[] nums, int threshold) {
-
         int left = 1;
         int right = 1;
-
         for(int num : nums) {
-            right = Math.max(right, num);
+            right = Math.max(num, right);
         }
-
 
         while(left < right) {
             int mid = left + (right - left)/2;
-
-            if(possible(mid, nums, threshold)) {
+            if(possible(threshold, nums, mid)) {
                 right = mid;
-            } else {
+            } else{ 
                 left = mid + 1;
             }
         }
@@ -22,18 +18,13 @@ class Solution {
         return left;
     }
 
-    public boolean possible(int yeh, int[] nums, int k) {
-
+    public boolean possible(int yeh, int[] nums, int mid) {
         int count = 0;
 
-        // for(int num : nums) {
-        //     count += Math.ceil(num/yeh);
-        // }
-        for (int num : nums) {
-            count += (num + yeh - 1) / yeh; // Equivalent to Math.ceil((double) num / yeh)
+        for(int num : nums) {
+            count += (num + mid - 1)/mid;
         }
 
-
-        return count <= k;
+        return count <= yeh;
     }
 }
