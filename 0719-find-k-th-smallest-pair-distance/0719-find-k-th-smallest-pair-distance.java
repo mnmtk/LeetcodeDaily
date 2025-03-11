@@ -1,39 +1,44 @@
 class Solution {
+
     public int smallestDistancePair(int[] nums, int k) {
         Arrays.sort(nums);
-        int n = nums.length;
-        int left =0;
-        int right = nums[n-1]-nums[0];
+        int arraySize = nums.length;
 
+        // Initialize binary search range
+        int low = 0;
+        int high = nums[arraySize - 1] - nums[0];
 
-        while(left < right) {
-            int mid = left + (right - left)/2;
+        while (low < high) {
+            int mid = (low + high) / 2;
 
-            if(enough(mid, k, nums)) {
-                right = mid;
-            } else{ 
-                left = mid + 1;
+            // Count pairs with distance <= mid
+            int count = countPairsWithMaxDistance(nums, mid);
+
+            // Adjust binary search bounds based on count
+            if (count < k) {
+                low = mid + 1;
+            } else {
+                high = mid;
             }
         }
-
-        return left;
+        return low;
     }
 
-    public boolean enough(int distance, int k, int[] nums) {
-
+    // Count number of pairs with distance <= maxDistance using a moving window
+    private int countPairsWithMaxDistance(int[] nums, int maxDistance) {
         int count = 0;
-        int i = 0;
-        int j = 0;
-        int n = nums.length;
+        int arraySize = nums.length;
+        int left = 0;
 
-        while(i < n || j < n) {
-            while(j<n && nums[j] - nums[i] <= distance) {
-                j++;
-                count += j-i-1;
+        for (int right = 0; right < arraySize; ++right) {
+            // Adjust the left pointer to maintain the window with distances <=
+            // maxDistance
+            while (nums[right] - nums[left] > maxDistance) {
+                ++left;
             }
-            i++;
+            // Add the number of valid pairs ending at the current right index
+            count += right - left;
         }
-
-        return count >= k;
+        return count;
     }
 }
