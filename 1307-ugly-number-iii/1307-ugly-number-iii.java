@@ -1,13 +1,13 @@
 class Solution {
     public int nthUglyNumber(int n, int a, int b, int c) {
-        int low = 1, high = 2 * (int) 1e9;
+        int low = 1, high = Integer.MAX_VALUE;
         
         int ab = lcm(a, b);
         int bc = lcm(b, c);
         int ca = lcm(c, a);
         int abc = lcm(a, bc);
 
-        while (low <= high) {
+        while (low < high) {
             int mid = low + (high - low) / 2;
 
             int count = mid / a + mid / b + mid / c 
@@ -15,7 +15,7 @@ class Solution {
                       + mid / abc;
 
             if (count >= n) {
-                high = mid - 1;
+                high = mid; // Similar to Python's logic
             } else {
                 low = mid + 1;
             }
