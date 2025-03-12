@@ -227,6 +227,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/mnmtk/LeetcodeDaily/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/mnmtk/LeetcodeDaily/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0015-3sum) |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/mnmtk/LeetcodeDaily/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/mnmtk/LeetcodeDaily/tree/master/0042-trapping-rain-water) |
 | [0088-merge-sorted-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0088-merge-sorted-array) |
@@ -444,6 +445,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Linked List
 |  |
 | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/mnmtk/LeetcodeDaily/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0023-merge-k-sorted-lists](https://github.com/mnmtk/LeetcodeDaily/tree/master/0023-merge-k-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/mnmtk/LeetcodeDaily/tree/master/0206-reverse-linked-list) |
 ## Merge Sort
