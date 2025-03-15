@@ -14,9 +14,10 @@ class Solution {
                 if (nums[i] == nums[i - 1] + 1) {
                     currentStreak += 1;
                 } else {
-                    longestStreak = Math.max(longestStreak, currentStreak);
+                   
                     currentStreak = 1;
                 }
+                 longestStreak = Math.max(longestStreak, currentStreak);
             }
         }
 
