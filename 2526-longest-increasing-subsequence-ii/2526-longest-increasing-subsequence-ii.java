@@ -16,10 +16,14 @@ class Solution {
     Node buildSegmentTree(int start, int end) {
         if (start == end)
             return new Node(start, end, 0);
+            
         Node node = new Node(start, end, 0);
+        
         int mid = (start + end) / 2;
+        
         node.leftChild = buildSegmentTree(start, mid);
         node.rightChild = buildSegmentTree(mid + 1, end);
+
         return node;
     }
 
@@ -44,6 +48,7 @@ class Solution {
 
     public int lengthOfLIS(int[] nums, int k) {
         Node root = buildSegmentTree(0, 100001);
+
         int ans = 1;
         for (int num : nums) {
             int maxValInRange = queryRangeMax(root, Math.max(0, num - k), num - 1) + 1;
