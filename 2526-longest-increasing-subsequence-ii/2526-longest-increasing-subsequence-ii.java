@@ -20,7 +20,7 @@ class Solution {
         Node node = new Node(start, end, 0);
         
         int mid = (start + end) / 2;
-        
+
         node.leftChild = buildSegmentTree(start, mid);
         node.rightChild = buildSegmentTree(mid + 1, end);
 
@@ -29,18 +29,20 @@ class Solution {
 
     int queryRangeMax(Node node, int l, int r) {
         if (node == null || l > node.end || r < node.start)
-            return 0; // Return 0 for out-of-bound queries
+            return 0; 
+            
         if (l <= node.start && r >= node.end)
-            return node.value; // Total overlap
-        // Partial overlap
+            return node.value; 
+      
         return Math.max(queryRangeMax(node.leftChild, l, r), queryRangeMax(node.rightChild, l, r));
     }
 
     void updateSegmentTree(Node node, int index, int value) {
         if (node == null || index < node.start || index > node.end)
-            return; // Out of bounds
-        node.value = Math.max(value, node.value); // Update the current node
-        if (node.start != node.end) { // If it's not a leaf node
+            return; 
+
+        node.value = Math.max(value, node.value); 
+        if (node.start != node.end) { 
             updateSegmentTree(node.leftChild, index, value);
             updateSegmentTree(node.rightChild, index, value);
         }
