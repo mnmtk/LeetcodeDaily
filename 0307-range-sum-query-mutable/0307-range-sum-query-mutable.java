@@ -29,16 +29,18 @@ void update(int pos, int val) {
     while (pos > 0) {
         int left = pos;
         int right = pos;
+
         if (pos % 2 == 0) {
             right = pos + 1;
         } else {
             left = pos - 1;
         }
+
         // parent is updated after child is updated
         tree[pos / 2] = tree[left] + tree[right];
         pos /= 2;
     }
-    
+
 }
 
 public int sumRange(int l, int r) {
@@ -46,6 +48,7 @@ public int sumRange(int l, int r) {
     l += n;
     // get leaf with value 'r'
     r += n;
+
     int sum = 0;
     while (l <= r) {
         if ((l % 2) == 1) {
@@ -59,6 +62,7 @@ public int sumRange(int l, int r) {
         l /= 2;
         r /= 2;
     }
+    
     return sum;
 }
 }
