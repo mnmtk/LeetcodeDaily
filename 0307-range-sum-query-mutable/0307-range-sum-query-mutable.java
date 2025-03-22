@@ -14,19 +14,18 @@ class NumArray {
     public void update(int index, int val) {
         index += n;
         tree[index] = val;
-
         while(index > 0) {
             int left = index;
             int right = index;
 
             if(index % 2 == 0) {
-                right = index + 1 ;
+                right = index + 1;
             } else {
                 left = index - 1;
             }
 
             tree[index/2] = tree[left] + tree[right];
-            index /= 2;
+            index/=2;
         }
         
     }
