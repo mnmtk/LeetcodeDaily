@@ -310,6 +310,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0039-combination-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0039-combination-sum) |
 | [0042-trapping-rain-water](https://github.com/mnmtk/LeetcodeDaily/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/mnmtk/LeetcodeDaily/tree/master/0049-group-anagrams) |
+| [0051-n-queens](https://github.com/mnmtk/LeetcodeDaily/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/mnmtk/LeetcodeDaily/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/mnmtk/LeetcodeDaily/tree/master/0056-merge-intervals) |
@@ -643,6 +644,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0039-combination-sum) |
+| [0051-n-queens](https://github.com/mnmtk/LeetcodeDaily/tree/master/0051-n-queens) |
 | [0212-word-search-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0212-word-search-ii) |
 | [0351-android-unlock-patterns](https://github.com/mnmtk/LeetcodeDaily/tree/master/0351-android-unlock-patterns) |
 ## Simulation
