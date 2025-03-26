@@ -233,6 +233,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/mnmtk/LeetcodeDaily/tree/master/0042-trapping-rain-water) |
 | [0088-merge-sorted-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/mnmtk/LeetcodeDaily/tree/master/0125-valid-palindrome) |
+| [0151-reverse-words-in-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0151-reverse-words-in-a-string) |
 | [0253-meeting-rooms-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0253-meeting-rooms-ii) |
 | [0283-move-zeroes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0283-move-zeroes) |
 | [0295-find-median-from-data-stream](https://github.com/mnmtk/LeetcodeDaily/tree/master/0295-find-median-from-data-stream) |
@@ -490,6 +491,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0125-valid-palindrome](https://github.com/mnmtk/LeetcodeDaily/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/mnmtk/LeetcodeDaily/tree/master/0127-word-ladder) |
 | [0139-word-break](https://github.com/mnmtk/LeetcodeDaily/tree/master/0139-word-break) |
+| [0151-reverse-words-in-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0151-reverse-words-in-a-string) |
 | [0179-largest-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0179-largest-number) |
 | [0212-word-search-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0212-word-search-ii) |
 | [0399-evaluate-division](https://github.com/mnmtk/LeetcodeDaily/tree/master/0399-evaluate-division) |
