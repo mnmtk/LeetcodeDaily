@@ -244,6 +244,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/mnmtk/LeetcodeDaily/tree/master/0295-find-median-from-data-stream) |
+| [0304-range-sum-query-2d-immutable](https://github.com/mnmtk/LeetcodeDaily/tree/master/0304-range-sum-query-2d-immutable) |
 | [0307-range-sum-query-mutable](https://github.com/mnmtk/LeetcodeDaily/tree/master/0307-range-sum-query-mutable) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/mnmtk/LeetcodeDaily/tree/master/1497-design-a-stack-with-increment-operation) |
 ## Sorting
@@ -338,6 +339,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0253-meeting-rooms-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0253-meeting-rooms-ii) |
 | [0268-missing-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0283-move-zeroes) |
+| [0304-range-sum-query-2d-immutable](https://github.com/mnmtk/LeetcodeDaily/tree/master/0304-range-sum-query-2d-immutable) |
 | [0307-range-sum-query-mutable](https://github.com/mnmtk/LeetcodeDaily/tree/master/0307-range-sum-query-mutable) |
 | [0322-coin-change](https://github.com/mnmtk/LeetcodeDaily/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/0347-top-k-frequent-elements) |
@@ -683,6 +685,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0074-search-a-2d-matrix](https://github.com/mnmtk/LeetcodeDaily/tree/master/0074-search-a-2d-matrix) |
 | [0212-word-search-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0212-word-search-ii) |
 | [0221-maximal-square](https://github.com/mnmtk/LeetcodeDaily/tree/master/0221-maximal-square) |
+| [0304-range-sum-query-2d-immutable](https://github.com/mnmtk/LeetcodeDaily/tree/master/0304-range-sum-query-2d-immutable) |
 | [0490-the-maze](https://github.com/mnmtk/LeetcodeDaily/tree/master/0490-the-maze) |
 | [0499-the-maze-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0499-the-maze-iii) |
 | [0505-the-maze-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0505-the-maze-ii) |
@@ -746,6 +749,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0253-meeting-rooms-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0253-meeting-rooms-ii) |
+| [0304-range-sum-query-2d-immutable](https://github.com/mnmtk/LeetcodeDaily/tree/master/0304-range-sum-query-2d-immutable) |
 | [0410-split-array-largest-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0410-split-array-largest-sum) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/mnmtk/LeetcodeDaily/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [3265-maximum-good-subarray-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/3265-maximum-good-subarray-sum) |
