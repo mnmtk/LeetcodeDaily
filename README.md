@@ -246,6 +246,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0295-find-median-from-data-stream](https://github.com/mnmtk/LeetcodeDaily/tree/master/0295-find-median-from-data-stream) |
 | [0304-range-sum-query-2d-immutable](https://github.com/mnmtk/LeetcodeDaily/tree/master/0304-range-sum-query-2d-immutable) |
 | [0307-range-sum-query-mutable](https://github.com/mnmtk/LeetcodeDaily/tree/master/0307-range-sum-query-mutable) |
+| [0308-range-sum-query-2d-mutable](https://github.com/mnmtk/LeetcodeDaily/tree/master/0308-range-sum-query-2d-mutable) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/mnmtk/LeetcodeDaily/tree/master/1497-design-a-stack-with-increment-operation) |
 ## Sorting
 |  |
@@ -341,6 +342,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0283-move-zeroes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0283-move-zeroes) |
 | [0304-range-sum-query-2d-immutable](https://github.com/mnmtk/LeetcodeDaily/tree/master/0304-range-sum-query-2d-immutable) |
 | [0307-range-sum-query-mutable](https://github.com/mnmtk/LeetcodeDaily/tree/master/0307-range-sum-query-mutable) |
+| [0308-range-sum-query-2d-mutable](https://github.com/mnmtk/LeetcodeDaily/tree/master/0308-range-sum-query-2d-mutable) |
 | [0322-coin-change](https://github.com/mnmtk/LeetcodeDaily/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/0347-top-k-frequent-elements) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/mnmtk/LeetcodeDaily/tree/master/0373-find-k-pairs-with-smallest-sums) |
@@ -686,6 +688,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0212-word-search-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0212-word-search-ii) |
 | [0221-maximal-square](https://github.com/mnmtk/LeetcodeDaily/tree/master/0221-maximal-square) |
 | [0304-range-sum-query-2d-immutable](https://github.com/mnmtk/LeetcodeDaily/tree/master/0304-range-sum-query-2d-immutable) |
+| [0308-range-sum-query-2d-mutable](https://github.com/mnmtk/LeetcodeDaily/tree/master/0308-range-sum-query-2d-mutable) |
 | [0490-the-maze](https://github.com/mnmtk/LeetcodeDaily/tree/master/0490-the-maze) |
 | [0499-the-maze-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0499-the-maze-iii) |
 | [0505-the-maze-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0505-the-maze-ii) |
@@ -836,6 +839,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0218-the-skyline-problem](https://github.com/mnmtk/LeetcodeDaily/tree/master/0218-the-skyline-problem) |
 | [0307-range-sum-query-mutable](https://github.com/mnmtk/LeetcodeDaily/tree/master/0307-range-sum-query-mutable) |
+| [0308-range-sum-query-2d-mutable](https://github.com/mnmtk/LeetcodeDaily/tree/master/0308-range-sum-query-2d-mutable) |
 | [0406-queue-reconstruction-by-height](https://github.com/mnmtk/LeetcodeDaily/tree/master/0406-queue-reconstruction-by-height) |
 | [2526-longest-increasing-subsequence-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/2526-longest-increasing-subsequence-ii) |
 ## Segment Tree
@@ -843,6 +847,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0218-the-skyline-problem](https://github.com/mnmtk/LeetcodeDaily/tree/master/0218-the-skyline-problem) |
 | [0307-range-sum-query-mutable](https://github.com/mnmtk/LeetcodeDaily/tree/master/0307-range-sum-query-mutable) |
+| [0308-range-sum-query-2d-mutable](https://github.com/mnmtk/LeetcodeDaily/tree/master/0308-range-sum-query-2d-mutable) |
 | [0406-queue-reconstruction-by-height](https://github.com/mnmtk/LeetcodeDaily/tree/master/0406-queue-reconstruction-by-height) |
 | [2526-longest-increasing-subsequence-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/2526-longest-increasing-subsequence-ii) |
 ## Line Sweep
