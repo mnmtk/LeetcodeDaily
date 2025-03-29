@@ -14,10 +14,13 @@ class Solution {
         double ans = Double.MAX_VALUE;
         for (int i = 0; i < N; ++i) {
             Point p1 = A[i];
+
             for (int j = 0; j < N; ++j) if (j != i) {
                 Point p2 = A[j];
+
                 for (int k = j+1; k < N; ++k) if (k != i) {
                     Point p3 = A[k];
+                    
                     Point p4 = new Point(p2.x + p3.x - p1.x, p2.y + p3.y - p1.y);
 
                     if (pointSet.contains(p4)) {
