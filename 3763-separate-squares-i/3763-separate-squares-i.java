@@ -15,10 +15,10 @@ class Solution {
 
                 aAbove += total;
             } else if(line >= y + l) {
-                
+
                 aBelow += total;
             } else {
-
+                
                 double aboveHeight = (y + l) - line;
                 double belowHeight = line - y;
 
