@@ -23,7 +23,7 @@ class Solution {
         int bEnd
     ) {
         if(aEnd < aStart) {
-            return B[k - aStart]; // supposing aStart ends at the length
+            return B[k - aStart]; 
         }
 
         if(bEnd < bStart) {
