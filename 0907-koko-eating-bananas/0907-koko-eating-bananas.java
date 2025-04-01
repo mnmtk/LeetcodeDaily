@@ -10,7 +10,6 @@ class Solution {
         }
 
         return sum <= h;
-
     }
 
     public int minEatingSpeed(int[] piles, int h) {
