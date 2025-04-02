@@ -9,7 +9,7 @@ class Solution {
             }
             // A negative k denotes we have consumed all allowed flips and window has
             // more than allowed zeros, thus increment left pointer by 1 to keep the window size same.
-            if (k < 0) {
+            if (k < 0) { //this is if generally while hota hai.
                 // If the left element to be thrown out is zero we increase k.
                 k += 1 - nums[left];
                 left++;
@@ -18,3 +18,5 @@ class Solution {
         return right - left;
     }
 }
+
+//Observe we don't contract the window if it's not needed and thus save on some computation.
