@@ -1,49 +1,62 @@
 class Solution {
-    private static final int[][] DIRECTIONS = {{0,1}, {0,-1}, {1,0}, {-1,0}};
     public int minimumEffortPath(int[][] heights) {
+        int left = 0;
+        int right = 1000000;
+        int result = right;
 
-        int n = heights.length;
-        int m = heights[0].length;
-
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> Integer.compare(a[2], b[2]));
-
-
-        pq.offer(new int[]{0, 0, 0});
-
-        int[][] currentEfforts = new int[n][m];
-        for(int i = 0 ; i < n ; i ++) {
-        Arrays.fill(currentEfforts[i], Integer.MAX_VALUE);
+        while (left <= right) {
+            int mid = (left + right) / 2;
+            if (canReachDestinaton(heights, mid)) {
+                
+                right = mid - 1;
+            } else {
+                left = mid + 1;
+            }
         }
-        
+        return left;
+    }
 
-        while(!pq.isEmpty()) {
-            int[] current = pq.poll();
-            
-            int x = current[0];
-            int y = current[1];
-            int effort = current[2];
+    int[][] directions = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
 
-            int val = heights[x][y];
-
-            if(x == n-1 && y == m-1) return effort;
-
-            for(int[] dirs : DIRECTIONS) {
-                int newX = x + dirs[0]; 
-                int newY = y + dirs[1];
-
-                if(newX <0 || newY < 0 || newX >= n || newY >= m) continue;
-
-
-                int newEffort = Math.max(effort, Math.abs(heights[newX][newY] - heights[x][y]));
-        
-                if(newEffort < currentEfforts[newX][newY]) {
-                    currentEfforts[newX][newY] = newEffort;
-                    pq.offer(new int[] {newX, newY, newEffort});
+    // use bfs to check if we can reach destination with max absolute difference k
+    boolean canReachDestinaton(int[][] heights, int k) {
+        int row = heights.length;
+        int col = heights[0].length;
+        Deque<Cell> queue = new ArrayDeque<>();
+        boolean[][] visited = new boolean[heights.length][heights[0].length];
+        queue.addLast(new Cell(0, 0));
+        visited[0][0] = true;
+        while (!queue.isEmpty()) {
+            Cell curr = queue.removeFirst();
+            if(curr.x == row - 1 && curr.y == col - 1) {
+                return true;
+            }
+            for (int[] direction : directions) {
+                int adjacentX = curr.x + direction[0];
+                int adjacentY = curr.y + direction[1];
+                if (isValidCell(adjacentX, adjacentY, row, col) && !visited[adjacentX][adjacentY]) {
+                    int currentDifference = Math.abs(heights[adjacentX][adjacentY] - heights[curr.x][curr.y]);
+                    if (currentDifference <= k) {
+                        visited[adjacentX][adjacentY] = true;
+                        queue.addLast(new Cell(adjacentX, adjacentY));
+                    }
                 }
             }
         }
+        return false;
+    }
 
-        return currentEfforts[n - 1][m - 1];
-        
+    boolean isValidCell(int x, int y, int row, int col) {
+        return x >= 0 && x <= row - 1 && y >= 0 && y <= col - 1;
+    }
+}
+
+class Cell {
+    int x;
+    int y;
+
+    Cell(int x, int y) {
+        this.x = x;
+        this.y = y;
     }
 }
