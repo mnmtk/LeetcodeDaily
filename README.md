@@ -358,6 +358,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/mnmtk/LeetcodeDaily/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/mnmtk/LeetcodeDaily/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0179-largest-number) |
+| [0209-minimum-size-subarray-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0209-minimum-size-subarray-sum) |
 | [0212-word-search-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0212-word-search-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/mnmtk/LeetcodeDaily/tree/master/0217-contains-duplicate) |
@@ -584,6 +585,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/mnmtk/LeetcodeDaily/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/mnmtk/LeetcodeDaily/tree/master/0076-minimum-window-substring) |
+| [0209-minimum-size-subarray-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0219-contains-duplicate-ii) |
 | [0220-contains-duplicate-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0220-contains-duplicate-iii) |
 | [0424-longest-repeating-character-replacement](https://github.com/mnmtk/LeetcodeDaily/tree/master/0424-longest-repeating-character-replacement) |
@@ -636,6 +638,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0162-find-peak-element](https://github.com/mnmtk/LeetcodeDaily/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/mnmtk/LeetcodeDaily/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0209-minimum-size-subarray-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0209-minimum-size-subarray-sum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0240-search-a-2d-matrix-ii) |
 | [0259-3sum-smaller](https://github.com/mnmtk/LeetcodeDaily/tree/master/0259-3sum-smaller) |
 | [0268-missing-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0268-missing-number) |
@@ -845,6 +848,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Prefix Sum
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0209-minimum-size-subarray-sum) |
 | [0253-meeting-rooms-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0253-meeting-rooms-ii) |
 | [0304-range-sum-query-2d-immutable](https://github.com/mnmtk/LeetcodeDaily/tree/master/0304-range-sum-query-2d-immutable) |
 | [0410-split-array-largest-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0410-split-array-largest-sum) |
