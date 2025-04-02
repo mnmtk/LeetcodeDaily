@@ -23,9 +23,11 @@ class Solution {
         int row = heights.length;
         int col = heights[0].length;
         Deque<Cell> queue = new ArrayDeque<>();
+
         boolean[][] visited = new boolean[heights.length][heights[0].length];
         queue.addLast(new Cell(0, 0));
         visited[0][0] = true;
+
         while (!queue.isEmpty()) {
             Cell curr = queue.removeFirst();
             if(curr.x == row - 1 && curr.y == col - 1) {
@@ -34,8 +36,12 @@ class Solution {
             for (int[] direction : directions) {
                 int adjacentX = curr.x + direction[0];
                 int adjacentY = curr.y + direction[1];
-                if (isValidCell(adjacentX, adjacentY, row, col) && !visited[adjacentX][adjacentY]) {
+
+                if (
+                    isValidCell(adjacentX, adjacentY, row, col) 
+                && !visited[adjacentX][adjacentY]) {
                     int currentDifference = Math.abs(heights[adjacentX][adjacentY] - heights[curr.x][curr.y]);
+                    
                     if (currentDifference <= k) {
                         visited[adjacentX][adjacentY] = true;
                         queue.addLast(new Cell(adjacentX, adjacentY));
