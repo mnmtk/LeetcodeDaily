@@ -405,6 +405,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/mnmtk/LeetcodeDaily/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
 | [1207-delete-nodes-and-return-forest](https://github.com/mnmtk/LeetcodeDaily/tree/master/1207-delete-nodes-and-return-forest) |
 | [1325-path-with-maximum-probability](https://github.com/mnmtk/LeetcodeDaily/tree/master/1325-path-with-maximum-probability) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/mnmtk/LeetcodeDaily/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/mnmtk/LeetcodeDaily/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/mnmtk/LeetcodeDaily/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -640,6 +641,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1046-max-consecutive-ones-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/mnmtk/LeetcodeDaily/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1307-ugly-number-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1307-ugly-number-iii) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/mnmtk/LeetcodeDaily/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/mnmtk/LeetcodeDaily/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/mnmtk/LeetcodeDaily/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/mnmtk/LeetcodeDaily/tree/master/1615-range-sum-of-sorted-subarray-sums) |
