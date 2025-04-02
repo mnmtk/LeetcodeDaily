@@ -664,6 +664,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2914-find-the-safest-path-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/2914-find-the-safest-path-in-a-grid) |
 | [3266-find-longest-special-substring-that-occurs-thrice-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/3266-find-longest-special-substring-that-occurs-thrice-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/3643-zero-array-transformation-ii) |
+| [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 | [3763-separate-squares-i](https://github.com/mnmtk/LeetcodeDaily/tree/master/3763-separate-squares-i) |
 ## Stack
 |  |
@@ -698,6 +699,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1663-detect-cycles-in-2d-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1753-path-with-minimum-effort](https://github.com/mnmtk/LeetcodeDaily/tree/master/1753-path-with-minimum-effort) |
 | [2206-detonate-the-maximum-bombs](https://github.com/mnmtk/LeetcodeDaily/tree/master/2206-detonate-the-maximum-bombs) |
+| [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -832,6 +834,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2206-detonate-the-maximum-bombs](https://github.com/mnmtk/LeetcodeDaily/tree/master/2206-detonate-the-maximum-bombs) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/2914-find-the-safest-path-in-a-grid) |
 | [3558-find-a-safe-walk-through-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/3558-find-a-safe-walk-through-a-grid) |
+| [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 ## Interactive
 |  |
 | ------- |
@@ -894,6 +897,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2321-minimum-weighted-subgraph-with-the-required-paths](https://github.com/mnmtk/LeetcodeDaily/tree/master/2321-minimum-weighted-subgraph-with-the-required-paths) |
 | [3189-find-champion-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/3189-find-champion-ii) |
 | [3558-find-a-safe-walk-through-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/3558-find-a-safe-walk-through-a-grid) |
+| [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 ## Shortest Path
 |  |
 | ------- |
@@ -908,6 +912,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1912-number-of-restricted-paths-from-first-to-last-node](https://github.com/mnmtk/LeetcodeDaily/tree/master/1912-number-of-restricted-paths-from-first-to-last-node) |
 | [2321-minimum-weighted-subgraph-with-the-required-paths](https://github.com/mnmtk/LeetcodeDaily/tree/master/2321-minimum-weighted-subgraph-with-the-required-paths) |
 | [3558-find-a-safe-walk-through-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/3558-find-a-safe-walk-through-a-grid) |
+| [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 ## Enumeration
 |  |
 | ------- |
