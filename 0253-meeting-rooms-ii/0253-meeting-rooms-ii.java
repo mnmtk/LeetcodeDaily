@@ -1,51 +1,45 @@
 class Solution {
     public int minMeetingRooms(int[][] intervals) {
+        
+    
+    if (intervals.length == 0) {
+      return 0;
+    }
 
-        if (intervals.length == 0)
-            return 0;
 
-        Integer[] start = new Integer[intervals.length];
-        Integer[] end = new Integer[intervals.length];
+    PriorityQueue<Integer> allocator =
+        new PriorityQueue<Integer>(
+            intervals.length,
+            new Comparator<Integer>() {
+              public int compare(Integer a, Integer b) {
+                return a - b;
+              }
+            });
 
-        for (int i = 0; i < intervals.length; i++) {
-            start[i] = intervals[i][0];
-            end[i] = intervals[i][1];
-        }
+    
+    Arrays.sort(
+        intervals,
+        new Comparator<int[]>() {
+          public int compare(final int[] a, final int[] b) {
+            return a[0] - b[0];
+          }
+        });
 
-        // Sort the intervals by end time
-        Arrays.sort(
-                end,
-                new Comparator<Integer>() {
-                    public int compare(Integer a, Integer b) {
-                        return a - b;
-                    }
-                });
+   
+    allocator.add(intervals[0][1]);
 
-        // Sort the intervals by start time
-        Arrays.sort(
-                start,
-                new Comparator<Integer>() {
-                    public int compare(Integer a, Integer b) {
-                        return a - b;
-                    }
-                });
+    
+    for (int i = 1; i < intervals.length; i++) {
 
-      int startPointer = 0;
-      int endPointer = 0;
-
-      int usedRooms = 0;
-
-      while(startPointer < intervals.length) {
-        if(start[startPointer] >= end[endPointer]) {
-            usedRooms -= 1;
-            endPointer += 1;
-        }
-
-        usedRooms += 1;
-        startPointer += 1;
+      
+      if (intervals[i][0] >= allocator.peek()) {
+        allocator.poll();
       }
 
-
-      return usedRooms;
+      allocator.add(intervals[i][1]);
     }
+
+    
+    return allocator.size();
+  }
 }
