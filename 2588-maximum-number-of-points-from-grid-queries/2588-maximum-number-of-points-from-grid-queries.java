@@ -1,67 +1,76 @@
 class Solution {
+    public int[][] DIRECTIONS = {
+            {1, 0},
+            {-1, 0},
+            {0, 1},
+            {0, -1}
+    };
 
     public int[] maxPoints(int[][] grid, int[] queries) {
-        int rowCount = grid.length, colCount = grid[0].length;
-        int[] result = new int[queries.length];
-        // Directions for movement (right, down, left, up)
-        int[][] DIRECTIONS = { { 0, 1 }, { 1, 0 }, { 0, -1 }, { -1, 0 } };
+        int queryCount = queries.length;
+        int[] result = new int[queryCount];
 
-        // Store queries along with their original indices to restore order
-        // later
-        int[][] sortedQueries = new int[queries.length][2];
-        for (int index = 0; index < queries.length; index++) {
-            sortedQueries[index][0] = queries[index];
-            sortedQueries[index][1] = index;
+        int rowCount = grid.length;
+        int colCount = grid[0].length;
+
+        int totalCells = rowCount * colCount;
+
+        int[] thresholdForMaxPoints = new int[totalCells + 1];
+
+        int[][] minValueToReach = new int[rowCount][colCount]; 
+
+        for(int[] row : minValueToReach) {
+            Arrays.fill(row, Integer.MAX_VALUE);
         }
-        // Sort queries by value in ascending order
-        Arrays.sort(sortedQueries, (a, b) -> a[0] - b[0]);
 
-        // Min-heap (priority queue) to process cells in increasing order of
-        // value
-        PriorityQueue<int[]> minHeap = new PriorityQueue<>(
-            (a, b) -> a[0] - b[0]
-        );
-        boolean[][] visited = new boolean[rowCount][colCount];
-        // Keeps track of the number of cells processed
-        int totalPoints = 0;
-        // Start from the top-left cell
-        minHeap.add(new int[] { grid[0][0], 0, 0 });
-        visited[0][0] = true;
+        minValueToReach[0][0] = grid[0][0];
 
-        // Process queries in sorted order
-        for (int[] query : sortedQueries) {
-            int queryValue = query[0], queryIndex = query[1];
-            // Expand the cells that are smaller than the current query value
-            while (!minHeap.isEmpty() && minHeap.peek()[0] < queryValue) {
-                int[] top = minHeap.poll();
-                int cellValue = top[0], currentRow = top[1], currentCol =
-                    top[2];
-                // Increment count of valid cells
-                totalPoints++;
+        PriorityQueue<int[]> minHeap = new PriorityQueue<>((a, b) -> 
+        Integer.compare(a[2], b[2]));
 
-                // Explore all four possible directions
-                for (int[] dir : DIRECTIONS) {
-                    int newRow = currentRow + dir[0], newCol =
-                        currentCol + dir[1];
+        minHeap.offer(new int[] {0, 0, grid[0][0]});
+        int visitedCells = 0;
 
-                    // Check if the new cell is within bounds and not visited
-                    if (
-                        newRow >= 0 &&
-                        newCol >= 0 &&
-                        newRow < rowCount &&
-                        newCol < colCount &&
-                        !visited[newRow][newCol]
-                    ) {
-                        minHeap.add(
-                            new int[] { grid[newRow][newCol], newRow, newCol }
-                        );
-                        // Mark as visited
-                        visited[newRow][newCol] = true;
-                    }
+        while(!minHeap.isEmpty()) {
+            int[] current = minHeap.poll();
+
+            thresholdForMaxPoints[++visitedCells] = current[2];
+
+            for(int[] direction : DIRECTIONS) {
+                int newRow = current[0] + direction[0];
+                int newCol = current[1] + direction[1];
+
+                if(
+                    newRow >= 0 &&
+                    newRow < rowCount &&
+                    newCol >= 0 &&
+                    newCol < colCount &&
+                    minValueToReach[newRow][newCol] == Integer.MAX_VALUE
+                ) {
+                    minValueToReach[newRow][newCol] = Math.max(current[2], grid[newRow][newCol]);
+
+                    minHeap.offer(new int[] {newRow, newCol, minValueToReach[newRow][newCol]});   
                 }
             }
-            // Store the result for this query
-            result[queryIndex] = totalPoints;
+        }
+
+        for(int i = 0; i < queryCount; i++) {
+            int threshold = queries[i];
+            int left = 0;
+            int right = totalCells;
+
+            while (left < right) {
+                //This is a variant of binary search that finds the last occurrence 
+                int mid = (left + right + 1) >>> 1;
+                if (thresholdForMaxPoints[mid] < threshold) {
+                    left = mid;
+                } else {
+                    right = mid - 1;
+                }
+            }
+
+    
+            result[i] = left;
         }
         return result;
     }
