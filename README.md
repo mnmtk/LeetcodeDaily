@@ -302,6 +302,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0023-merge-k-sorted-lists](https://github.com/mnmtk/LeetcodeDaily/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0215-kth-largest-element-in-an-array) |
 | [0218-the-skyline-problem](https://github.com/mnmtk/LeetcodeDaily/tree/master/0218-the-skyline-problem) |
+| [0239-sliding-window-maximum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0239-sliding-window-maximum) |
 | [0253-meeting-rooms-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/mnmtk/LeetcodeDaily/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/0347-top-k-frequent-elements) |
@@ -376,6 +377,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0219-contains-duplicate-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0219-contains-duplicate-ii) |
 | [0220-contains-duplicate-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0220-contains-duplicate-iii) |
 | [0221-maximal-square](https://github.com/mnmtk/LeetcodeDaily/tree/master/0221-maximal-square) |
+| [0239-sliding-window-maximum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0239-sliding-window-maximum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0240-search-a-2d-matrix-ii) |
 | [0253-meeting-rooms-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0253-meeting-rooms-ii) |
 | [0259-3sum-smaller](https://github.com/mnmtk/LeetcodeDaily/tree/master/0259-3sum-smaller) |
@@ -604,6 +606,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0209-minimum-size-subarray-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0219-contains-duplicate-ii) |
 | [0220-contains-duplicate-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0220-contains-duplicate-iii) |
+| [0239-sliding-window-maximum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/mnmtk/LeetcodeDaily/tree/master/0424-longest-repeating-character-replacement) |
 | [0658-find-k-closest-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/0658-find-k-closest-elements) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/mnmtk/LeetcodeDaily/tree/master/0718-maximum-length-of-repeated-subarray) |
@@ -1024,12 +1027,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Queue
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0239-sliding-window-maximum) |
 | [0387-first-unique-character-in-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0387-first-unique-character-in-a-string) |
 | [1953-finding-mk-average](https://github.com/mnmtk/LeetcodeDaily/tree/master/1953-finding-mk-average) |
 | [2526-longest-increasing-subsequence-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/2526-longest-increasing-subsequence-ii) |
 ## Monotonic Queue
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0239-sliding-window-maximum) |
 | [2526-longest-increasing-subsequence-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/2526-longest-increasing-subsequence-ii) |
 ## Radix Sort
 |  |
