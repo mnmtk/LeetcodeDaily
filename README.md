@@ -319,6 +319,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1325-path-with-maximum-probability](https://github.com/mnmtk/LeetcodeDaily/tree/master/1325-path-with-maximum-probability) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/mnmtk/LeetcodeDaily/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/mnmtk/LeetcodeDaily/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1753-path-with-minimum-effort](https://github.com/mnmtk/LeetcodeDaily/tree/master/1753-path-with-minimum-effort) |
 | [1912-number-of-restricted-paths-from-first-to-last-node](https://github.com/mnmtk/LeetcodeDaily/tree/master/1912-number-of-restricted-paths-from-first-to-last-node) |
 | [1953-finding-mk-average](https://github.com/mnmtk/LeetcodeDaily/tree/master/1953-finding-mk-average) |
@@ -433,6 +434,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/mnmtk/LeetcodeDaily/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/mnmtk/LeetcodeDaily/tree/master/1497-design-a-stack-with-increment-operation) |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/mnmtk/LeetcodeDaily/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/mnmtk/LeetcodeDaily/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/mnmtk/LeetcodeDaily/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1663-detect-cycles-in-2d-grid) |
@@ -611,6 +613,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0658-find-k-closest-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/0658-find-k-closest-elements) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/mnmtk/LeetcodeDaily/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [1046-max-consecutive-ones-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1046-max-consecutive-ones-iii) |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/mnmtk/LeetcodeDaily/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/mnmtk/LeetcodeDaily/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2478-longest-nice-subarray](https://github.com/mnmtk/LeetcodeDaily/tree/master/2478-longest-nice-subarray) |
 | [3266-find-longest-special-substring-that-occurs-thrice-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/3266-find-longest-special-substring-that-occurs-thrice-ii) |
@@ -996,6 +999,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0315-count-of-smaller-numbers-after-self](https://github.com/mnmtk/LeetcodeDaily/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0456-132-pattern](https://github.com/mnmtk/LeetcodeDaily/tree/master/0456-132-pattern) |
 | [0493-reverse-pairs](https://github.com/mnmtk/LeetcodeDaily/tree/master/0493-reverse-pairs) |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/mnmtk/LeetcodeDaily/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1953-finding-mk-average](https://github.com/mnmtk/LeetcodeDaily/tree/master/1953-finding-mk-average) |
 ## Brainteaser
 |  |
@@ -1029,12 +1033,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0239-sliding-window-maximum) |
 | [0387-first-unique-character-in-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0387-first-unique-character-in-a-string) |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/mnmtk/LeetcodeDaily/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1953-finding-mk-average](https://github.com/mnmtk/LeetcodeDaily/tree/master/1953-finding-mk-average) |
 | [2526-longest-increasing-subsequence-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/2526-longest-increasing-subsequence-ii) |
 ## Monotonic Queue
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0239-sliding-window-maximum) |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/mnmtk/LeetcodeDaily/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [2526-longest-increasing-subsequence-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/2526-longest-increasing-subsequence-ii) |
 ## Radix Sort
 |  |
