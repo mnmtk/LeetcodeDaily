@@ -2,19 +2,21 @@ class Solution {
 
     public long findScore(int[] nums) {
         long ans = 0;
-        int[][] customSorted = new int[nums.length][2];
         boolean[] marked = new boolean[nums.length];
 
+        PriorityQueue<int[]> heap = new PriorityQueue<>((arr1, arr2) -> {
+            if (arr1[0] != arr2[0]) return arr1[0] - arr2[0];
+            return arr1[1] - arr2[1];
+        });
+
         for (int i = 0; i < nums.length; i++) {
-            customSorted[i][0] = nums[i];
-            customSorted[i][1] = i;
+            heap.add(new int[] { nums[i], i });
         }
 
-        Arrays.sort(customSorted, (arr1, arr2) -> arr1[0] - arr2[0]);
-
-        for (int i = 0; i < nums.length; i++) {
-            int number = customSorted[i][0];
-            int index = customSorted[i][1];
+        while (!heap.isEmpty()) {
+            int[] element = heap.remove();
+            int number = element[0];
+            int index = element[1];
             if (!marked[index]) {
                 ans += number;
                 marked[index] = true;
