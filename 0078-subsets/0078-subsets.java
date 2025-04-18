@@ -1,21 +1,23 @@
 class Solution {
-    public List<List<Integer>> subsets(int[] nums) {
-        List<List<Integer>> output = new ArrayList<>();
-        output.add(new ArrayList<>());
 
-        for(int num : nums) {
-             List<List<Integer>> newSubsets = new ArrayList();
-             for( List<Integer> curr : output) {
-                List<Integer> temp = new ArrayList<>(curr);
-                temp.add(num);
-                newSubsets.add(temp);
-             }
+    private List<List<Integer>> output = new ArrayList();
+    private int n;
 
-             for(List<Integer> curr : newSubsets) {
-                output.add(curr);
-             }
+    public void backtrack(int first, ArrayList<Integer> curr, int[] nums) {
+        // Add the current subset to the output
+        output.add(new ArrayList(curr));
+        // Generate subsets starting from the current index
+        for (int i = first; i < n; ++i) {
+            curr.add(nums[i]);
+            backtrack(i + 1, curr, nums);
+            curr.remove(curr.size() - 1);
         }
-        
+    }
+
+    public List<List<Integer>> subsets(int[] nums) {
+        n = nums.length;
+        ArrayList<Integer> currCombo = new ArrayList<Integer>();
+        backtrack(0, currCombo, nums); // One call generates all subsets
         return output;
     }
 }
