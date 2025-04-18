@@ -300,6 +300,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/mnmtk/LeetcodeDaily/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/mnmtk/LeetcodeDaily/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2681-put-marbles-in-bags](https://github.com/mnmtk/LeetcodeDaily/tree/master/2681-put-marbles-in-bags) |
+| [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [3158-maximum-length-of-semi-decreasing-subarrays](https://github.com/mnmtk/LeetcodeDaily/tree/master/3158-maximum-length-of-semi-decreasing-subarrays) |
 ## Heap (Priority Queue)
 |  |
@@ -336,6 +337,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/mnmtk/LeetcodeDaily/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/mnmtk/LeetcodeDaily/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2681-put-marbles-in-bags](https://github.com/mnmtk/LeetcodeDaily/tree/master/2681-put-marbles-in-bags) |
+| [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/2914-find-the-safest-path-in-a-grid) |
 | [3558-find-a-safe-walk-through-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/3558-find-a-safe-walk-through-a-grid) |
 ## Data Stream
@@ -464,6 +466,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2665-minimum-time-to-repair-cars](https://github.com/mnmtk/LeetcodeDaily/tree/master/2665-minimum-time-to-repair-cars) |
 | [2681-put-marbles-in-bags](https://github.com/mnmtk/LeetcodeDaily/tree/master/2681-put-marbles-in-bags) |
 | [2690-house-robber-iv](https://github.com/mnmtk/LeetcodeDaily/tree/master/2690-house-robber-iv) |
+| [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2755-extra-characters-in-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/2755-extra-characters-in-a-string) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/2914-find-the-safest-path-in-a-grid) |
 | [3158-maximum-length-of-semi-decreasing-subarrays](https://github.com/mnmtk/LeetcodeDaily/tree/master/3158-maximum-length-of-semi-decreasing-subarrays) |
@@ -509,6 +512,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1934-evaluate-the-bracket-pairs-of-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/1934-evaluate-the-bracket-pairs-of-a-string) |
 | [2434-design-a-number-container-system](https://github.com/mnmtk/LeetcodeDaily/tree/master/2434-design-a-number-container-system) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/mnmtk/LeetcodeDaily/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
+| [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2755-extra-characters-in-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/2755-extra-characters-in-a-string) |
 | [3265-maximum-good-subarray-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/3265-maximum-good-subarray-sum) |
 | [3266-find-longest-special-substring-that-occurs-thrice-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/3266-find-longest-special-substring-that-occurs-thrice-ii) |
@@ -806,6 +810,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0043-multiply-strings](https://github.com/mnmtk/LeetcodeDaily/tree/master/0043-multiply-strings) |
 | [0068-text-justification](https://github.com/mnmtk/LeetcodeDaily/tree/master/0068-text-justification) |
 | [2617-time-taken-to-cross-the-door](https://github.com/mnmtk/LeetcodeDaily/tree/master/2617-time-taken-to-cross-the-door) |
+| [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 ## Greedy
 |  |
 | ------- |
