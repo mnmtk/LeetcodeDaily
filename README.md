@@ -373,6 +373,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0066-plus-one](https://github.com/mnmtk/LeetcodeDaily/tree/master/0066-plus-one) |
 | [0068-text-justification](https://github.com/mnmtk/LeetcodeDaily/tree/master/0068-text-justification) |
 | [0074-search-a-2d-matrix](https://github.com/mnmtk/LeetcodeDaily/tree/master/0074-search-a-2d-matrix) |
+| [0078-subsets](https://github.com/mnmtk/LeetcodeDaily/tree/master/0078-subsets) |
 | [0088-merge-sorted-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0088-merge-sorted-array) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/mnmtk/LeetcodeDaily/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -809,6 +810,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/mnmtk/LeetcodeDaily/tree/master/0078-subsets) |
 | [0268-missing-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0287-find-the-duplicate-number) |
 | [0351-android-unlock-patterns](https://github.com/mnmtk/LeetcodeDaily/tree/master/0351-android-unlock-patterns) |
@@ -818,6 +820,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0039-combination-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0039-combination-sum) |
 | [0051-n-queens](https://github.com/mnmtk/LeetcodeDaily/tree/master/0051-n-queens) |
+| [0078-subsets](https://github.com/mnmtk/LeetcodeDaily/tree/master/0078-subsets) |
 | [0212-word-search-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0212-word-search-ii) |
 | [0351-android-unlock-patterns](https://github.com/mnmtk/LeetcodeDaily/tree/master/0351-android-unlock-patterns) |
 ## Simulation
