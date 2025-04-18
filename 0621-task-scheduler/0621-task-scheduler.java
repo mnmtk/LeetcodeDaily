@@ -12,6 +12,7 @@ class Solution {
         int maxFreq = freq[25] - 1;
         // Calculate the number of idle slots that will be required
         int idleSlots = maxFreq * n;
+        int max = idleSlots;
 
         // Iterate over the frequency array from the second highest frequency to the lowest frequency
         for (int i = 24; i >= 0 && freq[i] > 0; i--) {
