@@ -426,6 +426,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0692-top-k-frequent-words](https://github.com/mnmtk/LeetcodeDaily/tree/master/0692-top-k-frequent-words) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/mnmtk/LeetcodeDaily/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/mnmtk/LeetcodeDaily/tree/master/0719-find-k-th-smallest-pair-distance) |
+| [0722-remove-comments](https://github.com/mnmtk/LeetcodeDaily/tree/master/0722-remove-comments) |
 | [0733-flood-fill](https://github.com/mnmtk/LeetcodeDaily/tree/master/0733-flood-fill) |
 | [0794-swim-in-rising-water](https://github.com/mnmtk/LeetcodeDaily/tree/master/0794-swim-in-rising-water) |
 | [0808-number-of-matching-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/0808-number-of-matching-subsequences) |
@@ -621,6 +622,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0499-the-maze-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0499-the-maze-iii) |
 | [0539-minimum-time-difference](https://github.com/mnmtk/LeetcodeDaily/tree/master/0539-minimum-time-difference) |
 | [0692-top-k-frequent-words](https://github.com/mnmtk/LeetcodeDaily/tree/master/0692-top-k-frequent-words) |
+| [0722-remove-comments](https://github.com/mnmtk/LeetcodeDaily/tree/master/0722-remove-comments) |
 | [0778-reorganize-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0778-reorganize-string) |
 | [0808-number-of-matching-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/0808-number-of-matching-subsequences) |
 | [0977-distinct-subsequences-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0977-distinct-subsequences-ii) |
