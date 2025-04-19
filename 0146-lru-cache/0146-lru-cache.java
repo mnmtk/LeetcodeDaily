@@ -30,8 +30,10 @@ class LRUCache {
             return -1;
         }
 
+        //here we just remove it to add back as recent used.
         ListNode node = dic.get(key);
         remove(node);
+
         addToTail(node);
         return node.val;
     }
@@ -39,11 +41,13 @@ class LRUCache {
     public void put(int key, int value) {
         if (dic.containsKey(key)) {
             ListNode oldNode = dic.get(key);
+            //remove what we dont need all positions!
             remove(oldNode);
         }
 
         ListNode node = new ListNode(key, value);
-        dic.put(key, node);
+        dic.put(key, node); //new value overwritten!
+        //add at recent use
         addToTail(node);
 
         if (dic.size() > capacity) {
