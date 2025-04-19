@@ -1,39 +1,34 @@
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-        int[] indegree = new int[numCourses];
-        List<List<Integer>> adj = new ArrayList<>(numCourses);
 
-        for (int i = 0; i < numCourses; i++) {
-            adj.add(new ArrayList<>());
+        Map<Integer, List<Integer>> graph = new HashMap<>();
+
+        for(int[] prerequisite : prerequisites) {
+            graph.computeIfAbsent(prerequisite[0], k-> new ArrayList<>()).add(prerequisite[1]);
         }
 
-        for (int[] prerequisite : prerequisites) {
-            adj.get(prerequisite[1]).add(prerequisite[0]);
-            indegree[prerequisite[0]]++;
+        int[] visited = new int[numCourses];
+
+        for (int i = 0 ; i < numCourses; i++) {
+            if(visited[i] == 0 && !dfs(graph, visited, i)) return false;
         }
 
-        Queue<Integer> queue = new LinkedList<>();
-        // Push all the nodes with indegree zero in the queue.
-        for (int i = 0; i < numCourses; i++) {
-            if (indegree[i] == 0) {
-                queue.offer(i);
-            }
+        return true;
+    }
+
+    boolean dfs(Map<Integer, List<Integer>> graph, int[] visited, int course) {
+        if(visited[course] == -1) return false;
+
+        if(visited[course] == 1) return true;
+
+        visited[course] = -1;
+
+        //dfs
+        for(int neighbor : graph.getOrDefault(course, new ArrayList<>())) {
+            if(!dfs(graph, visited, neighbor)) return false;
         }
 
-        int nodesVisited = 0;
-        while (!queue.isEmpty()) {
-            int node = queue.poll();
-            nodesVisited++;
-
-            for (int neighbor : adj.get(node)) {
-                // Delete the edge "node -> neighbor".
-                indegree[neighbor]--;
-                if (indegree[neighbor] == 0) {
-                    queue.offer(neighbor);
-                }
-            }
-        }
-
-        return nodesVisited == numCourses;
+        visited[course] = 1;
+        return true;
     }
 }
