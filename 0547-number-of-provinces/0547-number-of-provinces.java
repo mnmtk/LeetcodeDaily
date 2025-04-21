@@ -6,7 +6,7 @@ class Solution {
         for (int i = 0; i < total; i++) {
             for (int j = 0; j < isConnected[0].length; j++) {
                 if (isConnected[i][j] == 1) {
-                    if (dsu.union(i, j)) total--;
+                    if (dsu.union(i  + 1, j + 1)) total--;
                 }
             }
         }
@@ -19,8 +19,8 @@ class Solution {
         int[] rank;
 
         DisjointUnion(int n) {
-            parent = new int[n];
-            rank = new int[n];
+            parent = new int[n + 1];
+            rank = new int[n + 1];
 
             for (int i = 0; i < n; i++) {
                 parent[i] = i;
