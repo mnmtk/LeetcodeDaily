@@ -1,28 +1,32 @@
-class Solution {
+public class Solution {
 
-    // Performs DFS and returns true if there's a path between src and target
-    // and false otherwise.
-    private boolean isPrerequisite(
+    // Iterate over each node and perform BFS starting from it.
+    // Mark the starting node as a prerequisite to all the nodes in the BFS
+    // traversal.
+    private void preprocess(
+        int numCourses,
+        int[][] prerequisites,
         Map<Integer, List<Integer>> adjList,
-        boolean[] visited,
-        int src,
-        int target
+        boolean[][] isPrerequisite
     ) {
-        visited[src] = true;
+        for (int i = 0; i < numCourses; i++) {
+            Queue<Integer> q = new LinkedList<>();
+            q.offer(i);
 
-        if (src == target) {
-            return true;
-        }
+            while (!q.isEmpty()) {
+                int node = q.poll();
 
-        boolean answer = false;
-        List<Integer> neighbors = adjList.getOrDefault(src, new ArrayList<>());
-        for (int adj : neighbors) {
-            if (!visited[adj]) {
-                answer =
-                    answer || isPrerequisite(adjList, visited, adj, target);
+                for (int adj : adjList.getOrDefault(node, new ArrayList<>())) {
+                    // If we have marked i as a prerequisite of adj it implies we
+                    // have visited it. This is equivalent to using a visited
+                    // array.
+                    if (!isPrerequisite[i][adj]) {
+                        isPrerequisite[i][adj] = true;
+                        q.offer(adj);
+                    }
+                }
             }
         }
-        return answer;
     }
 
     public List<Boolean> checkIfPrerequisite(
@@ -31,22 +35,20 @@ class Solution {
         int[][] queries
     ) {
         Map<Integer, List<Integer>> adjList = new HashMap<>();
-
         for (int[] edge : prerequisites) {
             adjList
                 .computeIfAbsent(edge[0], k -> new ArrayList<>())
                 .add(edge[1]);
         }
 
-        List<Boolean> result = new ArrayList<>();
-        for (int i = 0; i < queries.length; i++) {
-            // Reset the visited array for each query
-            boolean[] visited = new boolean[numCourses];
-            result.add(
-                isPrerequisite(adjList, visited, queries[i][0], queries[i][1])
-            );
+        boolean[][] isPrerequisite = new boolean[numCourses][numCourses];
+        preprocess(numCourses, prerequisites, adjList, isPrerequisite);
+
+        List<Boolean> answer = new ArrayList<>();
+        for (int[] query : queries) {
+            answer.add(isPrerequisite[query[0]][query[1]]);
         }
 
-        return result;
+        return answer;
     }
 }
