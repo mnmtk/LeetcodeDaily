@@ -791,6 +791,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0999-regions-cut-by-slashes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0999-regions-cut-by-slashes) |
 | [1207-delete-nodes-and-return-forest](https://github.com/mnmtk/LeetcodeDaily/tree/master/1207-delete-nodes-and-return-forest) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/mnmtk/LeetcodeDaily/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1558-course-schedule-iv](https://github.com/mnmtk/LeetcodeDaily/tree/master/1558-course-schedule-iv) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1753-path-with-minimum-effort](https://github.com/mnmtk/LeetcodeDaily/tree/master/1753-path-with-minimum-effort) |
 | [2206-detonate-the-maximum-bombs](https://github.com/mnmtk/LeetcodeDaily/tree/master/2206-detonate-the-maximum-bombs) |
@@ -954,6 +955,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0999-regions-cut-by-slashes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0999-regions-cut-by-slashes) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/mnmtk/LeetcodeDaily/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1558-course-schedule-iv](https://github.com/mnmtk/LeetcodeDaily/tree/master/1558-course-schedule-iv) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1753-path-with-minimum-effort](https://github.com/mnmtk/LeetcodeDaily/tree/master/1753-path-with-minimum-effort) |
 | [2206-detonate-the-maximum-bombs](https://github.com/mnmtk/LeetcodeDaily/tree/master/2206-detonate-the-maximum-bombs) |
@@ -1028,6 +1030,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1442-number-of-operations-to-make-network-connected](https://github.com/mnmtk/LeetcodeDaily/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/mnmtk/LeetcodeDaily/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1558-course-schedule-iv](https://github.com/mnmtk/LeetcodeDaily/tree/master/1558-course-schedule-iv) |
 | [1912-number-of-restricted-paths-from-first-to-last-node](https://github.com/mnmtk/LeetcodeDaily/tree/master/1912-number-of-restricted-paths-from-first-to-last-node) |
 | [2206-detonate-the-maximum-bombs](https://github.com/mnmtk/LeetcodeDaily/tree/master/2206-detonate-the-maximum-bombs) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/mnmtk/LeetcodeDaily/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
@@ -1122,6 +1125,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/mnmtk/LeetcodeDaily/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0444-sequence-reconstruction](https://github.com/mnmtk/LeetcodeDaily/tree/master/0444-sequence-reconstruction) |
 | [0820-find-eventual-safe-states](https://github.com/mnmtk/LeetcodeDaily/tree/master/0820-find-eventual-safe-states) |
+| [1558-course-schedule-iv](https://github.com/mnmtk/LeetcodeDaily/tree/master/1558-course-schedule-iv) |
 | [1912-number-of-restricted-paths-from-first-to-last-node](https://github.com/mnmtk/LeetcodeDaily/tree/master/1912-number-of-restricted-paths-from-first-to-last-node) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/mnmtk/LeetcodeDaily/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/mnmtk/LeetcodeDaily/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
