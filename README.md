@@ -778,6 +778,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0261-graph-valid-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0261-graph-valid-tree) |
 | [0269-alien-dictionary](https://github.com/mnmtk/LeetcodeDaily/tree/master/0269-alien-dictionary) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/mnmtk/LeetcodeDaily/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0332-reconstruct-itinerary](https://github.com/mnmtk/LeetcodeDaily/tree/master/0332-reconstruct-itinerary) |
 | [0386-lexicographical-numbers](https://github.com/mnmtk/LeetcodeDaily/tree/master/0386-lexicographical-numbers) |
 | [0399-evaluate-division](https://github.com/mnmtk/LeetcodeDaily/tree/master/0399-evaluate-division) |
 | [0490-the-maze](https://github.com/mnmtk/LeetcodeDaily/tree/master/0490-the-maze) |
@@ -1027,6 +1028,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0261-graph-valid-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0261-graph-valid-tree) |
 | [0269-alien-dictionary](https://github.com/mnmtk/LeetcodeDaily/tree/master/0269-alien-dictionary) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/mnmtk/LeetcodeDaily/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0332-reconstruct-itinerary](https://github.com/mnmtk/LeetcodeDaily/tree/master/0332-reconstruct-itinerary) |
 | [0399-evaluate-division](https://github.com/mnmtk/LeetcodeDaily/tree/master/0399-evaluate-division) |
 | [0444-sequence-reconstruction](https://github.com/mnmtk/LeetcodeDaily/tree/master/0444-sequence-reconstruction) |
 | [0499-the-maze-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0499-the-maze-iii) |
@@ -1199,4 +1201,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1300-critical-connections-in-a-network](https://github.com/mnmtk/LeetcodeDaily/tree/master/1300-critical-connections-in-a-network) |
+## Eulerian Circuit
+|  |
+| ------- |
+| [0332-reconstruct-itinerary](https://github.com/mnmtk/LeetcodeDaily/tree/master/0332-reconstruct-itinerary) |
 <!---LeetCode Topics End-->
