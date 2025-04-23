@@ -339,6 +339,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1912-number-of-restricted-paths-from-first-to-last-node](https://github.com/mnmtk/LeetcodeDaily/tree/master/1912-number-of-restricted-paths-from-first-to-last-node) |
 | [1953-finding-mk-average](https://github.com/mnmtk/LeetcodeDaily/tree/master/1953-finding-mk-average) |
 | [2012-process-tasks-using-servers](https://github.com/mnmtk/LeetcodeDaily/tree/master/2012-process-tasks-using-servers) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/mnmtk/LeetcodeDaily/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2412-minimum-amount-of-time-to-fill-cups](https://github.com/mnmtk/LeetcodeDaily/tree/master/2412-minimum-amount-of-time-to-fill-cups) |
 | [2434-design-a-number-container-system](https://github.com/mnmtk/LeetcodeDaily/tree/master/2434-design-a-number-container-system) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/mnmtk/LeetcodeDaily/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
@@ -474,6 +475,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2012-process-tasks-using-servers](https://github.com/mnmtk/LeetcodeDaily/tree/master/2012-process-tasks-using-servers) |
 | [2206-detonate-the-maximum-bombs](https://github.com/mnmtk/LeetcodeDaily/tree/master/2206-detonate-the-maximum-bombs) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/mnmtk/LeetcodeDaily/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/mnmtk/LeetcodeDaily/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2412-minimum-amount-of-time-to-fill-cups](https://github.com/mnmtk/LeetcodeDaily/tree/master/2412-minimum-amount-of-time-to-fill-cups) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/mnmtk/LeetcodeDaily/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2478-longest-nice-subarray](https://github.com/mnmtk/LeetcodeDaily/tree/master/2478-longest-nice-subarray) |
@@ -916,6 +918,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1753-path-with-minimum-effort](https://github.com/mnmtk/LeetcodeDaily/tree/master/1753-path-with-minimum-effort) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/mnmtk/LeetcodeDaily/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/mnmtk/LeetcodeDaily/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/2914-find-the-safest-path-in-a-grid) |
 | [3188-find-champion-i](https://github.com/mnmtk/LeetcodeDaily/tree/master/3188-find-champion-i) |
@@ -979,6 +982,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1663-detect-cycles-in-2d-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1753-path-with-minimum-effort](https://github.com/mnmtk/LeetcodeDaily/tree/master/1753-path-with-minimum-effort) |
 | [2206-detonate-the-maximum-bombs](https://github.com/mnmtk/LeetcodeDaily/tree/master/2206-detonate-the-maximum-bombs) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/mnmtk/LeetcodeDaily/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/mnmtk/LeetcodeDaily/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/mnmtk/LeetcodeDaily/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2793-count-the-number-of-complete-components](https://github.com/mnmtk/LeetcodeDaily/tree/master/2793-count-the-number-of-complete-components) |
@@ -1064,6 +1068,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/mnmtk/LeetcodeDaily/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/mnmtk/LeetcodeDaily/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 | [2321-minimum-weighted-subgraph-with-the-required-paths](https://github.com/mnmtk/LeetcodeDaily/tree/master/2321-minimum-weighted-subgraph-with-the-required-paths) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/mnmtk/LeetcodeDaily/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/mnmtk/LeetcodeDaily/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
 | [2793-count-the-number-of-complete-components](https://github.com/mnmtk/LeetcodeDaily/tree/master/2793-count-the-number-of-complete-components) |
 | [3189-find-champion-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/3189-find-champion-ii) |
@@ -1085,6 +1090,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1912-number-of-restricted-paths-from-first-to-last-node](https://github.com/mnmtk/LeetcodeDaily/tree/master/1912-number-of-restricted-paths-from-first-to-last-node) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/mnmtk/LeetcodeDaily/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2321-minimum-weighted-subgraph-with-the-required-paths](https://github.com/mnmtk/LeetcodeDaily/tree/master/2321-minimum-weighted-subgraph-with-the-required-paths) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/mnmtk/LeetcodeDaily/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [3558-find-a-safe-walk-through-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/3558-find-a-safe-walk-through-a-grid) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 ## Enumeration
