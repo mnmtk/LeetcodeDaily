@@ -1090,6 +1090,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1558-course-schedule-iv](https://github.com/mnmtk/LeetcodeDaily/tree/master/1558-course-schedule-iv) |
 | [1587-parallel-courses-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1587-parallel-courses-ii) |
 | [1912-number-of-restricted-paths-from-first-to-last-node](https://github.com/mnmtk/LeetcodeDaily/tree/master/1912-number-of-restricted-paths-from-first-to-last-node) |
+| [1916-find-center-of-star-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/1916-find-center-of-star-graph) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/mnmtk/LeetcodeDaily/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2206-detonate-the-maximum-bombs](https://github.com/mnmtk/LeetcodeDaily/tree/master/2206-detonate-the-maximum-bombs) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/mnmtk/LeetcodeDaily/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
