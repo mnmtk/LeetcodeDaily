@@ -31,7 +31,6 @@ class Solution {
     // BFS-based relaxation method replacing fun2
     private void fun2BFS(Map<String, List<Pair>> graph, Map<String, Double> count) {
         Queue<String> queue = new LinkedList<>();
-        Set<String> inQueue = new HashSet<>();
 
         // Initialize queue with all currencies currently in count
         for (String currency : count.keySet()) {
