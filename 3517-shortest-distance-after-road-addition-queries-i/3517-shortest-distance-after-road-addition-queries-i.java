@@ -1,73 +1,84 @@
 class Solution {
+public int[] shortestDistanceAfterQueries(int n, int[][] queries) {
+    List<List<Integer>> adjList = new ArrayList<>();
+    for (int i = 0; i < n; i++) adjList.add(new ArrayList<>());
 
-    // Helper function to perform BFS and find the number of edges in the shortest path from node 0 to node n-1
-    private int bfs(int n, List<List<Integer>> adjList) {
-        boolean[] visited = new boolean[n];
-        Queue<Integer> nodeQueue = new LinkedList<>();
+    // Initial edges from i to i+1
+    for (int i = 0; i < n - 1; i++) adjList.get(i).add(i + 1);
 
-        // Start BFS from node 0
-        nodeQueue.add(0);
-        visited[0] = true;
+    int[] inDegree = new int[n];
+    for (int i = 0; i < n; i++) {
+        for (int v : adjList.get(i)) {
+            inDegree[v]++;
+        }
+    }
 
-        // Track the number of nodes in the current layer and the next layer
-        int currentLayerNodeCount = 1;
-        int nextLayerNodeCount = 0;
-        // Initialize layers explored count
-        int layersExplored = 0;
+    // Compute initial shortest distances using topological order
+    int[] dist = new int[n];
+    Arrays.fill(dist, Integer.MAX_VALUE);
+    dist[0] = 0;
 
-        // Perform BFS until the queue is empty
-        while (!nodeQueue.isEmpty()) {
-            // Process nodes in the current layer
-            for (int i = 0; i < currentLayerNodeCount; i++) {
-                int currentNode = nodeQueue.poll();
+    Queue<Integer> zeroIndegree = new LinkedList<>();
+    for (int i = 0; i < n; i++) {
+        if (inDegree[i] == 0) zeroIndegree.add(i);
+    }
 
-                // Check if we reached the destination node
-                if (currentNode == n - 1) {
-                    return layersExplored; // Return the number of edges in the shortest path
-                }
+    List<Integer> topoOrder = new ArrayList<>();
+    while (!zeroIndegree.isEmpty()) {
+        int node = zeroIndegree.poll();
+        topoOrder.add(node);
+        for (int neighbor : adjList.get(node)) {
+            inDegree[neighbor]--;
+            if (inDegree[neighbor] == 0) zeroIndegree.add(neighbor);
+        }
+    }
 
-                // Explore all adjacent nodes
-                for (int neighbor : adjList.get(currentNode)) {
-                    if (visited[neighbor]) continue;
-                    nodeQueue.add(neighbor); // Add neighbor to the queue for exploration
-                    nextLayerNodeCount++; // Increment the count of nodes in the next layer
-                    visited[neighbor] = true;
+    if (topoOrder.size() != n) {
+        // Initial graph has cycle (should not happen here)
+        return new int[queries.length]; // or handle error
+    }
+
+    // Relax edges in topological order
+    for (int node : topoOrder) {
+        if (dist[node] == Integer.MAX_VALUE) continue;
+        for (int neighbor : adjList.get(node)) {
+            if (dist[node] + 1 < dist[neighbor]) {
+                dist[neighbor] = dist[node] + 1;
+            }
+        }
+    }
+
+    int[] result = new int[queries.length];
+
+    for (int i = 0; i < queries.length; i++) {
+        int u = queries[i][0];
+        int v = queries[i][1];
+
+        adjList.get(u).add(v);
+
+        inDegree[v]++;
+
+        Queue<Integer> queue = new LinkedList<>();
+        if (dist[u] != Integer.MAX_VALUE && dist[u] + 1 < dist[v]) {
+            dist[v] = dist[u] + 1;
+            queue.add(v);
+        }
+
+        while (!queue.isEmpty()) {
+            int node = queue.poll();
+            for (int neighbor : adjList.get(node)) {
+                if (dist[node] + 1 < dist[neighbor]) {
+                    dist[neighbor] = dist[node] + 1;
+                    queue.add(neighbor);
                 }
             }
-
-            // Move to the next layer
-            currentLayerNodeCount = nextLayerNodeCount;
-            nextLayerNodeCount = 0; // Reset next layer count
-            layersExplored++; // Increment the layer count after processing the current layer
         }
 
-        return -1; // Algorithm will never reach this point
+        // If dist[n-1] is still Integer.MAX_VALUE, no path exists
+        result[i] = dist[n - 1] == Integer.MAX_VALUE ? -1 : dist[n - 1];
     }
 
-    public int[] shortestDistanceAfterQueries(int n, int[][] queries) {
-        List<Integer> answer = new ArrayList<>();
-        List<List<Integer>> adjList = new ArrayList<>(n);
+    return result;
+}
 
-        // Initialize the adjacency list for the graph
-        for (int i = 0; i < n; i++) {
-            adjList.add(new ArrayList<>());
-        }
-
-        // Initialize the graph with edges between consecutive nodes
-        for (int i = 0; i < n - 1; i++) {
-            adjList.get(i).add(i + 1);
-        }
-
-        // Process each query to add new roads
-        for (int[] road : queries) {
-            int u = road[0];
-            int v = road[1];
-            adjList.get(u).add(v); // Add road from u to v
-            // Perform BFS to find the shortest path after adding the new road
-            answer.add(bfs(n, adjList));
-        }
-
-        // Convert List<Integer> to int[]
-        return answer.stream().mapToInt(i -> i).toArray();
-    }
 }
