@@ -1,7 +1,8 @@
 import java.util.*;
 
 class Solution {
-    public double maxAmount(String initialCurrency, List<List<String>> pairs1, double[] rates1, List<List<String>> pairs2, double[] rates2) {
+    public double maxAmount(String initialCurrency, List<List<String>> pairs1, double[] rates1,
+            List<List<String>> pairs2, double[] rates2) {
         Map<String, List<Pair>> m1 = fun1(pairs1, rates1);
         Map<String, List<Pair>> m2 = fun1(pairs2, rates2);
 
@@ -40,17 +41,14 @@ class Solution {
 
         while (!queue.isEmpty()) {
             String curr = queue.poll();
-            inQueue.remove(curr);
             double currAmount = count.getOrDefault(curr, 0.0);
 
             for (Pair neighbor : graph.getOrDefault(curr, Collections.emptyList())) {
                 double newAmount = currAmount * neighbor.r;
                 if (newAmount > count.getOrDefault(neighbor.curr, 0.0)) {
                     count.put(neighbor.curr, newAmount);
-                    if (!inQueue.contains(neighbor.curr)) {
-                        queue.offer(neighbor.curr);
-                        inQueue.add(neighbor.curr);
-                    }
+                    queue.offer(neighbor.curr);
+
                 }
             }
         }
