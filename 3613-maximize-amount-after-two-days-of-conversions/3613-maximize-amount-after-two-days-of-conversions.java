@@ -36,7 +36,6 @@ class Solution {
         // Initialize queue with all currencies currently in count
         for (String currency : count.keySet()) {
             queue.offer(currency);
-            inQueue.add(currency);
         }
 
         while (!queue.isEmpty()) {
