@@ -14,10 +14,9 @@ class Solution {
         int diameter2 = findDiameter(m, adjList2);
 
         // Calculate the longest path that spans across both trees
-        int combinedDiameter =
-            (int) Math.ceil(diameter1 / 2.0) +
-            (int) Math.ceil(diameter2 / 2.0) +
-            1;
+        int combinedDiameter = (int) Math.ceil(diameter1 / 2.0) +
+                (int) Math.ceil(diameter2 / 2.0) +
+                1;
 
         // Return the maximum of the three possibilities
         return Math.max(Math.max(diameter1, diameter2), combinedDiameter);
@@ -36,12 +35,10 @@ class Solution {
         return adjList;
     }
 
-    // Function to find the diameter of a tree
     private int findDiameter(int n, List<List<Integer>> adjList) {
         Queue<Integer> leavesQueue = new LinkedList<>();
         int[] degrees = new int[n];
 
-        // Initialize the degree of each node and add leaves (nodes with degree 1) to the queue
         for (int node = 0; node < n; node++) {
             degrees[node] = adjList.get(node).size();
             if (degrees[node] == 1) {
@@ -52,17 +49,14 @@ class Solution {
         int remainingNodes = n;
         int leavesLayersRemoved = 0;
 
-        // Process the leaves until there are 2 or fewer nodes remaining
         while (remainingNodes > 2) {
             int size = leavesQueue.size();
             remainingNodes -= size;
             leavesLayersRemoved++;
 
-            // Remove the leaves from the queue and update the degrees of their neighbors
             for (int i = 0; i < size; i++) {
                 int currentNode = leavesQueue.poll();
 
-                // Process the neighbors of the current leaf
                 for (int neighbor : adjList.get(currentNode)) {
                     degrees[neighbor]--;
                     if (degrees[neighbor] == 1) {
@@ -72,8 +66,8 @@ class Solution {
             }
         }
 
-        // If exactly two nodes remain, return the diameter as twice the number of layers of leaves removed + 1
-        if (remainingNodes == 2) return 2 * leavesLayersRemoved + 1;
+        if (remainingNodes == 2)
+            return 2 * leavesLayersRemoved + 1;
 
         return 2 * leavesLayersRemoved;
     }
