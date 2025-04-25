@@ -241,6 +241,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0189-rotate-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0189-rotate-array) |
 | [0253-meeting-rooms-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0253-meeting-rooms-ii) |
 | [0259-3sum-smaller](https://github.com/mnmtk/LeetcodeDaily/tree/master/0259-3sum-smaller) |
+| [0277-find-the-celebrity](https://github.com/mnmtk/LeetcodeDaily/tree/master/0277-find-the-celebrity) |
 | [0283-move-zeroes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/mnmtk/LeetcodeDaily/tree/master/0295-find-median-from-data-stream) |
@@ -1024,6 +1025,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Interactive
 |  |
 | ------- |
+| [0277-find-the-celebrity](https://github.com/mnmtk/LeetcodeDaily/tree/master/0277-find-the-celebrity) |
 | [0278-first-bad-version](https://github.com/mnmtk/LeetcodeDaily/tree/master/0278-first-bad-version) |
 ## Prefix Sum
 |  |
@@ -1070,6 +1072,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0210-course-schedule-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0210-course-schedule-ii) |
 | [0261-graph-valid-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0261-graph-valid-tree) |
 | [0269-alien-dictionary](https://github.com/mnmtk/LeetcodeDaily/tree/master/0269-alien-dictionary) |
+| [0277-find-the-celebrity](https://github.com/mnmtk/LeetcodeDaily/tree/master/0277-find-the-celebrity) |
 | [0310-minimum-height-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0310-minimum-height-trees) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/mnmtk/LeetcodeDaily/tree/master/0329-longest-increasing-path-in-a-matrix) |
