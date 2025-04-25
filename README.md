@@ -331,6 +331,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0803-cheapest-flights-within-k-stops](https://github.com/mnmtk/LeetcodeDaily/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0948-sort-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0948-sort-an-array) |
 | [1100-connecting-cities-with-minimum-cost](https://github.com/mnmtk/LeetcodeDaily/tree/master/1100-connecting-cities-with-minimum-cost) |
+| [1144-optimize-water-distribution-in-a-village](https://github.com/mnmtk/LeetcodeDaily/tree/master/1144-optimize-water-distribution-in-a-village) |
 | [1325-path-with-maximum-probability](https://github.com/mnmtk/LeetcodeDaily/tree/master/1325-path-with-maximum-probability) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/mnmtk/LeetcodeDaily/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/mnmtk/LeetcodeDaily/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
@@ -963,6 +964,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1032-satisfiability-of-equality-equations](https://github.com/mnmtk/LeetcodeDaily/tree/master/1032-satisfiability-of-equality-equations) |
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/mnmtk/LeetcodeDaily/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
 | [1100-connecting-cities-with-minimum-cost](https://github.com/mnmtk/LeetcodeDaily/tree/master/1100-connecting-cities-with-minimum-cost) |
+| [1144-optimize-water-distribution-in-a-village](https://github.com/mnmtk/LeetcodeDaily/tree/master/1144-optimize-water-distribution-in-a-village) |
 | [1275-validate-binary-tree-nodes](https://github.com/mnmtk/LeetcodeDaily/tree/master/1275-validate-binary-tree-nodes) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/mnmtk/LeetcodeDaily/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1663-detect-cycles-in-2d-grid) |
@@ -1093,6 +1095,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/mnmtk/LeetcodeDaily/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1032-satisfiability-of-equality-equations](https://github.com/mnmtk/LeetcodeDaily/tree/master/1032-satisfiability-of-equality-equations) |
 | [1100-connecting-cities-with-minimum-cost](https://github.com/mnmtk/LeetcodeDaily/tree/master/1100-connecting-cities-with-minimum-cost) |
+| [1144-optimize-water-distribution-in-a-village](https://github.com/mnmtk/LeetcodeDaily/tree/master/1144-optimize-water-distribution-in-a-village) |
 | [1177-tree-diameter](https://github.com/mnmtk/LeetcodeDaily/tree/master/1177-tree-diameter) |
 | [1275-validate-binary-tree-nodes](https://github.com/mnmtk/LeetcodeDaily/tree/master/1275-validate-binary-tree-nodes) |
 | [1300-critical-connections-in-a-network](https://github.com/mnmtk/LeetcodeDaily/tree/master/1300-critical-connections-in-a-network) |
@@ -1226,6 +1229,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1100-connecting-cities-with-minimum-cost](https://github.com/mnmtk/LeetcodeDaily/tree/master/1100-connecting-cities-with-minimum-cost) |
+| [1144-optimize-water-distribution-in-a-village](https://github.com/mnmtk/LeetcodeDaily/tree/master/1144-optimize-water-distribution-in-a-village) |
 ## Rolling Hash
 |  |
 | ------- |
