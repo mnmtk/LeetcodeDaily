@@ -17,7 +17,7 @@ class Solution {
 
         if(source == destination) return true;
 
-        visited[source] = 1; ///cycle cant reach
+        visited[source] = 1;
 
         for(int nei : graph.get(source)) {
             if(visited[nei] != 1) {
