@@ -12,10 +12,10 @@ public class Solution {
         int[][] dirs={{0,1},{0,-1},{-1,0},{1,0}};
         PriorityQueue < int[] > queue = new PriorityQueue < > ((a, b) -> a[2] - b[2]);
         queue.offer(new int[]{start[0],start[1],0});
+
         while (!queue.isEmpty()) {
             int[] s = queue.poll();
-            if(distance[s[0]][s[1]] < s[2])
-                continue;
+           
             for (int[] dir: dirs) {
                 int x = s[0] + dir[0];
                 int y = s[1] + dir[1];
