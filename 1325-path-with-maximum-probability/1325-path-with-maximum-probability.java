@@ -45,9 +45,8 @@ class Solution {
                         maxProb[nxtNode] = curProb * pathProb;
                         pq.add(new Pair<>(maxProb[nxtNode], nxtNode));
                     }
-                    
+
                 }
-                graph.remove(curNode); // Clear the adjacency list by removing the entry
             }
         }
 
