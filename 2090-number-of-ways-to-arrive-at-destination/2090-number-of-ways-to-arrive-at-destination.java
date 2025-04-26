@@ -9,7 +9,10 @@ class Solution {
             graph.add(new ArrayList<>());
         }
         for (int[] road : roads) {
-            int startNode = road[0], endNode = road[1], travelTime = road[2];
+            int startNode = road[0], 
+            endNode = road[1], 
+            travelTime = road[2];
+
             graph.get(startNode).add(new int[] { endNode, travelTime });
             graph.get(endNode).add(new int[] { startNode, travelTime });
         }
@@ -34,11 +37,6 @@ class Solution {
             long[] top = minHeap.poll();
             long currTime = top[0]; // Current shortest time
             int currNode = (int) top[1];
-
-            // Skip outdated distances
-            if (currTime > shortestTime[currNode]) {
-                continue;
-            }
 
             for (int[] neighbor : graph.get(currNode)) {
                 int neighborNode = neighbor[0], roadTime = neighbor[1];
