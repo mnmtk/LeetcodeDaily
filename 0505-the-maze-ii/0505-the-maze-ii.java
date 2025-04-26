@@ -25,9 +25,6 @@ public class Solution {
                 return s[2];  
             }
             
-            
-            //if (distance[s[0]][s[1]] < s[2]) continue;
-            
  
             for (int[] dir : dirs) {
                 int x = s[0] + dir[0];
