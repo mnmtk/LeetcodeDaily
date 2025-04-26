@@ -1,5 +1,4 @@
-class Solution {
-    class UnionFind {
+class UnionFind {
     public int[] group;
     public int[] rank;
 
@@ -21,7 +20,7 @@ class Solution {
     public boolean union(int node1, int node2) {
         int group1 = find(node1);
         int group2 = find(node2);
-        
+
         // node1 and node2 already belong to same group.
         if (group1 == group2) {
             return false;
@@ -39,6 +38,8 @@ class Solution {
         return true;
     }
 }
+
+class Solution {
     public int minCostConnectPoints(int[][] points) {
         int n = points.length;
         ArrayList<int[]> allEdges = new ArrayList<>();
@@ -54,6 +55,7 @@ class Solution {
         }
 
         Collections.sort(allEdges, (a, b) -> Integer.compare(a[0], b[0]));
+
         UnionFind uf = new UnionFind(n);
         int mstCost = 0;
         int edgesUsed = 0;
@@ -70,6 +72,5 @@ class Solution {
         }
 
         return mstCost;
-
     }
 }
