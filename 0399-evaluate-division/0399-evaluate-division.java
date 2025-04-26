@@ -5,7 +5,6 @@ class Solution {
 
         HashMap<String, Pair<String, Double>> gidWeight = new HashMap<>();
 
-        // Step 1). build the union groups
         for (int i = 0; i < equations.size(); i++) {
             List<String> equation = equations.get(i);
             String dividend = equation.get(0), divisor = equation.get(1);
@@ -14,14 +13,12 @@ class Solution {
             union(gidWeight, dividend, divisor, quotient);
         }
 
-        // Step 2). run the evaluation, with "lazy" updates in find() function
         double[] results = new double[queries.size()];
         for (int i = 0; i < queries.size(); i++) {
             List<String> query = queries.get(i);
             String dividend = query.get(0), divisor = query.get(1);
 
             if (!gidWeight.containsKey(dividend) || !gidWeight.containsKey(divisor))
-                // case 1). at least one variable did not appear before
                 results[i] = -1.0;
             else {
                 Pair<String, Double> dividendEntry = find(gidWeight, dividend);
@@ -33,10 +30,8 @@ class Solution {
                 Double divisorWeight = divisorEntry.getValue();
 
                 if (!dividendGid.equals(divisorGid))
-                    // case 2). the variables do not belong to the same chain/group
                     results[i] = -1.0;
                 else
-                    // case 3). there is a chain/path between the variables
                     results[i] = dividendWeight / divisorWeight;
             }
         }
@@ -49,7 +44,6 @@ class Solution {
             gidWeight.put(nodeId, new Pair<String, Double>(nodeId, 1.0));
 
         Pair<String, Double> entry = gidWeight.get(nodeId);
-        // found inconsistency, trigger chain update
         if (!entry.getKey().equals(nodeId)) {
             Pair<String, Double> newEntry = find(gidWeight, entry.getKey());
             gidWeight.put(nodeId, new Pair<String, Double>(
@@ -68,8 +62,6 @@ class Solution {
         Double dividendWeight = dividendEntry.getValue();
         Double divisorWeight = divisorEntry.getValue();
 
-        // merge the two groups together,
-        // by attaching the dividend group to the one of divisor
         if (!dividendGid.equals(divisorGid)) {
             gidWeight.put(dividendGid, new Pair<String, Double>(divisorGid,
                     divisorWeight * value / dividendWeight));
