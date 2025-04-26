@@ -20,32 +20,32 @@ public class Solution {
         while (!queue.isEmpty()) {
             int[] s = queue.poll();
             
-            // Early exit if we reach the destination
+
             if (s[0] == dest[0] && s[1] == dest[1]) {
-                return s[2];  // Return the shortest distance to the destination
+                return s[2];  
             }
             
-            // If the current distance is greater than the recorded distance, skip it
-            if (distance[s[0]][s[1]] < s[2]) continue;
             
-            // Explore the four possible directions
+            //if (distance[s[0]][s[1]] < s[2]) continue;
+            
+ 
             for (int[] dir : dirs) {
                 int x = s[0] + dir[0];
                 int y = s[1] + dir[1];
                 int count = 0;
                 
-                // Roll in the current direction until hitting a wall
+
                 while (x >= 0 && y >= 0 && x < maze.length && y < maze[0].length && maze[x][y] == 0) {
                     x += dir[0];
                     y += dir[1];
                     count++;
                 }
                 
-                // Backtrack to the last valid position
+
                 x -= dir[0];
                 y -= dir[1];
                 
-                // Update the distance if we found a shorter path to (x, y)
+              
                 if (distance[s[0]][s[1]] + count < distance[x][y]) {
                     distance[x][y] = distance[s[0]][s[1]] + count;
                     queue.offer(new int[]{x, y, distance[x][y]});
