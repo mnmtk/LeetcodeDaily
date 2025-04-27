@@ -1098,6 +1098,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0444-sequence-reconstruction](https://github.com/mnmtk/LeetcodeDaily/tree/master/0444-sequence-reconstruction) |
 | [0499-the-maze-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0499-the-maze-iii) |
 | [0505-the-maze-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0505-the-maze-ii) |
+| [0511-all-paths-from-source-lead-to-destination](https://github.com/mnmtk/LeetcodeDaily/tree/master/0511-all-paths-from-source-lead-to-destination) |
 | [0547-number-of-provinces](https://github.com/mnmtk/LeetcodeDaily/tree/master/0547-number-of-provinces) |
 | [0631-design-excel-sum-formula](https://github.com/mnmtk/LeetcodeDaily/tree/master/0631-design-excel-sum-formula) |
 | [0684-redundant-connection](https://github.com/mnmtk/LeetcodeDaily/tree/master/0684-redundant-connection) |
@@ -1229,6 +1230,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0310-minimum-height-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0310-minimum-height-trees) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/mnmtk/LeetcodeDaily/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0444-sequence-reconstruction](https://github.com/mnmtk/LeetcodeDaily/tree/master/0444-sequence-reconstruction) |
+| [0511-all-paths-from-source-lead-to-destination](https://github.com/mnmtk/LeetcodeDaily/tree/master/0511-all-paths-from-source-lead-to-destination) |
 | [0631-design-excel-sum-formula](https://github.com/mnmtk/LeetcodeDaily/tree/master/0631-design-excel-sum-formula) |
 | [0820-find-eventual-safe-states](https://github.com/mnmtk/LeetcodeDaily/tree/master/0820-find-eventual-safe-states) |
 | [1177-tree-diameter](https://github.com/mnmtk/LeetcodeDaily/tree/master/1177-tree-diameter) |
