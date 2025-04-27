@@ -625,6 +625,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0124-binary-tree-maximum-path-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0690-employee-importance](https://github.com/mnmtk/LeetcodeDaily/tree/master/0690-employee-importance) |
+| [0764-n-ary-tree-level-order-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0764-n-ary-tree-level-order-traversal) |
 | [1177-tree-diameter](https://github.com/mnmtk/LeetcodeDaily/tree/master/1177-tree-diameter) |
 | [1207-delete-nodes-and-return-forest](https://github.com/mnmtk/LeetcodeDaily/tree/master/1207-delete-nodes-and-return-forest) |
 | [1275-validate-binary-tree-nodes](https://github.com/mnmtk/LeetcodeDaily/tree/master/1275-validate-binary-tree-nodes) |
@@ -1016,6 +1017,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0694-number-of-distinct-islands](https://github.com/mnmtk/LeetcodeDaily/tree/master/0694-number-of-distinct-islands) |
 | [0733-flood-fill](https://github.com/mnmtk/LeetcodeDaily/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/mnmtk/LeetcodeDaily/tree/master/0744-network-delay-time) |
+| [0764-n-ary-tree-level-order-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0764-n-ary-tree-level-order-traversal) |
 | [0794-swim-in-rising-water](https://github.com/mnmtk/LeetcodeDaily/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/mnmtk/LeetcodeDaily/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0813-all-paths-from-source-to-target](https://github.com/mnmtk/LeetcodeDaily/tree/master/0813-all-paths-from-source-to-target) |
