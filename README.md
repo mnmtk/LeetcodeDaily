@@ -460,6 +460,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1046-max-consecutive-ones-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/mnmtk/LeetcodeDaily/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/mnmtk/LeetcodeDaily/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/mnmtk/LeetcodeDaily/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1207-delete-nodes-and-return-forest](https://github.com/mnmtk/LeetcodeDaily/tree/master/1207-delete-nodes-and-return-forest) |
 | [1249-snapshot-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/1249-snapshot-array) |
 | [1308-smallest-string-with-swaps](https://github.com/mnmtk/LeetcodeDaily/tree/master/1308-smallest-string-with-swaps) |
@@ -948,6 +949,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0794-swim-in-rising-water](https://github.com/mnmtk/LeetcodeDaily/tree/master/0794-swim-in-rising-water) |
 | [0967-minimum-falling-path-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0967-minimum-falling-path-sum) |
 | [0999-regions-cut-by-slashes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0999-regions-cut-by-slashes) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/mnmtk/LeetcodeDaily/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/mnmtk/LeetcodeDaily/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1663-detect-cycles-in-2d-grid) |
@@ -1022,6 +1024,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0922-possible-bipartition](https://github.com/mnmtk/LeetcodeDaily/tree/master/0922-possible-bipartition) |
 | [0960-minimize-malware-spread](https://github.com/mnmtk/LeetcodeDaily/tree/master/0960-minimize-malware-spread) |
 | [0999-regions-cut-by-slashes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0999-regions-cut-by-slashes) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/mnmtk/LeetcodeDaily/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1177-tree-diameter](https://github.com/mnmtk/LeetcodeDaily/tree/master/1177-tree-diameter) |
 | [1275-validate-binary-tree-nodes](https://github.com/mnmtk/LeetcodeDaily/tree/master/1275-validate-binary-tree-nodes) |
 | [1308-smallest-string-with-swaps](https://github.com/mnmtk/LeetcodeDaily/tree/master/1308-smallest-string-with-swaps) |
