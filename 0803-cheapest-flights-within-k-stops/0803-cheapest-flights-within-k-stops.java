@@ -19,18 +19,20 @@ class Solution {
             int node = temp[1];
             int steps = temp[2];
 
-            if (steps > k + 1) continue;
-            
             if (node == dst) {
                 return dist;
             }
-            if (steps > stops[node]) continue;
+            if (steps > stops[node])
+                continue;
 
             stops[node] = steps;
-
-            if (!adj.containsKey(node)) continue;
+            if (!adj.containsKey(node))
+                continue;
             for (int[] a : adj.get(node)) {
-                pq.offer(new int[] { dist + a[1], a[0], steps + 1 });
+
+                if (steps <= k) {
+                    pq.offer(new int[] { dist + a[1], a[0], steps + 1 });
+                }
             }
 
         }
