@@ -261,6 +261,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0304-range-sum-query-2d-immutable](https://github.com/mnmtk/LeetcodeDaily/tree/master/0304-range-sum-query-2d-immutable) |
 | [0307-range-sum-query-mutable](https://github.com/mnmtk/LeetcodeDaily/tree/master/0307-range-sum-query-mutable) |
 | [0308-range-sum-query-2d-mutable](https://github.com/mnmtk/LeetcodeDaily/tree/master/0308-range-sum-query-2d-mutable) |
+| [0384-shuffle-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0384-shuffle-an-array) |
 | [0631-design-excel-sum-formula](https://github.com/mnmtk/LeetcodeDaily/tree/master/0631-design-excel-sum-formula) |
 | [1249-snapshot-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/1249-snapshot-array) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/mnmtk/LeetcodeDaily/tree/master/1497-design-a-stack-with-increment-operation) |
@@ -429,6 +430,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0350-intersection-of-two-arrays-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0354-russian-doll-envelopes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0354-russian-doll-envelopes) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/mnmtk/LeetcodeDaily/tree/master/0373-find-k-pairs-with-smallest-sums) |
+| [0384-shuffle-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0384-shuffle-an-array) |
 | [0399-evaluate-division](https://github.com/mnmtk/LeetcodeDaily/tree/master/0399-evaluate-division) |
 | [0406-queue-reconstruction-by-height](https://github.com/mnmtk/LeetcodeDaily/tree/master/0406-queue-reconstruction-by-height) |
 | [0410-split-array-largest-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0410-split-array-largest-sum) |
@@ -906,6 +908,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0189-rotate-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0268-missing-number) |
 | [0292-nim-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0292-nim-game) |
+| [0384-shuffle-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0384-shuffle-an-array) |
 | [0539-minimum-time-difference](https://github.com/mnmtk/LeetcodeDaily/tree/master/0539-minimum-time-difference) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/mnmtk/LeetcodeDaily/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [0909-stone-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0909-stone-game) |
@@ -1347,4 +1350,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0332-reconstruct-itinerary](https://github.com/mnmtk/LeetcodeDaily/tree/master/0332-reconstruct-itinerary) |
+## Randomized
+|  |
+| ------- |
+| [0384-shuffle-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0384-shuffle-an-array) |
 <!---LeetCode Topics End-->
