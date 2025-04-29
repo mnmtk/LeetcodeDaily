@@ -896,6 +896,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0050-powx-n](https://github.com/mnmtk/LeetcodeDaily/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/mnmtk/LeetcodeDaily/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/mnmtk/LeetcodeDaily/tree/master/0234-palindrome-linked-list) |
+| [0326-power-of-three](https://github.com/mnmtk/LeetcodeDaily/tree/master/0326-power-of-three) |
 ## Math
 |  |
 | ------- |
@@ -911,6 +912,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0189-rotate-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0268-missing-number) |
 | [0292-nim-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0292-nim-game) |
+| [0326-power-of-three](https://github.com/mnmtk/LeetcodeDaily/tree/master/0326-power-of-three) |
 | [0384-shuffle-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0384-shuffle-an-array) |
 | [0412-fizz-buzz](https://github.com/mnmtk/LeetcodeDaily/tree/master/0412-fizz-buzz) |
 | [0539-minimum-time-difference](https://github.com/mnmtk/LeetcodeDaily/tree/master/0539-minimum-time-difference) |
