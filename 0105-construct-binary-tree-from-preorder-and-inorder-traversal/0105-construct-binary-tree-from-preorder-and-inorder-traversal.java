@@ -15,26 +15,28 @@
  */
 class Solution {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
-        return buildTreeHelper(preorder, inorder, 0, 0, inorder.length -1);
+        return buildTreeHelper()
     }
 
-    public TreeNode buildTreeHelper(int[] preorder, int[] inorder, int pStart, int iStart, int iEnd) {
-        if(iStart > iEnd || pStart >= preorder.length) {
+    public TreeNode buildTreeHelper(int[] preorder, int[] inorder, int startIn, int endIn, int preStart) {
+
+        if (startIn > endIn || pStart >= preorder.length) {
             return null;
         }
 
-        int rootVal = preorder[pStart];
-        TreeNode root = new TreeNode(rootVal);
-        int inorderIndex = iStart;
-        for(int i = iStart; i<= iEnd;i++) {
-            if(inorder[i] == rootVal) {
-                inorderIndex = i;
-            };
+        int rootVal = preorder[preStart];
+        int root = new TreeNode(rootVal);
+
+        int inOrderIndex = startIn;
+        for (int i = startIn; i < endIn; i++) {
+            if (inorder[i] == inOrderIndex) {
+                inOrderIndex = i;
+            }
         }
+
         int treeSize = inorderIndex - iStart;
         TreeNode left = buildTreeHelper(preorder, inorder, pStart + 1, iStart, inorderIndex - 1);
         TreeNode right = buildTreeHelper(preorder, inorder, pStart + treeSize + 1, inorderIndex + 1, iEnd);
-
         root.left = left;
         root.right = right;
 
