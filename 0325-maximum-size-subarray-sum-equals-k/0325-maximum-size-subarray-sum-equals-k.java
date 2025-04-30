@@ -11,12 +11,14 @@ class Solution {
                 longestSubarray = i + 1;
             }
 
-
+            // If any subarray seen so far sums to k, then
+            // update the length of the longest_subarray. 
             if (indices.containsKey(prefixSum - k)) {
                 longestSubarray = Math.max(longestSubarray, i - indices.get(prefixSum - k));
             }
             
-
+            // Only add the current prefix_sum index pair to the 
+            // map if the prefix_sum is not already in the map.
             if (!indices.containsKey(prefixSum)) {
                 indices.put(prefixSum, i);
             }
