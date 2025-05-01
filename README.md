@@ -457,6 +457,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0808-number-of-matching-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/0808-number-of-matching-subsequences) |
 | [0907-koko-eating-bananas](https://github.com/mnmtk/LeetcodeDaily/tree/master/0907-koko-eating-bananas) |
 | [0909-stone-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0909-stone-game) |
+| [0914-random-point-in-non-overlapping-rectangles](https://github.com/mnmtk/LeetcodeDaily/tree/master/0914-random-point-in-non-overlapping-rectangles) |
 | [0948-sort-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0948-sort-an-array) |
 | [0960-minimize-malware-spread](https://github.com/mnmtk/LeetcodeDaily/tree/master/0960-minimize-malware-spread) |
 | [0967-minimum-falling-path-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0967-minimum-falling-path-sum) |
@@ -798,6 +799,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0794-swim-in-rising-water](https://github.com/mnmtk/LeetcodeDaily/tree/master/0794-swim-in-rising-water) |
 | [0808-number-of-matching-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/0808-number-of-matching-subsequences) |
 | [0907-koko-eating-bananas](https://github.com/mnmtk/LeetcodeDaily/tree/master/0907-koko-eating-bananas) |
+| [0914-random-point-in-non-overlapping-rectangles](https://github.com/mnmtk/LeetcodeDaily/tree/master/0914-random-point-in-non-overlapping-rectangles) |
 | [1046-max-consecutive-ones-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/mnmtk/LeetcodeDaily/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1249-snapshot-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/1249-snapshot-array) |
@@ -920,6 +922,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0539-minimum-time-difference](https://github.com/mnmtk/LeetcodeDaily/tree/master/0539-minimum-time-difference) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/mnmtk/LeetcodeDaily/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [0909-stone-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0909-stone-game) |
+| [0914-random-point-in-non-overlapping-rectangles](https://github.com/mnmtk/LeetcodeDaily/tree/master/0914-random-point-in-non-overlapping-rectangles) |
 | [0976-minimum-area-rectangle](https://github.com/mnmtk/LeetcodeDaily/tree/master/0976-minimum-area-rectangle) |
 | [0989-largest-component-size-by-common-factor](https://github.com/mnmtk/LeetcodeDaily/tree/master/0989-largest-component-size-by-common-factor) |
 | [1003-minimum-area-rectangle-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1003-minimum-area-rectangle-ii) |
@@ -1116,6 +1119,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0304-range-sum-query-2d-immutable](https://github.com/mnmtk/LeetcodeDaily/tree/master/0304-range-sum-query-2d-immutable) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/mnmtk/LeetcodeDaily/tree/master/0325-maximum-size-subarray-sum-equals-k) |
 | [0410-split-array-largest-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0410-split-array-largest-sum) |
+| [0914-random-point-in-non-overlapping-rectangles](https://github.com/mnmtk/LeetcodeDaily/tree/master/0914-random-point-in-non-overlapping-rectangles) |
 | [1046-max-consecutive-ones-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1046-max-consecutive-ones-iii) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/mnmtk/LeetcodeDaily/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [3265-maximum-good-subarray-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/3265-maximum-good-subarray-sum) |
@@ -1275,6 +1279,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0315-count-of-smaller-numbers-after-self](https://github.com/mnmtk/LeetcodeDaily/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0456-132-pattern](https://github.com/mnmtk/LeetcodeDaily/tree/master/0456-132-pattern) |
 | [0493-reverse-pairs](https://github.com/mnmtk/LeetcodeDaily/tree/master/0493-reverse-pairs) |
+| [0914-random-point-in-non-overlapping-rectangles](https://github.com/mnmtk/LeetcodeDaily/tree/master/0914-random-point-in-non-overlapping-rectangles) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/mnmtk/LeetcodeDaily/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1953-finding-mk-average](https://github.com/mnmtk/LeetcodeDaily/tree/master/1953-finding-mk-average) |
 | [2434-design-a-number-container-system](https://github.com/mnmtk/LeetcodeDaily/tree/master/2434-design-a-number-container-system) |
@@ -1365,4 +1370,9 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0384-shuffle-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0384-shuffle-an-array) |
+| [0914-random-point-in-non-overlapping-rectangles](https://github.com/mnmtk/LeetcodeDaily/tree/master/0914-random-point-in-non-overlapping-rectangles) |
+## Reservoir Sampling
+|  |
+| ------- |
+| [0914-random-point-in-non-overlapping-rectangles](https://github.com/mnmtk/LeetcodeDaily/tree/master/0914-random-point-in-non-overlapping-rectangles) |
 <!---LeetCode Topics End-->
