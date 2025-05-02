@@ -669,6 +669,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0543-diameter-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0543-diameter-of-binary-tree) |
 | [0690-employee-importance](https://github.com/mnmtk/LeetcodeDaily/tree/master/0690-employee-importance) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0764-n-ary-tree-level-order-traversal) |
+| [0975-range-sum-of-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0975-range-sum-of-bst) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1177-tree-diameter](https://github.com/mnmtk/LeetcodeDaily/tree/master/1177-tree-diameter) |
 | [1207-delete-nodes-and-return-forest](https://github.com/mnmtk/LeetcodeDaily/tree/master/1207-delete-nodes-and-return-forest) |
@@ -690,6 +691,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0543-diameter-of-binary-tree) |
+| [0975-range-sum-of-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0975-range-sum-of-bst) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1207-delete-nodes-and-return-forest](https://github.com/mnmtk/LeetcodeDaily/tree/master/1207-delete-nodes-and-return-forest) |
 | [1275-validate-binary-tree-nodes](https://github.com/mnmtk/LeetcodeDaily/tree/master/1275-validate-binary-tree-nodes) |
@@ -901,6 +903,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0871-keys-and-rooms](https://github.com/mnmtk/LeetcodeDaily/tree/master/0871-keys-and-rooms) |
 | [0922-possible-bipartition](https://github.com/mnmtk/LeetcodeDaily/tree/master/0922-possible-bipartition) |
 | [0960-minimize-malware-spread](https://github.com/mnmtk/LeetcodeDaily/tree/master/0960-minimize-malware-spread) |
+| [0975-range-sum-of-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0975-range-sum-of-bst) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/mnmtk/LeetcodeDaily/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0999-regions-cut-by-slashes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0999-regions-cut-by-slashes) |
 | [1177-tree-diameter](https://github.com/mnmtk/LeetcodeDaily/tree/master/1177-tree-diameter) |
@@ -927,6 +930,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0098-validate-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0098-validate-binary-search-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0975-range-sum-of-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0975-range-sum-of-bst) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Recursion
 |  |
