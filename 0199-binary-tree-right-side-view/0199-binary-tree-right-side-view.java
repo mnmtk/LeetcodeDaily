@@ -3,32 +3,39 @@ class Solution {
     public List<Integer> rightSideView(TreeNode root) {
         if (root == null) return new ArrayList<Integer>();
 
-        ArrayDeque<TreeNode> nextLevel = new ArrayDeque() {
+        Queue<TreeNode> queue = new LinkedList() {
             {
                 offer(root);
+                offer(null);
             }
         };
-        ArrayDeque<TreeNode> currLevel = new ArrayDeque();
+        TreeNode prev, curr = root;
         List<Integer> rightside = new ArrayList();
 
-        TreeNode node = null;
-        while (!nextLevel.isEmpty()) {
-            // prepare for the next level
-            currLevel = nextLevel;
-            nextLevel = new ArrayDeque<>();
+        while (!queue.isEmpty()) {
+            prev = curr;
+            curr = queue.poll();
 
-            while (!currLevel.isEmpty()) {
-                node = currLevel.poll();
+            while (curr != null) {
+                // add child nodes in the queue
+                if (curr.left != null) {
+                    queue.offer(curr.left);
+                }
+                if (curr.right != null) {
+                    queue.offer(curr.right);
+                }
 
-                // add child nodes of the current level
-                // in the queue for the next level
-                if (node.left != null) nextLevel.offer(node.left);
-                if (node.right != null) nextLevel.offer(node.right);
+                prev = curr;
+                curr = queue.poll();
             }
 
-            // The current level is finished.
-            // Its last element is the rightmost one.
-            rightside.add(node.val);
+            // the current level is finished
+            // and prev is its rightmost element
+            rightside.add(prev.val);
+
+            // add a sentinel to mark the end
+            // of the next level
+            if (!queue.isEmpty()) queue.offer(null);
         }
         return rightside;
     }
