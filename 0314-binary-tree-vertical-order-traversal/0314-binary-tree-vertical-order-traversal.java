@@ -38,3 +38,7 @@ class Solution {
     return output;
   }
 }
+
+//The above insight would work under the condition that there won't be any missing column index 
+//in the given range. 
+//And the condition always holds, since there won't be any broken branch in a binary tree.
