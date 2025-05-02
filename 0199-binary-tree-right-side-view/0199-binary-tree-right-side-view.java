@@ -3,39 +3,32 @@ class Solution {
     public List<Integer> rightSideView(TreeNode root) {
         if (root == null) return new ArrayList<Integer>();
 
-        Queue<TreeNode> queue = new LinkedList() {
+        ArrayDeque<TreeNode> queue = new ArrayDeque() {
             {
                 offer(root);
-                offer(null);
             }
         };
-        TreeNode prev, curr = root;
         List<Integer> rightside = new ArrayList();
 
         while (!queue.isEmpty()) {
-            prev = curr;
-            curr = queue.poll();
+            int levelLength = queue.size();
 
-            while (curr != null) {
+            for (int i = 0; i < levelLength; ++i) {
+                TreeNode node = queue.poll();
+
+                // if it's the rightmost element
+                if (i == levelLength - 1) {
+                    rightside.add(node.val);
+                }
+
                 // add child nodes in the queue
-                if (curr.left != null) {
-                    queue.offer(curr.left);
+                if (node.left != null) {
+                    queue.offer(node.left);
                 }
-                if (curr.right != null) {
-                    queue.offer(curr.right);
+                if (node.right != null) {
+                    queue.offer(node.right);
                 }
-
-                prev = curr;
-                curr = queue.poll();
             }
-
-            // the current level is finished
-            // and prev is its rightmost element
-            rightside.add(prev.val);
-
-            // add a sentinel to mark the end
-            // of the next level
-            if (!queue.isEmpty()) queue.offer(null);
         }
         return rightside;
     }
