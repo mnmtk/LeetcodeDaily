@@ -1,56 +1,34 @@
-/*
-// Definition for a Node.
-class Node {
-    public int val;
-    public List<Node> children;
-
-    
-    public Node() {
-        children = new ArrayList<Node>();
-    }
-    
-    public Node(int _val) {
-        val = _val;
-        children = new ArrayList<Node>();
-    }
-    
-    public Node(int _val,ArrayList<Node> _children) {
-        val = _val;
-        children = _children;
-    }
-};
-*/
-
 class Solution {
     protected int diameter = 0;
 
-    protected int height(Node node) {
-        if(node.children.size() == 0) {
-            return 0;
-        }
+    /**
+     * return the maximum depth of leaves nodes descending from the given node
+     */
+    protected int maxDepth(Node node, int currDepth) {
+        if (node.children.size() == 0)
+            return currDepth;
 
-        int maxHeight1 = 0;
-        int maxHeight2 = 0;
-
-        for(Node child : node.children) {
-            int parentHeight = height(child) + 1;
-            if(parentHeight > maxHeight1) {
-                maxHeight2 = maxHeight1;
-                maxHeight1 = parentHeight;
-            } else if(parentHeight > maxHeight2) {
-                maxHeight2 = parentHeight;
+        // select the top two largest depths
+        int maxDepth1 = currDepth, maxDepth2 = 0;
+        for (Node child : node.children) {
+            int depth = maxDepth(child, currDepth + 1);
+            if (depth > maxDepth1) {
+                maxDepth2 = maxDepth1;
+                maxDepth1 = depth;
+            } else if (depth > maxDepth2) {
+                maxDepth2 = depth;
             }
-
-            int distance = maxHeight1 + maxHeight2;
+            // calculate the distance between the two farthest leaves nodes.
+            int distance = maxDepth1 + maxDepth2 - 2 * currDepth;
             this.diameter = Math.max(this.diameter, distance);
         }
 
-        return maxHeight1;
+        return maxDepth1;
     }
 
     public int diameter(Node root) {
         this.diameter = 0;
-        height(root);
+        maxDepth(root, 0);
         return diameter;
     }
 }
