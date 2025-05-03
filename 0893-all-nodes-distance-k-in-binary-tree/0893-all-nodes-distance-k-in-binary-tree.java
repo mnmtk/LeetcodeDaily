@@ -17,7 +17,9 @@ class Solution {
         Map<TreeNode, List<TreeNode>> graph = new HashMap<>();
         dfsBuild(root, null, graph);
         visited.add(target);
-        bfs(target, 0, graph);
+        // bfs(target, 0, graph);
+
+        dfs(target, 0, graph);
 
         return ans;
     }
@@ -40,6 +42,17 @@ class Solution {
                     visited.add(neigh);
                     queue.add(new Pair<>(neigh, dist + 1));
                 }
+            }
+        }
+    }
+
+    public void dfs(TreeNode node, int dist, Map<TreeNode, List<TreeNode>> graph) {
+        if(dist == k) ans.add(node.val);
+
+        for(TreeNode neigh : graph.getOrDefault(node, new ArrayList<>())) {
+            if(!visited.contains(neigh)) {
+                visited.add(neigh);
+                dfs(neigh, dist + 1, graph);
             }
         }
     }
