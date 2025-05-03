@@ -14,32 +14,22 @@
  * }
  */
 class Solution {
-    public int sumNumbers(TreeNode root) {
+    int rootToLeaf = 0;
 
-        int totalSum = 0;
-
-        Stack<Pair<TreeNode, Integer>> stack = new Stack<>();
-        stack.push(new Pair<>(root, 0));
-
-        while (!stack.isEmpty()) {
-            Pair<TreeNode, Integer> curr = stack.pop();
-            TreeNode currNode = curr.getKey();
-            int currSum = curr.getValue();
-
-            if (currNode != null) {
-
-                currSum = 10 * currSum + currNode.val;
-
-                if (currNode.left == null && currNode.right == null) {
-                    totalSum += currSum;
-                } else {
-                    stack.push(new Pair<>(currNode.left, currSum));
-                    stack.push(new Pair<>(currNode.right, currSum));
-                }
+    public void preorder(TreeNode r, int currNumber) {
+        if (r != null) {
+            currNumber = currNumber * 10 + r.val;
+            // if it's a leaf, update root-to-leaf sum
+            if (r.left == null && r.right == null) {
+                rootToLeaf += currNumber;
             }
-
+            preorder(r.left, currNumber);
+            preorder(r.right, currNumber);
         }
+    }
 
-        return totalSum;
+    public int sumNumbers(TreeNode root) {
+        preorder(root, 0);
+        return rootToLeaf;
     }
 }
