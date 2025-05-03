@@ -20,17 +20,19 @@ class Solution {
         if(root == null) return 0;
 
         int value = root.val;
+
         int left = Math.max(dfs(root.left), 0);
         int right = Math.max(dfs(root.right), 0);
 
-        ans = Math.max(ans, left + right + value);
+        int maxBranch = Math.max(left, right);
 
-        return Math.max(left, right) + value;
+        ans = Math.max(ans, left+right+value);
+
+        return maxBranch + value;
     }
 
     public int maxPathSum(TreeNode root) {
         dfs(root);
         return ans;
-        
     }
 }
