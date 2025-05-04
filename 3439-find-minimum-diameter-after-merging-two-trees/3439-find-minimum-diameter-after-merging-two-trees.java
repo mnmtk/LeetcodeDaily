@@ -62,7 +62,6 @@ class Solution {
             int size = queue.size();
             for (int i = 0; i < size; i++) {
                 int currentNode = queue.poll();
-                visited[currentNode] = true;
                 // Update farthest node
                 // The farthest node is the last one that was popped out of the
                 // queue.
@@ -71,6 +70,7 @@ class Solution {
                 // Explore neighbors
                 for (int neighbor : adjList.get(currentNode)) {
                     if (!visited[neighbor]) {
+                        visited[neighbor] = true;
                         queue.add(neighbor);
                     }
                 }
