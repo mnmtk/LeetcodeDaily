@@ -21,6 +21,7 @@ class Solution {
         Queue<TreeNode> q = new LinkedList<>();
         q.offer(root);
         left.add(root.val);
+        
         boolean leftIsNull = root.left == null;
         boolean rightIsNull = root.right == null;
         int leafCount = 0;
@@ -49,6 +50,7 @@ class Solution {
                 {
                     if(i==0 && !leftIsNull)
                         left.add(node.val);
+                        
                     else if(i == size-1 && !rightIsNull)
                         right.addFirst(node.val);
                 }   
