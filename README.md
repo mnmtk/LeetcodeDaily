@@ -672,6 +672,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0199-binary-tree-right-side-view](https://github.com/mnmtk/LeetcodeDaily/tree/master/0199-binary-tree-right-side-view) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0250-count-univalue-subtrees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0250-count-univalue-subtrees) |
 | [0270-closest-binary-search-tree-value](https://github.com/mnmtk/LeetcodeDaily/tree/master/0270-closest-binary-search-tree-value) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0337-house-robber-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0337-house-robber-iii) |
@@ -712,6 +713,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0199-binary-tree-right-side-view](https://github.com/mnmtk/LeetcodeDaily/tree/master/0199-binary-tree-right-side-view) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0250-count-univalue-subtrees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0250-count-univalue-subtrees) |
 | [0270-closest-binary-search-tree-value](https://github.com/mnmtk/LeetcodeDaily/tree/master/0270-closest-binary-search-tree-value) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0337-house-robber-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0337-house-robber-iii) |
@@ -918,6 +920,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0210-course-schedule-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0210-course-schedule-ii) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0250-count-univalue-subtrees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0250-count-univalue-subtrees) |
 | [0261-graph-valid-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0261-graph-valid-tree) |
 | [0269-alien-dictionary](https://github.com/mnmtk/LeetcodeDaily/tree/master/0269-alien-dictionary) |
 | [0270-closest-binary-search-tree-value](https://github.com/mnmtk/LeetcodeDaily/tree/master/0270-closest-binary-search-tree-value) |
