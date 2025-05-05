@@ -682,6 +682,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0975-range-sum-of-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0975-range-sum-of-bst) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0998-check-completeness-of-a-binary-tree) |
+| [1008-binary-tree-cameras](https://github.com/mnmtk/LeetcodeDaily/tree/master/1008-binary-tree-cameras) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/1093-recover-a-tree-from-preorder-traversal) |
@@ -714,6 +715,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0975-range-sum-of-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0975-range-sum-of-bst) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0998-check-completeness-of-a-binary-tree) |
+| [1008-binary-tree-cameras](https://github.com/mnmtk/LeetcodeDaily/tree/master/1008-binary-tree-cameras) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/1093-recover-a-tree-from-preorder-traversal) |
@@ -815,6 +817,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0909-stone-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0909-stone-game) |
 | [0967-minimum-falling-path-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0967-minimum-falling-path-sum) |
 | [0977-distinct-subsequences-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0977-distinct-subsequences-ii) |
+| [1008-binary-tree-cameras](https://github.com/mnmtk/LeetcodeDaily/tree/master/1008-binary-tree-cameras) |
 | [1025-minimum-cost-for-tickets](https://github.com/mnmtk/LeetcodeDaily/tree/master/1025-minimum-cost-for-tickets) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/mnmtk/LeetcodeDaily/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1587-parallel-courses-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1587-parallel-courses-ii) |
@@ -939,6 +942,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0975-range-sum-of-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0975-range-sum-of-bst) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/mnmtk/LeetcodeDaily/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0999-regions-cut-by-slashes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0999-regions-cut-by-slashes) |
+| [1008-binary-tree-cameras](https://github.com/mnmtk/LeetcodeDaily/tree/master/1008-binary-tree-cameras) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1177-tree-diameter](https://github.com/mnmtk/LeetcodeDaily/tree/master/1177-tree-diameter) |
