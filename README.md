@@ -585,6 +585,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/mnmtk/LeetcodeDaily/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1249-snapshot-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/1249-snapshot-array) |
 | [1308-smallest-string-with-swaps](https://github.com/mnmtk/LeetcodeDaily/tree/master/1308-smallest-string-with-swaps) |
+| [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [1934-evaluate-the-bracket-pairs-of-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/1934-evaluate-the-bracket-pairs-of-a-string) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/2059-unique-length-3-palindromic-subsequences) |
@@ -697,6 +698,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1207-delete-nodes-and-return-forest](https://github.com/mnmtk/LeetcodeDaily/tree/master/1207-delete-nodes-and-return-forest) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/mnmtk/LeetcodeDaily/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1275-validate-binary-tree-nodes](https://github.com/mnmtk/LeetcodeDaily/tree/master/1275-validate-binary-tree-nodes) |
+| [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1665-diameter-of-n-ary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1665-diameter-of-n-ary-tree) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2493-reverse-odd-levels-of-binary-tree) |
@@ -970,6 +972,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1300-critical-connections-in-a-network](https://github.com/mnmtk/LeetcodeDaily/tree/master/1300-critical-connections-in-a-network) |
 | [1308-smallest-string-with-swaps](https://github.com/mnmtk/LeetcodeDaily/tree/master/1308-smallest-string-with-swaps) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/mnmtk/LeetcodeDaily/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1558-course-schedule-iv](https://github.com/mnmtk/LeetcodeDaily/tree/master/1558-course-schedule-iv) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1665-diameter-of-n-ary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1665-diameter-of-n-ary-tree) |
@@ -1201,6 +1204,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1308-smallest-string-with-swaps](https://github.com/mnmtk/LeetcodeDaily/tree/master/1308-smallest-string-with-swaps) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/mnmtk/LeetcodeDaily/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1558-course-schedule-iv](https://github.com/mnmtk/LeetcodeDaily/tree/master/1558-course-schedule-iv) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1753-path-with-minimum-effort](https://github.com/mnmtk/LeetcodeDaily/tree/master/1753-path-with-minimum-effort) |
