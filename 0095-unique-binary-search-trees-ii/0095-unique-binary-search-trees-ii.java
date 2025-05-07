@@ -1,32 +1,36 @@
 class Solution {
-    public List<TreeNode> generateTrees(int n) {
-        List<List<TreeNode>> dp = new ArrayList<>(n + 1);
-        for (int i = 0; i <= n; i++) {
-            dp.add(new ArrayList<>());
+    public List<TreeNode> allPossibleBST(
+        int start,
+        int end,
+        Map<Pair<Integer, Integer>, List<TreeNode>> memo
+    ) {
+        List<TreeNode> res = new ArrayList<>();
+        if (start > end) {
+            res.add(null);
+            return res;
         }
-        dp.get(0).add(null);
+        if (memo.containsKey(new Pair<>(start, end))) {
+            return memo.get(new Pair<>(start, end));
+        }
+        // Iterate through all values from start to end to construct left and right subtree recursively.
+        for (int i = start; i <= end; ++i) {
+            List<TreeNode> leftSubTrees = allPossibleBST(start, i - 1, memo);
+            List<TreeNode> rightSubTrees = allPossibleBST(i + 1, end, memo);
 
-        for (int numberOfNodes = 1; numberOfNodes <= n; numberOfNodes++) {
-            for (int i = 1; i <= numberOfNodes; i++) {
-                int j = numberOfNodes - i;
-                for (TreeNode left : dp.get(i - 1)) {
-                    for (TreeNode right : dp.get(j)) {
-                        TreeNode root = new TreeNode(i, left, clone(right, i));
-                        dp.get(numberOfNodes).add(root);
-                    }
+            // Loop through all left and right subtrees and connect them to ith root.
+            for (TreeNode left : leftSubTrees) {
+                for (TreeNode right : rightSubTrees) {
+                    TreeNode root = new TreeNode(i, left, right);
+                    res.add(root);
                 }
             }
         }
-        return dp.get(n);
+        memo.put(new Pair<>(start, end), res);
+        return res;
     }
 
-    private TreeNode clone(TreeNode node, int offset) {
-        if (node == null) {
-            return null;
-        }
-        TreeNode clonedNode = new TreeNode(node.val + offset);
-        clonedNode.left = clone(node.left, offset);
-        clonedNode.right = clone(node.right, offset);
-        return clonedNode;
+    public List<TreeNode> generateTrees(int n) {
+        Map<Pair<Integer, Integer>, List<TreeNode>> memo = new HashMap<>();
+        return allPossibleBST(1, n, memo);
     }
 }
