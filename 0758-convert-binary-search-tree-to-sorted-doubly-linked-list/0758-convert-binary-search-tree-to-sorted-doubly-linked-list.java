@@ -24,7 +24,7 @@ class Solution {
     Node last = null;
 
     public void helper(Node node) {
-        if(node != null) {
+        if (node != null) {
             helper(node.left);
 
             if(last != null) {
@@ -33,6 +33,7 @@ class Solution {
             } else {
                 first = node;
             }
+
             last = node;
 
             helper(node.right);
@@ -40,7 +41,9 @@ class Solution {
     }
 
     public Node treeToDoublyList(Node root) {
-        if(root == null) return null;
+        if (root == null)
+            return null;
+
         helper(root);
 
         last.right = first;
