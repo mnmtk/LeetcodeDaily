@@ -1,33 +1,33 @@
 class Solution {
-    int count = 0;
-
-    public boolean dfs(TreeNode node) {
+    private Pair<Boolean, Integer> dfs(TreeNode node) {
         if (node == null) {
-            return true;
+            return new Pair<>(true, 0);
         }
-
-        boolean left = dfs(node.left);
-        boolean right = dfs(node.right);
-
+        
+        Pair<Boolean, Integer> left = dfs(node.left);
+        Pair<Boolean, Integer> right = dfs(node.right);
+        boolean isLeftUniValue = left.getKey();
+        boolean isRightUniValue = right.getKey();
+        int count = left.getValue() + right.getValue();
+        
         // If both the children form uni-value subtrees, we compare the value of
-        // chidren's node with the node value.
-        if (left && right) {
-            if (node.left != null && node.left.val != node.val) {
-                return false;
+        // chidrens node with the node value.
+        if (isLeftUniValue && isRightUniValue) {
+            if (node.left != null && node.val != node.left.val) {
+                return new Pair<>(false, count);
             }
-            if (node.right != null && node.right.val != node.val) {
-                return false;
+            if (node.right != null && node.val != node.right.val) {
+                return new Pair<>(false, count);
             }
             count++;
-            return true;
+            return new Pair<>(true, count);
         }
         // Else if any of the child does not form a uni-value subtree, the subtree
         // rooted at node cannot be a uni-value subtree.
-        return false;
+        return new Pair<>(false, count);
     }
-
+    
     public int countUnivalSubtrees(TreeNode root) {
-        dfs(root);
-        return count;
+        return dfs(root).getValue();
     }
 }
