@@ -15,52 +15,51 @@
  */
 class Solution {
     public List<Integer> boundaryOfBinaryTree(TreeNode root) {
-        List<Integer> left = new ArrayList<>();
-        List<Integer> right = new LinkedList<>();
+        List<Integer> boundary = new ArrayList<>();
+        if (root == null) return boundary;
+        if (!isLeaf(root)) boundary.add(root.val);
 
-        Queue<TreeNode> q = new LinkedList<>();
-        q.offer(root);
-        left.add(root.val);
-        
-        boolean leftIsNull = root.left == null;
-        boolean rightIsNull = root.right == null;
-        int leafCount = 0;
+        // Add left boundary excluding leaves
+        addLeftBoundary(root.left, boundary);
 
-        while(!q.isEmpty() && leafCount != q.size())
-        {
-            int size = q.size();
-            leafCount = 0;
-            for(int i=0; i < size; i++)
-            {
-                TreeNode node = q.poll();
-                if(node.left == null && node.right == null)
-                {
-                    q.offer(node);
-                    leafCount++;
-                    continue;
-                }
+        // Add leaves
+        addLeaves(root, boundary);
 
-                if(node.left != null)
-                    q.offer(node.left);
-                
-                if(node.right != null)
-                    q.offer(node.right);
-                
-                if(node != root)
-                {
-                    if(i==0 && !leftIsNull)
-                        left.add(node.val);
-                        
-                    else if(i == size-1 && !rightIsNull)
-                        right.addFirst(node.val);
-                }   
-            }
+        // Add right boundary excluding leaves in reverse order
+        addRightBoundary(root.right, boundary);
+
+        return boundary;
+    }
+
+    private boolean isLeaf(TreeNode node) {
+        return node != null && node.left == null && node.right == null;
+    }
+
+    private void addLeftBoundary(TreeNode node, List<Integer> boundary) {
+        while (node != null) {
+            if (!isLeaf(node)) boundary.add(node.val);
+            if (node.left != null) node = node.left;
+            else node = node.right;
         }
+    }
 
-        while(!q.isEmpty() && q.peek() != root)
-            left.add(q.poll().val);
+    private void addRightBoundary(TreeNode node, List<Integer> boundary) {
+        LinkedList<Integer> temp = new LinkedList<>();
+        while (node != null) {
+            if (!isLeaf(node)) temp.addFirst(node.val);
+            if (node.right != null) node = node.right;
+            else node = node.left;
+        }
+        boundary.addAll(temp);
+    }
 
-        left.addAll(right);
-        return left;
+    private void addLeaves(TreeNode node, List<Integer> boundary) {
+        if (node == null) return;
+        if (isLeaf(node)) {
+            boundary.add(node.val);
+            return;
+        }
+        addLeaves(node.left, boundary);
+        addLeaves(node.right, boundary);
     }
 }
