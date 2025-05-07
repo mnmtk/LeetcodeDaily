@@ -14,7 +14,7 @@
  * }
  */
 class Solution {
-    int answer = 0;
+    int answer = Integer.MIN_VALUE;
     public int dfs(TreeNode root) {
 
         if(root == null) return 0;
