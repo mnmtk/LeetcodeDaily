@@ -28,11 +28,13 @@ class Solution {
         int width = x[2] - x[0] + 1;
         int height = x[3] - x[1] + 1;
         int base;
+
         if (lo == 0) {
          base = psum.get(lo) - width * height;
         } else {
             base = psum.get(lo-1);
         }
+        
         return new int[]{x[0] + (targ - base) % width, x[1] + (targ - base) / width};
     }
 }
