@@ -7,6 +7,7 @@ public class Solution {
             min_val = Math.min(min_val, n);
         }
         double prev_mid = max_val, error = Integer.MAX_VALUE;
+
         while (error > 0.00001) {
             double mid = (max_val + min_val) * 0.5;
             if (check(nums, mid, k))
@@ -18,6 +19,7 @@ public class Solution {
         }
         return min_val;
     }
+    
     public boolean check(int[] nums, double mid, int k) {
         double sum = 0, prev = 0, min_sum = 0;
         for (int i = 0; i < k; i++)
