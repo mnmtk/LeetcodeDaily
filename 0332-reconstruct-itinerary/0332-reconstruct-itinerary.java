@@ -21,12 +21,11 @@ class Solution {
     private void dfs(String airport) {
         PriorityQueue<String> neighbors = graph.get(airport);
 
-        while (neighbors != null && !neighbors.isEmpty()) {
+        while(neighbors != null && !neighbors.isEmpty()) {
             String next = neighbors.poll();
             dfs(next);
         }
 
-        // Add airport to itinerary after visiting all edges
         itinerary.addFirst(airport);
     }
 }
