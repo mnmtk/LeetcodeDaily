@@ -4,8 +4,7 @@ class Solution {
         int prefixMod = 0;
 
         HashMap<Integer, Integer> modSeen = new HashMap<>();
-        modSeen.put
-        (0, - 1);
+        modSeen.put(0, - 1);
 
         for(int i = 0; i < nums.length; i ++) {
             prefixMod = (prefixMod + nums[i]) % k;
