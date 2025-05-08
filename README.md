@@ -409,6 +409,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/mnmtk/LeetcodeDaily/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0179-largest-number) |
 | [0189-rotate-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0189-rotate-array) |
+| [0204-count-primes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0204-count-primes) |
 | [0209-minimum-size-subarray-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0209-minimum-size-subarray-sum) |
 | [0212-word-search-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0212-word-search-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0215-kth-largest-element-in-an-array) |
@@ -1035,6 +1036,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0066-plus-one](https://github.com/mnmtk/LeetcodeDaily/tree/master/0066-plus-one) |
 | [0069-sqrtx](https://github.com/mnmtk/LeetcodeDaily/tree/master/0069-sqrtx) |
 | [0189-rotate-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0189-rotate-array) |
+| [0204-count-primes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0204-count-primes) |
 | [0268-missing-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0268-missing-number) |
 | [0292-nim-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0292-nim-game) |
 | [0326-power-of-three](https://github.com/mnmtk/LeetcodeDaily/tree/master/0326-power-of-three) |
@@ -1283,6 +1285,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Number Theory
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0204-count-primes) |
 | [0989-largest-component-size-by-common-factor](https://github.com/mnmtk/LeetcodeDaily/tree/master/0989-largest-component-size-by-common-factor) |
 | [1307-ugly-number-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1307-ugly-number-iii) |
 ## Database
@@ -1381,6 +1384,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Enumeration
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0204-count-primes) |
 | [2266-minimum-cost-to-set-cooking-time](https://github.com/mnmtk/LeetcodeDaily/tree/master/2266-minimum-cost-to-set-cooking-time) |
 | [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/mnmtk/LeetcodeDaily/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
 ## Geometry
