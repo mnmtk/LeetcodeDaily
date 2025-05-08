@@ -826,6 +826,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0053-maximum-subarray](https://github.com/mnmtk/LeetcodeDaily/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/mnmtk/LeetcodeDaily/tree/master/0062-unique-paths) |
+| [0070-climbing-stairs](https://github.com/mnmtk/LeetcodeDaily/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/mnmtk/LeetcodeDaily/tree/master/0072-edit-distance) |
 | [0095-unique-binary-search-trees-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0095-unique-binary-search-trees-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/mnmtk/LeetcodeDaily/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -1035,6 +1036,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0062-unique-paths](https://github.com/mnmtk/LeetcodeDaily/tree/master/0062-unique-paths) |
 | [0066-plus-one](https://github.com/mnmtk/LeetcodeDaily/tree/master/0066-plus-one) |
 | [0069-sqrtx](https://github.com/mnmtk/LeetcodeDaily/tree/master/0069-sqrtx) |
+| [0070-climbing-stairs](https://github.com/mnmtk/LeetcodeDaily/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0204-count-primes) |
 | [0268-missing-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0268-missing-number) |
@@ -1275,6 +1277,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/mnmtk/LeetcodeDaily/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/mnmtk/LeetcodeDaily/tree/master/0139-word-break) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/mnmtk/LeetcodeDaily/tree/master/0329-longest-increasing-path-in-a-matrix) |
 ## Combinatorics
