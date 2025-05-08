@@ -1,42 +1,50 @@
 class Solution {
-
-    public boolean feasible(int max, int[] nums, int k) {
-
-        int split = 1;
-        int sum = 0;
-        for(int num : nums) {
-            sum+=num;
-            if(sum > max) {
-                sum = num;
-                split++;
-                if(split > k) {
-                    return false;
-                }
-            }
+    // Defined it as per the maximum size of array and split count
+    // But can be defined with the input size as well
+    Integer[][] memo = new Integer[1001][51];
+    
+    private int getMinimumLargestSplitSum(int[] prefixSum, int currIndex, int subarrayCount) {
+        int n = prefixSum.length - 1;
+        
+        if (memo[currIndex][subarrayCount] != null) {
+            return memo[currIndex][subarrayCount];
         }
-
-        return true;
-    }
-
-    public int splitArray(int[] nums, int k) {
-
-        int left = 0;
-        int right = nums.length - 1;
-
-        for (int num : nums) {
-            left = Math.max(left, num);
-            right+= num;
+        
+        
+        if (subarrayCount == 1) {
+            return memo[currIndex][subarrayCount] = prefixSum[n] - prefixSum[currIndex];
         }
-
-        while(left < right) {
-            int mid = left + (right - left)/2;
-            if(feasible(mid, nums, k)) {
-                right = mid;
-            } else {
-                left = mid + 1;
+        
+       
+        int minimumLargestSplitSum = Integer.MAX_VALUE;
+        for (int i = currIndex; i <= n - subarrayCount; i++) {
+           
+            int firstSplitSum = prefixSum[i + 1] - prefixSum[currIndex];
+            
+           
+            int largestSplitSum = Math.max(firstSplitSum, 
+                                      getMinimumLargestSplitSum(prefixSum, i + 1, subarrayCount - 1));
+            
+            
+            minimumLargestSplitSum = Math.min(minimumLargestSplitSum, largestSplitSum);
+             
+            if (firstSplitSum >= minimumLargestSplitSum) {
+                break;
             }
         }
         
-        return left;
+        return memo[currIndex][subarrayCount] = minimumLargestSplitSum;
+    }
+    
+    public int splitArray(int[] nums, int m) {
+       
+        int n = nums.length;
+        int[] prefixSum = new int[n + 1];
+        
+        for (int i = 0; i < n; i++) {
+            prefixSum[i + 1] = prefixSum[i] + nums[i];
+        }
+        
+        return getMinimumLargestSplitSum(prefixSum, 0, m);
     }
 }
