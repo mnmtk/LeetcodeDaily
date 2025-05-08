@@ -59,6 +59,7 @@ class Solution {
 
         String dividendGid = dividendEntry.getKey();
         String divisorGid = divisorEntry.getKey();
+        
         Double dividendWeight = dividendEntry.getValue();
         Double divisorWeight = divisorEntry.getValue();
 
