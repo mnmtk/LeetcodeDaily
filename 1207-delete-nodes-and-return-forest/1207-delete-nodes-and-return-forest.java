@@ -1,75 +1,47 @@
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
 class Solution {
+
     public List<TreeNode> delNodes(TreeNode root, int[] to_delete) {
-
-        if(root == null) {
-            return new ArrayList<>();
-        }
-
         Set<Integer> toDeleteSet = new HashSet<>();
-
-        for(int val : to_delete) {
+        for (int val : to_delete) {
             toDeleteSet.add(val);
         }
-
         List<TreeNode> forest = new ArrayList<>();
-        Queue<TreeNode> queue = new LinkedList<>();
 
-        queue.add(root);
+        root = processNode(root, toDeleteSet, forest);
 
-        while(!queue.isEmpty()) {
-
-            TreeNode currentNode = queue.poll();
-
-            if(currentNode.left != null) {
-                queue.add(currentNode.left);
-
-                if(toDeleteSet.contains(currentNode.left.val)) {
-                    currentNode.left = null;
-                }
-            }
-
-            if(currentNode.right != null) {
-
-                queue.add(currentNode.right);
-
-                if(toDeleteSet.contains(currentNode.right.val)) {
-                    currentNode.right = null;
-                }
-            }
-
-            if(toDeleteSet.contains(currentNode.val)) {
-
-                 if (currentNode.left != null) {
-                    forest.add(currentNode.left);
-                }
-                if (currentNode.right != null) {
-                    forest.add(currentNode.right);
-                }
-            }
-
+        // If the root is not deleted, add it to the forest
+        if (root != null) {
+            forest.add(root);
         }
 
-        if(!toDeleteSet.contains(root.val)) {
-            forest.add(root);
-            }
-        
-
         return forest;
-        
+    }
+
+    private TreeNode processNode(
+        TreeNode node,
+        Set<Integer> toDeleteSet,
+        List<TreeNode> forest
+    ) {
+        if (node == null) {
+            return null;
+        }
+
+        node.left = processNode(node.left, toDeleteSet, forest);
+        node.right = processNode(node.right, toDeleteSet, forest);
+
+        // Node Evaluation: Check if the current node needs to be deleted
+        if (toDeleteSet.contains(node.val)) {
+            // If the node has left or right children, add them to the forest
+            if (node.left != null) {
+                forest.add(node.left);
+            }
+            if (node.right != null) {
+                forest.add(node.right);
+            }
+            // Return null to its parent to delete the current node
+            return null;
+        }
+
+        return node;
     }
 }
