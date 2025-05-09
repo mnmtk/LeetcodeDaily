@@ -22,13 +22,15 @@ class Solution {
     
     while (!queue.isEmpty()) {
         int node = queue.poll();
+
         for (int neighbour : adjacencyList.get(node)) {
             if (seen.contains(neighbour)) continue;
+
             seen.add(neighbour);
             queue.offer(neighbour);
         }
+        
     }
-
 
     return seen.size() == n;   
 }
