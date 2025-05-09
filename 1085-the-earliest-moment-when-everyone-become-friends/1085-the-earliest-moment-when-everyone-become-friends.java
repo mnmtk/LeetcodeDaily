@@ -16,7 +16,9 @@ class Solution {
         UnionFind uf = new UnionFind(n);
 
         for (int[] log : logs) {
-            int timestamp = log[0], friendA = log[1], friendB = log[2];
+            int timestamp = log[0],
+            friendA = log[1],
+            friendB = log[2];
 
             // We merge the groups along the way.
             if (uf.union(friendA, friendB)) {
