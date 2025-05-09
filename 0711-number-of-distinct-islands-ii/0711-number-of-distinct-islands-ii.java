@@ -17,7 +17,6 @@ class Solution {
             explore(r-1, c);
             explore(r, c+1);
             explore(r, c-1);
-
         }
     }
 
