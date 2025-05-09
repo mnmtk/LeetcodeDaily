@@ -16,6 +16,7 @@ class UnionFind {
         }
     }
 
+   //// IMPORTAAANTEEEE
     public boolean union(int parent, int child) {
         int parentParent = find(parent);
         int childParent = find(child);
@@ -26,13 +27,8 @@ class UnionFind {
 
         components--;
 
-        // if (size[childParent] > size[parentParent]) {
-            parents[childParent] = parentParent;
-            size[parentParent] += size[childParent];
-        // } else {
-        //     parents[parentParent] = childParent;
-        //     size[parentParent] += size[childParent];
-        // }
+        parents[childParent] = parentParent;
+        size[parentParent] += size[childParent];
 
         return true;
     }
