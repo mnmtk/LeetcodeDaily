@@ -530,6 +530,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2755-extra-characters-in-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/2755-extra-characters-in-a-string) |
+| [2827-greatest-common-divisor-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/2827-greatest-common-divisor-traversal) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/2914-find-the-safest-path-in-a-grid) |
 | [3158-maximum-length-of-semi-decreasing-subarrays](https://github.com/mnmtk/LeetcodeDaily/tree/master/3158-maximum-length-of-semi-decreasing-subarrays) |
 | [3188-find-champion-i](https://github.com/mnmtk/LeetcodeDaily/tree/master/3188-find-champion-i) |
@@ -1068,6 +1069,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2206-detonate-the-maximum-bombs](https://github.com/mnmtk/LeetcodeDaily/tree/master/2206-detonate-the-maximum-bombs) |
 | [2266-minimum-cost-to-set-cooking-time](https://github.com/mnmtk/LeetcodeDaily/tree/master/2266-minimum-cost-to-set-cooking-time) |
 | [2383-add-two-integers](https://github.com/mnmtk/LeetcodeDaily/tree/master/2383-add-two-integers) |
+| [2827-greatest-common-divisor-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/2827-greatest-common-divisor-traversal) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -1188,6 +1190,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/mnmtk/LeetcodeDaily/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/mnmtk/LeetcodeDaily/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2793-count-the-number-of-complete-components](https://github.com/mnmtk/LeetcodeDaily/tree/master/2793-count-the-number-of-complete-components) |
+| [2827-greatest-common-divisor-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/2827-greatest-common-divisor-traversal) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/2914-find-the-safest-path-in-a-grid) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 ## Breadth-First Search
@@ -1305,6 +1308,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0989-largest-component-size-by-common-factor](https://github.com/mnmtk/LeetcodeDaily/tree/master/0989-largest-component-size-by-common-factor) |
 | [1307-ugly-number-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1307-ugly-number-iii) |
 | [2125-gcd-sort-of-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/2125-gcd-sort-of-an-array) |
+| [2827-greatest-common-divisor-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/2827-greatest-common-divisor-traversal) |
 ## Database
 |  |
 | ------- |
