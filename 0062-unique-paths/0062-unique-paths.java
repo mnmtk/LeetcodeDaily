@@ -6,6 +6,7 @@ class Solution {
         for(int[] arr : dp) {
             Arrays.fill(arr, 1);
         }
+        
         for(int r = 1; r < m; r++) {
             for(int c = 1; c<n; c++) {
                 dp[r][c] = dp[r-1][c] + dp[r][c-1];
