@@ -1,55 +1,45 @@
 class Solution {
     public List<List<Integer>> getSkyline(int[][] buildings) {
-
-        List<List<Integer>> edges = new ArrayList<>();
-        for (int i = 0; i < buildings.length; ++i){
-            edges.add(Arrays.asList(buildings[i][0], buildings[i][2]));
-            edges.add(Arrays.asList(buildings[i][1], -buildings[i][2]));
+        // Collect and sort the unique positions of all the edges.
+        SortedSet<Integer> edgeSet = new TreeSet<Integer>();
+        for (int[] building : buildings) {
+            int left = building[0], right = building[1];
+            edgeSet.add(left);
+            edgeSet.add(right);
         }
-        Collections.sort(edges, (a, b) -> {
-            return a.get(0) - b.get(0);
-        });
+        List<Integer> positions = new ArrayList<Integer>(edgeSet);
+        Collections.sort(positions);
         
-        Queue<Integer> live = new PriorityQueue<>((a, b) -> {
-            return b - a;
-        });
-        Queue<Integer> past = new PriorityQueue<>((a, b) -> {
-            return b - a;
-        });
+        // 'answer' for skyline key points.
         List<List<Integer>> answer = new ArrayList<>();
+        int maxHeight, left, right, height;
         
-        
-        int idx = 0;
-
-        while (idx < edges.size()){
-
-            int currX = edges.get(idx).get(0);
+        // For each position, draw an imaginary vertical line.
+        for (int position : positions) {
+            // The current max height.
+            maxHeight = 0;
             
-            while (idx < edges.size() && edges.get(idx).get(0) == currX){
-               
-                int height = edges.get(idx).get(1);
+            // Iterate over all the buildings:
+            for (int[] building : buildings) {
+                left = building[0];
+                right = building[1];
+                height = building[2];
                 
-                if (height > 0){
-                    live.offer(height);
-                } else {
-                    past.offer(-height);
+                // If the current building intersects with the line,
+                // update 'maxHeight'.
+                if (left <= position && position < right) {
+                    maxHeight = Math.max(maxHeight, height);
                 }
-                idx++;
-            }
-
-            while (!past.isEmpty() && live.peek().equals(past.peek())) {
-                live.remove();
-                past.remove();
             }
             
-
-            int currHeight = live.isEmpty() ? 0 : live.peek();
-
-            if (answer.isEmpty() || answer.get(answer.size() - 1).get(1) != currHeight) {
-                answer.add(Arrays.asList(currX, currHeight));
-            }   
+            // If its the first key point or the height changes, 
+            // we add [position, maxHeight] to 'answer'.
+            if (answer.isEmpty() || answer.get(answer.size() - 1).get(1) != maxHeight) {
+                answer.add(Arrays.asList(position, maxHeight));
+            }
         }
-            
+        
+        // Return 'answer' as the skyline.
         return answer;
     }
 }
