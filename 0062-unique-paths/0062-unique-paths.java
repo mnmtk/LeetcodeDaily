@@ -1,10 +1,17 @@
-public class Solution {
+class Solution {
     public int uniquePaths(int m, int n) {
-        long answer = 1;
-        for (int i = n; i < (m + n - 1); i++) {
-            answer *= i;
-            answer /= (i - n + 1);
+
+        int[][] dp = new int[m][n];
+
+        for(int[] arr : dp) {
+            Arrays.fill(arr, 1);
         }
-        return (int) answer;
+        for(int r = 1; r < m; r++) {
+            for(int c = 1; c<n; c++) {
+                dp[r][c] = dp[r-1][c] + dp[r][c-1];
+            }
+        }
+        
+        return dp[m - 1][n - 1];
     }
 }
