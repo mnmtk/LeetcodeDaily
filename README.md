@@ -407,6 +407,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0128-longest-consecutive-sequence](https://github.com/mnmtk/LeetcodeDaily/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/mnmtk/LeetcodeDaily/tree/master/0139-word-break) |
+| [0152-maximum-product-subarray](https://github.com/mnmtk/LeetcodeDaily/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0162-find-peak-element](https://github.com/mnmtk/LeetcodeDaily/tree/master/0162-find-peak-element) |
@@ -849,6 +850,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0139-word-break](https://github.com/mnmtk/LeetcodeDaily/tree/master/0139-word-break) |
+| [0152-maximum-product-subarray](https://github.com/mnmtk/LeetcodeDaily/tree/master/0152-maximum-product-subarray) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/mnmtk/LeetcodeDaily/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0221-maximal-square](https://github.com/mnmtk/LeetcodeDaily/tree/master/0221-maximal-square) |
 | [0300-longest-increasing-subsequence](https://github.com/mnmtk/LeetcodeDaily/tree/master/0300-longest-increasing-subsequence) |
