@@ -782,6 +782,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0068-text-justification](https://github.com/mnmtk/LeetcodeDaily/tree/master/0068-text-justification) |
 | [0072-edit-distance](https://github.com/mnmtk/LeetcodeDaily/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/mnmtk/LeetcodeDaily/tree/master/0076-minimum-window-substring) |
+| [0091-decode-ways](https://github.com/mnmtk/LeetcodeDaily/tree/master/0091-decode-ways) |
 | [0125-valid-palindrome](https://github.com/mnmtk/LeetcodeDaily/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/mnmtk/LeetcodeDaily/tree/master/0127-word-ladder) |
 | [0139-word-break](https://github.com/mnmtk/LeetcodeDaily/tree/master/0139-word-break) |
@@ -845,6 +846,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0063-unique-paths-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0063-unique-paths-ii) |
 | [0070-climbing-stairs](https://github.com/mnmtk/LeetcodeDaily/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/mnmtk/LeetcodeDaily/tree/master/0072-edit-distance) |
+| [0091-decode-ways](https://github.com/mnmtk/LeetcodeDaily/tree/master/0091-decode-ways) |
 | [0095-unique-binary-search-trees-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0095-unique-binary-search-trees-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/mnmtk/LeetcodeDaily/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
