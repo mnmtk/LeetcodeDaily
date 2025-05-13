@@ -1081,6 +1081,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1003-minimum-area-rectangle-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1003-minimum-area-rectangle-ii) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/mnmtk/LeetcodeDaily/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1307-ugly-number-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1307-ugly-number-iii) |
+| [1444-number-of-steps-to-reduce-a-number-to-zero](https://github.com/mnmtk/LeetcodeDaily/tree/master/1444-number-of-steps-to-reduce-a-number-to-zero) |
 | [2125-gcd-sort-of-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/2125-gcd-sort-of-an-array) |
 | [2206-detonate-the-maximum-bombs](https://github.com/mnmtk/LeetcodeDaily/tree/master/2206-detonate-the-maximum-bombs) |
 | [2266-minimum-cost-to-set-cooking-time](https://github.com/mnmtk/LeetcodeDaily/tree/master/2266-minimum-cost-to-set-cooking-time) |
@@ -1094,6 +1095,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0287-find-the-duplicate-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0287-find-the-duplicate-number) |
 | [0351-android-unlock-patterns](https://github.com/mnmtk/LeetcodeDaily/tree/master/0351-android-unlock-patterns) |
 | [0461-hamming-distance](https://github.com/mnmtk/LeetcodeDaily/tree/master/0461-hamming-distance) |
+| [1444-number-of-steps-to-reduce-a-number-to-zero](https://github.com/mnmtk/LeetcodeDaily/tree/master/1444-number-of-steps-to-reduce-a-number-to-zero) |
 | [1587-parallel-courses-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1587-parallel-courses-ii) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2478-longest-nice-subarray](https://github.com/mnmtk/LeetcodeDaily/tree/master/2478-longest-nice-subarray) |
