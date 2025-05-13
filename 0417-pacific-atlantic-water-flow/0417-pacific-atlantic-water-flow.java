@@ -13,7 +13,7 @@ class Solution {
 
     rows = heights.length;
     cols = heights[0].length;  
-      
+
     boolean[][] pacific = new boolean[rows][cols];
     boolean[][] atlantic = new boolean[rows][cols];
     List<List<Integer>> answer = new ArrayList<>();
@@ -44,6 +44,7 @@ class Solution {
             return;
         }
         grid[i][j] = true;
+        
         for (int[] di : dir) {
             dfs(grid, i+di[0], j+di[1], master[i][j]);
         }
