@@ -1,9 +1,9 @@
 class Solution {
     public String minWindow(String s, String t) {
+
         if (t.length() > s.length()) {
             return "";
         }
-
 
         int count = 0;
         int left = 0;
@@ -15,7 +15,7 @@ class Solution {
         for (char c : t.toCharArray()) {
             freq2.put(c, freq2.getOrDefault(c,0)+1);
         }
-
+        
         Map<Character, Integer> freq = new HashMap<>();
 
         for (int right = 0; right<s.length(); right++) {
@@ -25,10 +25,11 @@ class Solution {
             
             if (freq2.containsKey(rightChar) && freq.get(rightChar) <= freq2.get(rightChar)) {
                 count++;
-            }
+            } //important
 
             while (count == t.length()) {
                 int valid = right - left + 1;
+                
                 if(valid < ans) {
                     ans = valid;
                     answer = s.substring(left, right+1);
@@ -43,8 +44,6 @@ class Solution {
                 left++;
             }
         }
-
         return answer;
-        
     }
 }
