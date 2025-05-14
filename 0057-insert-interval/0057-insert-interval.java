@@ -10,7 +10,7 @@ class Solution {
             int currStart = interval[0];
             int currEnd = interval[1];
 
-            if(currStart > end  || currEnd < start) {
+            if(currStart > end  ||  start > currEnd) {
                 if(!inserted && start < currStart) {
                     inserted = true;
                     ans.add(new int[]{start, end});
