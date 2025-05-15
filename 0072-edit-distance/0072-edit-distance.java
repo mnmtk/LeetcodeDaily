@@ -6,54 +6,31 @@ class Solution {
         return minDistanceRecur(word1, word2, word1.length(), word2.length());
     }
 
-    int minDistanceRecur(
-        String word1,
-        String word2,
-        int word1Index,
-        int word2Index
-    ) {
-        if (word1Index == 0) {
-            return word2Index;
+    private int minDistanceRecur(String word1, String word2, int i, int j) {
+        // If word1 is empty, insert all characters of word2
+        if (i == 0) {
+            return j;
         }
-        if (word2Index == 0) {
-            return word1Index;
+        // If word2 is empty, delete all characters of word1
+        if (j == 0) {
+            return i;
         }
-        if (memo[word1Index][word2Index] != null) {
-            return memo[word1Index][word2Index];
+        // Return cached result if already computed
+        if (memo[i][j] != null) {
+            return memo[i][j];
         }
-        int minEditDistance = 0;
-        if (word1.charAt(word1Index - 1) == word2.charAt(word2Index - 1)) {
-            minEditDistance = minDistanceRecur(
-                word1,
-                word2,
-                word1Index - 1,
-                word2Index - 1
-            );
+
+        if (word1.charAt(i - 1) == word2.charAt(j - 1)) {
+            // Characters match, no operation needed
+            memo[i][j] = minDistanceRecur(word1, word2, i - 1, j - 1);
         } else {
-            int insertOperation = minDistanceRecur(
-                word1,
-                word2,
-                word1Index,
-                word2Index - 1
-            );
-            int deleteOperation = minDistanceRecur(
-                word1,
-                word2,
-                word1Index - 1,
-                word2Index
-            );
-            int replaceOperation = minDistanceRecur(
-                word1,
-                word2,
-                word1Index - 1,
-                word2Index - 1
-            );
-            minEditDistance = Math.min(
-                insertOperation,
-                Math.min(deleteOperation, replaceOperation)
-            ) +1;
+            // Characters don't match, try insert, delete, replace
+            int insertOp = minDistanceRecur(word1, word2, i, j - 1);
+            int deleteOp = minDistanceRecur(word1, word2, i - 1, j);
+            int replaceOp = minDistanceRecur(word1, word2, i - 1, j - 1);
+
+            memo[i][j] = 1 + Math.min(insertOp, Math.min(deleteOp, replaceOp));
         }
-        memo[word1Index][word2Index] = minEditDistance;
-        return minEditDistance;
+        return memo[i][j];
     }
 }
