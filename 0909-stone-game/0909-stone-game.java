@@ -11,7 +11,8 @@ class Solution {
                 int j = i + size - 1;
                 int parity = (j - i + N) % 2;
 
-                if(parity == 1) 
+                if(parity == 1) //even odd decides whose turn it is?
+                
                 dp[i+1][j+1] = Math.max(piles[i] + dp[i+2][j+1], piles[j] + dp[i + 1][j]);
                 else 
                 dp[i+1][j+1] = Math.min(-piles[i] + dp[i+2][j+1], -piles[j] + dp[i+1][j]);
