@@ -5,8 +5,8 @@ class Solution {
         int sum = 0;
 
         for(int pile : piles) {
-            //simplifaction of sum += Math.ceil((double)pile / speed); 
-           sum += (pile + speed - 1) / speed; 
+            sum += Math.ceil((double)pile / speed); 
+        //    sum += (pile + speed - 1) / speed; 
         }
 
         return sum <= h;
