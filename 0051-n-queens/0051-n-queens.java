@@ -5,6 +5,7 @@ class Solution {
     public List<List<String>> solveNQueens(int n) {
         size = n;
         char emptyBoard[][] = new char[size][size];
+
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 emptyBoard[i][j] = '.';
@@ -62,6 +63,7 @@ class Solution {
             cols.add(col);
             diagonals.add(currDiagonal);
             antiDiagonals.add(currAntiDiagonal);
+            
             state[row][col] = 'Q';
 
             // Move on to the next row with the updated board state
@@ -72,6 +74,7 @@ class Solution {
             cols.remove(col);
             diagonals.remove(currDiagonal);
             antiDiagonals.remove(currAntiDiagonal);
+
             state[row][col] = '.';
         }
     }
