@@ -22,11 +22,9 @@ class Solution {
             int level = node.getValue();
 
             for (int i = 0; i < this.L; i++) {
-                // Intermediate words for current word
-                String newWord =
-                    word.substring(0, i) + '*' + word.substring(i + 1, L);
+                String newWord = word.substring(0, i) + '*' + word.substring(i + 1, L);
 
-                // Next states are all the words which share the same intermediate state.
+              
                 for (String adjacentWord : this.allComboDict.getOrDefault(
                         newWord,
                         new ArrayList<>()
@@ -75,10 +73,12 @@ class Solution {
         });
 
         // Queues for birdirectional BFS
+        
         // BFS starting from beginWord
         Queue<Pair<String, Integer>> Q_begin = new LinkedList<>();
         // BFS starting from endWord
         Queue<Pair<String, Integer>> Q_end = new LinkedList<>();
+
         Q_begin.add(new Pair(beginWord, 1));
         Q_end.add(new Pair(endWord, 1));
 
