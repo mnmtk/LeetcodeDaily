@@ -17,6 +17,8 @@ class Solution {
     private Map<Integer, List<TreeNode>> memo = new HashMap<>();
 
     public List<TreeNode> allPossibleFBT(int n) {
+
+        //If n is even, we return an empty list as we cannot form any full binary tree with even number of nodes.
         if (n % 2 == 0) {
             return new ArrayList<TreeNode>();
         }
