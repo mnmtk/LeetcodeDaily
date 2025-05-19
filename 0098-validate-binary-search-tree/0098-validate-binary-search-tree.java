@@ -18,18 +18,15 @@ class Solution {
         return isValidSubTree(root, Long.MIN_VALUE, Long.MAX_VALUE);
     }
 
-    public boolean isValidSubTree(TreeNode root, long min, long max) {
-        if(root.val <= min || root.val >= max) {
-            return false;
-        }
+    public boolean isValidSubTree(TreeNode root, Long min, Long max) {
+        if(root.val <= min || root.val >= max)return false;
+
         if(root.left != null) {
-            if(!isValidSubTree(root.left, min, root.val))
-             return false;
+        if(!isValidSubTree(root.left, min, (long) root.val)) return false;
         }
-        if(root.right != null) {
-            if(!isValidSubTree(root.right, root.val, max)){
-                return false;
-            };
+        
+        if(root.right!= null) {
+        if(!isValidSubTree(root.right, (long) root.val, max)) return false;
         }
 
         return true;
