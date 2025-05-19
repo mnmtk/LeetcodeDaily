@@ -711,6 +711,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0337-house-robber-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0337-house-robber-iii) |
 | [0341-flatten-nested-list-iterator](https://github.com/mnmtk/LeetcodeDaily/tree/master/0341-flatten-nested-list-iterator) |
 | [0366-find-leaves-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0366-find-leaves-of-binary-tree) |
+| [0450-delete-node-in-a-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0450-delete-node-in-a-bst) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/mnmtk/LeetcodeDaily/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0543-diameter-of-binary-tree) |
 | [0545-boundary-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0545-boundary-of-binary-tree) |
@@ -759,6 +760,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0314-binary-tree-vertical-order-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0337-house-robber-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0337-house-robber-iii) |
 | [0366-find-leaves-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0366-find-leaves-of-binary-tree) |
+| [0450-delete-node-in-a-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0450-delete-node-in-a-bst) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/mnmtk/LeetcodeDaily/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0543-diameter-of-binary-tree) |
 | [0545-boundary-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0545-boundary-of-binary-tree) |
@@ -1062,6 +1064,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0270-closest-binary-search-tree-value](https://github.com/mnmtk/LeetcodeDaily/tree/master/0270-closest-binary-search-tree-value) |
+| [0450-delete-node-in-a-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0783-search-in-a-binary-search-tree) |
 | [0975-range-sum-of-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0975-range-sum-of-bst) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
