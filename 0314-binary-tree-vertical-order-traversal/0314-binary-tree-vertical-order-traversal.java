@@ -1,44 +1,32 @@
+
 class Solution {
-  public List<List<Integer>> verticalOrder(TreeNode root) {
-    List<List<Integer>> output = new ArrayList();
-    if (root == null) {
-      return output;
-    }
+    public List<List<Integer>> verticalOrder(TreeNode root) {
+        List<List<Integer>> ans = new ArrayList<>();
+        if (root == null) return ans;
 
-    Map<Integer, ArrayList> columnTable = new HashMap();
-    // Pair of node and its column offset
-    Queue<Pair<TreeNode, Integer>> queue = new ArrayDeque();
-    int column = 0;
-    queue.offer(new Pair(root, column));
+        Map<Integer, List<Integer>> map = new TreeMap<>();
+        Queue<Pair<TreeNode, Integer>> queue = new LinkedList<>();
+        queue.offer(new Pair<>(root, 0));
 
-    int minColumn = 0, maxColumn = 0;
+        while (!queue.isEmpty()) {
+            Pair<TreeNode, Integer> curr = queue.poll();
+            TreeNode node = curr.getKey();
+            int col = curr.getValue();
 
-    while (!queue.isEmpty()) {
-      Pair<TreeNode, Integer> p = queue.poll();
-      root = p.getKey();
-      column = p.getValue();
+            map.computeIfAbsent(col, k -> new ArrayList<>()).add(node.val);
 
-      if (root != null) {
-        if (!columnTable.containsKey(column)) {
-          columnTable.put(column, new ArrayList<Integer>());
+            if (node.left != null) {
+                queue.offer(new Pair<>(node.left, col - 1));
+            }
+            if (node.right != null) {
+                queue.offer(new Pair<>(node.right, col + 1));
+            }
         }
-        columnTable.get(column).add(root.val);
-        minColumn = Math.min(minColumn, column);
-        maxColumn = Math.max(maxColumn, column);
 
-        queue.offer(new Pair(root.left, column - 1));
-        queue.offer(new Pair(root.right, column + 1));
-      }
+        for (List<Integer> colList : map.values()) {
+            ans.add(colList);
+        }
+
+        return ans;
     }
-
-    for(int i = minColumn; i < maxColumn + 1; ++i) {
-      output.add(columnTable.get(i));
-    }
-
-    return output;
-  }
 }
-
-//The above insight would work under the condition that there won't be any missing column index 
-//in the given range. 
-//And the condition always holds, since there won't be any broken branch in a binary tree.
