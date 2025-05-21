@@ -399,6 +399,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0063-unique-paths-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0063-unique-paths-ii) |
 | [0066-plus-one](https://github.com/mnmtk/LeetcodeDaily/tree/master/0066-plus-one) |
 | [0068-text-justification](https://github.com/mnmtk/LeetcodeDaily/tree/master/0068-text-justification) |
+| [0073-set-matrix-zeroes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/mnmtk/LeetcodeDaily/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/mnmtk/LeetcodeDaily/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/mnmtk/LeetcodeDaily/tree/master/0079-word-search) |
@@ -570,6 +571,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0013-roman-to-integer](https://github.com/mnmtk/LeetcodeDaily/tree/master/0013-roman-to-integer) |
 | [0036-valid-sudoku](https://github.com/mnmtk/LeetcodeDaily/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/mnmtk/LeetcodeDaily/tree/master/0049-group-anagrams) |
+| [0073-set-matrix-zeroes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/mnmtk/LeetcodeDaily/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0127-word-ladder](https://github.com/mnmtk/LeetcodeDaily/tree/master/0127-word-ladder) |
@@ -1183,6 +1185,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0036-valid-sudoku](https://github.com/mnmtk/LeetcodeDaily/tree/master/0036-valid-sudoku) |
 | [0063-unique-paths-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0063-unique-paths-ii) |
+| [0073-set-matrix-zeroes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/mnmtk/LeetcodeDaily/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/mnmtk/LeetcodeDaily/tree/master/0079-word-search) |
 | [0212-word-search-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0212-word-search-ii) |
