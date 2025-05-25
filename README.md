@@ -604,6 +604,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0690-employee-importance](https://github.com/mnmtk/LeetcodeDaily/tree/master/0690-employee-importance) |
 | [0692-top-k-frequent-words](https://github.com/mnmtk/LeetcodeDaily/tree/master/0692-top-k-frequent-words) |
 | [0694-number-of-distinct-islands](https://github.com/mnmtk/LeetcodeDaily/tree/master/0694-number-of-distinct-islands) |
+| [0711-number-of-distinct-islands-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0711-number-of-distinct-islands-ii) |
 | [0778-reorganize-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0778-reorganize-string) |
 | [0808-number-of-matching-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/0808-number-of-matching-subsequences) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -1026,6 +1027,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0684-redundant-connection](https://github.com/mnmtk/LeetcodeDaily/tree/master/0684-redundant-connection) |
 | [0690-employee-importance](https://github.com/mnmtk/LeetcodeDaily/tree/master/0690-employee-importance) |
 | [0694-number-of-distinct-islands](https://github.com/mnmtk/LeetcodeDaily/tree/master/0694-number-of-distinct-islands) |
+| [0711-number-of-distinct-islands-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0711-number-of-distinct-islands-ii) |
 | [0733-flood-fill](https://github.com/mnmtk/LeetcodeDaily/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/mnmtk/LeetcodeDaily/tree/master/0744-network-delay-time) |
 | [0794-swim-in-rising-water](https://github.com/mnmtk/LeetcodeDaily/tree/master/0794-swim-in-rising-water) |
@@ -1232,6 +1234,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/mnmtk/LeetcodeDaily/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/mnmtk/LeetcodeDaily/tree/master/0684-redundant-connection) |
 | [0694-number-of-distinct-islands](https://github.com/mnmtk/LeetcodeDaily/tree/master/0694-number-of-distinct-islands) |
+| [0711-number-of-distinct-islands-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0711-number-of-distinct-islands-ii) |
 | [0794-swim-in-rising-water](https://github.com/mnmtk/LeetcodeDaily/tree/master/0794-swim-in-rising-water) |
 | [0922-possible-bipartition](https://github.com/mnmtk/LeetcodeDaily/tree/master/0922-possible-bipartition) |
 | [0960-minimize-malware-spread](https://github.com/mnmtk/LeetcodeDaily/tree/master/0960-minimize-malware-spread) |
@@ -1286,6 +1289,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0684-redundant-connection](https://github.com/mnmtk/LeetcodeDaily/tree/master/0684-redundant-connection) |
 | [0690-employee-importance](https://github.com/mnmtk/LeetcodeDaily/tree/master/0690-employee-importance) |
 | [0694-number-of-distinct-islands](https://github.com/mnmtk/LeetcodeDaily/tree/master/0694-number-of-distinct-islands) |
+| [0711-number-of-distinct-islands-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0711-number-of-distinct-islands-ii) |
 | [0733-flood-fill](https://github.com/mnmtk/LeetcodeDaily/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/mnmtk/LeetcodeDaily/tree/master/0744-network-delay-time) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0764-n-ary-tree-level-order-traversal) |
@@ -1486,6 +1490,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0694-number-of-distinct-islands](https://github.com/mnmtk/LeetcodeDaily/tree/master/0694-number-of-distinct-islands) |
+| [0711-number-of-distinct-islands-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0711-number-of-distinct-islands-ii) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/mnmtk/LeetcodeDaily/tree/master/0718-maximum-length-of-repeated-subarray) |
 ## Binary Indexed Tree
 |  |
