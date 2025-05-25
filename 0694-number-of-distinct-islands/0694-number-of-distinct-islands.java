@@ -9,8 +9,10 @@ class Solution {
     public int numDistinctIslands(int[][] grid) {
         this.grid = grid;
         this.seen = new boolean[grid.length][grid[0].length];
+
         for (int row = 0; row < grid.length; row++) {
             for (int col = 0; col < grid[0].length; col++) {
+
                 dfs(row, col);
 
                 if (currentIsland.isEmpty()) continue;
