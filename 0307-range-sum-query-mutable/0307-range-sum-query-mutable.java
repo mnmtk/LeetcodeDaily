@@ -21,7 +21,7 @@ class NumArray {
         index += n;
         tree[index] = val;
 
-        while(index > 1) {
+        while(index > 0) {
             int left = index;
             int right = index;
 
