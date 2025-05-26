@@ -1,20 +1,27 @@
 class NumArray {
-    int[] tree;
+
     int n;
- 
+    int[] tree;
+
     public NumArray(int[] nums) {
-        if(nums.length > 0) {
-            n = nums.length;
-            tree = new int[n * 2];
-            buildTree(nums);
+        n = nums.length;
+        tree = new int[n*2];
+
+        for(int i = 0; i < n; i ++) {
+            tree[i + n] = nums[i];
         }
-        
+
+        for(int i = n-1; i > 0; i--) {
+            tree[i] = tree[i*2] + tree[i*2 + 1];
+        }
     }
+
     
     public void update(int index, int val) {
         index += n;
         tree[index] = val;
-        while(index > 0) {
+
+        while(index > 1) {
             int left = index;
             int right = index;
 
@@ -24,44 +31,31 @@ class NumArray {
                 left = index - 1;
             }
 
-            tree[index/2] = tree[left] + tree[right];
-            index/=2;
-        }
-        
+            index = left/2; 
+            tree[index] = tree[left] + tree[right];
+        } 
     }
     
-    public int sumRange(int l, int r) {
-        l += n;
-        r += n;
+    public int sumRange(int left, int right) {
+        int sum = 0;
+        left +=n ;
+        right += n;
 
-        int sum = 0; 
-        while(l <= r) {
-            if((l%2) == 1) {
-                sum += tree[l];
-                l++;
+        while(left <= right) {
+            if(left % 2 == 1) {
+                sum += tree[left];
+                left++;
             }
 
-            if((r%2)== 0) {
-                sum+= tree[r];
-                r--;
+            if(right % 2 == 0) {
+                sum+= tree[right];
+                right--;
             }
-
-            l /= 2;
-            r /= 2;
+            left = left/2;
+            right = right/2;
         }
 
         return sum;
-    }
-
-    public void buildTree(int[] nums) {
-
-        for(int i = n, j = 0; i < 2*n;i++, j++) {
-            tree[i] = nums[j];
-        }
-
-        for(int i = n -1; i>0 ; --i) {
-            tree[i] = tree[i*2] + tree[i*2 + 1];
-        }
     }
 }
 
