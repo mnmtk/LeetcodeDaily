@@ -26,26 +26,24 @@ class Solution {
     }
 
     private int query(int left, int right, int[] tree, int size) {
-        // return sum of [left, right)
+ 
         int result = 0;
-        left += size; // shift the index to the leaf
+
+        left += size; 
         right += size;
+
         while (left < right) {
-            // if left is a right node
-            // bring the value and move to parent's right node
+            
             if (left % 2 == 1) {
                 result += tree[left];
                 left++;
             }
-            // else directly move to parent
             left /= 2;
-            // if right is a right node
-            // bring the value of the left node and move to parent
+
             if (right % 2 == 1) {
                 right--;
                 result += tree[right];
             }
-            // else directly move to parent
             right /= 2;
         }
         return result;
