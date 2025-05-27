@@ -51,6 +51,7 @@ class Solution {
                     (int) (haystack.charAt(windowStart + m - 1) - 'a') +
                     MOD_1) %
                 MOD_1;
+
                 hashHay[1] = (((hashHay[1] * RADIX_2) % MOD_2) -
                     (((int) (haystack.charAt(windowStart - 1) - 'a') *
                             MAX_WEIGHT_2) %
@@ -58,6 +59,7 @@ class Solution {
                     (int) (haystack.charAt(windowStart + m - 1) - 'a') +
                     MOD_2) %
                 MOD_2;
+                
             }
 
             // If the hash matches, return immediately. Probability of Spurious Hit tends to zero.
