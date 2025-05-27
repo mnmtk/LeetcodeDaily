@@ -1,12 +1,12 @@
 class Solution {
     public List<Integer> countSmaller(int[] nums) {
         int offset = 10000; // offset negative to non-negative
-        int size = 2 * 10000 + 1; // total possible values in nums
-        int[] tree = new int[size * 2];
+        int size = 2 * 10000 + 2; // total possible values in nums plus one dummy
+        int[] tree = new int[size];
         List<Integer> result = new ArrayList<Integer>();
 
         for (int i = nums.length - 1; i >= 0; i--) {
-            int smaller_count = query(0, nums[i] + offset, tree, size);
+            int smaller_count = query(nums[i] + offset, tree);
             result.add(smaller_count);
             update(nums[i] + offset, 1, tree, size);
         }
@@ -14,37 +14,21 @@ class Solution {
         return result;
     }
 
-    // implement segment tree
+    // implement Binary Index Tree
     private void update(int index, int value, int[] tree, int size) {
-        index += size; // shift the index to the leaf
-        // update from leaf to root
-        tree[index] += value;
-        while (index > 1) {
-            index /= 2;
-            tree[index] = tree[index * 2] + tree[index * 2 + 1];
+        index++; // index in BIT is 1 more than the original index
+        while (index < size) {
+            tree[index] += value;
+            index += index & -index;
         }
     }
 
-    private int query(int left, int right, int[] tree, int size) {
- 
+    private int query(int index, int[] tree) {
+        // return sum of [0, index)
         int result = 0;
-
-        left += size; 
-        right += size;
-
-        while (left < right) {
-            
-            if (left % 2 == 1) {
-                result += tree[left];
-                left++;
-            }
-            left /= 2;
-
-            if (right % 2 == 1) {
-                right--;
-                result += tree[right];
-            }
-            right /= 2;
+        while (index >= 1) {
+            result += tree[index];
+            index = index & (index - 1);
         }
         return result;
     }
