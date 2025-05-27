@@ -15,7 +15,7 @@ class Solution {
         }
 
         if(target == 0) {
-            ans.add(new ArrayList<>(curr));
+            ans.add(new ArrayList<>(curr)); //remember
             return;
         }
 
