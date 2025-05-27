@@ -1,6 +1,5 @@
 // Topological Sort Based Solution
 // An Alternative Solution
-
 public class Solution {
     private static final int[][] dir = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
     private int m, n;
