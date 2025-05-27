@@ -9,8 +9,10 @@ class Solution {
             int ans;
             if (N == 0)
                 ans = 0;
+
             else if (K == 1)
                 ans = N;
+                
             else {
                 int lo = 1, hi = N;
                 while (lo + 1 < hi) {
