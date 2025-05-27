@@ -28,8 +28,8 @@ class Solution {
 
    
         combinations(candidates, target, index + 1, current, k);
-
         current.add(candidates[index]);
+
         combinations(candidates, target - candidates[index], index + 1, current, k - 1);
         current.remove(current.size() - 1);
     }
