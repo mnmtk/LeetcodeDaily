@@ -23,18 +23,17 @@ class Node {
 
 class Solution {
     protected int diameter = 0;
-
     public int diameter(Node root) {
         this.diameter = 0;
         height(root);
-        return diameter;
+        return diameter
     }
 
-    public int height(Node node){
+    public void height(Node root) {
         if(node.children.size() == 0) return 0;
 
-        int maxHeight1 = 0;
-        int maxHeight2 = 0;
+        int maxH1 = 0;
+        int maxH2 = 0;
 
         for(Node child : node.children) {
             int parentHeight = height(child) + 1;
@@ -45,6 +44,8 @@ class Solution {
             } else if (parentHeight > maxHeight2) {
                 maxHeight2 = parentHeight;
             }
+
+
 
             int distance = maxHeight1 + maxHeight2;
             this.diameter = Math.max(this.diameter, distance);
