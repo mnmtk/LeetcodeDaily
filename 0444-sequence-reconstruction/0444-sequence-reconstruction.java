@@ -11,7 +11,8 @@ class Solution {
                 int nodeA = seq.get(index - 1);
                 int nodeB = seq.get(index);
 
-                if(nodeA < 1 || nodeA > n || nodeB < 1 || nodeB > n) return false;
+                if(nodeA < 1 || nodeA > n 
+                || nodeB < 1 || nodeB > n) return false;
 
                 graph.computeIfAbsent(nodeA, k -> new ArrayList<>()).add(nodeB);
                 inDegree[nodeB]++;
