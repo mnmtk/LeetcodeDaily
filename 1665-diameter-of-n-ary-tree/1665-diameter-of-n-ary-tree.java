@@ -22,13 +22,13 @@ class Node {
 */
 
 class Solution {
-    int dia = 0;
-
+    public int dia;
     public int diameter(Node root) {
         if(root == null) return 0;
+
         height(root);
 
-        return this.dia;
+        return dia;
     }
 
     public int height(Node node) {
@@ -38,20 +38,20 @@ class Solution {
         int max1 = 0;
         int max2 = 0;
 
+
         for(Node child : node.children) {
             int parent = height(child) + 1;
 
-            if(parent > max1) {
-                max2 = max1;
+            if(parent > max1 ) {
+                max2 = max1; 
                 max1 = parent;
-            } else if ( parent > max2) {
+            } else if (parent > max2) {
                 max2 = parent;
             }
 
-            this.dia = Math.max(this.dia, max1 + max2); // compare child brnches at each node
+            this.dia = Math.max(this.dia, max1 + max2);
         }
 
-
-        return max1; // return the max branch
+        return max1;
     }
 }
