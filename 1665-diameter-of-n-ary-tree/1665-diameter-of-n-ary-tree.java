@@ -22,34 +22,36 @@ class Node {
 */
 
 class Solution {
-    protected int diameter = 0;
+    int dia = 0;
 
     public int diameter(Node root) {
-        this.diameter = 0;
+        if(root == null) return 0;
         height(root);
-        return diameter;
+
+        return this.dia;
     }
 
-    public int height(Node node){
+    public int height(Node node) {
+
         if(node.children.size() == 0) return 0;
 
-        int maxHeight1 = 0;
-        int maxHeight2 = 0;
+        int max1 = 0;
+        int max2 = 0;
 
         for(Node child : node.children) {
-            int parentHeight = height(child) + 1;
+            int parent = height(child) + 1;
 
-             if (parentHeight > maxHeight1) {
-                maxHeight2 = maxHeight1;
-                maxHeight1 = parentHeight;
-            } else if (parentHeight > maxHeight2) {
-                maxHeight2 = parentHeight;
+            if(parent > max1) {
+                max2 = max1;
+                max1 = parent;
+            } else if ( parent > max2) {
+                max2 = parent;
             }
 
-            int distance = maxHeight1 + maxHeight2;
-            this.diameter = Math.max(this.diameter, distance);
+            this.dia = Math.max(this.dia, max1 + max2); // compare child brnches at each node
         }
 
-        return maxHeight1;
+
+        return max1; // return the max branch
     }
 }
