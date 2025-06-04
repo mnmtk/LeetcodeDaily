@@ -257,6 +257,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1815-checking-existence-of-edge-length-limited-paths](https://github.com/mnmtk/LeetcodeDaily/tree/master/1815-checking-existence-of-edge-length-limited-paths) |
 | [1894-merge-strings-alternately](https://github.com/mnmtk/LeetcodeDaily/tree/master/1894-merge-strings-alternately) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/mnmtk/LeetcodeDaily/tree/master/2588-maximum-number-of-points-from-grid-queries) |
+| [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/mnmtk/LeetcodeDaily/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 ## Design
 |  |
 | ------- |
@@ -847,6 +848,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/mnmtk/LeetcodeDaily/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/mnmtk/LeetcodeDaily/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3613-maximize-amount-after-two-days-of-conversions](https://github.com/mnmtk/LeetcodeDaily/tree/master/3613-maximize-amount-after-two-days-of-conversions) |
+| [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/mnmtk/LeetcodeDaily/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 | [3825-apply-substitutions](https://github.com/mnmtk/LeetcodeDaily/tree/master/3825-apply-substitutions) |
 ## Sliding Window
 |  |
@@ -1489,6 +1491,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0204-count-primes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0204-count-primes) |
 | [2266-minimum-cost-to-set-cooking-time](https://github.com/mnmtk/LeetcodeDaily/tree/master/2266-minimum-cost-to-set-cooking-time) |
 | [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/mnmtk/LeetcodeDaily/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
+| [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/mnmtk/LeetcodeDaily/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 ## Geometry
 |  |
 | ------- |
