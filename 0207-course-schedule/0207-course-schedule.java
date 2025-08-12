@@ -1,34 +1,31 @@
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
+        Map<Integer, List<Integer>> adjList = new HashMap<>();
+        int[] indegrees = new int[numCourses];
+        Queue<Integer> q = new LinkedList<>();
 
-        Map<Integer, List<Integer>> graph = new HashMap<>();
-
-        for(int[] prerequisite : prerequisites) {
-            graph.computeIfAbsent(prerequisite[0], k-> new ArrayList<>()).add(prerequisite[1]);
+        for(int[] preq : prerequisites) {
+            adjList.computeIfAbsent(preq[0], k -> new ArrayList<>()).add(preq[1]);
+            indegrees[preq[1]]++;
         }
 
-        int[] visited = new int[numCourses];
-
-        for (int i = 0 ; i < numCourses; i++) {
-            if(visited[i] == 0 && !dfs(graph, visited, i)) return false;
+        for(int i = 0; i < numCourses; i++) {
+            if(indegrees[i] == 0) {
+             q.add(i);
+            }
         }
 
-        return true;
-    }
+        int course = 0;
 
-    boolean dfs(Map<Integer, List<Integer>> graph, int[] visited, int course) {
-        if(visited[course] == -1) return false;
-
-        if(visited[course] == 1) return true;
-
-        visited[course] = -1;
-
-        //dfs
-        for(int neighbor : graph.getOrDefault(course, new ArrayList<>())) {
-            if(!dfs(graph, visited, neighbor)) return false;
+        while(!q.isEmpty()) {
+            course++;
+            int poll = q.poll();
+            for(Integer nei : adjList.getOrDefault(poll, new ArrayList<>())) {
+                indegrees[nei]--;
+                if(indegrees[nei] == 0) q.add(nei);
+            }
         }
 
-        visited[course] = 1;
-        return true;
+        return course == numCourses;
     }
 }
