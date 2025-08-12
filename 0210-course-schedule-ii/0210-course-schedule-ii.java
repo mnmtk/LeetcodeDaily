@@ -1,56 +1,38 @@
 class Solution {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
-        Map<Integer, List<Integer>> adjList = new HashMap<
-            Integer,
-            List<Integer>
-        >();
-        int[] indegree = new int[numCourses];
-        int[] topologicalOrder = new int[numCourses];
+       Map<Integer, List<Integer>> adjList = new HashMap<>();
+        int[] indegrees = new int[numCourses];
+        Queue<Integer> q = new LinkedList<>();
 
-        
-        for (int i = 0; i < prerequisites.length; i++) {
-            int dest = prerequisites[i][0];
-            int src = prerequisites[i][1];
-            List<Integer> lst = adjList.getOrDefault(
-                src,
-                new ArrayList<Integer>()
-            );
-            lst.add(dest);
-            adjList.put(src, lst);
-
-            indegree[dest] += 1;
+        for(int[] preq : prerequisites) {
+            adjList.computeIfAbsent(preq[1], k -> new ArrayList<>()).add(preq[0]);
+            indegrees[preq[0]]++;
         }
 
-        // Add all vertices with 0 in-degree to the queue
-        Queue<Integer> q = new LinkedList<Integer>();
-        for (int i = 0; i < numCourses; i++) {
-            if (indegree[i] == 0) {
-                q.add(i);
+        for(int i = 0; i < numCourses; i++) {
+            if(indegrees[i] == 0) {
+             q.add(i);
             }
         }
 
-        int i = 0;
-        // Process until the Q becomes empty
-        while (!q.isEmpty()) {
-            int node = q.remove();
-            topologicalOrder[i++] = node;
+        int course = 0;
 
-            // Reduce the in-degree of each neighbor by 1
-            if (adjList.containsKey(node)) {
-                for (Integer neighbor : adjList.get(node)) {
-                    indegree[neighbor]--;
+        int[] lies = new int[numCourses];
 
-                    // If in-degree of a neighbor becomes 0, add it to the Q
-                    if (indegree[neighbor] == 0) {
-                        q.add(neighbor);
-                    }
-                }
+
+        while(!q.isEmpty()) {
+            course++;
+            int poll = q.poll();
+            lies[course - 1] = poll;
+            for(Integer nei : adjList.getOrDefault(poll, new ArrayList<>())) {
+                indegrees[nei]--;
+                if(indegrees[nei] == 0) q.add(nei);
             }
         }
 
-        // Check to see if topological sort is possible or not.
-        if (i == numCourses) {
-            return topologicalOrder;
+        if(course == numCourses){
+
+        return lies;
         }
 
         return new int[0];
