@@ -26,16 +26,17 @@ class Solution {
             
             int length = Math.min(word1.length(), word2.length());
             for (int j = 0; j < length; j++) {
+
                 char parent = word1.charAt(j);
                 char child = word2.charAt(j);
+
                 if (parent != child) {
-                    // Add edge parent -> child if not already present
                     List<Character> children = graph.get(parent);
                     if (!children.contains(child)) {
                         children.add(child);
                         indegree.put(child, indegree.get(child) + 1);
                     }
-                    break; // Only first different char matters
+                    break; 
                 }
             }
         }
