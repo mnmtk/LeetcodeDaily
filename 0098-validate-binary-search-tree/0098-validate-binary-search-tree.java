@@ -19,13 +19,13 @@ class Solution {
     }
 
     public boolean isValidSubTree(TreeNode root, Long min, Long max) {
-        if(root.val <= min || root.val >= max)return false;
+        if(root.val <= min || root.val >= max) return false;
 
         if(root.left != null) {
         if(!isValidSubTree(root.left, min, (long) root.val)) return false;
         }
         
-        if(root.right!= null) {
+        if(root.right != null) {
         if(!isValidSubTree(root.right, (long) root.val, max)) return false;
         }
 
