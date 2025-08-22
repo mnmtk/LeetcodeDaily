@@ -8,7 +8,7 @@ class Solution {
         inorderTraversal(root.left);
         result.add(root.val);
         inorderTraversal(root.right);
-
+        
         return result;
     }
 }
