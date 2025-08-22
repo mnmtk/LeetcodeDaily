@@ -11,7 +11,7 @@ class Solution {
 
         for(int i = 0; i < row; i++) {
             for(int j = 0; j < col; j++) {
-                if(dfs(board, i, j, word, 0, visited)) {
+                if (dfs(board, i, j, word, 0, visited)) {
                     return true;
                 }
             }
