@@ -13,6 +13,9 @@
  *     }
  * }
  */
+
+ // TC :  O(N) -> in our recursion we only enter and exit from each node once. 
+ // SC :  O(N) -> dfs recursive call stack
 class Solution {
     int ans = 0;
     public int dfs(TreeNode node) {
