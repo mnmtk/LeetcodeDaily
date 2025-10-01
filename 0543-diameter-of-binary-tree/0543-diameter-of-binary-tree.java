@@ -13,25 +13,18 @@
  *     }
  * }
  */
-
- // TC :  O(N) -> in our recursion we only enter and exit from each node once. 
- // SC :  O(N) -> dfs recursive call stack
 class Solution {
     int ans = 0;
-    public int dfs(TreeNode node) {
+    public int dfs(TreeNode root) {
+        if(root == null) return 0;
 
-        if(node == null) return -1;
+        int left = dfs(root.left);
+        int right = dfs(root.right);
 
-        int diameter = 0;
-        
-        int leftMax = 1 + dfs(node.left);
-        int rightMax = 1 + dfs(node.right);
+        int dia = left + right;
+        ans = Math.max(dia, ans);
 
-        diameter = leftMax + rightMax;
-
-        ans = Math.max(diameter, ans);
-
-        return Math.max(leftMax, rightMax);
+        return Math.max(left, right) + 1;
     }
     public int diameterOfBinaryTree(TreeNode root) {
         dfs(root);
