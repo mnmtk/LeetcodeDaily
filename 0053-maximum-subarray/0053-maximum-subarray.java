@@ -1,17 +1,15 @@
 class Solution {
     public int maxSubArray(int[] nums) {
-        // Initialize our variables using the first element.
-        int currentSubarray = nums[0];
-        int maxSubarray = nums[0];
+        //at each point i can either include and move or leave previois and move.
 
-        // Start with the 2nd element since we already used the first one.
-        for (int i = 1; i < nums.length; i++) {
-            int num = nums[i];
-            // If current_subarray is negative, throw it away. Otherwise, keep adding to it.
-            currentSubarray = Math.max(num, currentSubarray + num);
-            maxSubarray = Math.max(maxSubarray, currentSubarray);
+        int max = nums[0];
+        int sum = 0;
+        for(int num : nums) {
+            int currMax = Math.max(sum + num, num);
+            max = Math.max(currMax, max);
+            sum = currMax;
         }
 
-        return maxSubarray;
+        return max;
     }
 }
