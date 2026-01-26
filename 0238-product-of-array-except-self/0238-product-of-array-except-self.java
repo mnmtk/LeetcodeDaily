@@ -1,27 +1,22 @@
 class Solution {
     public int[] productExceptSelf(int[] nums) {
         int n = nums.length;
-        int[] ans = new int[n];
         
-        int totalProd = 1;
-        int zeroCount = 0;
-
-        for (int num : nums) {
-            if (num == 0) zeroCount++;
-            else totalProd *= num;
+        int[] result = new int[n];
+        int[] prefixProducts = new int[n];
+        prefixProducts[0] = 1;
+        
+        for (int i = 1; i < n; i++) {
+            prefixProducts[i] = prefixProducts[i - 1] * nums[i - 1];
         }
+        
+        int suffixProduct = 1;
 
-        if (zeroCount > 1) return ans; // All will be 0
-
-        for (int i = 0; i < n; i++) {
-            if (zeroCount == 1) {
-                // If there's one zero, only the zero's index gets the product
-                ans[i] = (nums[i] == 0) ? totalProd : 0;
-            } else {
-                // Standard case: no zeros
-                ans[i] = totalProd / nums[i];
-            }
+        for (int i = n - 1; i >= 0; i--) {
+            result[i] = prefixProducts[i] * suffixProduct;
+            suffixProduct *= nums[i];
         }
-        return ans;
+        
+        return result;
     }
 }
