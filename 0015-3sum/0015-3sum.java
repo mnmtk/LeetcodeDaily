@@ -25,9 +25,6 @@ class Solution {
                     p2--;
                 }
             }
-
-
-            
         }
         return new ArrayList<>(ans);
     }
