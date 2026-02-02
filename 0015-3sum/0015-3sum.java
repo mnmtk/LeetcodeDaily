@@ -1,31 +1,24 @@
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
-
-        Set<List<Integer>> ans = new HashSet<>();
-
-        for(int i = 0; i < nums.length; i ++) {
-            int p1 = i + 1;
-            int p2 = nums.length - 1;
-
-            while(p1 < p2) {
-                int sum = nums[i] + nums[p1] + nums[p2];
-
-                if(sum == 0) {
-                    List<Integer> set = new ArrayList<>();
-                    set.add(nums[i]);
-                    set.add(nums[p1]);
-                    set.add(nums[p2]);
-
-                    ans.add(set);
-                    p1++;
-                } else if (sum < 0){
-                    p1++;
-                } else {
-                    p2--;
-                }
-            }
+        List<List<Integer>> res = new ArrayList<>();
+        for (int i = 0; i < nums.length && nums[i] <= 0; ++i) if (
+            i == 0 || nums[i - 1] != nums[i]
+        ) {
+            twoSum(nums, i, res);
         }
-        return new ArrayList<>(ans);
+        return res;
+    }
+
+    void twoSum(int[] nums, int i, List<List<Integer>> res) {
+        var seen = new HashSet<Integer>();
+        for (int j = i + 1; j < nums.length; ++j) {
+            int complement = -nums[i] - nums[j];
+            if (seen.contains(complement)) {
+                res.add(Arrays.asList(nums[i], nums[j], complement));
+                while (j + 1 < nums.length && nums[j] == nums[j + 1]) ++j;
+            }
+            seen.add(nums[j]);
+        }
     }
 }
