@@ -7,9 +7,7 @@ class Solution {
 
         while (!queue.isEmpty()) {
             int start = queue.remove();
-            if (start == s.length()) {
-                return true;
-            }
+           
 
             for (int end = start + 1; end <= s.length(); end++) {
                 if (seen[end]) {
@@ -17,6 +15,9 @@ class Solution {
                 }
 
                 if (words.contains(s.substring(start, end))) {
+                     if (end == s.length()) {
+                return true;
+            }
                     queue.add(end);
                     seen[end] = true;
                 }
