@@ -29,19 +29,16 @@ class Solution {
       return memo[p1][p2];
     }
 
-    // Option 1: we don't include text1[p1] in the solution.
-    int option1 = memoSolve(p1 + 1, p2);
-
-    // Option 2: We include text1[p1] in the solution, as long as
-    // a match for it in text2 at or after p2 exists.
-    int firstOccurence = text2.indexOf(text1.charAt(p1), p2);
-    int option2 = 0;
-    if (firstOccurence != -1) {
-      option2 = 1 + memoSolve(p1 + 1, firstOccurence + 1);
+    // Recursive cases.
+    int answer = 0;
+    if (text1.charAt(p1) == text2.charAt(p2)) {
+      answer = 1 + memoSolve(p1 + 1, p2 + 1);
+    } else {
+      answer = Math.max(memoSolve(p1, p2 + 1), memoSolve(p1 + 1, p2));
     }
-
+    
     // Add the best answer to the memo before returning it.
-    memo[p1][p2] = Math.max(option1, option2);
+    memo[p1][p2] = answer;
     return memo[p1][p2];
   }
 }
