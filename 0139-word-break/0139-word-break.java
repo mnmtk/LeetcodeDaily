@@ -11,7 +11,7 @@ class Solution {
         }
 
         for (String word : wordDict) {
-            // Handle out of bounds case
+            
             if (i - word.length() + 1 < 0) {
                 continue;
             }
