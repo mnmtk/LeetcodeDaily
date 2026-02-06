@@ -8,7 +8,7 @@ class Solution {
                     continue;
                 }
 
-                if (i == word.length() - 1 || dp[i - word.length()] && dp[i] != true) {
+                if (i == word.length() - 1 || dp[i - word.length()]) {
                     if (
                         s.substring(i - word.length() + 1, i + 1).equals(word)
                     ) {
