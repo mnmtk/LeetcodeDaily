@@ -21,5 +21,5 @@ class Solution {
         return top;
     }
 
-    //check how can i we use a reverse tree 
+    //check why red black tree will be slower ?
 }
