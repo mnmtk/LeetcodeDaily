@@ -1,12 +1,15 @@
 class Solution {
     public boolean containsDuplicate(int[] nums) {
-        //brute -> find for each O(n2)
-        //kinda O(n)*O(1) -> but discuss how it can affect the hashset bla bla
 
-        Set<Integer> hashSet = new HashSet<>();
+        Arrays.sort(nums);
 
-        for(int num : nums) if(hashSet.add(num) == false) return true;
-        
+        if(nums.length == 2) return nums[0] == nums[1];
+
+        for(int i = 0; i < nums.length - 1; i++) {
+            if(nums[i] == nums[i+1]) return true;
+        }
+
         return false;
+        
     }
 }
