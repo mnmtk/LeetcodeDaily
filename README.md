@@ -291,6 +291,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0215-kth-largest-element-in-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/mnmtk/LeetcodeDaily/tree/master/0217-contains-duplicate) |
 | [0220-contains-duplicate-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0220-contains-duplicate-iii) |
+| [0242-valid-anagram](https://github.com/mnmtk/LeetcodeDaily/tree/master/0242-valid-anagram) |
 | [0253-meeting-rooms-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0253-meeting-rooms-ii) |
 | [0259-3sum-smaller](https://github.com/mnmtk/LeetcodeDaily/tree/master/0259-3sum-smaller) |
 | [0268-missing-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0268-missing-number) |
@@ -591,6 +592,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0208-implement-trie-prefix-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/mnmtk/LeetcodeDaily/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0219-contains-duplicate-ii) |
+| [0242-valid-anagram](https://github.com/mnmtk/LeetcodeDaily/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0268-missing-number) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/mnmtk/LeetcodeDaily/tree/master/0325-maximum-size-subarray-sum-equals-k) |
@@ -823,6 +825,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0179-largest-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0179-largest-number) |
 | [0208-implement-trie-prefix-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0208-implement-trie-prefix-tree) |
 | [0212-word-search-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0212-word-search-ii) |
+| [0242-valid-anagram](https://github.com/mnmtk/LeetcodeDaily/tree/master/0242-valid-anagram) |
 | [0269-alien-dictionary](https://github.com/mnmtk/LeetcodeDaily/tree/master/0269-alien-dictionary) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0387-first-unique-character-in-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0387-first-unique-character-in-a-string) |
