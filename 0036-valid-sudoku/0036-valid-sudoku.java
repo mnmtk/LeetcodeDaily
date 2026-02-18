@@ -6,6 +6,7 @@ class Solution {
         HashSet<Character>[] rows = new HashSet[N];
         HashSet<Character>[] cols = new HashSet[N];
         HashSet<Character>[] boxes = new HashSet[N];
+        
         for (int r = 0; r < N; r++) {
             rows[r] = new HashSet<Character>();
             cols[r] = new HashSet<Character>();
