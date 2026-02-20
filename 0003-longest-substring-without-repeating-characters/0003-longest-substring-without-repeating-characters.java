@@ -1,28 +1,24 @@
 class Solution {
     public int lengthOfLongestSubstring(String s) {
+        Integer[] chars = new Integer[128];
+
+        int left = 0;
+        int right = 0;
 
         int res = 0;
 
-        int right = 0;
-        int left = 0;
-
-        Map<Character, Integer> seen = new HashMap<>(); //frequencymap
         while(right < s.length()) {
+            char r = s.charAt(right);
 
-            char current = s.charAt(right);
-
-            seen.put(current, seen.getOrDefault(current, 0) + 1);
-
-            while(seen.get(current) > 1) {
-                char l = s.charAt(left); 
-                seen.put(l, seen.get(l) - 1);
-                left++;
+            Integer index = chars[r];
+            if (index != null && index >= left && index < right) {
+                left = index + 1;
             }
 
             res = Math.max(res, right - left + 1);
 
+            chars[r] = right;
             right++;
-
         }
 
         return res;
