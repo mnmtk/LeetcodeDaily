@@ -499,6 +499,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0772-construct-quad-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0772-construct-quad-tree) |
 | [0794-swim-in-rising-water](https://github.com/mnmtk/LeetcodeDaily/tree/master/0794-swim-in-rising-water) |
 | [0808-number-of-matching-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/0808-number-of-matching-subsequences) |
+| [0875-koko-eating-bananas](https://github.com/mnmtk/LeetcodeDaily/tree/master/0875-koko-eating-bananas) |
 | [0907-koko-eating-bananas](https://github.com/mnmtk/LeetcodeDaily/tree/master/0907-koko-eating-bananas) |
 | [0909-stone-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0909-stone-game) |
 | [0912-random-pick-with-weight](https://github.com/mnmtk/LeetcodeDaily/tree/master/0912-random-pick-with-weight) |
@@ -967,6 +968,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0719-find-k-th-smallest-pair-distance](https://github.com/mnmtk/LeetcodeDaily/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0794-swim-in-rising-water](https://github.com/mnmtk/LeetcodeDaily/tree/master/0794-swim-in-rising-water) |
 | [0808-number-of-matching-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/0808-number-of-matching-subsequences) |
+| [0875-koko-eating-bananas](https://github.com/mnmtk/LeetcodeDaily/tree/master/0875-koko-eating-bananas) |
 | [0907-koko-eating-bananas](https://github.com/mnmtk/LeetcodeDaily/tree/master/0907-koko-eating-bananas) |
 | [0912-random-pick-with-weight](https://github.com/mnmtk/LeetcodeDaily/tree/master/0912-random-pick-with-weight) |
 | [0914-random-point-in-non-overlapping-rectangles](https://github.com/mnmtk/LeetcodeDaily/tree/master/0914-random-point-in-non-overlapping-rectangles) |
