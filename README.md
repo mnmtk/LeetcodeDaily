@@ -538,6 +538,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1706-min-cost-to-connect-all-points](https://github.com/mnmtk/LeetcodeDaily/tree/master/1706-min-cost-to-connect-all-points) |
 | [1753-path-with-minimum-effort](https://github.com/mnmtk/LeetcodeDaily/tree/master/1753-path-with-minimum-effort) |
 | [1815-checking-existence-of-edge-length-limited-paths](https://github.com/mnmtk/LeetcodeDaily/tree/master/1815-checking-existence-of-edge-length-limited-paths) |
+| [1929-concatenation-of-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/1929-concatenation-of-array) |
 | [1934-evaluate-the-bracket-pairs-of-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/1934-evaluate-the-bracket-pairs-of-a-string) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/mnmtk/LeetcodeDaily/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/mnmtk/LeetcodeDaily/tree/master/1977-minimum-interval-to-include-each-query) |
@@ -1190,6 +1191,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0068-text-justification](https://github.com/mnmtk/LeetcodeDaily/tree/master/0068-text-justification) |
 | [0412-fizz-buzz](https://github.com/mnmtk/LeetcodeDaily/tree/master/0412-fizz-buzz) |
 | [1642-water-bottles](https://github.com/mnmtk/LeetcodeDaily/tree/master/1642-water-bottles) |
+| [1929-concatenation-of-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/1929-concatenation-of-array) |
 | [2617-time-taken-to-cross-the-door](https://github.com/mnmtk/LeetcodeDaily/tree/master/2617-time-taken-to-cross-the-door) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 ## Greedy
