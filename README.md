@@ -486,6 +486,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0540-single-element-in-a-sorted-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0540-single-element-in-a-sorted-array) |
 | [0548-split-array-with-equal-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0548-split-array-with-equal-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/mnmtk/LeetcodeDaily/tree/master/0560-subarray-sum-equals-k) |
+| [0605-can-place-flowers](https://github.com/mnmtk/LeetcodeDaily/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/mnmtk/LeetcodeDaily/tree/master/0621-task-scheduler) |
 | [0631-design-excel-sum-formula](https://github.com/mnmtk/LeetcodeDaily/tree/master/0631-design-excel-sum-formula) |
 | [0644-maximum-average-subarray-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0644-maximum-average-subarray-ii) |
@@ -1220,6 +1221,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0179-largest-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0179-largest-number) |
 | [0253-meeting-rooms-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0253-meeting-rooms-ii) |
 | [0410-split-array-largest-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0410-split-array-largest-sum) |
+| [0605-can-place-flowers](https://github.com/mnmtk/LeetcodeDaily/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/mnmtk/LeetcodeDaily/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0778-reorganize-string) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/mnmtk/LeetcodeDaily/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
