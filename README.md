@@ -530,6 +530,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/mnmtk/LeetcodeDaily/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1367-maximum-height-by-stacking-cuboids](https://github.com/mnmtk/LeetcodeDaily/tree/master/1367-maximum-height-by-stacking-cuboids) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/mnmtk/LeetcodeDaily/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
+| [1431-kids-with-the-greatest-number-of-candies](https://github.com/mnmtk/LeetcodeDaily/tree/master/1431-kids-with-the-greatest-number-of-candies) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/mnmtk/LeetcodeDaily/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/mnmtk/LeetcodeDaily/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
