@@ -642,6 +642,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/mnmtk/LeetcodeDaily/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2755-extra-characters-in-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/2755-extra-characters-in-a-string) |
+| [2791-count-paths-that-can-form-a-palindrome-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2791-count-paths-that-can-form-a-palindrome-in-a-tree) |
 | [3265-maximum-good-subarray-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/3265-maximum-good-subarray-sum) |
 | [3266-find-longest-special-substring-that-occurs-thrice-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/3266-find-longest-special-substring-that-occurs-thrice-ii) |
 | [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/mnmtk/LeetcodeDaily/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
@@ -761,6 +762,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2564-most-profitable-path-in-a-tree) |
+| [2791-count-paths-that-can-form-a-palindrome-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2791-count-paths-that-can-form-a-palindrome-in-a-tree) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 ## Binary Tree
 |  |
@@ -1097,6 +1099,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/mnmtk/LeetcodeDaily/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
+| [2791-count-paths-that-can-form-a-palindrome-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2791-count-paths-that-can-form-a-palindrome-in-a-tree) |
 | [2793-count-the-number-of-complete-components](https://github.com/mnmtk/LeetcodeDaily/tree/master/2793-count-the-number-of-complete-components) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 | [3613-maximize-amount-after-two-days-of-conversions](https://github.com/mnmtk/LeetcodeDaily/tree/master/3613-maximize-amount-after-two-days-of-conversions) |
@@ -1177,6 +1180,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1587-parallel-courses-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1587-parallel-courses-ii) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2478-longest-nice-subarray](https://github.com/mnmtk/LeetcodeDaily/tree/master/2478-longest-nice-subarray) |
+| [2791-count-paths-that-can-form-a-palindrome-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2791-count-paths-that-can-form-a-palindrome-in-a-tree) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 ## Backtracking
 |  |
