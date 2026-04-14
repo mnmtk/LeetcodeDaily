@@ -1,30 +1,40 @@
 class Solution {
-
-    private Boolean isVowel(char s) {
-        if (s == 'a' || s == 'e' || s == 'i' || s == 'o' || s == 'u') return true;
-        if (s == 'A' || s == 'E' || s == 'I' || s == 'O' || s == 'U') return true;
-        return false;
+    // Return true if the character is a vowel (case-insensitive)
+    boolean isVowel(char c) {
+        return c == 'a' || c == 'i' || c == 'e' || c == 'o' || c == 'u'
+            || c == 'A' || c == 'I' || c == 'E' || c == 'O' || c == 'U';
     }
-
+    
+    // Function to swap characters at index x and y
+    void swap(char[] chars, int x, int y) {
+        char temp = chars[x];
+        chars[x] = chars[y];
+        chars[y] = temp;
+    }
+    
     public String reverseVowels(String s) {
-        Stack<Character> vowels = new Stack();
-
-        for(int i = 0 ; i < s.length(); i++) {
-            if(isVowel(s.charAt(i))) {
-                vowels.push(s.charAt(i));
+        int start = 0;
+        int end = s.length() - 1;
+        // Convert String to char array as String is immutable in Java
+        char[] sChar = s.toCharArray();
+        
+        // While we still have characters to traverse
+        while (start < end) {
+            // Find the leftmost vowel
+            while (start < s.length () && !isVowel(sChar[start])) {
+                start++;
+            }
+            // Find the rightmost vowel
+            while (end >= 0 && !isVowel(sChar[end])) {
+                end--;
+            }
+            // Swap them if start is left of end
+            if (start < end) {
+                swap(sChar, start++, end--);
             }
         }
-
-        StringBuilder builder = new StringBuilder();
-
-        for(int i = 0 ; i < s.length(); i ++) {
-             if(isVowel(s.charAt(i))) {
-               builder.append(vowels.pop());
-             } else {
-                builder.append(s.charAt(i));
-             }
-        }
-
-        return builder.toString();
+        
+        // Converting char array back to String
+        return new String(sChar);
     }
-}
+};
