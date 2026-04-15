@@ -249,6 +249,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0345-reverse-vowels-of-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0345-reverse-vowels-of-a-string) |
 | [0349-intersection-of-two-arrays](https://github.com/mnmtk/LeetcodeDaily/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0392-is-subsequence](https://github.com/mnmtk/LeetcodeDaily/tree/master/0392-is-subsequence) |
 | [0408-valid-word-abbreviation](https://github.com/mnmtk/LeetcodeDaily/tree/master/0408-valid-word-abbreviation) |
 | [0443-string-compression](https://github.com/mnmtk/LeetcodeDaily/tree/master/0443-string-compression) |
 | [0567-permutation-in-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0567-permutation-in-string) |
@@ -846,6 +847,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0345-reverse-vowels-of-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0345-reverse-vowels-of-a-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0387-first-unique-character-in-a-string) |
+| [0392-is-subsequence](https://github.com/mnmtk/LeetcodeDaily/tree/master/0392-is-subsequence) |
 | [0399-evaluate-division](https://github.com/mnmtk/LeetcodeDaily/tree/master/0399-evaluate-division) |
 | [0408-valid-word-abbreviation](https://github.com/mnmtk/LeetcodeDaily/tree/master/0408-valid-word-abbreviation) |
 | [0412-fizz-buzz](https://github.com/mnmtk/LeetcodeDaily/tree/master/0412-fizz-buzz) |
@@ -930,6 +932,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0337-house-robber-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0337-house-robber-iii) |
 | [0351-android-unlock-patterns](https://github.com/mnmtk/LeetcodeDaily/tree/master/0351-android-unlock-patterns) |
 | [0354-russian-doll-envelopes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0354-russian-doll-envelopes) |
+| [0392-is-subsequence](https://github.com/mnmtk/LeetcodeDaily/tree/master/0392-is-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0410-split-array-largest-sum) |
 | [0576-out-of-boundary-paths](https://github.com/mnmtk/LeetcodeDaily/tree/master/0576-out-of-boundary-paths) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/mnmtk/LeetcodeDaily/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
