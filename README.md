@@ -541,6 +541,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/mnmtk/LeetcodeDaily/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/mnmtk/LeetcodeDaily/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/mnmtk/LeetcodeDaily/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/mnmtk/LeetcodeDaily/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/mnmtk/LeetcodeDaily/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/mnmtk/LeetcodeDaily/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
@@ -904,6 +905,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1004-max-consecutive-ones-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1004-max-consecutive-ones-iii) |
 | [1046-max-consecutive-ones-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1046-max-consecutive-ones-iii) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/mnmtk/LeetcodeDaily/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/mnmtk/LeetcodeDaily/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/mnmtk/LeetcodeDaily/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/mnmtk/LeetcodeDaily/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2478-longest-nice-subarray](https://github.com/mnmtk/LeetcodeDaily/tree/master/2478-longest-nice-subarray) |
@@ -955,6 +957,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1143-longest-common-subsequence](https://github.com/mnmtk/LeetcodeDaily/tree/master/1143-longest-common-subsequence) |
 | [1367-maximum-height-by-stacking-cuboids](https://github.com/mnmtk/LeetcodeDaily/tree/master/1367-maximum-height-by-stacking-cuboids) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/mnmtk/LeetcodeDaily/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/mnmtk/LeetcodeDaily/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1587-parallel-courses-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1587-parallel-courses-ii) |
 | [1912-number-of-restricted-paths-from-first-to-last-node](https://github.com/mnmtk/LeetcodeDaily/tree/master/1912-number-of-restricted-paths-from-first-to-last-node) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/mnmtk/LeetcodeDaily/tree/master/2090-number-of-ways-to-arrive-at-destination) |
