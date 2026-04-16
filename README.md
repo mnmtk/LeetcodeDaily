@@ -493,6 +493,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0605-can-place-flowers](https://github.com/mnmtk/LeetcodeDaily/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/mnmtk/LeetcodeDaily/tree/master/0621-task-scheduler) |
 | [0631-design-excel-sum-formula](https://github.com/mnmtk/LeetcodeDaily/tree/master/0631-design-excel-sum-formula) |
+| [0643-maximum-average-subarray-i](https://github.com/mnmtk/LeetcodeDaily/tree/master/0643-maximum-average-subarray-i) |
 | [0644-maximum-average-subarray-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0644-maximum-average-subarray-ii) |
 | [0658-find-k-closest-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/0658-find-k-closest-elements) |
 | [0674-longest-continuous-increasing-subsequence](https://github.com/mnmtk/LeetcodeDaily/tree/master/0674-longest-continuous-increasing-subsequence) |
@@ -894,6 +895,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0239-sliding-window-maximum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/mnmtk/LeetcodeDaily/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0567-permutation-in-string) |
+| [0643-maximum-average-subarray-i](https://github.com/mnmtk/LeetcodeDaily/tree/master/0643-maximum-average-subarray-i) |
 | [0658-find-k-closest-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/0658-find-k-closest-elements) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/mnmtk/LeetcodeDaily/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/mnmtk/LeetcodeDaily/tree/master/0718-maximum-length-of-repeated-subarray) |
