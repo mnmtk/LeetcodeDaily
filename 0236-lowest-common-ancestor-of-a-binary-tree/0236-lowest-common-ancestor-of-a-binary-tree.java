@@ -10,20 +10,21 @@
 class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
 
-        if(root == null || root.val == p.val || root.val == q.val) return root;
+        if(root == null || root.val == p.val || root.val == q.val) {
+            return root;
+        }
 
         TreeNode left = lowestCommonAncestor(root.left, p, q);
-        TreeNode right = lowestCommonAncestor(root.right, p, q);
+        TreeNode right = lowestCommonAncestor(root.right, p ,q);
 
-        if(left == null && right == null) {
-            return null; //nothing below this
-        } else if (left == null) {
-            return right; // found in right
+        if(left == null){
+            return right;
         } else if (right == null) {
-            return left; // found in left ?
+            return left;
         } else {
-            return root; // both side found so this must be it (we are in DFS)
+            return root;
         }
+
         
     }
 }
