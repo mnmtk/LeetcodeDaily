@@ -23,12 +23,10 @@ class Solution {
     public TreeNode answer(TreeNode node) {
         if (node == null || depth.get(node) == max_depth)
             return node;
-        
-        TreeNode L = answer(node.left);
-        TreeNode R = answer(node.right);
+        TreeNode L = answer(node.left),
+                 R = answer(node.right);
 
         if (L != null && R != null) return node;
-        
         if (L != null) return L;
         if (R != null) return R;
 
