@@ -1,30 +1,37 @@
 class Solution {
+    Map<TreeNode, Integer> depth;
+    int max_depth;
     public TreeNode subtreeWithAllDeepest(TreeNode root) {
-        TreeNode first = null, last = null;
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.add(root);
-        while(queue.size() > 0){
-            int size = queue.size();
-            first = queue.peek();
-            while(size-- > 0){
-                last = queue.remove();
-                if(last.left != null) queue.add(last.left);
-                if(last.right != null) queue.add(last.right);
-            }
-        }
-        return lcs(root, first.val, last.val);
+        depth = new HashMap();
+        depth.put(null, -1);
+        dfs(root, null);
+        max_depth = -1;
+        for (Integer d: depth.values())
+            max_depth = Math.max(max_depth, d);
+
+        return answer(root);
     }
-    public TreeNode lcs(TreeNode root, int n1, int n2){
-        if(root == null) return null;
-        if(root.val == n1 || root.val == n2){
-            return root;
+
+    public void dfs(TreeNode node, TreeNode parent) {
+        if (node != null) {
+            depth.put(node, depth.get(parent) + 1);
+            dfs(node.left, node);
+            dfs(node.right, node);
         }
-        TreeNode left = lcs(root.left, n1, n2);
-        TreeNode right = lcs(root.right, n1, n2);
+    }
 
-        if(left != null && right != null) return root;
+    public TreeNode answer(TreeNode node) {
+        if (node == null || depth.get(node) == max_depth)
+            return node;
+        
+        TreeNode L = answer(node.left);
+        TreeNode R = answer(node.right);
 
-        if(left != null) return left;
-        else return right;
+        if (L != null && R != null) return node;
+        
+        if (L != null) return L;
+        if (R != null) return R;
+
+        return null;
     }
 }
