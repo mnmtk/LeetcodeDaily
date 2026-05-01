@@ -1,35 +1,34 @@
 class Solution {
-    Map<TreeNode, Integer> depth;
-    int max_depth;
     public TreeNode subtreeWithAllDeepest(TreeNode root) {
-        depth = new HashMap();
-        depth.put(null, -1);
-        dfs(root, null);
-        max_depth = -1;
-        for (Integer d: depth.values())
-            max_depth = Math.max(max_depth, d);
-
-        return answer(root);
+        return dfs(root).node;
     }
 
-    public void dfs(TreeNode node, TreeNode parent) {
-        if (node != null) {
-            depth.put(node, depth.get(parent) + 1);
-            dfs(node.left, node);
-            dfs(node.right, node);
-        }
+    // Return the result of the subtree at this node.
+    public Result dfs(TreeNode node) {
+        if (node == null) return new Result(null, 0);
+        
+        Result L = dfs(node.left);
+        Result R = dfs(node.right);
+
+        if (L.dist > R.dist) return new Result(L.node, L.dist + 1);
+        if (L.dist < R.dist) return new Result(R.node, R.dist + 1);
+
+        return new Result(node, L.dist + 1);
     }
+}
 
-    public TreeNode answer(TreeNode node) {
-        if (node == null || depth.get(node) == max_depth)
-            return node;
-        TreeNode L = answer(node.left),
-                 R = answer(node.right);
-
-        if (L != null && R != null) return node;
-        if (L != null) return L;
-        if (R != null) return R;
-
-        return null;
+/**
+ * The result of a subtree is:
+ *       Result.node: the largest depth node that is equal to or
+ *                    an ancestor of all the deepest nodes of this subtree.
+ *       Result.dist: the number of nodes in the path from the root
+ *                    of this subtree, to the deepest node in this subtree.
+ */
+class Result {
+    TreeNode node;
+    int dist;
+    Result(TreeNode n, int d) {
+        node = n;
+        dist = d;
     }
 }
