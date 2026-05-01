@@ -1,4 +1,5 @@
 class Solution {
+    
     public TreeNode subtreeWithAllDeepest(TreeNode root) {
         return dfs(root).node;
     }
@@ -6,7 +7,7 @@ class Solution {
     // Return the result of the subtree at this node.
     public Result dfs(TreeNode node) {
         if (node == null) return new Result(null, 0);
-        
+
         Result L = dfs(node.left);
         Result R = dfs(node.right);
 
