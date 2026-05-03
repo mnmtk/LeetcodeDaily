@@ -1,48 +1,38 @@
+import java.util.*;
+
 class Solution {
-  Map<Integer, ArrayList<Pair<Integer, Integer>>> columnTable = new HashMap();
-  int minColumn = 0, maxColumn = 0;
+    // We change the Map to store a custom object or Pair to keep track of the row
+    Map<Integer, List<int[]>> answer = new TreeMap<>();
 
-  private void DFS(TreeNode node, Integer row, Integer column) {
-    if (node == null)
-      return;
+    public List<List<Integer>> verticalOrder(TreeNode root) {
+        List<List<Integer>> answerValues = new ArrayList<>();
+        if (root == null) return answerValues;
 
-    if (!columnTable.containsKey(column)) {
-      this.columnTable.put(column, new ArrayList<Pair<Integer, Integer>>());
-    }
+        dfs(root, 0, 0);
 
-    this.columnTable.get(column).add(new Pair<Integer, Integer>(row, node.val));
-    this.minColumn = Math.min(minColumn, column);
-    this.maxColumn = Math.max(maxColumn, column);
-    // preorder DFS traversal
-    this.DFS(node.left, row + 1, column - 1);
-    this.DFS(node.right, row + 1, column + 1);
-  }
+        for (int key : answer.keySet()) {
+            List<int[]> columnNodes = answer.get(key);
+            columnNodes.sort((a, b) -> a[1] - b[1]);
 
-  public List<List<Integer>> verticalOrder(TreeNode root) {
-    List<List<Integer>> output = new ArrayList();
-    if (root == null) {
-      return output;
-    }
-
-    this.DFS(root, 0, 0);
-
-    // Retrieve the resuts, by ordering by column and sorting by row
-    for (int i = minColumn; i < maxColumn + 1; ++i) {
-
-      Collections.sort(columnTable.get(i), new Comparator<Pair<Integer, Integer>>() {
-        @Override
-        public int compare(Pair<Integer, Integer> p1, Pair<Integer, Integer> p2) {
-          return p1.getKey() - p2.getKey();
+            List<Integer> sortedColumn = new ArrayList<>();
+            for (int[] nodeInfo : columnNodes) {
+                sortedColumn.add(nodeInfo[0]);
+            }
+            answerValues.add(sortedColumn);
         }
-      });
-
-      List<Integer> sortedColumn = new ArrayList();
-      for (Pair<Integer, Integer> p : columnTable.get(i)) {
-        sortedColumn.add(p.getValue());
-      }
-      output.add(sortedColumn);
+       
+       return answerValues;
     }
 
-    return output;
-  }
+    private void dfs(TreeNode root, int colindex, int rowindex) {
+        if (root == null) return;
+
+        // Store as {value, rowindex}
+        answer.computeIfAbsent(colindex, k -> new ArrayList<>())
+              .add(new int[]{root.val, rowindex});
+
+        // Traverse left then right
+        dfs(root.left, colindex - 1, rowindex + 1);
+        dfs(root.right, colindex + 1, rowindex + 1);
+    }
 }
