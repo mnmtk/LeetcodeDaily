@@ -1,47 +1,46 @@
 class Solution {
+    private List<Pair<Integer, Integer>> pairs;
+    
+    private int getHeight(TreeNode root) {
+        
+        // return -1 for null nodes
+        if (root == null) return -1;
+        
+        // first calculate the height of the left and right children
+        int leftHeight = getHeight(root.left);
+        int rightHeight = getHeight(root.right);
+        
+        // based on the height of the left and right children, obtain the height of the current (parent) node
+        int currHeight = Math.max(leftHeight, rightHeight) + 1;
+
+        // collect the pair -> (height, val)
+        pairs.add(new Pair<Integer, Integer>(currHeight, root.val));
+
+        // return the height of the current node
+        return currHeight;
+    }
+    
     public List<List<Integer>> findLeaves(TreeNode root) {
-        List<List<Integer>> res = new ArrayList<>();
-        if(root == null) {
-            return res;   
-        }
-        while(!isLeaf(root)) { //multiple calls to same tree!
-            bfs(root, res);
-        }
-        res.add(Arrays.asList(root.val)); // Now the root is a leaf.
-        return res;
-    }
-    
-    /*
-        Collect leaf values and put it in a list.
-    */
-    private void bfs(TreeNode n, List<List<Integer>> res) {
+        pairs = new ArrayList<>();
+        
+        getHeight(root);
+        
+        // sort all the (height, val) pairs
+        Collections.sort(pairs, Comparator.comparing(p -> p.getKey()));
+        
+        int n = pairs.size(), height = 0, i = 0;
 
-        Deque<TreeNode> queue = new ArrayDeque<>();
-        queue.offer(n);
-
-        List<Integer> list = new ArrayList<>();
-
-        while(!queue.isEmpty()) {
-            TreeNode cur = queue.poll();
-
-            if(isLeaf(cur.left)) {
-                list.add(cur.left.val);
-                cur.left = null;
-            } else if(cur.left != null) {
-                queue.offer(cur.left);   
+        List<List<Integer>> solution = new ArrayList<>();
+        
+        while (i < n) {
+            List<Integer> nums = new ArrayList<>();
+            while (i < n && pairs.get(i).getKey() == height) {
+                nums.add(pairs.get(i).getValue());
+                i++;
             }
-            if(isLeaf(cur.right)) {
-                list.add(cur.right.val);
-                cur.right = null;
-            } else if(cur.right != null) {
-                queue.offer(cur.right);   
-            }
+            solution.add(nums);
+            height++;
         }
-
-        res.add(list);
-    }
-    
-    private boolean isLeaf(TreeNode n) {
-        return n != null && n.left == null && n.right == null;   
+        return solution;
     }
 }
