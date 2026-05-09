@@ -242,6 +242,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0234-palindrome-linked-list](https://github.com/mnmtk/LeetcodeDaily/tree/master/0234-palindrome-linked-list) |
 | [0253-meeting-rooms-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0253-meeting-rooms-ii) |
 | [0259-3sum-smaller](https://github.com/mnmtk/LeetcodeDaily/tree/master/0259-3sum-smaller) |
+| [0272-closest-binary-search-tree-value-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0277-find-the-celebrity](https://github.com/mnmtk/LeetcodeDaily/tree/master/0277-find-the-celebrity) |
 | [0283-move-zeroes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0287-find-the-duplicate-number) |
@@ -346,6 +347,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0218-the-skyline-problem](https://github.com/mnmtk/LeetcodeDaily/tree/master/0218-the-skyline-problem) |
 | [0239-sliding-window-maximum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0239-sliding-window-maximum) |
 | [0253-meeting-rooms-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0253-meeting-rooms-ii) |
+| [0272-closest-binary-search-tree-value-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0295-find-median-from-data-stream](https://github.com/mnmtk/LeetcodeDaily/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/0347-top-k-frequent-elements) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/mnmtk/LeetcodeDaily/tree/master/0373-find-k-pairs-with-smallest-sums) |
@@ -749,6 +751,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0250-count-univalue-subtrees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0250-count-univalue-subtrees) |
 | [0270-closest-binary-search-tree-value](https://github.com/mnmtk/LeetcodeDaily/tree/master/0270-closest-binary-search-tree-value) |
+| [0272-closest-binary-search-tree-value-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0337-house-robber-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0337-house-robber-iii) |
@@ -809,6 +812,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0250-count-univalue-subtrees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0250-count-univalue-subtrees) |
 | [0270-closest-binary-search-tree-value](https://github.com/mnmtk/LeetcodeDaily/tree/master/0270-closest-binary-search-tree-value) |
+| [0272-closest-binary-search-tree-value-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0337-house-robber-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0337-house-robber-iii) |
@@ -1059,6 +1063,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0094-binary-tree-inorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0094-binary-tree-inorder-traversal) |
 | [0155-min-stack](https://github.com/mnmtk/LeetcodeDaily/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/mnmtk/LeetcodeDaily/tree/master/0234-palindrome-linked-list) |
+| [0272-closest-binary-search-tree-value-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0341-flatten-nested-list-iterator](https://github.com/mnmtk/LeetcodeDaily/tree/master/0341-flatten-nested-list-iterator) |
 | [0456-132-pattern](https://github.com/mnmtk/LeetcodeDaily/tree/master/0456-132-pattern) |
 | [1002-maximum-width-ramp](https://github.com/mnmtk/LeetcodeDaily/tree/master/1002-maximum-width-ramp) |
@@ -1087,6 +1092,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0261-graph-valid-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0261-graph-valid-tree) |
 | [0269-alien-dictionary](https://github.com/mnmtk/LeetcodeDaily/tree/master/0269-alien-dictionary) |
 | [0270-closest-binary-search-tree-value](https://github.com/mnmtk/LeetcodeDaily/tree/master/0270-closest-binary-search-tree-value) |
+| [0272-closest-binary-search-tree-value-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0310-minimum-height-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0310-minimum-height-trees) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0314-binary-tree-vertical-order-traversal) |
@@ -1166,6 +1172,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0270-closest-binary-search-tree-value](https://github.com/mnmtk/LeetcodeDaily/tree/master/0270-closest-binary-search-tree-value) |
+| [0272-closest-binary-search-tree-value-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0450-delete-node-in-a-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0784-insert-into-a-binary-search-tree) |
