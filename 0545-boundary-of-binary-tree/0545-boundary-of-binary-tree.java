@@ -17,10 +17,13 @@ class Solution {
     public List<Integer> boundaryOfBinaryTree(TreeNode root) {
         List<Integer> boundary = new ArrayList<>();
         if (root == null) return boundary;
+
         if (!isLeaf(root)) boundary.add(root.val);
 
         // Add left boundary excluding leaves
         addLeftBoundary(root.left, boundary);
+
+        System.out.print("bound" + boundary);
 
         // Add leaves
         addLeaves(root, boundary);
@@ -46,7 +49,7 @@ class Solution {
     private void addRightBoundary(TreeNode node, List<Integer> boundary) {
         LinkedList<Integer> temp = new LinkedList<>();
         while (node != null) {
-            if (!isLeaf(node)) temp.addFirst(node.val);
+            if (!isLeaf(node)) temp.addFirst(node.val); //easy add at 0 index
             if (node.right != null) node = node.right;
             else node = node.left;
         }
