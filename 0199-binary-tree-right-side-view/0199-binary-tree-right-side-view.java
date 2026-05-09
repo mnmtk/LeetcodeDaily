@@ -1,18 +1,35 @@
 class Solution {
 
-    List<Integer> rightside = new ArrayList();
-
-    public void helper(TreeNode node, int level) {
-        if (level == rightside.size()) rightside.add(node.val);
-
-        if (node.right != null) helper(node.right, level + 1);
-        if (node.left != null) helper(node.left, level + 1);
-    }
-
     public List<Integer> rightSideView(TreeNode root) {
-        if (root == null) return rightside;
+        if (root == null) return new ArrayList<Integer>();
 
-        helper(root, 0);
+        ArrayDeque<TreeNode> nextLevel = new ArrayDeque() {
+            {
+                offer(root);
+            }
+        };
+
+        ArrayDeque<TreeNode> currLevel = new ArrayDeque();
+        List<Integer> rightside = new ArrayList();
+
+        TreeNode node = null;
+        while (!nextLevel.isEmpty()) {
+ 
+            currLevel = nextLevel;
+            nextLevel = new ArrayDeque<>();
+
+            while (!currLevel.isEmpty()) {
+                node = currLevel.poll();
+
+
+                if (node.left != null) nextLevel.offer(node.left);
+                if (node.right != null) nextLevel.offer(node.right);
+            }
+
+
+            rightside.add(node.val);
+        }
+        
         return rightside;
     }
 }
