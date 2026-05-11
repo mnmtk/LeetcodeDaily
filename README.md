@@ -795,6 +795,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1665-diameter-of-n-ary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1665-diameter-of-n-ary-tree) |
 | [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
+| [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mnmtk/LeetcodeDaily/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2791-count-paths-that-can-form-a-palindrome-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2791-count-paths-that-can-form-a-palindrome-in-a-tree) |
@@ -853,6 +854,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1650-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1650-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
+| [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mnmtk/LeetcodeDaily/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## String
 |  |
@@ -916,6 +918,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1894-merge-strings-alternately](https://github.com/mnmtk/LeetcodeDaily/tree/master/1894-merge-strings-alternately) |
 | [1934-evaluate-the-bracket-pairs-of-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/1934-evaluate-the-bracket-pairs-of-a-string) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mnmtk/LeetcodeDaily/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/mnmtk/LeetcodeDaily/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2755-extra-characters-in-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/2755-extra-characters-in-a-string) |
 | [3266-find-longest-special-substring-that-occurs-thrice-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/3266-find-longest-special-substring-that-occurs-thrice-ii) |
@@ -1165,6 +1168,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1665-diameter-of-n-ary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1665-diameter-of-n-ary-tree) |
 | [1753-path-with-minimum-effort](https://github.com/mnmtk/LeetcodeDaily/tree/master/1753-path-with-minimum-effort) |
 | [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
+| [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mnmtk/LeetcodeDaily/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2121-find-if-path-exists-in-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/2121-find-if-path-exists-in-graph) |
 | [2206-detonate-the-maximum-bombs](https://github.com/mnmtk/LeetcodeDaily/tree/master/2206-detonate-the-maximum-bombs) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/mnmtk/LeetcodeDaily/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
