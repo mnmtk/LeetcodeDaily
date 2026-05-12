@@ -1,111 +1,75 @@
 class Solution {
 
     public String getDirections(TreeNode root, int startValue, int destValue) {
-        // Map to store parent nodes
-        Map<Integer, TreeNode> parentMap = new HashMap<>();
+        // Find the Lowest Common Ancestor (LCA) of start and destination nodes
+        TreeNode lowestCommonAncestor = findLowestCommonAncestor(
+            root,
+            startValue,
+            destValue
+        );
 
-        // Find the start node and populate parent map
-        TreeNode startNode = findStartNode(root, startValue);
-        populateParentMap(root, parentMap);
+        StringBuilder pathToStart = new StringBuilder();
+        StringBuilder pathToDest = new StringBuilder();
 
-        // Perform BFS to find the path
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.add(startNode);
-        Set<TreeNode> visitedNodes = new HashSet<>();
-        // Key: next node, Value: <current node, direction>
-        Map<TreeNode, Pair<TreeNode, String>> pathTracker = new HashMap<>();
-        visitedNodes.add(startNode);
+        // Find paths from LCA to start and destination nodes
+        findPath(lowestCommonAncestor, startValue, pathToStart);
+        findPath(lowestCommonAncestor, destValue, pathToDest);
 
-        while (!queue.isEmpty()) {
-            TreeNode currentNode = queue.poll();
+        StringBuilder directions = new StringBuilder();
 
-            // If destination is reached, return the path
-            if (currentNode.val == destValue) {
-                return backtrackPath(currentNode, pathTracker);
-            }
+        // Add "U" for each step to go up from start to LCA
+        directions.append("U".repeat(pathToStart.length()));
 
-            // Check and add parent node
-            if (parentMap.containsKey(currentNode.val)) {
-                TreeNode parentNode = parentMap.get(currentNode.val);
-                if (!visitedNodes.contains(parentNode)) {
-                    queue.add(parentNode);
-                    pathTracker.put(parentNode, new Pair(currentNode, "U"));
-                    visitedNodes.add(parentNode);
-                }
-            }
+        // Append the path from LCA to destination
+        directions.append(pathToDest);
 
-            // Check and add left child
-            if (
-                currentNode.left != null &&
-                !visitedNodes.contains(currentNode.left)
-            ) {
-                queue.add(currentNode.left);
-                pathTracker.put(currentNode.left, new Pair(currentNode, "L"));
-                visitedNodes.add(currentNode.left);
-            }
-
-            // Check and add right child
-            if (
-                currentNode.right != null &&
-                !visitedNodes.contains(currentNode.right)
-            ) {
-                queue.add(currentNode.right);
-                pathTracker.put(currentNode.right, new Pair(currentNode, "R"));
-                visitedNodes.add(currentNode.right);
-            }
-        }
-
-        // This line should never be reached if the tree is valid
-        return "";
+        return directions.toString();
     }
 
-    private String backtrackPath(
+    private TreeNode findLowestCommonAncestor(
         TreeNode node,
-        Map<TreeNode, Pair<TreeNode, String>> pathTracker
+        int value1,
+        int value2
     ) {
-        StringBuilder path = new StringBuilder();
-
-        // Construct the path
-        while (pathTracker.containsKey(node)) {
-            // Add the directions in reverse order and move on to the previous node
-            path.append(pathTracker.get(node).getValue());
-            node = pathTracker.get(node).getKey();
-        }
-
-        // Reverse the path
-        path.reverse();
-
-        return path.toString();
-    }
-
-    private void populateParentMap(
-        TreeNode node,
-        Map<Integer, TreeNode> parentMap
-    ) {
-        if (node == null) return;
-
-        // Add children to the map and recurse further
-        if (node.left != null) {
-            parentMap.put(node.left.val, node);
-            populateParentMap(node.left, parentMap);
-        }
-
-        if (node.right != null) {
-            parentMap.put(node.right.val, node);
-            populateParentMap(node.right, parentMap);
-        }
-    }
-
-    private TreeNode findStartNode(TreeNode node, int startValue) {
         if (node == null) return null;
 
-        if (node.val == startValue) return node;
+        if (node.val == value1 || node.val == value2) return node;
 
-        TreeNode leftResult = findStartNode(node.left, startValue);
+        TreeNode leftLCA = findLowestCommonAncestor(node.left, value1, value2);
+        TreeNode rightLCA = findLowestCommonAncestor(
+            node.right,
+            value1,
+            value2
+        );
 
-        // If left subtree returns a node, it must be StartNode. Return it
-        // Otherwise, return whatever is returned by right subtree.
-        if (leftResult != null) return leftResult;
-        return findStartNode(node.right, startValue);
+        if (leftLCA == null) return rightLCA;
+        else if (rightLCA == null) return leftLCA;
+        else return node; // Both values found, this is the LCA
+    }
+
+    private boolean findPath(
+        TreeNode node,
+        int targetValue,
+        StringBuilder path
+    ) {
+        if (node == null) return false;
+
+        if (node.val == targetValue) return true;
+
+        // Try left subtree
+        path.append("L");
+        if (findPath(node.left, targetValue, path)) {
+            return true;
+        }
+        path.setLength(path.length() - 1); // Remove last character
+
+        // Try right subtree
+        path.append("R");
+        if (findPath(node.right, targetValue, path)) {
+            return true;
+        }
+        path.setLength(path.length() - 1); // Remove last character
+
+        return false;
     }
 }
