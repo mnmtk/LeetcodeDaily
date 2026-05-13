@@ -1,15 +1,30 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
 class Solution {
-
     public TreeNode balanceBST(TreeNode root) {
-        // Create a list to store the inorder traversal of the BST
+         // Create a list to store the inorder traversal of the BST
         List<Integer> inorder = new ArrayList<>();
+
         inorderTraversal(root, inorder);
 
         // Construct and return the balanced BST
         return createBalancedBST(inorder, 0, inorder.size() - 1);
     }
 
-    private void inorderTraversal(TreeNode root, List<Integer> inorder) {
+     private void inorderTraversal(TreeNode root, List<Integer> inorder) {
         // Perform an inorder traversal to store the elements in sorted order
         if (root == null) return;
         inorderTraversal(root.left, inorder);
@@ -17,7 +32,7 @@ class Solution {
         inorderTraversal(root.right, inorder);
     }
 
-    private TreeNode createBalancedBST(
+      private TreeNode createBalancedBST(
         List<Integer> inorder,
         int start,
         int end
