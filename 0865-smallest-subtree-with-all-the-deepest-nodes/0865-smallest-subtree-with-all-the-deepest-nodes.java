@@ -14,7 +14,7 @@ class Solution {
         if (L.dist > R.dist) return new Result(L.node, L.dist + 1);
         if (L.dist < R.dist) return new Result(R.node, R.dist + 1);
 
-        return new Result(node, R.dist + 1);
+        return new Result(node, L.dist + 1);
     }
 }
 
