@@ -770,6 +770,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0257-binary-tree-paths](https://github.com/mnmtk/LeetcodeDaily/tree/master/0257-binary-tree-paths) |
 | [0270-closest-binary-search-tree-value](https://github.com/mnmtk/LeetcodeDaily/tree/master/0270-closest-binary-search-tree-value) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0272-closest-binary-search-tree-value-ii) |
+| [0285-inorder-successor-in-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0285-inorder-successor-in-bst) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0337-house-robber-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0337-house-robber-iii) |
@@ -844,6 +845,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0257-binary-tree-paths](https://github.com/mnmtk/LeetcodeDaily/tree/master/0257-binary-tree-paths) |
 | [0270-closest-binary-search-tree-value](https://github.com/mnmtk/LeetcodeDaily/tree/master/0270-closest-binary-search-tree-value) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0272-closest-binary-search-tree-value-ii) |
+| [0285-inorder-successor-in-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0285-inorder-successor-in-bst) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0337-house-robber-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0337-house-robber-iii) |
@@ -1137,6 +1139,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0269-alien-dictionary](https://github.com/mnmtk/LeetcodeDaily/tree/master/0269-alien-dictionary) |
 | [0270-closest-binary-search-tree-value](https://github.com/mnmtk/LeetcodeDaily/tree/master/0270-closest-binary-search-tree-value) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0272-closest-binary-search-tree-value-ii) |
+| [0285-inorder-successor-in-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0285-inorder-successor-in-bst) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0310-minimum-height-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0310-minimum-height-trees) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0314-binary-tree-vertical-order-traversal) |
@@ -1223,6 +1226,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0270-closest-binary-search-tree-value](https://github.com/mnmtk/LeetcodeDaily/tree/master/0270-closest-binary-search-tree-value) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0272-closest-binary-search-tree-value-ii) |
+| [0285-inorder-successor-in-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0285-inorder-successor-in-bst) |
 | [0450-delete-node-in-a-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0784-insert-into-a-binary-search-tree) |
