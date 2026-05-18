@@ -782,6 +782,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0366-find-leaves-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0366-find-leaves-of-binary-tree) |
 | [0437-path-sum-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0437-path-sum-iii) |
 | [0450-delete-node-in-a-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0450-delete-node-in-a-bst) |
+| [0501-find-mode-in-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/mnmtk/LeetcodeDaily/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0543-diameter-of-binary-tree) |
 | [0545-boundary-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0545-boundary-of-binary-tree) |
@@ -860,6 +861,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0366-find-leaves-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0366-find-leaves-of-binary-tree) |
 | [0437-path-sum-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0437-path-sum-iii) |
 | [0450-delete-node-in-a-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0450-delete-node-in-a-bst) |
+| [0501-find-mode-in-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/mnmtk/LeetcodeDaily/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0543-diameter-of-binary-tree) |
 | [0545-boundary-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0545-boundary-of-binary-tree) |
@@ -1168,6 +1170,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0437-path-sum-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0437-path-sum-iii) |
 | [0490-the-maze](https://github.com/mnmtk/LeetcodeDaily/tree/master/0490-the-maze) |
 | [0499-the-maze-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0499-the-maze-iii) |
+| [0501-find-mode-in-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0505-the-maze-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0505-the-maze-ii) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/mnmtk/LeetcodeDaily/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0543-diameter-of-binary-tree) |
@@ -1244,6 +1247,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0285-inorder-successor-in-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0285-inorder-successor-in-bst) |
 | [0333-largest-bst-subtree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0333-largest-bst-subtree) |
 | [0450-delete-node-in-a-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0450-delete-node-in-a-bst) |
+| [0501-find-mode-in-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0975-range-sum-of-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0975-range-sum-of-bst) |
