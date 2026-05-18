@@ -1,56 +1,47 @@
+class NodeValue {
+    int min, max, size;
+    
+    NodeValue(int min, int max, int size) {
+        this.min = min;
+        this.max = max;
+        this.size = size;
+    }
+}
+
 class Solution {
-    // Track previous node while doing inorder traversal.
-    private TreeNode previous;
-    
-    // Function to check if given tree is a valid Binary Search Tree or not.
-    private boolean isValidBST(TreeNode root) {
-        // An empty tree is a valid Binary Search Tree.
-        if (root == null) {
-            return true;
-        }
+    private int maxBSTSize = 0;
 
-        // If left subtree is not a valid BST return false.
-        if(!isValidBST(root.left)) {
-            return false;
-        }
-        
-        // If current node's value is not greater than the previous 
-        // node's value in the in-order traversal return false.
-        if (previous != null && previous.val >= root.val) {
-            return false;
-        }
-        
-        // Update previous node to current node.
-        previous = root;
-        
-        // If right subtree is not a valid BST return false.
-        return isValidBST(root.right);
-    }
-
-    private int countNodes(TreeNode root) {
-        if (root == null) {
-            return 0;
-        }
-        
-        // Add nodes in left and right subtree.
-        // Add 1 and return total size.
-        return 1 + countNodes(root.left) + countNodes(root.right);
-    }
-    
     public int largestBSTSubtree(TreeNode root) {
+        helper(root);
+        return maxBSTSize;
+    }
+
+    private NodeValue helper(TreeNode root) {
+        // Base case: An empty tree is a valid BST of size 0
         if (root == null) {
-            return 0;
+            return new NodeValue(Integer.MAX_VALUE, Integer.MIN_VALUE, 0);
         }
-        
-        // Set previous node to NULL initially.
-        previous = null;
-        
-        // If current subtree is a validBST, its children will have smaller size BST.
-        if (isValidBST(root)) {
-            return countNodes(root);
+
+        NodeValue left = helper(root.left);
+        NodeValue right = helper(root.right);
+
+        // If either left or right subtree is NOT a valid BST, this tree can't be a BST
+        if (left == null || right == null) return null;
+
+        // Check if the current node satisfies the BST condition
+        if (root.val > left.max && root.val < right.min) {
+            // Calculate actual min/max for this valid BST
+            int currentMin = (root.left != null) ? left.min : root.val;
+            int currentMax = (root.right != null) ? right.max : root.val;
+            int currentSize = left.size + right.size + 1;
+
+            // Track the global maximum size found so far
+            maxBSTSize = Math.max(maxBSTSize, currentSize);
+
+            return new NodeValue(currentMin, currentMax, currentSize);
         }
-        
-        // Find BST in left and right subtrees of current nodes.
-        return Math.max(largestBSTSubtree(root.left), largestBSTSubtree(root.right));
+
+        // If it fails the BST condition, return null to signal parents
+        return null;
     }
 }
