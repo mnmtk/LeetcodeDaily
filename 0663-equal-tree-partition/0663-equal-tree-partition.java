@@ -1,24 +1,38 @@
 class Solution {
-    Stack<Integer> seen;
     public boolean checkEqualTree(TreeNode root) {
-        seen = new Stack();
-        int total = sum(root);
-        seen.pop();
-        if (total % 2 == 0) {
-            for (int s: seen) {
-                if (s == total / 2) {
-                    return true;
-                }
-            }
+        // This list will store the sum of every subtree *except* the absolute root
+        List<Integer> allSubtreeSums = new ArrayList<>();
+        
+        // Run DFS to calculate the total sum and populate our list
+        int totalSum = dfs(root, allSubtreeSums, true);
+        
+        // If the total sum is odd, it's impossible to split it equally into two integers
+        if (totalSum % 2 != 0) {
+            return false;
         }
-        return false;
+        
+        // Check if our list contains exactly half of the total sum
+        int target = totalSum / 2;
+        return allSubtreeSums.contains(target);
     }
 
-    public int sum(TreeNode node) {
+    private int dfs(TreeNode node, List<Integer> allSubtreeSums, boolean isRoot) {
         if (node == null) {
-            return 0; 
+            return 0;
         }
-        seen.push(sum(node.left) + sum(node.right) + node.val);
-        return seen.peek();
+        
+        // Post-order traversal: Get the sum of left and right child trees first
+        int leftSum = dfs(node.left, allSubtreeSums, false);
+        int rightSum = dfs(node.right, allSubtreeSums, false);
+        
+        // Total sum of the current subtree
+        int currentSum = leftSum + rightSum + node.val;
+        
+        // We can only partition the tree at this edge if it's NOT the root node
+        if (!isRoot) {
+            allSubtreeSums.add(currentSum);
+        }
+        
+        return currentSum;
     }
 }
