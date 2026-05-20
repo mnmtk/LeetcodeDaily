@@ -502,6 +502,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0631-design-excel-sum-formula](https://github.com/mnmtk/LeetcodeDaily/tree/master/0631-design-excel-sum-formula) |
 | [0643-maximum-average-subarray-i](https://github.com/mnmtk/LeetcodeDaily/tree/master/0643-maximum-average-subarray-i) |
 | [0644-maximum-average-subarray-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0644-maximum-average-subarray-ii) |
+| [0654-maximum-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0654-maximum-binary-tree) |
 | [0658-find-k-closest-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/0658-find-k-closest-elements) |
 | [0674-longest-continuous-increasing-subsequence](https://github.com/mnmtk/LeetcodeDaily/tree/master/0674-longest-continuous-increasing-subsequence) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/mnmtk/LeetcodeDaily/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
@@ -694,6 +695,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0315-count-of-smaller-numbers-after-self](https://github.com/mnmtk/LeetcodeDaily/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0347-top-k-frequent-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/0347-top-k-frequent-elements) |
 | [0493-reverse-pairs](https://github.com/mnmtk/LeetcodeDaily/tree/master/0493-reverse-pairs) |
+| [0654-maximum-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0654-maximum-binary-tree) |
 | [0772-construct-quad-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0772-construct-quad-tree) |
 | [0948-sort-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0948-sort-an-array) |
 | [1382-balance-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1382-balance-a-binary-search-tree) |
@@ -792,6 +794,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0545-boundary-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0545-boundary-of-binary-tree) |
 | [0623-add-one-row-to-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0623-add-one-row-to-tree) |
 | [0652-find-duplicate-subtrees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0652-find-duplicate-subtrees) |
+| [0654-maximum-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0654-maximum-binary-tree) |
 | [0690-employee-importance](https://github.com/mnmtk/LeetcodeDaily/tree/master/0690-employee-importance) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0764-n-ary-tree-level-order-traversal) |
 | [0772-construct-quad-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0772-construct-quad-tree) |
@@ -875,6 +878,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0545-boundary-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0545-boundary-of-binary-tree) |
 | [0623-add-one-row-to-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0623-add-one-row-to-tree) |
 | [0652-find-duplicate-subtrees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0652-find-duplicate-subtrees) |
+| [0654-maximum-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0654-maximum-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
@@ -1128,6 +1132,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0272-closest-binary-search-tree-value-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0341-flatten-nested-list-iterator](https://github.com/mnmtk/LeetcodeDaily/tree/master/0341-flatten-nested-list-iterator) |
 | [0456-132-pattern](https://github.com/mnmtk/LeetcodeDaily/tree/master/0456-132-pattern) |
+| [0654-maximum-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0654-maximum-binary-tree) |
 | [1002-maximum-width-ramp](https://github.com/mnmtk/LeetcodeDaily/tree/master/1002-maximum-width-ramp) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/mnmtk/LeetcodeDaily/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
@@ -1603,6 +1608,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0084-largest-rectangle-in-histogram](https://github.com/mnmtk/LeetcodeDaily/tree/master/0084-largest-rectangle-in-histogram) |
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0456-132-pattern](https://github.com/mnmtk/LeetcodeDaily/tree/master/0456-132-pattern) |
+| [0654-maximum-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0654-maximum-binary-tree) |
 | [1002-maximum-width-ramp](https://github.com/mnmtk/LeetcodeDaily/tree/master/1002-maximum-width-ramp) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [3158-maximum-length-of-semi-decreasing-subarrays](https://github.com/mnmtk/LeetcodeDaily/tree/master/3158-maximum-length-of-semi-decreasing-subarrays) |
