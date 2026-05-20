@@ -1,55 +1,48 @@
 /**
  * Definition for a binary tree node.
- * public class TreeNode 
+ * public class TreeNode {
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
+ *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
-    public TreeNode addOneRow(TreeNode root, int val, int depth) {
-        
-        if(depth == 1) {
-            TreeNode n = new TreeNode(val);
-            n.left = root;
-            return n;
+public class Solution {
+    class Node{
+        Node(TreeNode n,int d){
+            node=n;
+            depth=d;
         }
-
-        insert(root, val, depth, 1);
-        return root;
+        TreeNode node;
+        int depth;
     }
-
-    public void insert(TreeNode node, int val, int target, int depth) {
-
-        if(node == null) return;
-
-        if(depth == target - 1) {
-
-            TreeNode nowLeft = node.left;
-            TreeNode nowRight = node.right;
-
-            TreeNode nodeLeft = new TreeNode(val);
-            TreeNode nodeRight = new TreeNode(val);
-
-            node.left = nodeLeft;
-            nodeLeft.left = nowLeft;
-
-            node.right = nodeRight;
-            nodeRight.right = nowRight;
-
-        } else {
-            insert(node.left, val, target, depth+1);
-            insert(node.right, val, target, depth + 1);
+    public TreeNode addOneRow(TreeNode t, int v, int d) {
+        if (d == 1) {
+            TreeNode n = new TreeNode(v);
+            n.left = t;
+            return n;
+        } 
+        Stack<Node> stack=new Stack<>();
+        stack.push(new Node(t,1));
+        
+        while(!stack.isEmpty())
+        {
+            Node n=stack.pop();
+            if(n.node==null)
+                continue;
+            if (n.depth == d - 1 ) {
+                TreeNode temp = n.node.left;
+                n.node.left = new TreeNode(v);
+                n.node.left.left = temp;
+                temp = n.node.right;
+                n.node.right = new TreeNode(v);
+                n.node.right.right = temp;
+                
+            } else{
+                stack.push(new Node(n.node.left, n.depth + 1));
+                stack.push(new Node(n.node.right, n.depth + 1));
+            }
         }
-
-        return;
-
+        return t;
     }
 }
