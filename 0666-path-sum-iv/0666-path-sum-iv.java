@@ -1,40 +1,60 @@
 class Solution {
 
-    Map<Integer, Integer> map = new HashMap<>();
-
     public int pathSum(int[] nums) {
-        // Store the data in a hashmap, with the coordinates as the key and the
-        // node value as the value
-        for (int num : nums) {
-            int key = num / 10;
-            int value = num % 10;
-            map.put(key, value);
+        // Store the node values in a hashmap, using coordinates as the key.
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int element : nums) {
+            int coordinates = element / 10;
+            int value = element % 10;
+            map.put(coordinates, value);
         }
 
-        return dfs(nums[0] / 10, 0);
-    }
+        // Initialize the BFS queue and start with the root node.
+        Queue<Pair<Integer, Integer>> q = new LinkedList<>();
+        int totalSum = 0;
 
-    private int dfs(int root, int preSum) {
-        // Find the level and position values from the coordinates
-        int level = root / 10;
-        int pos = root % 10;
+        int rootCoordinates = nums[0] / 10;
+        q.add(
+            new Pair<Integer, Integer>(
+                rootCoordinates,
+                map.get(rootCoordinates)
+            )
+        );
 
-        //the left child and right child position in the tree
-        int left = (level + 1) * 10 + pos * 2 - 1;
-        int right = (level + 1) * 10 + pos * 2;
-        int currSum = preSum + map.get(root);
+        while (!q.isEmpty()) {
+            Pair<Integer, Integer> current = q.poll();
+            int coordinates = current.getKey();
+            int currentSum = current.getValue();
+            int level = coordinates / 10;
+            int position = coordinates % 10;
 
-        // If the node is a leaf node, return its root to leaf path sum.
-        if (!map.containsKey(left) && !map.containsKey(right)) {
-            return currSum;
+            // Find the left and right child coordinates.
+            int left = (level + 1) * 10 + position * 2 - 1;
+            int right = (level + 1) * 10 + position * 2;
+
+            // If it's a leaf node (no left and right children), add currentSum to totalSum.
+            if (!map.containsKey(left) && !map.containsKey(right)) {
+                totalSum += currentSum;
+            }
+
+            // Add the left child to the queue if it exists.
+            if (map.containsKey(left)) {
+                q.add(
+                    new Pair<Integer, Integer>(left, currentSum + map.get(left))
+                );
+            }
+
+            // Add the right child to the queue if it exists.
+            if (map.containsKey(right)) {
+                q.add(
+                    new Pair<Integer, Integer>(
+                        right,
+                        currentSum + map.get(right)
+                    )
+                );
+            }
         }
 
-        // Otherwise iterate through the left and right children recursively
-        // using depth first search
-        int leftSum = map.containsKey(left) ? dfs(left, currSum) : 0;
-        int rightSum = map.containsKey(right) ? dfs(right, currSum) : 0;
-
-        //return the total path sum of the tree rooted at the current node
-        return leftSum + rightSum;
+        return totalSum;
     }
 }
