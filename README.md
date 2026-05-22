@@ -813,6 +813,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0814-binary-tree-pruning](https://github.com/mnmtk/LeetcodeDaily/tree/master/0814-binary-tree-pruning) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
+| [0872-leaf-similar-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0872-leaf-similar-trees) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0930-all-possible-full-binary-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0930-all-possible-full-binary-trees) |
 | [0975-range-sum-of-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0975-range-sum-of-bst) |
@@ -903,6 +904,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0814-binary-tree-pruning](https://github.com/mnmtk/LeetcodeDaily/tree/master/0814-binary-tree-pruning) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
+| [0872-leaf-similar-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0872-leaf-similar-trees) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0930-all-possible-full-binary-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0930-all-possible-full-binary-trees) |
 | [0975-range-sum-of-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0975-range-sum-of-bst) |
@@ -1236,6 +1238,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0871-keys-and-rooms](https://github.com/mnmtk/LeetcodeDaily/tree/master/0871-keys-and-rooms) |
+| [0872-leaf-similar-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0872-leaf-similar-trees) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0922-possible-bipartition](https://github.com/mnmtk/LeetcodeDaily/tree/master/0922-possible-bipartition) |
 | [0960-minimize-malware-spread](https://github.com/mnmtk/LeetcodeDaily/tree/master/0960-minimize-malware-spread) |
