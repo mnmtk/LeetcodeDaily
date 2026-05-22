@@ -1,25 +1,40 @@
+import java.util.Stack;
+import java.util.List;
+import java.util.ArrayList;
+
 class Solution {
-    void getleaf(ArrayList<Integer> r,TreeNode root){
-        if(root==null) return;
-        if(root.left==null && root.right==null){
-            r.add(root.val);
-            return;
-        }
-        getleaf(r,root.left);
-        getleaf(r,root.right);
-    }
     public boolean leafSimilar(TreeNode root1, TreeNode root2) {
-        ArrayList<Integer> r1 = new ArrayList<>();
-        ArrayList<Integer> r2 = new ArrayList<>();
-        getleaf(r1,root1);
-        getleaf(r2,root2);
-        if(r1.size()!=r2.size()) return false;
-        for(int i = 0 ; i <r1.size() ; i++){
-            int a = r1.get(i),b=r2.get(i);
-            if(a!=b) {
-                return false;
+        List<Integer> leaves1 = getLeafSequenceIterative(root1);
+        List<Integer> leaves2 = getLeafSequenceIterative(root2);
+        
+        return leaves1.equals(leaves2);
+    }
+    
+    private List<Integer> getLeafSequenceIterative(TreeNode root) {
+        List<Integer> leaves = new ArrayList<>();
+        if (root == null) return leaves;
+        
+        // Using a Stack instead of a Queue forces Depth-First behavior
+        Stack<TreeNode> stack = new Stack<>();
+        stack.push(root);
+        
+        while (!stack.isEmpty()) {
+            TreeNode node = stack.pop();
+            
+            // Check if it's a leaf node
+            if (node.left == null && node.right == null) {
+                leaves.add(node.val);
+            }
+            
+            // CRITICAL: Push right child first, so left child is popped first!
+            if (node.right != null) {
+                stack.push(node.right);
+            }
+            if (node.left != null) {
+                stack.push(node.left);
             }
         }
-        return true;
+        
+        return leaves;
     }
 }
