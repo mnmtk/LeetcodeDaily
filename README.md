@@ -800,6 +800,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0663-equal-tree-partition](https://github.com/mnmtk/LeetcodeDaily/tree/master/0663-equal-tree-partition) |
 | [0666-path-sum-iv](https://github.com/mnmtk/LeetcodeDaily/tree/master/0666-path-sum-iv) |
 | [0669-trim-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0669-trim-a-binary-search-tree) |
+| [0671-second-minimum-node-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0671-second-minimum-node-in-a-binary-tree) |
 | [0687-longest-univalue-path](https://github.com/mnmtk/LeetcodeDaily/tree/master/0687-longest-univalue-path) |
 | [0690-employee-importance](https://github.com/mnmtk/LeetcodeDaily/tree/master/0690-employee-importance) |
 | [0742-closest-leaf-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0742-closest-leaf-in-a-binary-tree) |
@@ -890,6 +891,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0663-equal-tree-partition](https://github.com/mnmtk/LeetcodeDaily/tree/master/0663-equal-tree-partition) |
 | [0666-path-sum-iv](https://github.com/mnmtk/LeetcodeDaily/tree/master/0666-path-sum-iv) |
 | [0669-trim-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0669-trim-a-binary-search-tree) |
+| [0671-second-minimum-node-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0671-second-minimum-node-in-a-binary-tree) |
 | [0687-longest-univalue-path](https://github.com/mnmtk/LeetcodeDaily/tree/master/0687-longest-univalue-path) |
 | [0742-closest-leaf-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0742-closest-leaf-in-a-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0783-search-in-a-binary-search-tree) |
@@ -1212,6 +1214,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0663-equal-tree-partition](https://github.com/mnmtk/LeetcodeDaily/tree/master/0663-equal-tree-partition) |
 | [0666-path-sum-iv](https://github.com/mnmtk/LeetcodeDaily/tree/master/0666-path-sum-iv) |
 | [0669-trim-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0669-trim-a-binary-search-tree) |
+| [0671-second-minimum-node-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0671-second-minimum-node-in-a-binary-tree) |
 | [0684-redundant-connection](https://github.com/mnmtk/LeetcodeDaily/tree/master/0684-redundant-connection) |
 | [0687-longest-univalue-path](https://github.com/mnmtk/LeetcodeDaily/tree/master/0687-longest-univalue-path) |
 | [0690-employee-importance](https://github.com/mnmtk/LeetcodeDaily/tree/master/0690-employee-importance) |
