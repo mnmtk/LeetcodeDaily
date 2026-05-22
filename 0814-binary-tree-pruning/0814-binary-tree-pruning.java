@@ -1,28 +1,23 @@
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
 class Solution {
     public TreeNode pruneTree(TreeNode root) {
+        // If the entire tree is zeroes and gets pruned, return null
+        return shouldKeep(root) ? root : null;
+    }
 
-        if(root == null) return null; 
-        
-        root.left = pruneTree(root.left);
-        root.right = pruneTree(root.right);
+    private boolean shouldKeep(TreeNode node) {
+        if (node == null) return false;
 
-        if(root.left == null && root.right == null && root.val == 0) return null;
+        // Recursively check children
+        boolean keepLeft = shouldKeep(node.left);
+        boolean keepRight = shouldKeep(node.right);
 
-        return root;
+        // This is where you do the direct modification!
+        // If a child shouldn't be kept, we snip the connection right here.
+        if (!keepLeft) node.left = null;
+        if (!keepRight) node.right = null;
+
+        // Keep this current node if it has a valid left child, 
+        // a valid right child, or if its own value is 1.
+        return keepLeft || keepRight || node.val == 1;
     }
 }
