@@ -807,6 +807,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0764-n-ary-tree-level-order-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0764-n-ary-tree-level-order-traversal) |
 | [0772-construct-quad-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0772-construct-quad-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0783-search-in-a-binary-search-tree) |
+| [0783-minimum-distance-between-bst-nodes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0814-binary-tree-pruning](https://github.com/mnmtk/LeetcodeDaily/tree/master/0814-binary-tree-pruning) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
@@ -895,6 +896,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0687-longest-univalue-path](https://github.com/mnmtk/LeetcodeDaily/tree/master/0687-longest-univalue-path) |
 | [0742-closest-leaf-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0742-closest-leaf-in-a-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0783-search-in-a-binary-search-tree) |
+| [0783-minimum-distance-between-bst-nodes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0814-binary-tree-pruning](https://github.com/mnmtk/LeetcodeDaily/tree/master/0814-binary-tree-pruning) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
@@ -1223,6 +1225,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0733-flood-fill](https://github.com/mnmtk/LeetcodeDaily/tree/master/0733-flood-fill) |
 | [0742-closest-leaf-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0742-closest-leaf-in-a-binary-tree) |
 | [0744-network-delay-time](https://github.com/mnmtk/LeetcodeDaily/tree/master/0744-network-delay-time) |
+| [0783-minimum-distance-between-bst-nodes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [0794-swim-in-rising-water](https://github.com/mnmtk/LeetcodeDaily/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/mnmtk/LeetcodeDaily/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0813-all-paths-from-source-to-target](https://github.com/mnmtk/LeetcodeDaily/tree/master/0813-all-paths-from-source-to-target) |
@@ -1292,6 +1295,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0538-convert-bst-to-greater-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0538-convert-bst-to-greater-tree) |
 | [0669-trim-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0669-trim-a-binary-search-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0783-search-in-a-binary-search-tree) |
+| [0783-minimum-distance-between-bst-nodes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0975-range-sum-of-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0975-range-sum-of-bst) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -1528,6 +1532,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0742-closest-leaf-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0742-closest-leaf-in-a-binary-tree) |
 | [0744-network-delay-time](https://github.com/mnmtk/LeetcodeDaily/tree/master/0744-network-delay-time) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0764-n-ary-tree-level-order-traversal) |
+| [0783-minimum-distance-between-bst-nodes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [0794-swim-in-rising-water](https://github.com/mnmtk/LeetcodeDaily/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/mnmtk/LeetcodeDaily/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0813-all-paths-from-source-to-target](https://github.com/mnmtk/LeetcodeDaily/tree/master/0813-all-paths-from-source-to-target) |
