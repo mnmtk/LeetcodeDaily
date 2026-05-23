@@ -682,6 +682,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/mnmtk/LeetcodeDaily/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/mnmtk/LeetcodeDaily/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3825-apply-substitutions](https://github.com/mnmtk/LeetcodeDaily/tree/master/3825-apply-substitutions) |
+| [3879-maximum-distinct-path-sum-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/3879-maximum-distinct-path-sum-in-a-binary-tree) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -852,6 +853,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2564-most-profitable-path-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2791-count-paths-that-can-form-a-palindrome-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2791-count-paths-that-can-form-a-palindrome-in-a-tree) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
+| [3879-maximum-distinct-path-sum-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/3879-maximum-distinct-path-sum-in-a-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -943,6 +945,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mnmtk/LeetcodeDaily/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2493-reverse-odd-levels-of-binary-tree) |
+| [3879-maximum-distinct-path-sum-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/3879-maximum-distinct-path-sum-in-a-binary-tree) |
 ## String
 |  |
 | ------- |
@@ -1301,6 +1304,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3613-maximize-amount-after-two-days-of-conversions](https://github.com/mnmtk/LeetcodeDaily/tree/master/3613-maximize-amount-after-two-days-of-conversions) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 | [3825-apply-substitutions](https://github.com/mnmtk/LeetcodeDaily/tree/master/3825-apply-substitutions) |
+| [3879-maximum-distinct-path-sum-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/3879-maximum-distinct-path-sum-in-a-binary-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
