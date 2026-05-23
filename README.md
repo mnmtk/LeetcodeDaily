@@ -824,6 +824,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0919-complete-binary-tree-inserter](https://github.com/mnmtk/LeetcodeDaily/tree/master/0919-complete-binary-tree-inserter) |
 | [0930-all-possible-full-binary-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0930-all-possible-full-binary-trees) |
 | [0951-flip-equivalent-binary-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0951-flip-equivalent-binary-trees) |
+| [0965-univalued-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0965-univalued-binary-tree) |
 | [0975-range-sum-of-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0975-range-sum-of-bst) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0998-check-completeness-of-a-binary-tree) |
@@ -919,6 +920,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0919-complete-binary-tree-inserter](https://github.com/mnmtk/LeetcodeDaily/tree/master/0919-complete-binary-tree-inserter) |
 | [0930-all-possible-full-binary-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0930-all-possible-full-binary-trees) |
 | [0951-flip-equivalent-binary-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0951-flip-equivalent-binary-trees) |
+| [0965-univalued-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0965-univalued-binary-tree) |
 | [0975-range-sum-of-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0975-range-sum-of-bst) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0998-check-completeness-of-a-binary-tree) |
@@ -1257,6 +1259,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0922-possible-bipartition](https://github.com/mnmtk/LeetcodeDaily/tree/master/0922-possible-bipartition) |
 | [0951-flip-equivalent-binary-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0951-flip-equivalent-binary-trees) |
 | [0960-minimize-malware-spread](https://github.com/mnmtk/LeetcodeDaily/tree/master/0960-minimize-malware-spread) |
+| [0965-univalued-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0965-univalued-binary-tree) |
 | [0975-range-sum-of-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0975-range-sum-of-bst) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/mnmtk/LeetcodeDaily/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
@@ -1567,6 +1570,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0919-complete-binary-tree-inserter](https://github.com/mnmtk/LeetcodeDaily/tree/master/0919-complete-binary-tree-inserter) |
 | [0922-possible-bipartition](https://github.com/mnmtk/LeetcodeDaily/tree/master/0922-possible-bipartition) |
 | [0960-minimize-malware-spread](https://github.com/mnmtk/LeetcodeDaily/tree/master/0960-minimize-malware-spread) |
+| [0965-univalued-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0965-univalued-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [0999-regions-cut-by-slashes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0999-regions-cut-by-slashes) |
