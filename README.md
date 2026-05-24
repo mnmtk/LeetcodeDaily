@@ -853,6 +853,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mnmtk/LeetcodeDaily/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2564-most-profitable-path-in-a-tree) |
+| [2773-height-of-special-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2773-height-of-special-binary-tree) |
 | [2791-count-paths-that-can-form-a-palindrome-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2791-count-paths-that-can-form-a-palindrome-in-a-tree) |
 | [2792-count-nodes-that-are-great-enough](https://github.com/mnmtk/LeetcodeDaily/tree/master/2792-count-nodes-that-are-great-enough) |
 | [3157-find-the-level-of-tree-with-minimum-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/3157-find-the-level-of-tree-with-minimum-sum) |
@@ -951,6 +952,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mnmtk/LeetcodeDaily/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2493-reverse-odd-levels-of-binary-tree) |
+| [2773-height-of-special-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2773-height-of-special-binary-tree) |
 | [2792-count-nodes-that-are-great-enough](https://github.com/mnmtk/LeetcodeDaily/tree/master/2792-count-nodes-that-are-great-enough) |
 | [3157-find-the-level-of-tree-with-minimum-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/3157-find-the-level-of-tree-with-minimum-sum) |
 | [3319-k-th-largest-perfect-subtree-size-in-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/3319-k-th-largest-perfect-subtree-size-in-binary-tree) |
@@ -1308,6 +1310,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/mnmtk/LeetcodeDaily/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
+| [2773-height-of-special-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2773-height-of-special-binary-tree) |
 | [2791-count-paths-that-can-form-a-palindrome-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2791-count-paths-that-can-form-a-palindrome-in-a-tree) |
 | [2792-count-nodes-that-are-great-enough](https://github.com/mnmtk/LeetcodeDaily/tree/master/2792-count-nodes-that-are-great-enough) |
 | [2793-count-the-number-of-complete-components](https://github.com/mnmtk/LeetcodeDaily/tree/master/2793-count-the-number-of-complete-components) |
@@ -1618,6 +1621,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/mnmtk/LeetcodeDaily/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/mnmtk/LeetcodeDaily/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
+| [2773-height-of-special-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2773-height-of-special-binary-tree) |
 | [2793-count-the-number-of-complete-components](https://github.com/mnmtk/LeetcodeDaily/tree/master/2793-count-the-number-of-complete-components) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/2914-find-the-safest-path-in-a-grid) |
 | [3157-find-the-level-of-tree-with-minimum-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/3157-find-the-level-of-tree-with-minimum-sum) |
