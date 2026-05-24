@@ -853,6 +853,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mnmtk/LeetcodeDaily/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2564-most-profitable-path-in-a-tree) |
+| [2764-is-array-a-preorder-of-some-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2764-is-array-a-preorder-of-some-binary-tree) |
 | [2773-height-of-special-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2773-height-of-special-binary-tree) |
 | [2791-count-paths-that-can-form-a-palindrome-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2791-count-paths-that-can-form-a-palindrome-in-a-tree) |
 | [2792-count-nodes-that-are-great-enough](https://github.com/mnmtk/LeetcodeDaily/tree/master/2792-count-nodes-that-are-great-enough) |
@@ -952,6 +953,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mnmtk/LeetcodeDaily/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2493-reverse-odd-levels-of-binary-tree) |
+| [2764-is-array-a-preorder-of-some-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2764-is-array-a-preorder-of-some-binary-tree) |
 | [2773-height-of-special-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2773-height-of-special-binary-tree) |
 | [2792-count-nodes-that-are-great-enough](https://github.com/mnmtk/LeetcodeDaily/tree/master/2792-count-nodes-that-are-great-enough) |
 | [3157-find-the-level-of-tree-with-minimum-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/3157-find-the-level-of-tree-with-minimum-sum) |
@@ -1191,6 +1193,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/mnmtk/LeetcodeDaily/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/mnmtk/LeetcodeDaily/tree/master/1497-design-a-stack-with-increment-operation) |
+| [2764-is-array-a-preorder-of-some-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2764-is-array-a-preorder-of-some-binary-tree) |
 | [3158-maximum-length-of-semi-decreasing-subarrays](https://github.com/mnmtk/LeetcodeDaily/tree/master/3158-maximum-length-of-semi-decreasing-subarrays) |
 ## Depth-First Search
 |  |
@@ -1310,6 +1313,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/mnmtk/LeetcodeDaily/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
+| [2764-is-array-a-preorder-of-some-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2764-is-array-a-preorder-of-some-binary-tree) |
 | [2773-height-of-special-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2773-height-of-special-binary-tree) |
 | [2791-count-paths-that-can-form-a-palindrome-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2791-count-paths-that-can-form-a-palindrome-in-a-tree) |
 | [2792-count-nodes-that-are-great-enough](https://github.com/mnmtk/LeetcodeDaily/tree/master/2792-count-nodes-that-are-great-enough) |
