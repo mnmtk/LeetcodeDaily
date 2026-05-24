@@ -17,11 +17,11 @@ class Solution {
 
     public int heightOfTree(TreeNode root) {
         if (root == null) return -1;
-        if (root.left == null && root.right == null) return 0;   
-
+        if (root.left == null && root.right == null) return 0;    
+            
         int leftHeight = root.left == null || isLeaf(root.left) ? 0 : heightOfTree(root.left);
         int rightHeight = root.right == null || isLeaf(root.right) ? 0 : heightOfTree(root.right);
-        
+
         return 1 + (leftHeight > rightHeight ? leftHeight : rightHeight);
     }
 
