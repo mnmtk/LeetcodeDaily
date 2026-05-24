@@ -340,6 +340,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2681-put-marbles-in-bags](https://github.com/mnmtk/LeetcodeDaily/tree/master/2681-put-marbles-in-bags) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [3158-maximum-length-of-semi-decreasing-subarrays](https://github.com/mnmtk/LeetcodeDaily/tree/master/3158-maximum-length-of-semi-decreasing-subarrays) |
+| [3319-k-th-largest-perfect-subtree-size-in-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/3319-k-th-largest-perfect-subtree-size-in-binary-tree) |
 | [3430-count-days-without-meetings](https://github.com/mnmtk/LeetcodeDaily/tree/master/3430-count-days-without-meetings) |
 ## Heap (Priority Queue)
 |  |
@@ -852,6 +853,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2791-count-paths-that-can-form-a-palindrome-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2791-count-paths-that-can-form-a-palindrome-in-a-tree) |
+| [3319-k-th-largest-perfect-subtree-size-in-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/3319-k-th-largest-perfect-subtree-size-in-binary-tree) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 | [3831-median-of-a-binary-search-tree-level](https://github.com/mnmtk/LeetcodeDaily/tree/master/3831-median-of-a-binary-search-tree-level) |
 | [3879-maximum-distinct-path-sum-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/3879-maximum-distinct-path-sum-in-a-binary-tree) |
@@ -946,6 +948,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mnmtk/LeetcodeDaily/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2493-reverse-odd-levels-of-binary-tree) |
+| [3319-k-th-largest-perfect-subtree-size-in-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/3319-k-th-largest-perfect-subtree-size-in-binary-tree) |
 | [3831-median-of-a-binary-search-tree-level](https://github.com/mnmtk/LeetcodeDaily/tree/master/3831-median-of-a-binary-search-tree-level) |
 | [3879-maximum-distinct-path-sum-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/3879-maximum-distinct-path-sum-in-a-binary-tree) |
 ## String
@@ -1302,6 +1305,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/mnmtk/LeetcodeDaily/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
 | [2791-count-paths-that-can-form-a-palindrome-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2791-count-paths-that-can-form-a-palindrome-in-a-tree) |
 | [2793-count-the-number-of-complete-components](https://github.com/mnmtk/LeetcodeDaily/tree/master/2793-count-the-number-of-complete-components) |
+| [3319-k-th-largest-perfect-subtree-size-in-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/3319-k-th-largest-perfect-subtree-size-in-binary-tree) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 | [3613-maximize-amount-after-two-days-of-conversions](https://github.com/mnmtk/LeetcodeDaily/tree/master/3613-maximize-amount-after-two-days-of-conversions) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
