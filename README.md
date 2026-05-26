@@ -834,6 +834,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0971-flip-binary-tree-to-match-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0971-flip-binary-tree-to-match-preorder-traversal) |
 | [0975-range-sum-of-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0975-range-sum-of-bst) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [0993-cousins-in-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0993-cousins-in-binary-tree) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [0998-maximum-binary-tree-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0998-maximum-binary-tree-ii) |
 | [1008-binary-tree-cameras](https://github.com/mnmtk/LeetcodeDaily/tree/master/1008-binary-tree-cameras) |
@@ -942,6 +943,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0971-flip-binary-tree-to-match-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0971-flip-binary-tree-to-match-preorder-traversal) |
 | [0975-range-sum-of-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0975-range-sum-of-bst) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [0993-cousins-in-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0993-cousins-in-binary-tree) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [0998-maximum-binary-tree-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0998-maximum-binary-tree-ii) |
 | [1008-binary-tree-cameras](https://github.com/mnmtk/LeetcodeDaily/tree/master/1008-binary-tree-cameras) |
@@ -1296,6 +1298,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0975-range-sum-of-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0975-range-sum-of-bst) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/mnmtk/LeetcodeDaily/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [0993-cousins-in-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0993-cousins-in-binary-tree) |
 | [0999-regions-cut-by-slashes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0999-regions-cut-by-slashes) |
 | [1008-binary-tree-cameras](https://github.com/mnmtk/LeetcodeDaily/tree/master/1008-binary-tree-cameras) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/mnmtk/LeetcodeDaily/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
@@ -1614,6 +1617,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0960-minimize-malware-spread](https://github.com/mnmtk/LeetcodeDaily/tree/master/0960-minimize-malware-spread) |
 | [0965-univalued-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0965-univalued-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [0993-cousins-in-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0993-cousins-in-binary-tree) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [0999-regions-cut-by-slashes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0999-regions-cut-by-slashes) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
