@@ -808,6 +808,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0538-convert-bst-to-greater-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0538-convert-bst-to-greater-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0543-diameter-of-binary-tree) |
 | [0545-boundary-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0545-boundary-of-binary-tree) |
+| [0563-binary-tree-tilt](https://github.com/mnmtk/LeetcodeDaily/tree/master/0563-binary-tree-tilt) |
 | [0617-merge-two-binary-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0617-merge-two-binary-trees) |
 | [0623-add-one-row-to-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0623-add-one-row-to-tree) |
 | [0652-find-duplicate-subtrees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0652-find-duplicate-subtrees) |
@@ -924,6 +925,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0538-convert-bst-to-greater-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0538-convert-bst-to-greater-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0543-diameter-of-binary-tree) |
 | [0545-boundary-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0545-boundary-of-binary-tree) |
+| [0563-binary-tree-tilt](https://github.com/mnmtk/LeetcodeDaily/tree/master/0563-binary-tree-tilt) |
 | [0617-merge-two-binary-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0617-merge-two-binary-trees) |
 | [0623-add-one-row-to-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0623-add-one-row-to-tree) |
 | [0652-find-duplicate-subtrees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0652-find-duplicate-subtrees) |
@@ -1277,6 +1279,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0543-diameter-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0543-diameter-of-binary-tree) |
 | [0545-boundary-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0545-boundary-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/mnmtk/LeetcodeDaily/tree/master/0547-number-of-provinces) |
+| [0563-binary-tree-tilt](https://github.com/mnmtk/LeetcodeDaily/tree/master/0563-binary-tree-tilt) |
 | [0617-merge-two-binary-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0617-merge-two-binary-trees) |
 | [0623-add-one-row-to-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0623-add-one-row-to-tree) |
 | [0652-find-duplicate-subtrees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0652-find-duplicate-subtrees) |
