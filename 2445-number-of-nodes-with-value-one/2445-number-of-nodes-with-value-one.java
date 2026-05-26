@@ -26,8 +26,8 @@ class Solution {
         for(int index : queries)
             res[index]++;
         
-        int count = res[1] % 2;
-        for(int m = 2; m < res.length; m++){
+        int count = 0;
+        for(int m = 1; m < res.length; m++){
             res[m]+=res[m/2];
             count += res[m] % 2;
         }
