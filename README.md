@@ -578,6 +578,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/mnmtk/LeetcodeDaily/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2412-minimum-amount-of-time-to-fill-cups](https://github.com/mnmtk/LeetcodeDaily/tree/master/2412-minimum-amount-of-time-to-fill-cups) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/mnmtk/LeetcodeDaily/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
+| [2476-closest-nodes-queries-in-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2476-closest-nodes-queries-in-a-binary-search-tree) |
 | [2478-longest-nice-subarray](https://github.com/mnmtk/LeetcodeDaily/tree/master/2478-longest-nice-subarray) |
 | [2509-cycle-length-queries-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2509-cycle-length-queries-in-a-tree) |
 | [2526-longest-increasing-subsequence-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/2526-longest-increasing-subsequence-ii) |
@@ -859,6 +860,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mnmtk/LeetcodeDaily/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
+| [2476-closest-nodes-queries-in-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2476-closest-nodes-queries-in-a-binary-search-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2509-cycle-length-queries-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2509-cycle-length-queries-in-a-tree) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2564-most-profitable-path-in-a-tree) |
@@ -966,6 +968,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mnmtk/LeetcodeDaily/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
+| [2476-closest-nodes-queries-in-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2476-closest-nodes-queries-in-a-binary-search-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2509-cycle-length-queries-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2509-cycle-length-queries-in-a-tree) |
 | [2583-kth-largest-sum-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2583-kth-largest-sum-in-a-binary-tree) |
@@ -1182,6 +1185,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1753-path-with-minimum-effort](https://github.com/mnmtk/LeetcodeDaily/tree/master/1753-path-with-minimum-effort) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/mnmtk/LeetcodeDaily/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/mnmtk/LeetcodeDaily/tree/master/1977-minimum-interval-to-include-each-query) |
+| [2476-closest-nodes-queries-in-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2476-closest-nodes-queries-in-a-binary-search-tree) |
 | [2665-minimum-time-to-repair-cars](https://github.com/mnmtk/LeetcodeDaily/tree/master/2665-minimum-time-to-repair-cars) |
 | [2690-house-robber-iv](https://github.com/mnmtk/LeetcodeDaily/tree/master/2690-house-robber-iv) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/2914-find-the-safest-path-in-a-grid) |
@@ -1330,6 +1334,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2121-find-if-path-exists-in-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/2121-find-if-path-exists-in-graph) |
 | [2206-detonate-the-maximum-bombs](https://github.com/mnmtk/LeetcodeDaily/tree/master/2206-detonate-the-maximum-bombs) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/mnmtk/LeetcodeDaily/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
+| [2476-closest-nodes-queries-in-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2476-closest-nodes-queries-in-a-binary-search-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/mnmtk/LeetcodeDaily/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
@@ -1374,6 +1379,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0975-range-sum-of-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0975-range-sum-of-bst) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1382-balance-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1382-balance-a-binary-search-tree) |
+| [2476-closest-nodes-queries-in-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2476-closest-nodes-queries-in-a-binary-search-tree) |
 | [3831-median-of-a-binary-search-tree-level](https://github.com/mnmtk/LeetcodeDaily/tree/master/3831-median-of-a-binary-search-tree-level) |
 ## Recursion
 |  |
