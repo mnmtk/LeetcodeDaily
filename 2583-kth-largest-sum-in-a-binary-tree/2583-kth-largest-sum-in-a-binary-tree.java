@@ -1,10 +1,9 @@
 class Solution {
 
     public long kthLargestLevelSum(TreeNode root, int k) {
-        // max heap
-        PriorityQueue<Long> pq = new PriorityQueue<>(
-            Collections.reverseOrder()
-        );
+        // min heap of size k
+        // at the end, top element is kth largest
+        PriorityQueue<Long> pq = new PriorityQueue<>();
 
         Queue<TreeNode> bfsQueue = new LinkedList<>();
         bfsQueue.add(root);
@@ -25,9 +24,12 @@ class Solution {
                 }
             }
             pq.add(sum);
+            if (pq.size() > k) {
+                // evict top element
+                pq.remove();
+            }
         }
         if (pq.size() < k) return -1;
-        for (int i = 0; i < k - 1; i++) pq.remove();
         return pq.peek();
     }
 }
