@@ -282,6 +282,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0341-flatten-nested-list-iterator](https://github.com/mnmtk/LeetcodeDaily/tree/master/0341-flatten-nested-list-iterator) |
 | [0362-design-hit-counter](https://github.com/mnmtk/LeetcodeDaily/tree/master/0362-design-hit-counter) |
 | [0384-shuffle-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0384-shuffle-an-array) |
+| [0431-encode-n-ary-tree-to-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0431-encode-n-ary-tree-to-binary-tree) |
 | [0631-design-excel-sum-formula](https://github.com/mnmtk/LeetcodeDaily/tree/master/0631-design-excel-sum-formula) |
 | [0919-complete-binary-tree-inserter](https://github.com/mnmtk/LeetcodeDaily/tree/master/0919-complete-binary-tree-inserter) |
 | [1249-snapshot-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/1249-snapshot-array) |
@@ -799,6 +800,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0337-house-robber-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0337-house-robber-iii) |
 | [0341-flatten-nested-list-iterator](https://github.com/mnmtk/LeetcodeDaily/tree/master/0341-flatten-nested-list-iterator) |
 | [0366-find-leaves-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0366-find-leaves-of-binary-tree) |
+| [0431-encode-n-ary-tree-to-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0431-encode-n-ary-tree-to-binary-tree) |
 | [0437-path-sum-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0437-path-sum-iii) |
 | [0450-delete-node-in-a-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0450-delete-node-in-a-bst) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0501-find-mode-in-binary-search-tree) |
@@ -916,6 +918,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0333-largest-bst-subtree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0333-largest-bst-subtree) |
 | [0337-house-robber-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0337-house-robber-iii) |
 | [0366-find-leaves-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0366-find-leaves-of-binary-tree) |
+| [0431-encode-n-ary-tree-to-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0431-encode-n-ary-tree-to-binary-tree) |
 | [0437-path-sum-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0437-path-sum-iii) |
 | [0450-delete-node-in-a-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0450-delete-node-in-a-bst) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0501-find-mode-in-binary-search-tree) |
@@ -1267,6 +1270,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0386-lexicographical-numbers](https://github.com/mnmtk/LeetcodeDaily/tree/master/0386-lexicographical-numbers) |
 | [0399-evaluate-division](https://github.com/mnmtk/LeetcodeDaily/tree/master/0399-evaluate-division) |
 | [0417-pacific-atlantic-water-flow](https://github.com/mnmtk/LeetcodeDaily/tree/master/0417-pacific-atlantic-water-flow) |
+| [0431-encode-n-ary-tree-to-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0431-encode-n-ary-tree-to-binary-tree) |
 | [0437-path-sum-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0437-path-sum-iii) |
 | [0490-the-maze](https://github.com/mnmtk/LeetcodeDaily/tree/master/0490-the-maze) |
 | [0499-the-maze-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0499-the-maze-iii) |
@@ -1610,6 +1614,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/mnmtk/LeetcodeDaily/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0399-evaluate-division](https://github.com/mnmtk/LeetcodeDaily/tree/master/0399-evaluate-division) |
 | [0417-pacific-atlantic-water-flow](https://github.com/mnmtk/LeetcodeDaily/tree/master/0417-pacific-atlantic-water-flow) |
+| [0431-encode-n-ary-tree-to-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0431-encode-n-ary-tree-to-binary-tree) |
 | [0490-the-maze](https://github.com/mnmtk/LeetcodeDaily/tree/master/0490-the-maze) |
 | [0499-the-maze-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0499-the-maze-iii) |
 | [0505-the-maze-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0505-the-maze-ii) |
