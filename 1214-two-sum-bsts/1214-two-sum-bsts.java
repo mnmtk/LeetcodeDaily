@@ -14,24 +14,29 @@
  * }
  */
 class Solution {
-    private void dfs(TreeNode currNode, Set<Integer> nodeSet) {
+    private void dfs(TreeNode currNode, List<Integer> nodeList) {
         if (currNode == null) {
             return;
         }
-        dfs(currNode.left, nodeSet);
-        nodeSet.add(currNode.val);
-        dfs(currNode.right, nodeSet);
+        dfs(currNode.left, nodeList);
+        nodeList.add(currNode.val);
+        dfs(currNode.right, nodeList);
     }
     
     public boolean twoSumBSTs(TreeNode root1, TreeNode root2, int target) {
-        Set<Integer> nodeSet1 = new HashSet<>();
-        Set<Integer> nodeSet2 = new HashSet<>();
-        dfs(root1, nodeSet1);
-        dfs(root2, nodeSet2);
+        List<Integer> nodeList1 = new ArrayList<>();
+        List<Integer> nodeList2 = new ArrayList<>();
+        dfs(root1, nodeList1);
+        dfs(root2, nodeList2);
 
-        for (int value1 : nodeSet1) {
-            if (nodeSet2.contains(target - value1)) {
+        int pointer1 = 0, pointer2 = nodeList2.size() - 1;
+        while (pointer1 < nodeList1.size() && pointer2 >= 0) {
+            if (nodeList1.get(pointer1) + nodeList2.get(pointer2) == target) {
                 return true;
+            } else if (nodeList1.get(pointer1) + nodeList2.get(pointer2) < target) {
+                pointer1++;
+            } else {
+                pointer2--;
             }
         }
         
