@@ -807,6 +807,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0508-most-frequent-subtree-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0508-most-frequent-subtree-sum) |
 | [0513-find-bottom-left-tree-value](https://github.com/mnmtk/LeetcodeDaily/tree/master/0513-find-bottom-left-tree-value) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/mnmtk/LeetcodeDaily/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0536-construct-binary-tree-from-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0536-construct-binary-tree-from-string) |
 | [0538-convert-bst-to-greater-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0538-convert-bst-to-greater-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0543-diameter-of-binary-tree) |
 | [0545-boundary-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0545-boundary-of-binary-tree) |
@@ -926,6 +927,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0508-most-frequent-subtree-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0508-most-frequent-subtree-sum) |
 | [0513-find-bottom-left-tree-value](https://github.com/mnmtk/LeetcodeDaily/tree/master/0513-find-bottom-left-tree-value) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/mnmtk/LeetcodeDaily/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0536-construct-binary-tree-from-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0536-construct-binary-tree-from-string) |
 | [0538-convert-bst-to-greater-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0538-convert-bst-to-greater-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0543-diameter-of-binary-tree) |
 | [0545-boundary-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0545-boundary-of-binary-tree) |
@@ -1034,6 +1036,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0443-string-compression](https://github.com/mnmtk/LeetcodeDaily/tree/master/0443-string-compression) |
 | [0451-sort-characters-by-frequency](https://github.com/mnmtk/LeetcodeDaily/tree/master/0451-sort-characters-by-frequency) |
 | [0499-the-maze-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0499-the-maze-iii) |
+| [0536-construct-binary-tree-from-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0536-construct-binary-tree-from-string) |
 | [0539-minimum-time-difference](https://github.com/mnmtk/LeetcodeDaily/tree/master/0539-minimum-time-difference) |
 | [0567-permutation-in-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0567-permutation-in-string) |
 | [0631-design-excel-sum-formula](https://github.com/mnmtk/LeetcodeDaily/tree/master/0631-design-excel-sum-formula) |
@@ -1221,6 +1224,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0272-closest-binary-search-tree-value-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0341-flatten-nested-list-iterator](https://github.com/mnmtk/LeetcodeDaily/tree/master/0341-flatten-nested-list-iterator) |
 | [0456-132-pattern](https://github.com/mnmtk/LeetcodeDaily/tree/master/0456-132-pattern) |
+| [0536-construct-binary-tree-from-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0536-construct-binary-tree-from-string) |
 | [0654-maximum-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0654-maximum-binary-tree) |
 | [0897-increasing-order-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0897-increasing-order-search-tree) |
 | [1002-maximum-width-ramp](https://github.com/mnmtk/LeetcodeDaily/tree/master/1002-maximum-width-ramp) |
@@ -1281,6 +1285,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0508-most-frequent-subtree-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0508-most-frequent-subtree-sum) |
 | [0513-find-bottom-left-tree-value](https://github.com/mnmtk/LeetcodeDaily/tree/master/0513-find-bottom-left-tree-value) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/mnmtk/LeetcodeDaily/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0536-construct-binary-tree-from-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0536-construct-binary-tree-from-string) |
 | [0538-convert-bst-to-greater-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0538-convert-bst-to-greater-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0543-diameter-of-binary-tree) |
 | [0545-boundary-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0545-boundary-of-binary-tree) |
