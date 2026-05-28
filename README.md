@@ -853,6 +853,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0998-maximum-binary-tree-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0998-maximum-binary-tree-ii) |
 | [1008-binary-tree-cameras](https://github.com/mnmtk/LeetcodeDaily/tree/master/1008-binary-tree-cameras) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/mnmtk/LeetcodeDaily/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
+| [1026-maximum-difference-between-node-and-ancestor](https://github.com/mnmtk/LeetcodeDaily/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/1093-recover-a-tree-from-preorder-traversal) |
@@ -973,6 +974,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0998-maximum-binary-tree-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0998-maximum-binary-tree-ii) |
 | [1008-binary-tree-cameras](https://github.com/mnmtk/LeetcodeDaily/tree/master/1008-binary-tree-cameras) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/mnmtk/LeetcodeDaily/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
+| [1026-maximum-difference-between-node-and-ancestor](https://github.com/mnmtk/LeetcodeDaily/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/1093-recover-a-tree-from-preorder-traversal) |
@@ -1343,6 +1345,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0999-regions-cut-by-slashes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0999-regions-cut-by-slashes) |
 | [1008-binary-tree-cameras](https://github.com/mnmtk/LeetcodeDaily/tree/master/1008-binary-tree-cameras) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/mnmtk/LeetcodeDaily/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
+| [1026-maximum-difference-between-node-and-ancestor](https://github.com/mnmtk/LeetcodeDaily/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
