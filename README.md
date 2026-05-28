@@ -858,6 +858,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1080-insufficient-nodes-in-root-to-leaf-paths](https://github.com/mnmtk/LeetcodeDaily/tree/master/1080-insufficient-nodes-in-root-to-leaf-paths) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+| [1104-path-in-zigzag-labelled-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1104-path-in-zigzag-labelled-binary-tree) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1177-tree-diameter](https://github.com/mnmtk/LeetcodeDaily/tree/master/1177-tree-diameter) |
 | [1207-delete-nodes-and-return-forest](https://github.com/mnmtk/LeetcodeDaily/tree/master/1207-delete-nodes-and-return-forest) |
@@ -980,6 +981,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1080-insufficient-nodes-in-root-to-leaf-paths](https://github.com/mnmtk/LeetcodeDaily/tree/master/1080-insufficient-nodes-in-root-to-leaf-paths) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+| [1104-path-in-zigzag-labelled-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1104-path-in-zigzag-labelled-binary-tree) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/mnmtk/LeetcodeDaily/tree/master/1207-delete-nodes-and-return-forest) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/mnmtk/LeetcodeDaily/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
@@ -1463,6 +1465,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0989-largest-component-size-by-common-factor](https://github.com/mnmtk/LeetcodeDaily/tree/master/0989-largest-component-size-by-common-factor) |
 | [1003-minimum-area-rectangle-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1003-minimum-area-rectangle-ii) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/mnmtk/LeetcodeDaily/tree/master/1071-greatest-common-divisor-of-strings) |
+| [1104-path-in-zigzag-labelled-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1104-path-in-zigzag-labelled-binary-tree) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/mnmtk/LeetcodeDaily/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1307-ugly-number-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1307-ugly-number-iii) |
 | [1444-number-of-steps-to-reduce-a-number-to-zero](https://github.com/mnmtk/LeetcodeDaily/tree/master/1444-number-of-steps-to-reduce-a-number-to-zero) |
