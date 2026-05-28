@@ -54,6 +54,6 @@ class Solution {
         }
             
         
-        return new Pair<TreeNode, Integer>(node, index < s.length() && s.charAt(index) == ')' ? index + 1 : index + 1);
+        return new Pair<TreeNode, Integer>(node, index + 1);
     }
 }
