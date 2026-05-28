@@ -329,6 +329,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/mnmtk/LeetcodeDaily/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
+| [1305-all-elements-in-two-binary-search-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/1305-all-elements-in-two-binary-search-trees) |
 | [1308-smallest-string-with-swaps](https://github.com/mnmtk/LeetcodeDaily/tree/master/1308-smallest-string-with-swaps) |
 | [1367-maximum-height-by-stacking-cuboids](https://github.com/mnmtk/LeetcodeDaily/tree/master/1367-maximum-height-by-stacking-cuboids) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/mnmtk/LeetcodeDaily/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
@@ -871,6 +872,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/mnmtk/LeetcodeDaily/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
 | [1275-validate-binary-tree-nodes](https://github.com/mnmtk/LeetcodeDaily/tree/master/1275-validate-binary-tree-nodes) |
+| [1305-all-elements-in-two-binary-search-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/1305-all-elements-in-two-binary-search-trees) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1382-balance-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1382-balance-a-binary-search-tree) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
@@ -997,6 +999,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/mnmtk/LeetcodeDaily/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
 | [1275-validate-binary-tree-nodes](https://github.com/mnmtk/LeetcodeDaily/tree/master/1275-validate-binary-tree-nodes) |
+| [1305-all-elements-in-two-binary-search-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/1305-all-elements-in-two-binary-search-trees) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1382-balance-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1382-balance-a-binary-search-tree) |
 | [1644-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1644-lowest-common-ancestor-of-a-binary-tree-ii) |
@@ -1376,6 +1379,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
 | [1275-validate-binary-tree-nodes](https://github.com/mnmtk/LeetcodeDaily/tree/master/1275-validate-binary-tree-nodes) |
 | [1300-critical-connections-in-a-network](https://github.com/mnmtk/LeetcodeDaily/tree/master/1300-critical-connections-in-a-network) |
+| [1305-all-elements-in-two-binary-search-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/1305-all-elements-in-two-binary-search-trees) |
 | [1308-smallest-string-with-swaps](https://github.com/mnmtk/LeetcodeDaily/tree/master/1308-smallest-string-with-swaps) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1382-balance-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1382-balance-a-binary-search-tree) |
@@ -1437,6 +1441,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0975-range-sum-of-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0975-range-sum-of-bst) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1214-two-sum-bsts](https://github.com/mnmtk/LeetcodeDaily/tree/master/1214-two-sum-bsts) |
+| [1305-all-elements-in-two-binary-search-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/1305-all-elements-in-two-binary-search-trees) |
 | [1382-balance-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1382-balance-a-binary-search-tree) |
 | [2476-closest-nodes-queries-in-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2476-closest-nodes-queries-in-a-binary-search-tree) |
 | [3831-median-of-a-binary-search-tree-level](https://github.com/mnmtk/LeetcodeDaily/tree/master/3831-median-of-a-binary-search-tree-level) |
