@@ -289,6 +289,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1249-snapshot-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/1249-snapshot-array) |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/mnmtk/LeetcodeDaily/tree/master/1497-design-a-stack-with-increment-operation) |
+| [1586-binary-search-tree-iterator-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1586-binary-search-tree-iterator-ii) |
 | [1953-finding-mk-average](https://github.com/mnmtk/LeetcodeDaily/tree/master/1953-finding-mk-average) |
 | [2434-design-a-number-container-system](https://github.com/mnmtk/LeetcodeDaily/tree/master/2434-design-a-number-container-system) |
 ## Sorting
@@ -884,6 +885,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1448-count-good-nodes-in-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1530-number-of-good-leaf-nodes-pairs](https://github.com/mnmtk/LeetcodeDaily/tree/master/1530-number-of-good-leaf-nodes-pairs) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
+| [1586-binary-search-tree-iterator-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1586-binary-search-tree-iterator-ii) |
 | [1644-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1644-lowest-common-ancestor-of-a-binary-tree-ii) |
 | [1650-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1650-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [1665-diameter-of-n-ary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1665-diameter-of-n-ary-tree) |
@@ -1017,6 +1019,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1382-balance-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1382-balance-a-binary-search-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1530-number-of-good-leaf-nodes-pairs](https://github.com/mnmtk/LeetcodeDaily/tree/master/1530-number-of-good-leaf-nodes-pairs) |
+| [1586-binary-search-tree-iterator-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1586-binary-search-tree-iterator-ii) |
 | [1644-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1644-lowest-common-ancestor-of-a-binary-tree-ii) |
 | [1650-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1650-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
@@ -1277,6 +1280,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1214-two-sum-bsts](https://github.com/mnmtk/LeetcodeDaily/tree/master/1214-two-sum-bsts) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/mnmtk/LeetcodeDaily/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/mnmtk/LeetcodeDaily/tree/master/1497-design-a-stack-with-increment-operation) |
+| [1586-binary-search-tree-iterator-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1586-binary-search-tree-iterator-ii) |
 | [2764-is-array-a-preorder-of-some-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2764-is-array-a-preorder-of-some-binary-tree) |
 | [3158-maximum-length-of-semi-decreasing-subarrays](https://github.com/mnmtk/LeetcodeDaily/tree/master/3158-maximum-length-of-semi-decreasing-subarrays) |
 ## Depth-First Search
@@ -1466,6 +1470,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1214-two-sum-bsts](https://github.com/mnmtk/LeetcodeDaily/tree/master/1214-two-sum-bsts) |
 | [1305-all-elements-in-two-binary-search-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/1305-all-elements-in-two-binary-search-trees) |
 | [1382-balance-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1382-balance-a-binary-search-tree) |
+| [1586-binary-search-tree-iterator-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1586-binary-search-tree-iterator-ii) |
 | [2476-closest-nodes-queries-in-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2476-closest-nodes-queries-in-a-binary-search-tree) |
 | [3831-median-of-a-binary-search-tree-level](https://github.com/mnmtk/LeetcodeDaily/tree/master/3831-median-of-a-binary-search-tree-level) |
 ## Recursion
@@ -2067,6 +2072,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/mnmtk/LeetcodeDaily/tree/master/0173-binary-search-tree-iterator) |
 | [0341-flatten-nested-list-iterator](https://github.com/mnmtk/LeetcodeDaily/tree/master/0341-flatten-nested-list-iterator) |
+| [1586-binary-search-tree-iterator-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1586-binary-search-tree-iterator-ii) |
 ## Union-Find
 |  |
 | ------- |
