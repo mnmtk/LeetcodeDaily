@@ -879,6 +879,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1367-linked-list-in-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1367-linked-list-in-binary-tree) |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
+| [1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree) |
 | [1382-balance-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1382-balance-a-binary-search-tree) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1644-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1644-lowest-common-ancestor-of-a-binary-tree-ii) |
@@ -1010,6 +1011,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1367-linked-list-in-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1367-linked-list-in-binary-tree) |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
+| [1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree) |
 | [1382-balance-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1382-balance-a-binary-search-tree) |
 | [1644-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1644-lowest-common-ancestor-of-a-binary-tree-ii) |
 | [1650-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1650-lowest-common-ancestor-of-a-binary-tree-iii) |
@@ -1396,6 +1398,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1367-linked-list-in-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1367-linked-list-in-binary-tree) |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
+| [1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree) |
 | [1382-balance-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1382-balance-a-binary-search-tree) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/mnmtk/LeetcodeDaily/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
@@ -1725,6 +1728,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1275-validate-binary-tree-nodes](https://github.com/mnmtk/LeetcodeDaily/tree/master/1275-validate-binary-tree-nodes) |
 | [1308-smallest-string-with-swaps](https://github.com/mnmtk/LeetcodeDaily/tree/master/1308-smallest-string-with-swaps) |
 | [1315-sum-of-nodes-with-even-valued-grandparent](https://github.com/mnmtk/LeetcodeDaily/tree/master/1315-sum-of-nodes-with-even-valued-grandparent) |
+| [1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/mnmtk/LeetcodeDaily/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
