@@ -893,6 +893,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mnmtk/LeetcodeDaily/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2445-number-of-nodes-with-value-one](https://github.com/mnmtk/LeetcodeDaily/tree/master/2445-number-of-nodes-with-value-one) |
+| [2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/mnmtk/LeetcodeDaily/tree/master/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [2476-closest-nodes-queries-in-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2476-closest-nodes-queries-in-a-binary-search-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2509-cycle-length-queries-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2509-cycle-length-queries-in-a-tree) |
@@ -1026,6 +1027,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mnmtk/LeetcodeDaily/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2445-number-of-nodes-with-value-one](https://github.com/mnmtk/LeetcodeDaily/tree/master/2445-number-of-nodes-with-value-one) |
+| [2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/mnmtk/LeetcodeDaily/tree/master/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [2476-closest-nodes-queries-in-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2476-closest-nodes-queries-in-a-binary-search-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2509-cycle-length-queries-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2509-cycle-length-queries-in-a-tree) |
@@ -1751,6 +1753,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2206-detonate-the-maximum-bombs](https://github.com/mnmtk/LeetcodeDaily/tree/master/2206-detonate-the-maximum-bombs) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/mnmtk/LeetcodeDaily/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2445-number-of-nodes-with-value-one](https://github.com/mnmtk/LeetcodeDaily/tree/master/2445-number-of-nodes-with-value-one) |
+| [2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/mnmtk/LeetcodeDaily/tree/master/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/mnmtk/LeetcodeDaily/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
