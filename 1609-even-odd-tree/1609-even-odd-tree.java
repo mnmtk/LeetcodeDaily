@@ -1,55 +1,51 @@
-class Solution {
+public class Solution {
     public boolean isEvenOddTree(TreeNode root) {
-        // 1. Root is at Level 0 (Even). It must be ODD.
-        if(root == null || root.val % 2 == 0) return false;
+        // Create a queue for nodes that need to be visited and add the root
+        Queue<TreeNode> queue = new LinkedList<>();
+        TreeNode current = root;
+        queue.add(current);
 
-        Queue<TreeNode> queue = new LinkedList();
-        queue.offer(root);
+        // Keeps track of whether we are on an even level
+        boolean even = true;
 
-        // FIX: The loop inspects the CHILDREN of the polled nodes.
-        // The first children we inspect will be at Level 1 (an ODD level),
-        // so we start our child-tracker flag at `false`.
-        boolean nextLevelEven = false; 
-        
-        while(!queue.isEmpty()) {
+        // While there are more nodes in the queue
+        // Determine the size of the level and handle the nodes
+        while (!queue.isEmpty()) {
             int size = queue.size();
-            
-            // Next level is Even -> values must be ODD and INCREASING (start at MIN)
-            // Next level is Odd  -> values must be EVEN and DECREASING (start at MAX)
-            int latest = nextLevelEven ? Integer.MIN_VALUE : Integer.MAX_VALUE; 
-            
-            while(size-- > 0) {
-                TreeNode curr = queue.poll();
 
-                if(curr.left != null) {
-                    if (nextLevelEven) {
-                        // Even level violation: value is not odd, OR failed to increase
-                        if(curr.left.val % 2 == 0 || curr.left.val <= latest) return false;
-                    } else {
-                        // Odd level violation: value is not even, OR failed to decrease
-                        if(curr.left.val % 2 != 0 || curr.left.val >= latest) return false;
-                    }
-                    queue.offer(curr.left);
-                    latest = curr.left.val;
-                }
-
-                if(curr.right != null) {
-                    if (nextLevelEven) {
-                        // Even level violation: value is not odd, OR failed to increase
-                        if(curr.right.val % 2 == 0 || curr.right.val <= latest) return false;
-                    } else {
-                        // Odd level violation: value is not even, OR failed to decrease
-                        if(curr.right.val % 2 != 0 || curr.right.val >= latest) return false;
-                    }
-                    queue.offer(curr.right);
-                    latest = curr.right.val;
-                }
+            // Prev holds the value of the previous node in this level
+            int prev = Integer.MAX_VALUE;
+            if (even) {
+                prev = Integer.MIN_VALUE;
             }
 
-            // Alternate the flag for the next level's children
-            nextLevelEven = !nextLevelEven;
-        }
+            // While there are more nodes in this level
+            // Remove a node, check whether it satisfies the conditions
+            // Add its children to the queue
+            while (size > 0) {
+                current = queue.poll();
 
+                // If on an even level, check that the node's value is odd and greater than prev
+                // If on an odd level, check that the node's value is even and less than prev
+                if ((even && (current.val % 2 == 0 || current.val <= prev)) ||
+                        (!even && (current.val % 2 == 1 || current.val >= prev))) {
+                    return false;
+                }
+
+                prev = current.val;
+                if (current.left != null) {
+                    queue.add(current.left);
+                }
+                if (current.right != null) {
+                    queue.add(current.right);
+                }
+                // Decrement size, we have handled a node on this level
+                size--;
+            }
+            // Flip the value of even, the next level will be opposite
+            even = !even;
+        }
+        // If every node meets the conditions, the tree is Even-Odd
         return true;
     }
 }
