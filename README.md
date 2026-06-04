@@ -900,6 +900,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1665-diameter-of-n-ary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1665-diameter-of-n-ary-tree) |
 | [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
+| [1973-count-nodes-equal-to-sum-of-descendants](https://github.com/mnmtk/LeetcodeDaily/tree/master/1973-count-nodes-equal-to-sum-of-descendants) |
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mnmtk/LeetcodeDaily/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2445-number-of-nodes-with-value-one](https://github.com/mnmtk/LeetcodeDaily/tree/master/2445-number-of-nodes-with-value-one) |
 | [2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/mnmtk/LeetcodeDaily/tree/master/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
@@ -1038,6 +1039,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1660-correct-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1660-correct-a-binary-tree) |
 | [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
+| [1973-count-nodes-equal-to-sum-of-descendants](https://github.com/mnmtk/LeetcodeDaily/tree/master/1973-count-nodes-equal-to-sum-of-descendants) |
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mnmtk/LeetcodeDaily/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2445-number-of-nodes-with-value-one](https://github.com/mnmtk/LeetcodeDaily/tree/master/2445-number-of-nodes-with-value-one) |
 | [2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/mnmtk/LeetcodeDaily/tree/master/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
@@ -1436,6 +1438,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1665-diameter-of-n-ary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1665-diameter-of-n-ary-tree) |
 | [1753-path-with-minimum-effort](https://github.com/mnmtk/LeetcodeDaily/tree/master/1753-path-with-minimum-effort) |
 | [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
+| [1973-count-nodes-equal-to-sum-of-descendants](https://github.com/mnmtk/LeetcodeDaily/tree/master/1973-count-nodes-equal-to-sum-of-descendants) |
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mnmtk/LeetcodeDaily/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2121-find-if-path-exists-in-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/2121-find-if-path-exists-in-graph) |
 | [2206-detonate-the-maximum-bombs](https://github.com/mnmtk/LeetcodeDaily/tree/master/2206-detonate-the-maximum-bombs) |
