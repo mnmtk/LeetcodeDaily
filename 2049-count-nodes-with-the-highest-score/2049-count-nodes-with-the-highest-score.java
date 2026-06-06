@@ -1,11 +1,13 @@
 class Solution {
     long dfs(List<List<Integer>> al, long[] s, int i) {
         long prod = 1, sum = 1;
+        
         for (int j : al.get(i)) {
             long cnt = dfs(al, s, j);
             prod *= cnt;
             sum += cnt;
         }
+
         s[i] = prod * (Math.max(1, al.size() - sum));
         return sum;
     }
