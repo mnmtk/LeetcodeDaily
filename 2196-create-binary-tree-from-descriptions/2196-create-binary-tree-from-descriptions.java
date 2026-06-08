@@ -1,39 +1,49 @@
-import java.util.*;
-
 class Solution {
+
     public TreeNode createBinaryTree(int[][] descriptions) {
-     
-        Map<Integer, TreeNode> map = new HashMap<>();
-        Set<Integer> potentialRoots = new HashSet<>();
-        Set<Integer> allChildren = new HashSet<>();
+        // Sets to track unique children and parents
+        Set<Integer> children = new HashSet<>(), parents = new HashSet<>();
+        // Map to store parent to children relationships
+        Map<Integer, List<int[]>> parentToChildren = new HashMap<>();
 
-        for (int[] des : descriptions) {
-            int parentVal = des[0];
-            int childVal = des[1];
-            boolean isLeft = des[2] == 1;
+        // Build graph from parent to child, and add nodes to HashSets
+        for (int[] d : descriptions) {
+            int parent = d[0], child = d[1], isLeft = d[2];
+            parents.add(parent);
+            parents.add(child);
+            children.add(child);
+            parentToChildren
+                .computeIfAbsent(parent, l -> new ArrayList<>())
+                .add(new int[] { child, isLeft });
+        }
 
-            // Compute nodes efficiently
-            TreeNode parentNode = map.computeIfAbsent(parentVal, TreeNode::new);
-            TreeNode childNode = map.computeIfAbsent(childVal, TreeNode::new);
+        // Find the root node by checking which node is in parents but not in children
+        parents.removeAll(children);
+        TreeNode root = new TreeNode(parents.iterator().next());
 
-            // Assign structure
-            if (isLeft) {
-                parentNode.left = childNode;
-            } else {
-                parentNode.right = childNode;
-            }
+        // Starting from root, use BFS to construct binary tree
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
 
-            // Track root candidates
-            allChildren.add(childVal);
-            potentialRoots.remove(childVal); // A child can never be the root
-            
-            if (!allChildren.contains(parentVal)) {
-                potentialRoots.add(parentVal); // Only a candidate if it isn't already a known child
+        while (!queue.isEmpty()) {
+            TreeNode parent = queue.poll();
+            // Iterate over children of current parent
+            for (int[] childInfo : parentToChildren.getOrDefault(
+                parent.val,
+                Collections.emptyList()
+            )) {
+                int childValue = childInfo[0], isLeft = childInfo[1];
+                TreeNode child = new TreeNode(childValue);
+                queue.offer(child);
+                // Attach child node to its parent based on isLeft flag
+                if (isLeft == 1) {
+                    parent.left = child;
+                } else {
+                    parent.right = child;
+                }
             }
         }
 
-        // The remaining element in potentialRoots is exactly our root node
-        int rootVal = potentialRoots.iterator().next();
-        return map.get(rootVal);
+        return root;
     }
 }
