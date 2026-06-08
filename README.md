@@ -580,6 +580,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2012-process-tasks-using-servers](https://github.com/mnmtk/LeetcodeDaily/tree/master/2012-process-tasks-using-servers) |
 | [2049-count-nodes-with-the-highest-score](https://github.com/mnmtk/LeetcodeDaily/tree/master/2049-count-nodes-with-the-highest-score) |
 | [2125-gcd-sort-of-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/2125-gcd-sort-of-an-array) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/mnmtk/LeetcodeDaily/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2206-detonate-the-maximum-bombs](https://github.com/mnmtk/LeetcodeDaily/tree/master/2206-detonate-the-maximum-bombs) |
 | [2215-find-the-difference-of-two-arrays](https://github.com/mnmtk/LeetcodeDaily/tree/master/2215-find-the-difference-of-two-arrays) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/mnmtk/LeetcodeDaily/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
@@ -688,6 +689,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [1934-evaluate-the-bracket-pairs-of-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/1934-evaluate-the-bracket-pairs-of-a-string) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/mnmtk/LeetcodeDaily/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2215-find-the-difference-of-two-arrays](https://github.com/mnmtk/LeetcodeDaily/tree/master/2215-find-the-difference-of-two-arrays) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/mnmtk/LeetcodeDaily/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2434-design-a-number-container-system](https://github.com/mnmtk/LeetcodeDaily/tree/master/2434-design-a-number-container-system) |
@@ -904,6 +906,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1973-count-nodes-equal-to-sum-of-descendants](https://github.com/mnmtk/LeetcodeDaily/tree/master/1973-count-nodes-equal-to-sum-of-descendants) |
 | [2049-count-nodes-with-the-highest-score](https://github.com/mnmtk/LeetcodeDaily/tree/master/2049-count-nodes-with-the-highest-score) |
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mnmtk/LeetcodeDaily/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/mnmtk/LeetcodeDaily/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2445-number-of-nodes-with-value-one](https://github.com/mnmtk/LeetcodeDaily/tree/master/2445-number-of-nodes-with-value-one) |
 | [2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/mnmtk/LeetcodeDaily/tree/master/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [2476-closest-nodes-queries-in-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2476-closest-nodes-queries-in-a-binary-search-tree) |
@@ -1044,6 +1047,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1973-count-nodes-equal-to-sum-of-descendants](https://github.com/mnmtk/LeetcodeDaily/tree/master/1973-count-nodes-equal-to-sum-of-descendants) |
 | [2049-count-nodes-with-the-highest-score](https://github.com/mnmtk/LeetcodeDaily/tree/master/2049-count-nodes-with-the-highest-score) |
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mnmtk/LeetcodeDaily/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/mnmtk/LeetcodeDaily/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2445-number-of-nodes-with-value-one](https://github.com/mnmtk/LeetcodeDaily/tree/master/2445-number-of-nodes-with-value-one) |
 | [2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/mnmtk/LeetcodeDaily/tree/master/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [2476-closest-nodes-queries-in-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2476-closest-nodes-queries-in-a-binary-search-tree) |
