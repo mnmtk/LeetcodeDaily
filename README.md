@@ -907,6 +907,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2049-count-nodes-with-the-highest-score](https://github.com/mnmtk/LeetcodeDaily/tree/master/2049-count-nodes-with-the-highest-score) |
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mnmtk/LeetcodeDaily/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/mnmtk/LeetcodeDaily/tree/master/2196-create-binary-tree-from-descriptions) |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 | [2445-number-of-nodes-with-value-one](https://github.com/mnmtk/LeetcodeDaily/tree/master/2445-number-of-nodes-with-value-one) |
 | [2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/mnmtk/LeetcodeDaily/tree/master/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [2476-closest-nodes-queries-in-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2476-closest-nodes-queries-in-a-binary-search-tree) |
@@ -1048,6 +1049,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2049-count-nodes-with-the-highest-score](https://github.com/mnmtk/LeetcodeDaily/tree/master/2049-count-nodes-with-the-highest-score) |
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mnmtk/LeetcodeDaily/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/mnmtk/LeetcodeDaily/tree/master/2196-create-binary-tree-from-descriptions) |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 | [2445-number-of-nodes-with-value-one](https://github.com/mnmtk/LeetcodeDaily/tree/master/2445-number-of-nodes-with-value-one) |
 | [2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/mnmtk/LeetcodeDaily/tree/master/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [2476-closest-nodes-queries-in-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2476-closest-nodes-queries-in-a-binary-search-tree) |
@@ -1451,6 +1453,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2121-find-if-path-exists-in-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/2121-find-if-path-exists-in-graph) |
 | [2206-detonate-the-maximum-bombs](https://github.com/mnmtk/LeetcodeDaily/tree/master/2206-detonate-the-maximum-bombs) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/mnmtk/LeetcodeDaily/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 | [2445-number-of-nodes-with-value-one](https://github.com/mnmtk/LeetcodeDaily/tree/master/2445-number-of-nodes-with-value-one) |
 | [2476-closest-nodes-queries-in-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2476-closest-nodes-queries-in-a-binary-search-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2493-reverse-odd-levels-of-binary-tree) |
