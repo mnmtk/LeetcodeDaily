@@ -687,6 +687,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1650-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1650-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [1660-correct-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1660-correct-a-binary-tree) |
 | [1676-lowest-common-ancestor-of-a-binary-tree-iv](https://github.com/mnmtk/LeetcodeDaily/tree/master/1676-lowest-common-ancestor-of-a-binary-tree-iv) |
+| [1740-find-distance-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1740-find-distance-in-a-binary-tree) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [1934-evaluate-the-bracket-pairs-of-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/1934-evaluate-the-bracket-pairs-of-a-string) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/2059-unique-length-3-palindromic-subsequences) |
@@ -904,6 +905,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1665-diameter-of-n-ary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1665-diameter-of-n-ary-tree) |
 | [1666-change-the-root-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1666-change-the-root-of-a-binary-tree) |
 | [1676-lowest-common-ancestor-of-a-binary-tree-iv](https://github.com/mnmtk/LeetcodeDaily/tree/master/1676-lowest-common-ancestor-of-a-binary-tree-iv) |
+| [1740-find-distance-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1740-find-distance-in-a-binary-tree) |
 | [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [1973-count-nodes-equal-to-sum-of-descendants](https://github.com/mnmtk/LeetcodeDaily/tree/master/1973-count-nodes-equal-to-sum-of-descendants) |
@@ -1048,6 +1050,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1660-correct-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1660-correct-a-binary-tree) |
 | [1666-change-the-root-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1666-change-the-root-of-a-binary-tree) |
 | [1676-lowest-common-ancestor-of-a-binary-tree-iv](https://github.com/mnmtk/LeetcodeDaily/tree/master/1676-lowest-common-ancestor-of-a-binary-tree-iv) |
+| [1740-find-distance-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1740-find-distance-in-a-binary-tree) |
 | [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [1973-count-nodes-equal-to-sum-of-descendants](https://github.com/mnmtk/LeetcodeDaily/tree/master/1973-count-nodes-equal-to-sum-of-descendants) |
@@ -1452,6 +1455,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1665-diameter-of-n-ary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1665-diameter-of-n-ary-tree) |
 | [1666-change-the-root-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1666-change-the-root-of-a-binary-tree) |
 | [1676-lowest-common-ancestor-of-a-binary-tree-iv](https://github.com/mnmtk/LeetcodeDaily/tree/master/1676-lowest-common-ancestor-of-a-binary-tree-iv) |
+| [1740-find-distance-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1740-find-distance-in-a-binary-tree) |
 | [1753-path-with-minimum-effort](https://github.com/mnmtk/LeetcodeDaily/tree/master/1753-path-with-minimum-effort) |
 | [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
 | [1973-count-nodes-equal-to-sum-of-descendants](https://github.com/mnmtk/LeetcodeDaily/tree/master/1973-count-nodes-equal-to-sum-of-descendants) |
@@ -1788,6 +1792,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1609-even-odd-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1609-even-odd-tree) |
 | [1660-correct-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1660-correct-a-binary-tree) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1663-detect-cycles-in-2d-grid) |
+| [1740-find-distance-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1740-find-distance-in-a-binary-tree) |
 | [1753-path-with-minimum-effort](https://github.com/mnmtk/LeetcodeDaily/tree/master/1753-path-with-minimum-effort) |
 | [2121-find-if-path-exists-in-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/2121-find-if-path-exists-in-graph) |
 | [2206-detonate-the-maximum-bombs](https://github.com/mnmtk/LeetcodeDaily/tree/master/2206-detonate-the-maximum-bombs) |
