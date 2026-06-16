@@ -6,13 +6,12 @@ class Solution {
     int currentMaxHeight = 0;
 
     public int[] treeQueries(TreeNode root, int[] queries) {
-
         traverseLeftToRight(root, 0);
-        currentMaxHeight = 0; 
+        currentMaxHeight = 0; // Reset for the second traversal
         traverseRightToLeft(root, 0);
 
+        // Process queries and build the result array
         int queryCount = queries.length;
-        
         int[] queryResults = new int[queryCount];
         for (int i = 0; i < queryCount; i++) {
             queryResults[i] = maxHeightAfterRemoval[queries[i]];
