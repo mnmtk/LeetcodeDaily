@@ -574,6 +574,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1753-path-with-minimum-effort](https://github.com/mnmtk/LeetcodeDaily/tree/master/1753-path-with-minimum-effort) |
 | [1815-checking-existence-of-edge-length-limited-paths](https://github.com/mnmtk/LeetcodeDaily/tree/master/1815-checking-existence-of-edge-length-limited-paths) |
 | [1929-concatenation-of-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/1929-concatenation-of-array) |
+| [1932-merge-bsts-to-create-single-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/1932-merge-bsts-to-create-single-bst) |
 | [1934-evaluate-the-bracket-pairs-of-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/1934-evaluate-the-bracket-pairs-of-a-string) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/mnmtk/LeetcodeDaily/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/mnmtk/LeetcodeDaily/tree/master/1977-minimum-interval-to-include-each-query) |
@@ -690,6 +691,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1676-lowest-common-ancestor-of-a-binary-tree-iv](https://github.com/mnmtk/LeetcodeDaily/tree/master/1676-lowest-common-ancestor-of-a-binary-tree-iv) |
 | [1740-find-distance-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1740-find-distance-in-a-binary-tree) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
+| [1932-merge-bsts-to-create-single-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/1932-merge-bsts-to-create-single-bst) |
 | [1934-evaluate-the-bracket-pairs-of-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/1934-evaluate-the-bracket-pairs-of-a-string) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/mnmtk/LeetcodeDaily/tree/master/2196-create-binary-tree-from-descriptions) |
@@ -909,6 +911,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1740-find-distance-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1740-find-distance-in-a-binary-tree) |
 | [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
+| [1932-merge-bsts-to-create-single-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/1932-merge-bsts-to-create-single-bst) |
 | [1973-count-nodes-equal-to-sum-of-descendants](https://github.com/mnmtk/LeetcodeDaily/tree/master/1973-count-nodes-equal-to-sum-of-descendants) |
 | [2049-count-nodes-with-the-highest-score](https://github.com/mnmtk/LeetcodeDaily/tree/master/2049-count-nodes-with-the-highest-score) |
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mnmtk/LeetcodeDaily/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
@@ -1055,6 +1058,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1740-find-distance-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1740-find-distance-in-a-binary-tree) |
 | [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
+| [1932-merge-bsts-to-create-single-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/1932-merge-bsts-to-create-single-bst) |
 | [1973-count-nodes-equal-to-sum-of-descendants](https://github.com/mnmtk/LeetcodeDaily/tree/master/1973-count-nodes-equal-to-sum-of-descendants) |
 | [2049-count-nodes-with-the-highest-score](https://github.com/mnmtk/LeetcodeDaily/tree/master/2049-count-nodes-with-the-highest-score) |
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mnmtk/LeetcodeDaily/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
@@ -1461,6 +1465,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1740-find-distance-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1740-find-distance-in-a-binary-tree) |
 | [1753-path-with-minimum-effort](https://github.com/mnmtk/LeetcodeDaily/tree/master/1753-path-with-minimum-effort) |
 | [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
+| [1932-merge-bsts-to-create-single-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/1932-merge-bsts-to-create-single-bst) |
 | [1973-count-nodes-equal-to-sum-of-descendants](https://github.com/mnmtk/LeetcodeDaily/tree/master/1973-count-nodes-equal-to-sum-of-descendants) |
 | [2049-count-nodes-with-the-highest-score](https://github.com/mnmtk/LeetcodeDaily/tree/master/2049-count-nodes-with-the-highest-score) |
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mnmtk/LeetcodeDaily/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
@@ -1518,6 +1523,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1305-all-elements-in-two-binary-search-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/1305-all-elements-in-two-binary-search-trees) |
 | [1382-balance-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1382-balance-a-binary-search-tree) |
 | [1586-binary-search-tree-iterator-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1586-binary-search-tree-iterator-ii) |
+| [1932-merge-bsts-to-create-single-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/1932-merge-bsts-to-create-single-bst) |
 | [2476-closest-nodes-queries-in-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2476-closest-nodes-queries-in-a-binary-search-tree) |
 | [3831-median-of-a-binary-search-tree-level](https://github.com/mnmtk/LeetcodeDaily/tree/master/3831-median-of-a-binary-search-tree-level) |
 ## Recursion
