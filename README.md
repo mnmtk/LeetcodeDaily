@@ -915,6 +915,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1902-depth-of-bst-given-insertion-order](https://github.com/mnmtk/LeetcodeDaily/tree/master/1902-depth-of-bst-given-insertion-order) |
 | [1932-merge-bsts-to-create-single-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/1932-merge-bsts-to-create-single-bst) |
 | [1973-count-nodes-equal-to-sum-of-descendants](https://github.com/mnmtk/LeetcodeDaily/tree/master/1973-count-nodes-equal-to-sum-of-descendants) |
+| [2005-subtree-removal-game-with-fibonacci-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2005-subtree-removal-game-with-fibonacci-tree) |
 | [2049-count-nodes-with-the-highest-score](https://github.com/mnmtk/LeetcodeDaily/tree/master/2049-count-nodes-with-the-highest-score) |
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mnmtk/LeetcodeDaily/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/mnmtk/LeetcodeDaily/tree/master/2196-create-binary-tree-from-descriptions) |
@@ -1064,6 +1065,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1902-depth-of-bst-given-insertion-order](https://github.com/mnmtk/LeetcodeDaily/tree/master/1902-depth-of-bst-given-insertion-order) |
 | [1932-merge-bsts-to-create-single-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/1932-merge-bsts-to-create-single-bst) |
 | [1973-count-nodes-equal-to-sum-of-descendants](https://github.com/mnmtk/LeetcodeDaily/tree/master/1973-count-nodes-equal-to-sum-of-descendants) |
+| [2005-subtree-removal-game-with-fibonacci-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2005-subtree-removal-game-with-fibonacci-tree) |
 | [2049-count-nodes-with-the-highest-score](https://github.com/mnmtk/LeetcodeDaily/tree/master/2049-count-nodes-with-the-highest-score) |
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mnmtk/LeetcodeDaily/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/mnmtk/LeetcodeDaily/tree/master/2196-create-binary-tree-from-descriptions) |
@@ -1234,6 +1236,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/mnmtk/LeetcodeDaily/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1587-parallel-courses-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1587-parallel-courses-ii) |
 | [1912-number-of-restricted-paths-from-first-to-last-node](https://github.com/mnmtk/LeetcodeDaily/tree/master/1912-number-of-restricted-paths-from-first-to-last-node) |
+| [2005-subtree-removal-game-with-fibonacci-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2005-subtree-removal-game-with-fibonacci-tree) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/mnmtk/LeetcodeDaily/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2313-minimum-flips-in-binary-tree-to-get-result](https://github.com/mnmtk/LeetcodeDaily/tree/master/2313-minimum-flips-in-binary-tree-to-get-result) |
 | [2526-longest-increasing-subsequence-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/2526-longest-increasing-subsequence-ii) |
@@ -1583,6 +1586,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1444-number-of-steps-to-reduce-a-number-to-zero](https://github.com/mnmtk/LeetcodeDaily/tree/master/1444-number-of-steps-to-reduce-a-number-to-zero) |
 | [1628-design-an-expression-tree-with-evaluate-function](https://github.com/mnmtk/LeetcodeDaily/tree/master/1628-design-an-expression-tree-with-evaluate-function) |
 | [1642-water-bottles](https://github.com/mnmtk/LeetcodeDaily/tree/master/1642-water-bottles) |
+| [2005-subtree-removal-game-with-fibonacci-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2005-subtree-removal-game-with-fibonacci-tree) |
 | [2125-gcd-sort-of-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/2125-gcd-sort-of-an-array) |
 | [2206-detonate-the-maximum-bombs](https://github.com/mnmtk/LeetcodeDaily/tree/master/2206-detonate-the-maximum-bombs) |
 | [2266-minimum-cost-to-set-cooking-time](https://github.com/mnmtk/LeetcodeDaily/tree/master/2266-minimum-cost-to-set-cooking-time) |
@@ -2049,6 +2053,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0292-nim-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0292-nim-game) |
 | [0909-stone-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0909-stone-game) |
+| [2005-subtree-removal-game-with-fibonacci-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2005-subtree-removal-game-with-fibonacci-tree) |
 ## Topological Sort
 |  |
 | ------- |
