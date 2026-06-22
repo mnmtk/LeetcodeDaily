@@ -802,6 +802,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/mnmtk/LeetcodeDaily/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/mnmtk/LeetcodeDaily/tree/master/0129-sum-root-to-leaf-numbers) |
+| [0144-binary-tree-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0144-binary-tree-preorder-traversal) |
 | [0156-binary-tree-upside-down](https://github.com/mnmtk/LeetcodeDaily/tree/master/0156-binary-tree-upside-down) |
 | [0173-binary-search-tree-iterator](https://github.com/mnmtk/LeetcodeDaily/tree/master/0173-binary-search-tree-iterator) |
 | [0199-binary-tree-right-side-view](https://github.com/mnmtk/LeetcodeDaily/tree/master/0199-binary-tree-right-side-view) |
@@ -959,6 +960,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/mnmtk/LeetcodeDaily/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/mnmtk/LeetcodeDaily/tree/master/0129-sum-root-to-leaf-numbers) |
+| [0144-binary-tree-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0144-binary-tree-preorder-traversal) |
 | [0156-binary-tree-upside-down](https://github.com/mnmtk/LeetcodeDaily/tree/master/0156-binary-tree-upside-down) |
 | [0173-binary-search-tree-iterator](https://github.com/mnmtk/LeetcodeDaily/tree/master/0173-binary-search-tree-iterator) |
 | [0199-binary-tree-right-side-view](https://github.com/mnmtk/LeetcodeDaily/tree/master/0199-binary-tree-right-side-view) |
@@ -1315,6 +1317,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0084-largest-rectangle-in-histogram](https://github.com/mnmtk/LeetcodeDaily/tree/master/0084-largest-rectangle-in-histogram) |
 | [0094-binary-tree-inorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0094-binary-tree-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/mnmtk/LeetcodeDaily/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0144-binary-tree-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0144-binary-tree-preorder-traversal) |
 | [0155-min-stack](https://github.com/mnmtk/LeetcodeDaily/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/mnmtk/LeetcodeDaily/tree/master/0173-binary-search-tree-iterator) |
 | [0234-palindrome-linked-list](https://github.com/mnmtk/LeetcodeDaily/tree/master/0234-palindrome-linked-list) |
@@ -1350,6 +1353,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0124-binary-tree-maximum-path-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/mnmtk/LeetcodeDaily/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0133-clone-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/0133-clone-graph) |
+| [0144-binary-tree-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0144-binary-tree-preorder-traversal) |
 | [0156-binary-tree-upside-down](https://github.com/mnmtk/LeetcodeDaily/tree/master/0156-binary-tree-upside-down) |
 | [0199-binary-tree-right-side-view](https://github.com/mnmtk/LeetcodeDaily/tree/master/0199-binary-tree-right-side-view) |
 | [0207-course-schedule](https://github.com/mnmtk/LeetcodeDaily/tree/master/0207-course-schedule) |
