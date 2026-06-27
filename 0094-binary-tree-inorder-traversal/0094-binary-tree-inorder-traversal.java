@@ -29,7 +29,7 @@ class Solution {
             ans.add(curr.val);
             // if(curr.right!=null) {
                 curr = curr.right;
-            // }
+            //}
         }
         return ans;
     }
