@@ -19,37 +19,35 @@ class Solution {
         queue.offer(root);
 
         while(!queue.isEmpty()) {
-            TreeNode node = queue.poll();
-            if(SameTree(node, subRoot)) {
+            TreeNode curr = queue.poll();
+            if(isSameTree(curr, subRoot)) {
                 return true;
             }
-            if(node.left != null) {
-                queue.offer(node.left);
+            if(curr.left != null) {
+                queue.offer(curr.left);
+            } 
+            if(curr.right != null) {
+                queue.offer(curr.right);
             }
-
-            if(node.right != null) {
-                queue.offer(node.right);
-            }            
         }
 
         return false;
     }
 
-    boolean SameTree(TreeNode a, TreeNode b) {
-
-        if(a == null && b == null) {
+    public boolean isSameTree(TreeNode p, TreeNode q) {
+        if(p == null && q == null) {
             return true;
-        } 
+        }
 
-        if(a == null || b == null) {
+        if (p == null || q == null) {
             return false;
         }
 
-        if(a.val != b.val) {
+        if (p.val != q.val) {
             return false;
         }
 
-        return SameTree(a.left, b.left) && SameTree(a.right, b.right);
-        
+        return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
+
     }
 }
