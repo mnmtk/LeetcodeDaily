@@ -1,42 +1,18 @@
 class Solution {
 
+    List<Integer> rightside = new ArrayList();
+
+    public void helper(TreeNode node, int level) {
+        if (level == rightside.size()) rightside.add(node.val);
+
+        if (node.right != null) helper(node.right, level + 1);
+        if (node.left != null) helper(node.left, level + 1);
+    }
+
     public List<Integer> rightSideView(TreeNode root) {
-        if (root == null) return new ArrayList<Integer>();
+        if (root == null) return rightside;
 
-        Queue<TreeNode> queue = new LinkedList() {
-            {
-                offer(root);
-                offer(null);
-            }
-        };
-        TreeNode prev, curr = root;
-        List<Integer> rightside = new ArrayList();
-
-        while (!queue.isEmpty()) {
-            prev = curr;
-            curr = queue.poll();
-
-            while (curr != null) {
-                // add child nodes in the queue
-                if (curr.left != null) {
-                    queue.offer(curr.left);
-                }
-                if (curr.right != null) {
-                    queue.offer(curr.right);
-                }
-
-                prev = curr;
-                curr = queue.poll();
-            }
-
-            // the current level is finished
-            // and prev is its rightmost element
-            rightside.add(prev.val);
-
-            // add a sentinel to mark the end
-            // of the next level
-            if (!queue.isEmpty()) queue.offer(null);
-        }
+        helper(root, 0);
         return rightside;
     }
 }
