@@ -838,6 +838,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0545-boundary-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0545-boundary-of-binary-tree) |
 | [0549-binary-tree-longest-consecutive-sequence-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0549-binary-tree-longest-consecutive-sequence-ii) |
 | [0563-binary-tree-tilt](https://github.com/mnmtk/LeetcodeDaily/tree/master/0563-binary-tree-tilt) |
+| [0572-subtree-of-another-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0572-subtree-of-another-tree) |
 | [0606-construct-string-from-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0606-construct-string-from-binary-tree) |
 | [0617-merge-two-binary-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0617-merge-two-binary-trees) |
 | [0623-add-one-row-to-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0623-add-one-row-to-tree) |
@@ -999,6 +1000,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0545-boundary-of-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0545-boundary-of-binary-tree) |
 | [0549-binary-tree-longest-consecutive-sequence-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0549-binary-tree-longest-consecutive-sequence-ii) |
 | [0563-binary-tree-tilt](https://github.com/mnmtk/LeetcodeDaily/tree/master/0563-binary-tree-tilt) |
+| [0572-subtree-of-another-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0572-subtree-of-another-tree) |
 | [0606-construct-string-from-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0606-construct-string-from-binary-tree) |
 | [0617-merge-two-binary-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0617-merge-two-binary-trees) |
 | [0623-add-one-row-to-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0623-add-one-row-to-tree) |
@@ -1409,6 +1411,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/mnmtk/LeetcodeDaily/tree/master/0547-number-of-provinces) |
 | [0549-binary-tree-longest-consecutive-sequence-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0549-binary-tree-longest-consecutive-sequence-ii) |
 | [0563-binary-tree-tilt](https://github.com/mnmtk/LeetcodeDaily/tree/master/0563-binary-tree-tilt) |
+| [0572-subtree-of-another-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0572-subtree-of-another-tree) |
 | [0606-construct-string-from-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0606-construct-string-from-binary-tree) |
 | [0617-merge-two-binary-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0617-merge-two-binary-trees) |
 | [0623-add-one-row-to-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0623-add-one-row-to-tree) |
@@ -2022,6 +2025,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Function
 |  |
 | ------- |
+| [0572-subtree-of-another-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0572-subtree-of-another-tree) |
 | [0694-number-of-distinct-islands](https://github.com/mnmtk/LeetcodeDaily/tree/master/0694-number-of-distinct-islands) |
 | [0711-number-of-distinct-islands-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0711-number-of-distinct-islands-ii) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/mnmtk/LeetcodeDaily/tree/master/0718-maximum-length-of-repeated-subarray) |
@@ -2137,6 +2141,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0572-subtree-of-another-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0572-subtree-of-another-tree) |
 ## Doubly-Linked List
 |  |
 | ------- |
