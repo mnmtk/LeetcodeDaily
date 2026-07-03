@@ -15,9 +15,11 @@
  */
 class Solution {
     public TreeNode convertBST(TreeNode root) {
+
         int sum = 0;
         TreeNode node = root;
-        Stack<TreeNode> stack = new Stack<TreeNode>();
+        Stack<TreeNode> stack = new Stack<>();
+
 
         while(!stack.isEmpty() || node != null) {
 
@@ -32,7 +34,8 @@ class Solution {
 
             node = node.left;
         }
-        
+
         return root;
+        
     }
 }
