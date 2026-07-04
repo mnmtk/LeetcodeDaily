@@ -38,7 +38,7 @@ class Solution {
             if(x == null) x = prev;
             else return;
         }
-        prev = root;
+        prev = root; //imp.
         findSwapped(root.right);
     }
 }
