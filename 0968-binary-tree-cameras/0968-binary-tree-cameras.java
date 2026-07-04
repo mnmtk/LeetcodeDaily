@@ -14,25 +14,30 @@
  * }
  */
 class Solution {
+    int camera = 0;
+    public enum Camera {HAS_CAMERA, COVERED, PLEASE_COVER};
+
     public int minCameraCover(TreeNode root) {
-        int[] ans = solve(root);
-        return Math.min(ans[1], ans[2]);
+
+        return cover(root) == Camera.PLEASE_COVER ? ++camera : camera;
     }
 
-     public int[] solve(TreeNode node) {
-        if (node == null)
-            return new int[]{0, 0, 99999};
+    public Camera cover(TreeNode root) {
+        if(root == null) return Camera.COVERED;
 
-        int[] L = solve(node.left);
-        int[] R = solve(node.right);
+        Camera l = cover(root.left);
+        Camera r = cover(root.right);
 
-        int mL12 = Math.min(L[1], L[2]);
-        int mR12 = Math.min(R[1], R[2]);
+        if(l == Camera.PLEASE_COVER || r == Camera.PLEASE_COVER) {
+            camera++;
+            return Camera.HAS_CAMERA;
+        }
 
-        int d0 = L[1] + R[1];
-        int d1 = Math.min(L[2] + mR12, R[2] + mL12);
-        int d2 = 1 + Math.min(L[0], mL12) + Math.min(R[0], mR12);
-        
-        return new int[]{d0, d1, d2};
+        if(l == Camera.HAS_CAMERA || r == Camera.HAS_CAMERA) {
+            return Camera.COVERED;
+        }
+
+
+        return Camera.PLEASE_COVER;
     }
 }
