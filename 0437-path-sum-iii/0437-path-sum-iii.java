@@ -1,43 +1,33 @@
 class Solution {
-    int count = 0;
-    int k;
-    HashMap<Long, Integer> h = new HashMap();
-    
-    public void preorder(TreeNode node, long currSum) {
-        if (node == null)
-            return;
+    public int pathSum(TreeNode root, int targetSum) {
+        if (root == null) return 0;
         
-        // The current prefix sum
-        currSum += node.val;
+        // 1. Paths starting at the current root
+        int pathsFromRoot = countPathsFromNode(root, targetSum);
+        
+        // 2. Paths starting somewhere in the left subtree
+        int pathsFromLeft = pathSum(root.left, targetSum);
+        
+        // 3. Paths starting somewhere in the right subtree
+        int pathsFromRight = pathSum(root.right, targetSum);
+        
+        return pathsFromRoot + pathsFromLeft + pathsFromRight;
+    }
 
-        // Here is the sum we're looking for
-        if (currSum == k)
+    private int countPathsFromNode(TreeNode node, long currentSum) {
+        if (node == null) return 0;
+        
+        int count = 0;
+        // If the current node completes the sum, increment count
+        if (node.val == currentSum) {
             count++;
+        }
         
-        // The number of times the curr_sum − k has occurred already, 
-        // determines the number of times a path with sum k 
-        // has occurred up to the current node
-        count += h.getOrDefault(currSum - k, 0);
+        // Continue down both paths, always subtracting the node's value
+        // Note: We use 'long' for currentSum to prevent integer overflow in deep trees
+        count += countPathsFromNode(node.left, currentSum - node.val);
+        count += countPathsFromNode(node.right, currentSum - node.val);
         
-        //Add the current sum into the hashmap
-        // to use it during the child node's processing
-        h.put(currSum, h.getOrDefault(currSum, 0) + 1);
-
-        // Process the left subtree
-        preorder(node.left, currSum);
-
-        // Process the right subtree
-        preorder(node.right, currSum);
-
-        // Remove the current sum from the hashmap
-        // in order not to use it during 
-        // the parallel subtree processing
-        h.put(currSum, h.get(currSum) - 1);
-    }    
-            
-    public int pathSum(TreeNode root, int sum) {
-        k = sum;
-        preorder(root, 0L);
         return count;
     }
 }
