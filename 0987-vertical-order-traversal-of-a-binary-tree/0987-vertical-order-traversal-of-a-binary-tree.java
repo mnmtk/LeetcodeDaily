@@ -15,8 +15,11 @@ class Solution {
     List<Triplet<Integer, Integer, Integer>> nodeList = new ArrayList<>();
 
     private void BFS(TreeNode root) {
+
         Queue<Triplet<TreeNode, Integer, Integer>> queue = new ArrayDeque();
-        int row = 0, column = 0;
+
+        int row = 0;
+        int column = 0;
         queue.offer(new Triplet(root, row, column));
 
         while (!queue.isEmpty()) {
