@@ -1,33 +1,34 @@
+import java.util.HashMap;
+import java.util.Map;
+
 class Solution {
+    Map<Long, Integer> prefixMap = new HashMap<>();
+    int ans = 0;
+
     public int pathSum(TreeNode root, int targetSum) {
-        if (root == null) return 0;
-        
-        // 1. Paths starting at the current root
-        int pathsFromRoot = countPathsFromNode(root, targetSum);
-        
-        // 2. Paths starting somewhere in the left subtree
-        int pathsFromLeft = pathSum(root.left, targetSum);
-        
-        // 3. Paths starting somewhere in the right subtree
-        int pathsFromRight = pathSum(root.right, targetSum);
-        
-        return pathsFromRoot + pathsFromLeft + pathsFromRight;
+
+        prefixMap.put(0L, 1);
+        pathSumHelper(root, 0L, targetSum);
+        return ans;
     }
 
-    private int countPathsFromNode(TreeNode node, long currentSum) {
-        if (node == null) return 0;
-        
-        int count = 0;
-        // If the current node completes the sum, increment count
-        if (node.val == currentSum) {
-            count++;
-        }
-        
-        // Continue down both paths, always subtracting the node's value
-        // Note: We use 'long' for currentSum to prevent integer overflow in deep trees
-        count += countPathsFromNode(node.left, currentSum - node.val);
-        count += countPathsFromNode(node.right, currentSum - node.val);
-        
-        return count;
+    public void pathSumHelper(TreeNode root, long runningSum, int targetSum) {
+        if (root == null) return;
+
+    
+        runningSum += root.val;
+
+       
+        ans += prefixMap.getOrDefault(runningSum - targetSum, 0);
+
+        prefixMap.put(runningSum, prefixMap.getOrDefault(runningSum, 0) + 1);
+
+ 
+        pathSumHelper(root.left, runningSum, targetSum);
+        pathSumHelper(root.right, runningSum, targetSum);
+
+        // IMPORTNT
+        // BACKTRACK: Remove the current running sum so it doesn't affect other branches
+        prefixMap.put(runningSum, prefixMap.get(runningSum) - 1);
     }
 }
