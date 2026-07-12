@@ -21,6 +21,7 @@ class Solution {
         }
 
         // Handling the case when slowPtr was equal to head.
+        // important
         if (prevPtr != null) {
             prevPtr.next = null;
         }
@@ -48,6 +49,7 @@ class Solution {
         // Recursively form balanced BSTs using the left and right halves of the original list.
         node.left = this.sortedListToBST(head);
         node.right = this.sortedListToBST(mid.next);
+
         return node;
     }
 }
