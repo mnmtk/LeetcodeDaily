@@ -1,27 +1,33 @@
 class Solution {
-    public int[][] floodFill(int[][] image, int sr, int sc, int newColor) {
-        int color = image[sr][sc];
-        
-        if (color != newColor) {
-            dfs(image, sr, sc, color, newColor);
+    int[][] dir = { { 1, 0 }, { 0, 1 }, { -1, 0 }, { 0, -1 } };
+
+    public int[][] floodFill(int[][] image, int sr, int sc, int color) {
+        // FIX 2: Prevent infinite loop if the starting pixel is already the target color
+        if (image[sr][sc] == color) {
+            return image; 
         }
+
+        dfs(color, sr, sc, image[sr][sc], image);
+
         return image;
     }
-    public void dfs(int[][] image, int r, int c, int color, int newColor) {
-        if (image[r][c] == color) {
-            image[r][c] = newColor;
-            if (r >= 1) {
-                dfs(image, r - 1, c, color, newColor);
-            }
-            if (c >= 1) {
-                dfs(image, r, c - 1, color, newColor);
-            }
-            if (r + 1 < image.length) {
-                dfs(image, r + 1, c, color, newColor);
-            }
-            if (c + 1 < image[0].length) {
-                dfs(image, r, c + 1, color, newColor);
-            }
+
+    public void dfs(int color, int sr, int sc, int prev, int[][] image) {
+        // FIX 1: Corrected row and column boundary checks
+        if(sr < 0 || sr >= image.length || sc < 0 || sc >= image[0].length) {
+            return;
+        }
+
+        // Only color and recurse if the current cell matches the original starting color
+        if(image[sr][sc] == prev) {
+            image[sr][sc] = color;
+        } else {
+            return;
+        }
+
+        // Check all 4 directions
+        for(int[] d : dir) {
+            dfs(color, sr + d[0], sc + d[1], prev, image);
         }
     }
 }
