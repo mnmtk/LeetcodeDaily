@@ -1,24 +1,48 @@
-public class Solution {
+import java.util.Deque;
+import java.util.ArrayDeque;
+
+class Solution {
+    
+    class Tower {
+        int length; 
+        int start;
+
+        Tower(int length, int start) {
+            this.length = length;
+            this.start = start;
+        }
+    }
+    
     public int largestRectangleArea(int[] heights) {
-        Deque<Integer> stack = new ArrayDeque<>();
-        stack.push(-1);
-        int length = heights.length;
-        int maxArea = 0;
-        for (int i = 0; i < length; i++) {
-            while (
-                (stack.peek() != -1) && (heights[stack.peek()] >= heights[i])
-            ) {
-                int currentHeight = heights[stack.pop()];
-                int currentWidth = i - stack.peek() - 1;
-                maxArea = Math.max(maxArea, currentHeight * currentWidth);
+        int ans = 0; 
+        
+        Deque<Tower> increasingStack = new ArrayDeque<>();
+
+        for (int i = 0; i < heights.length; i++) {
+            int length = heights[i];
+            int start = i; 
+            
+            while (!increasingStack.isEmpty() && increasingStack.peek().length > length) {
+                Tower now = increasingStack.pop();
+                
+                int end = i; 
+                int area = now.length * (end - now.start);
+                ans = Math.max(ans, area);
+                
+                start = now.start; 
             }
-            stack.push(i);
+            
+            increasingStack.push(new Tower(length, start));
         }
-        while (stack.peek() != -1) {
-            int currentHeight = heights[stack.pop()];
-            int currentWidth = length - stack.peek() - 1;
-            maxArea = Math.max(maxArea, currentHeight * currentWidth);
+        
+
+        while (!increasingStack.isEmpty()) {
+            Tower now = increasingStack.pop();
+            int end = heights.length; 
+            int area = now.length * (end - now.start);
+            ans = Math.max(ans, area);
         }
-        return maxArea;
+        
+        return ans;
     }
 }
