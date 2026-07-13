@@ -522,6 +522,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/mnmtk/LeetcodeDaily/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0690-employee-importance](https://github.com/mnmtk/LeetcodeDaily/tree/master/0690-employee-importance) |
 | [0692-top-k-frequent-words](https://github.com/mnmtk/LeetcodeDaily/tree/master/0692-top-k-frequent-words) |
+| [0695-max-area-of-island](https://github.com/mnmtk/LeetcodeDaily/tree/master/0695-max-area-of-island) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/mnmtk/LeetcodeDaily/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/mnmtk/LeetcodeDaily/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0722-remove-comments](https://github.com/mnmtk/LeetcodeDaily/tree/master/0722-remove-comments) |
@@ -1455,6 +1456,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0687-longest-univalue-path](https://github.com/mnmtk/LeetcodeDaily/tree/master/0687-longest-univalue-path) |
 | [0690-employee-importance](https://github.com/mnmtk/LeetcodeDaily/tree/master/0690-employee-importance) |
 | [0694-number-of-distinct-islands](https://github.com/mnmtk/LeetcodeDaily/tree/master/0694-number-of-distinct-islands) |
+| [0695-max-area-of-island](https://github.com/mnmtk/LeetcodeDaily/tree/master/0695-max-area-of-island) |
 | [0711-number-of-distinct-islands-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0711-number-of-distinct-islands-ii) |
 | [0733-flood-fill](https://github.com/mnmtk/LeetcodeDaily/tree/master/0733-flood-fill) |
 | [0742-closest-leaf-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0742-closest-leaf-in-a-binary-tree) |
@@ -1742,6 +1744,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0499-the-maze-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0499-the-maze-iii) |
 | [0505-the-maze-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0505-the-maze-ii) |
 | [0631-design-excel-sum-formula](https://github.com/mnmtk/LeetcodeDaily/tree/master/0631-design-excel-sum-formula) |
+| [0695-max-area-of-island](https://github.com/mnmtk/LeetcodeDaily/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/mnmtk/LeetcodeDaily/tree/master/0733-flood-fill) |
 | [0772-construct-quad-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0772-construct-quad-tree) |
 | [0794-swim-in-rising-water](https://github.com/mnmtk/LeetcodeDaily/tree/master/0794-swim-in-rising-water) |
@@ -1838,6 +1841,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0684-redundant-connection](https://github.com/mnmtk/LeetcodeDaily/tree/master/0684-redundant-connection) |
 | [0690-employee-importance](https://github.com/mnmtk/LeetcodeDaily/tree/master/0690-employee-importance) |
 | [0694-number-of-distinct-islands](https://github.com/mnmtk/LeetcodeDaily/tree/master/0694-number-of-distinct-islands) |
+| [0695-max-area-of-island](https://github.com/mnmtk/LeetcodeDaily/tree/master/0695-max-area-of-island) |
 | [0711-number-of-distinct-islands-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0711-number-of-distinct-islands-ii) |
 | [0733-flood-fill](https://github.com/mnmtk/LeetcodeDaily/tree/master/0733-flood-fill) |
 | [0742-closest-leaf-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0742-closest-leaf-in-a-binary-tree) |
@@ -2218,6 +2222,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/mnmtk/LeetcodeDaily/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/mnmtk/LeetcodeDaily/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/mnmtk/LeetcodeDaily/tree/master/0695-max-area-of-island) |
 ## Graph Theory
 |  |
 | ------- |
