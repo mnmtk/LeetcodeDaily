@@ -38,8 +38,8 @@ class Solution {
         seen[curr] = true;
 
         for (int nei : graph.get(curr)) {
-            if (!seen[nei] && dfs(graph, seen, nei, destination)) {
-                return true;              // return ONLY on success
+            if (!seen[nei] ) {
+                return dfs(graph, seen, nei, destination);
             }
         }
         return false;                     // exhausted all branches
