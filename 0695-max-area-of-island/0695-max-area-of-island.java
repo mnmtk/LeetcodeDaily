@@ -9,13 +9,37 @@ class Solution {
             for (int j = 0; j < grid[0].length; j++) {
                 
                 if (grid[i][j] == 1) {
-                    maxArea = Math.max(maxArea, dfs(grid, i, j));
+                    maxArea = Math.max(maxArea, bfs(grid, i, j));
                 }
             }
         }
 
         return maxArea;
     }
+
+    private int bfs(int[][] grid, int i, int j) {
+    Deque<int[]> q = new ArrayDeque<>();
+    grid[i][j] = 0;
+    q.offer(new int[]{i, j});
+
+    int area = 0;
+
+    while (!q.isEmpty()) {
+        int[] cell = q.poll();
+        area++;                            // count on POP
+        int r = cell[0], c = cell[1];
+
+        for (int[] d : dir) {
+            int nr = r + d[0], nc = c + d[1];
+            if (nr < 0 || nr >= grid.length || nc < 0 || nc >= grid[0].length) continue;
+            if (grid[nr][nc] != 1) continue;
+
+            grid[nr][nc] = 0;              // sink on PUSH
+            q.offer(new int[]{nr, nc});
+        }
+    }
+    return area;
+}
 
     private int dfs(int[][] grid, int i, int j) {
     
