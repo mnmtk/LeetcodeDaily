@@ -1528,6 +1528,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1753-path-with-minimum-effort](https://github.com/mnmtk/LeetcodeDaily/tree/master/1753-path-with-minimum-effort) |
 | [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
 | [1932-merge-bsts-to-create-single-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/1932-merge-bsts-to-create-single-bst) |
+| [1971-find-if-path-exists-in-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/1971-find-if-path-exists-in-graph) |
 | [1973-count-nodes-equal-to-sum-of-descendants](https://github.com/mnmtk/LeetcodeDaily/tree/master/1973-count-nodes-equal-to-sum-of-descendants) |
 | [2049-count-nodes-with-the-highest-score](https://github.com/mnmtk/LeetcodeDaily/tree/master/2049-count-nodes-with-the-highest-score) |
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mnmtk/LeetcodeDaily/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
@@ -1885,6 +1886,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1663-detect-cycles-in-2d-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1740-find-distance-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1740-find-distance-in-a-binary-tree) |
 | [1753-path-with-minimum-effort](https://github.com/mnmtk/LeetcodeDaily/tree/master/1753-path-with-minimum-effort) |
+| [1971-find-if-path-exists-in-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/1971-find-if-path-exists-in-graph) |
 | [2121-find-if-path-exists-in-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/2121-find-if-path-exists-in-graph) |
 | [2206-detonate-the-maximum-bombs](https://github.com/mnmtk/LeetcodeDaily/tree/master/2206-detonate-the-maximum-bombs) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/mnmtk/LeetcodeDaily/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
@@ -2223,9 +2225,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0128-longest-consecutive-sequence](https://github.com/mnmtk/LeetcodeDaily/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/mnmtk/LeetcodeDaily/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/mnmtk/LeetcodeDaily/tree/master/0695-max-area-of-island) |
+| [1971-find-if-path-exists-in-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/1971-find-if-path-exists-in-graph) |
 ## Graph Theory
 |  |
 | ------- |
 | [0834-sum-of-distances-in-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0834-sum-of-distances-in-tree) |
 | [0997-find-the-town-judge](https://github.com/mnmtk/LeetcodeDaily/tree/master/0997-find-the-town-judge) |
+| [1971-find-if-path-exists-in-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/1971-find-if-path-exists-in-graph) |
 <!---LeetCode Topics End-->
