@@ -23,24 +23,29 @@ class Solution {
     public void bfs(int i, int j, char[][] grid) {
         Deque<int[]> q = new ArrayDeque<>();
 
-        grid[i][j] = 'x';                  // sink at enqueue
-        q.offer(new int[]{i, j});
+        grid[i][j] = 'x';
+        q.offer(new int[] {i, j});
 
-        while (!q.isEmpty()) {
+        while(!q.isEmpty()) {
             int[] cell = q.poll();
-            int r = cell[0], c = cell[1];
+            int r = cell[0];
+            int c = cell[1];
 
-            for (int[] dir : directions) {
-                int nr = r + dir[0], nc = c + dir[1];
+            for(int[] dir : directions) {
 
-                if (nr < 0 || nc < 0 || nr >= rows || nc >= cols) continue;
-                if (grid[nr][nc] != '1') continue;
+                int nr = r + dir[0];
+                int nc = c + dir[1];
 
-                grid[nr][nc] = 'x';        // sink BEFORE enqueue
+                if(nr < 0 || nc < 0 || nr >= rows || nc >= cols) continue;
+                if(grid[nr][nc] != '1') continue;
+
+                grid[nr][nc] = 'x';
                 q.offer(new int[]{nr, nc});
             }
+
+            
         }
     }
 
-    
+
 }
