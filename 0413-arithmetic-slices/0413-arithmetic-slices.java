@@ -1,19 +1,13 @@
-class Solution {
-    public int numberOfArithmeticSlices(int[] nums) {
-        int ans = 0;
-        int n = nums.length;
-        int window = 2;
-        int right = 2;
-        while (right <= n) {
-            if (right < n && nums[right - 1] - nums[right] == nums[right - 2] - nums[right - 1]) {
-                window += 1;
-                right += 1;
-            } else {
-                ans += ((window - 1) * (window - 2)) / 2;
-                window = 2;
-                right += 1;
+public class Solution {
+    public int numberOfArithmeticSlices(int[] A) {
+        int[] dp = new int[A.length];
+        int sum = 0;
+        for (int i = 2; i < dp.length; i++) {
+            if (A[i] - A[i - 1] == A[i - 1] - A[i - 2]) {
+                dp[i] = 1 + dp[i - 1];
+                sum += dp[i];
             }
         }
-        return ans;
+        return sum;
     }
 }
