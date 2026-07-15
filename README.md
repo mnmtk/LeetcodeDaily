@@ -508,6 +508,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0525-contiguous-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0525-contiguous-array) |
 | [0539-minimum-time-difference](https://github.com/mnmtk/LeetcodeDaily/tree/master/0539-minimum-time-difference) |
 | [0540-single-element-in-a-sorted-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0540-single-element-in-a-sorted-array) |
+| [0542-01-matrix](https://github.com/mnmtk/LeetcodeDaily/tree/master/0542-01-matrix) |
 | [0548-split-array-with-equal-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0548-split-array-with-equal-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/mnmtk/LeetcodeDaily/tree/master/0560-subarray-sum-equals-k) |
 | [0605-can-place-flowers](https://github.com/mnmtk/LeetcodeDaily/tree/master/0605-can-place-flowers) |
@@ -1253,6 +1254,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0392-is-subsequence](https://github.com/mnmtk/LeetcodeDaily/tree/master/0392-is-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0410-split-array-largest-sum) |
 | [0413-arithmetic-slices](https://github.com/mnmtk/LeetcodeDaily/tree/master/0413-arithmetic-slices) |
+| [0542-01-matrix](https://github.com/mnmtk/LeetcodeDaily/tree/master/0542-01-matrix) |
 | [0576-out-of-boundary-paths](https://github.com/mnmtk/LeetcodeDaily/tree/master/0576-out-of-boundary-paths) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/mnmtk/LeetcodeDaily/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/mnmtk/LeetcodeDaily/tree/master/0718-maximum-length-of-repeated-subarray) |
@@ -1744,6 +1746,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0490-the-maze](https://github.com/mnmtk/LeetcodeDaily/tree/master/0490-the-maze) |
 | [0499-the-maze-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0499-the-maze-iii) |
 | [0505-the-maze-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0505-the-maze-ii) |
+| [0542-01-matrix](https://github.com/mnmtk/LeetcodeDaily/tree/master/0542-01-matrix) |
 | [0631-design-excel-sum-formula](https://github.com/mnmtk/LeetcodeDaily/tree/master/0631-design-excel-sum-formula) |
 | [0695-max-area-of-island](https://github.com/mnmtk/LeetcodeDaily/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/mnmtk/LeetcodeDaily/tree/master/0733-flood-fill) |
@@ -1835,6 +1838,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0505-the-maze-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0505-the-maze-ii) |
 | [0513-find-bottom-left-tree-value](https://github.com/mnmtk/LeetcodeDaily/tree/master/0513-find-bottom-left-tree-value) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/mnmtk/LeetcodeDaily/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0542-01-matrix](https://github.com/mnmtk/LeetcodeDaily/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/mnmtk/LeetcodeDaily/tree/master/0547-number-of-provinces) |
 | [0617-merge-two-binary-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0617-merge-two-binary-trees) |
 | [0623-add-one-row-to-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0623-add-one-row-to-tree) |
