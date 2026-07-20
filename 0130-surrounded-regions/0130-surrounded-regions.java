@@ -24,7 +24,7 @@ public class Solution {
 
         // Step 2). mark the escaped cells
         for (Pair<Integer, Integer> pair : borders) {
-            this.DFS(board, pair.first, pair.second);
+            this.BFS(board, pair.first, pair.second);
         }
 
         // Step 3). flip the cells to their correct final states
@@ -36,14 +36,23 @@ public class Solution {
         }
     }
 
-    protected void DFS(char[][] board, int row, int col) {
-        if (board[row][col] != 'O') return;
+    protected void BFS(char[][] board, int r, int c) {
+        LinkedList<Pair<Integer, Integer>> queue = new LinkedList<
+            Pair<Integer, Integer>
+        >();
+        queue.offer(new Pair<>(r, c));
 
-        board[row][col] = 'E';
-        if (col < this.COLS - 1) this.DFS(board, row, col + 1);
-        if (row < this.ROWS - 1) this.DFS(board, row + 1, col);
-        if (col > 0) this.DFS(board, row, col - 1);
-        if (row > 0) this.DFS(board, row - 1, col);
+        while (!queue.isEmpty()) {
+            Pair<Integer, Integer> pair = queue.pollFirst();
+            int row = pair.first, col = pair.second;
+            if (board[row][col] != 'O') continue;
+
+            board[row][col] = 'E';
+            if (col < this.COLS - 1) queue.offer(new Pair<>(row, col + 1));
+            if (row < this.ROWS - 1) queue.offer(new Pair<>(row + 1, col));
+            if (col > 0) queue.offer(new Pair<>(row, col - 1));
+            if (row > 0) queue.offer(new Pair<>(row - 1, col));
+        }
     }
 }
 
