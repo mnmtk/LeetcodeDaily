@@ -8,7 +8,6 @@ class Solution {
 
         // Initialize DSU class, size of each component will be one and each node
         // will be representative of it's own.
-        
         public DSU(int N) {
             this.N = N;
             size = new int[N];
@@ -50,7 +49,7 @@ class Solution {
         }
     }
 
-    public int[] findRedundantConnection(int[][] edges) { 
+    public int[] findRedundantConnection(int[][] edges) {
         int N = edges.length;
 
         DSU dsu = new DSU(N);
