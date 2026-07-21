@@ -1,31 +1,39 @@
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-        Map<Integer, List<Integer>> adjList = new HashMap<>();
-        int[] indegrees = new int[numCourses];
-        Queue<Integer> q = new LinkedList<>();
+        int[] indegree = new int[numCourses];
+        List<List<Integer>> adj = new ArrayList<>(numCourses);
 
-        for(int[] preq : prerequisites) {
-            adjList.computeIfAbsent(preq[0], k -> new ArrayList<>()).add(preq[1]);
-            indegrees[preq[1]]++;
+        for (int i = 0; i < numCourses; i++) {
+            adj.add(new ArrayList<>());
         }
 
-        for(int i = 0; i < numCourses; i++) {
-            if(indegrees[i] == 0) {
-             q.add(i);
+        for (int[] prerequisite : prerequisites) {
+            adj.get(prerequisite[1]).add(prerequisite[0]);
+            indegree[prerequisite[0]]++;
+        }
+
+        Queue<Integer> queue = new LinkedList<>();
+        // Push all the nodes with indegree zero in the queue.
+        for (int i = 0; i < numCourses; i++) {
+            if (indegree[i] == 0) {
+                queue.offer(i);
             }
         }
 
-        int course = 0;
+        int nodesVisited = 0;
+        while (!queue.isEmpty()) {
+            int node = queue.poll();
+            nodesVisited++;
 
-        while(!q.isEmpty()) {
-            course++;
-            int poll = q.poll();
-            for(Integer nei : adjList.getOrDefault(poll, new ArrayList<>())) {
-                indegrees[nei]--;
-                if(indegrees[nei] == 0) q.add(nei);
+            for (int neighbor : adj.get(node)) {
+                // Delete the edge "node -> neighbor".
+                indegree[neighbor]--;
+                if (indegree[neighbor] == 0) {
+                    queue.offer(neighbor);
+                }
             }
         }
 
-        return course == numCourses;
+        return nodesVisited == numCourses;
     }
 }
