@@ -1,6 +1,6 @@
 class Solution {
 
-    //think like this, if i sell today? how can i get max profit?
+    //t hink like this, if i sell today? how can i get max profit?
     // may be if i sold least before me then -> maintain it,
     // but we expect it to increase? -> so we maintain at each point
 
