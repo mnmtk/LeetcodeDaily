@@ -1,12 +1,11 @@
 class Solution {
-    int[] dp = java.util.stream.IntStream.generate(() -> -1).limit(1000000).toArray();
-
+    int[] dp = new int[1000000];
     public int fib(int n) {
         if (n == 0 || n == 1) {
             return n;
         }
 
-        if(dp[n] != -1) {
+        if(dp[n] != 0) {
             return dp[n];
         }
 
