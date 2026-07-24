@@ -1,17 +1,20 @@
 public class Solution {
     public int climbStairs(int n) {
-        if (n == 1) {
+        int memo[] = new int[n + 1];
+        return climb_Stairs(0, n, memo);
+    }
+
+    public int climb_Stairs(int i, int n, int memo[]) {
+        if (i > n) {
+            return 0;
+        }
+        if (i == n) {
             return 1;
         }
-        int first = 1;
-        int second = 2;
-
-        for (int i = 3; i <= n; i++) {
-            int third = first + second;
-            first = second;
-            second = third;
+        if (memo[i] > 0) {
+            return memo[i];
         }
-        
-        return second;
+        memo[i] = climb_Stairs(i + 1, n, memo) + climb_Stairs(i + 2, n, memo);
+        return memo[i];
     }
 }
