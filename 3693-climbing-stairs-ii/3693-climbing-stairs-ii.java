@@ -1,47 +1,30 @@
-import java.util.Arrays;
-
 class Solution {
-    int[] memo;
-
     public int climbStairs(int n, int[] costs) {
-        // Create a memo array initialized to -1 (meaning "uncalculated")
-        memo = new int[n + 1];
-        Arrays.fill(memo, -1);
 
-        // Start from step 0 (ground level) with cost 0
-        return solve(0, n, costs);
-    }
+        int[] minCostToReach = new int[n + 1];
+        minCostToReach[0] = 0; // Ground level costs nothing
 
-    private int solve(int currentStep, int targetStep, int[] costs) {
-        // Base case: Reached the destination step
-        if (currentStep == targetStep) {
-            return 0;
-        }
+        for (int currentStep = 1; currentStep <= n; currentStep++) {
+            int cheapestWay = Integer.MAX_VALUE;
+            
+            // Try jump sizes of 1, 2, or 3 steps
+            for (int jumpSize = 1; jumpSize <= 3; jumpSize++) {
 
-        // Return cached result if already calculated
-        if (memo[currentStep] != -1) {
-            return memo[currentStep];
-        }
+                int previousStep = currentStep - jumpSize;
 
-        int minCost = Integer.MAX_VALUE;
-
-        // Try jumping 1, 2, or 3 steps
-        for (int j = 1; j <= 3; j++) {
-            int nextStep = currentStep + j;
-
-            if (nextStep <= targetStep) {
-                // Cost for this single move = step fee + jump effort (j * j)
-                int stepFee = costs[nextStep - 1];
-                int jumpEffort = j * j;
-
-                // Recursive call to get best cost from nextStep to target
-                int totalForThisPath = stepFee + jumpEffort + solve(nextStep, targetStep, costs);
-
-                minCost = Math.min(minCost, totalForThisPath);
+                if (previousStep >= 0) {
+                    int landingFee = costs[currentStep - 1]; // Array is 0-indexed
+                    int jumpEffort = jumpSize * jumpSize;
+                    
+                    int totalCostFromThisJump = minCostToReach[previousStep] + landingFee + jumpEffort;
+                    
+                    cheapestWay = Math.min(cheapestWay, totalCostFromThisJump);
+                }
             }
+            
+            minCostToReach[currentStep] = cheapestWay;
         }
 
-        // Save result in memo table before returning
-        return memo[currentStep] = minCost;
+        return minCostToReach[n];
     }
 }
