@@ -532,6 +532,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0722-remove-comments](https://github.com/mnmtk/LeetcodeDaily/tree/master/0722-remove-comments) |
 | [0724-find-pivot-index](https://github.com/mnmtk/LeetcodeDaily/tree/master/0724-find-pivot-index) |
 | [0733-flood-fill](https://github.com/mnmtk/LeetcodeDaily/tree/master/0733-flood-fill) |
+| [0746-min-cost-climbing-stairs](https://github.com/mnmtk/LeetcodeDaily/tree/master/0746-min-cost-climbing-stairs) |
 | [0772-construct-quad-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0772-construct-quad-tree) |
 | [0794-swim-in-rising-water](https://github.com/mnmtk/LeetcodeDaily/tree/master/0794-swim-in-rising-water) |
 | [0808-number-of-matching-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/0808-number-of-matching-subsequences) |
@@ -1267,6 +1268,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0576-out-of-boundary-paths](https://github.com/mnmtk/LeetcodeDaily/tree/master/0576-out-of-boundary-paths) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/mnmtk/LeetcodeDaily/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/mnmtk/LeetcodeDaily/tree/master/0718-maximum-length-of-repeated-subarray) |
+| [0746-min-cost-climbing-stairs](https://github.com/mnmtk/LeetcodeDaily/tree/master/0746-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/mnmtk/LeetcodeDaily/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0808-number-of-matching-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/0808-number-of-matching-subsequences) |
 | [0834-sum-of-distances-in-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0834-sum-of-distances-in-tree) |
