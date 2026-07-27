@@ -1,26 +1,15 @@
-import java.util.Arrays;
-
 class Solution {
     public int uniquePaths(int m, int n) {
-        int[] prevRow = new int[n];
-        int[] currRow = new int[n];
+        int[][] d = new int[m][n];
 
-        // The first row is all 1s because there's only 1 way to move right
-        Arrays.fill(prevRow, 1);
-
-        for (int row = 1; row < m; row++) {
-            // First cell of any row is always 1 (only 1 path straight down)
-            currRow[0] = 1;
-
-            for (int col = 1; col < n; col++) {
-                // Current cell = (Value from Above) + (Value from Left)
-                currRow[col] = prevRow[col] + currRow[col - 1];
-            }
-
-            // Move to the next row: current becomes the new previous!
-            prevRow = currRow.clone();
+        for (int[] arr : d) {
+            Arrays.fill(arr, 1);
         }
-
-        return prevRow[n - 1];
+        for (int col = 1; col < m; ++col) {
+            for (int row = 1; row < n; ++row) {
+                d[col][row] = d[col - 1][row] + d[col][row - 1];
+            }
+        }
+        return d[m - 1][n - 1];
     }
 }
