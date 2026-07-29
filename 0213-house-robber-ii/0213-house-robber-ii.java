@@ -12,7 +12,7 @@ class Solution {
     }
 
 
-    private int robHelper(int i, int j, int[] nums) {
+     private int robHelper(int i, int j, int[] nums) {
         int rob1 = 0, rob2 = 0;
         for (; i < j; i++) {
             int temp = Math.max(nums[i] + rob1, rob2);
