@@ -1,27 +1,45 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
-        Set<List<Integer>> res = new HashSet<>();
-        Set<Integer> dups = new HashSet<>();
-        Map<Integer, Integer> seen = new HashMap<>(); // kind of pair add then hash
+        Arrays.sort(nums);
+        List<List<Integer>> ans = new ArrayList<>();
 
-        for (int i = 0; i < nums.length; ++i) if (dups.add(nums[i])) {
-            for (int j = i + 1; j < nums.length; ++j) {
-                int complement = -nums[i] - nums[j];
+        for (int i = 0; i < nums.length - 2; i++) {
+            // Skip duplicate values for the first element
+            if (i > 0 && nums[i] == nums[i - 1]) {
+                continue;
+            }
 
-                if (seen.containsKey(complement) && seen.get(complement) == i) {
-                    List<Integer> triplet = Arrays.asList(
-                        nums[i],
-                        nums[j],
-                        complement
-                    );
+            int left = i + 1;
+            int right = nums.length - 1;
 
-                    Collections.sort(triplet);
-                    res.add(triplet);
+            while (left < right) {
+                int sum = nums[i] + nums[left] + nums[right];
+
+                if (sum == 0) {
+                    ans.add(Arrays.asList(nums[i], nums[left], nums[right]));
+
+                    // Move pointers and skip duplicates for left and right
+                    while (left < right && nums[left] == nums[left + 1]) {
+                        left++;
+                    }
+                    while (left < right && nums[right] == nums[right - 1]) {
+                        right--;
+                    }
+
+                    left++;
+                    right--;
+                } else if (sum < 0) {
+                    left++;
+                } else {
+                    right--;
                 }
-
-                seen.put(nums[j], i);
             }
         }
-        return new ArrayList(res);
+
+        return ans;
     }
 }
