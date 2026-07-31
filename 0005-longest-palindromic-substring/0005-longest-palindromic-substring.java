@@ -1,35 +1,39 @@
 class Solution {
     public String longestPalindrome(String s) {
-        int n = s.length();
-        if (n <= 1) return s;
+        int[] ans = new int[] { 0, 0 };
 
-        int start = 0;
-        int maxLen = 1;
-        boolean[][] dp = new boolean[n][n];
+        for (int i = 0; i < s.length(); i++) {
+            int oddLength = expand(i, i, s);
+            if (oddLength > ans[1] - ans[0] + 1) {
+                int dist = oddLength / 2;
+                ans[0] = i - dist;
+                ans[1] = i + dist;
+            }
 
-        for (int i = 0; i < n; i++) {
-            dp[i][i] = true;
-            if (i < n - 1 && s.charAt(i) == s.charAt(i + 1)) {
-                dp[i][i + 1] = true;
-                start = i;
-                maxLen = 2;
+            int evenLength = expand(i, i + 1, s);
+            if (evenLength > ans[1] - ans[0] + 1) {
+                int dist = (evenLength / 2) - 1;
+                ans[0] = i - dist;
+                ans[1] = i + 1 + dist;
             }
         }
 
-        // Substrings of length 3 or more (diff is length - 1)
-        for (int diff = 2; diff < n; diff++) {
-            for (int i = 0; i < n - diff; i++) {
-                int j = i + diff;
-                if (s.charAt(i) == s.charAt(j) && dp[i + 1][j - 1]) {
-                    dp[i][j] = true;
-                    if (diff + 1 > maxLen) {
-                        start = i;
-                        maxLen = diff + 1;
-                    }
-                }
-            }
+        int i = ans[0];
+        int j = ans[1];
+        return s.substring(i, j + 1);
+    }
+
+    private int expand(int i, int j, String s) {
+        int left = i;
+        int right = j;
+
+        while (
+            left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)
+        ) {
+            left--;
+            right++;
         }
 
-        return s.substring(start, start + maxLen);
+        return right - left - 1;
     }
 }
