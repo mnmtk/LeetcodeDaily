@@ -1,17 +1,20 @@
 class Solution {
     public int maxSubArray(int[] nums) {
-        // Initialize our variables using the first element.
-        int currentSubarray = nums[0];
-        int maxSubarray = nums[0];
+        if (nums == null || nums.length == 0) return 0;
 
-        // Start with the 2nd element since we already used the first one.
-        for (int i = 1; i < nums.length; i++) {
-            int num = nums[i];
-            // If current_subarray is negative, throw it away. Otherwise, keep adding to it.
-            currentSubarray = Math.max(num, currentSubarray + num);
-            maxSubarray = Math.max(maxSubarray, currentSubarray);
+        int n = nums.length;
+        int[] dp = new int[n];
+        
+        // Base case: max subarray ending at index 0 is just nums[0]
+        dp[0] = nums[0];
+        int maxSoFar = dp[0];
+
+        // Fill the DP table
+        for (int i = 1; i < n; i++) {
+            dp[i] = Math.max(nums[i], dp[i - 1] + nums[i]);
+            maxSoFar = Math.max(maxSoFar, dp[i]);
         }
 
-        return maxSubarray;
+        return maxSoFar;
     }
 }
