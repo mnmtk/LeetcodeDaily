@@ -1,21 +1,15 @@
 class Solution {
     public int rob(int[] nums) {
-        if (nums.length == 0)
-            return 0;
-        if (nums.length == 1)
-            return nums[0];
+        int rob1 = 0; // Best total robbed up to house (i - 2)
+        int rob2 = 0; // Best total robbed up to house (i - 1)
 
-        int[] dp = new int[nums.length];
-
-        dp[0] = nums[0];
-        dp[1] = Math.max(nums[1], nums[0]);
-
-        if (nums.length > 2) {
-            for (int i = 2; i < nums.length; i++) {
-                dp[i] = Math.max(nums[i] + dp[i - 2], dp[i - 1]);
-            }
+        for (int num : nums) {
+            // Choice: rob current house (num + rob1) OR skip current house (rob2)
+            int temp = Math.max(num + rob1, rob2);
+            rob1 = rob2;
+            rob2 = temp;
         }
 
-        return dp[nums.length - 1];
+        return rob2;
     }
 }
