@@ -1,13 +1,11 @@
 class Solution {
+
     public int coinChange(int[] coins, int amount) {
 
         if(amount == 0) return 0;
-
         if(coins.length == 0) return -1;
 
-
         Integer[][] dp = new Integer[coins.length][amount + 1];
-
 
         int possible = ks(coins, amount, 0, dp);
 
@@ -41,4 +39,5 @@ class Solution {
 
         return dp[index][amount] = Math.min(coinsInclude, coinsExclude);
     }
+
 }
