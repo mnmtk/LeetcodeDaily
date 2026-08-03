@@ -507,6 +507,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0463-island-perimeter](https://github.com/mnmtk/LeetcodeDaily/tree/master/0463-island-perimeter) |
 | [0490-the-maze](https://github.com/mnmtk/LeetcodeDaily/tree/master/0490-the-maze) |
 | [0493-reverse-pairs](https://github.com/mnmtk/LeetcodeDaily/tree/master/0493-reverse-pairs) |
+| [0494-target-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0494-target-sum) |
 | [0499-the-maze-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0499-the-maze-iii) |
 | [0505-the-maze-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0505-the-maze-ii) |
 | [0518-coin-change-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0518-coin-change-ii) |
@@ -1272,6 +1273,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0392-is-subsequence](https://github.com/mnmtk/LeetcodeDaily/tree/master/0392-is-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0410-split-array-largest-sum) |
 | [0413-arithmetic-slices](https://github.com/mnmtk/LeetcodeDaily/tree/master/0413-arithmetic-slices) |
+| [0494-target-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0494-target-sum) |
 | [0509-fibonacci-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0509-fibonacci-number) |
 | [0518-coin-change-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/mnmtk/LeetcodeDaily/tree/master/0542-01-matrix) |
@@ -1716,6 +1718,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0216-combination-sum-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0216-combination-sum-iii) |
 | [0257-binary-tree-paths](https://github.com/mnmtk/LeetcodeDaily/tree/master/0257-binary-tree-paths) |
 | [0351-android-unlock-patterns](https://github.com/mnmtk/LeetcodeDaily/tree/master/0351-android-unlock-patterns) |
+| [0494-target-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0494-target-sum) |
 | [0813-all-paths-from-source-to-target](https://github.com/mnmtk/LeetcodeDaily/tree/master/0813-all-paths-from-source-to-target) |
 | [0980-unique-paths-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0980-unique-paths-iii) |
 | [0988-smallest-string-starting-from-leaf](https://github.com/mnmtk/LeetcodeDaily/tree/master/0988-smallest-string-starting-from-leaf) |
