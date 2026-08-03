@@ -2305,4 +2305,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0997-find-the-town-judge](https://github.com/mnmtk/LeetcodeDaily/tree/master/0997-find-the-town-judge) |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/mnmtk/LeetcodeDaily/tree/master/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [1971-find-if-path-exists-in-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/1971-find-if-path-exists-in-graph) |
+## Knapsack Problem
+|  |
+| ------- |
+| [0494-target-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0494-target-sum) |
+## 0-1 Knapsack
+|  |
+| ------- |
+| [0494-target-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0494-target-sum) |
 <!---LeetCode Topics End-->
