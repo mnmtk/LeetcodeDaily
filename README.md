@@ -1193,6 +1193,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0647-palindromic-substrings](https://github.com/mnmtk/LeetcodeDaily/tree/master/0647-palindromic-substrings) |
 | [0657-robot-return-to-origin](https://github.com/mnmtk/LeetcodeDaily/tree/master/0657-robot-return-to-origin) |
 | [0692-top-k-frequent-words](https://github.com/mnmtk/LeetcodeDaily/tree/master/0692-top-k-frequent-words) |
+| [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/mnmtk/LeetcodeDaily/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0721-accounts-merge](https://github.com/mnmtk/LeetcodeDaily/tree/master/0721-accounts-merge) |
 | [0722-remove-comments](https://github.com/mnmtk/LeetcodeDaily/tree/master/0722-remove-comments) |
 | [0778-reorganize-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0778-reorganize-string) |
@@ -1292,6 +1293,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0583-delete-operation-for-two-strings](https://github.com/mnmtk/LeetcodeDaily/tree/master/0583-delete-operation-for-two-strings) |
 | [0647-palindromic-substrings](https://github.com/mnmtk/LeetcodeDaily/tree/master/0647-palindromic-substrings) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/mnmtk/LeetcodeDaily/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
+| [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/mnmtk/LeetcodeDaily/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/mnmtk/LeetcodeDaily/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0746-min-cost-climbing-stairs](https://github.com/mnmtk/LeetcodeDaily/tree/master/0746-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/mnmtk/LeetcodeDaily/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -2328,4 +2330,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0583-delete-operation-for-two-strings](https://github.com/mnmtk/LeetcodeDaily/tree/master/0583-delete-operation-for-two-strings) |
+| [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/mnmtk/LeetcodeDaily/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 <!---LeetCode Topics End-->
