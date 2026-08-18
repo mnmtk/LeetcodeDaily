@@ -1,45 +1,27 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
-        List<List<Integer>> ans = new ArrayList<>();
+        List<List<Integer>> res = new ArrayList<>();
+        for (int i = 0; i < nums.length ; ++i) if (
+            i == 0 || nums[i - 1] != nums[i]
+        ) {
+            twoSumII(nums, i, res);
+        }
+        return res;
+    }
 
-        for (int i = 0; i < nums.length - 2; i++) {
-            // Skip duplicate values for the first element
-            if (i > 0 && nums[i] == nums[i - 1]) {
-                continue;
-            }
-
-            int left = i + 1;
-            int right = nums.length - 1;
-
-            while (left < right) {
-                int sum = nums[i] + nums[left] + nums[right];
-
-                if (sum == 0) {
-                    ans.add(Arrays.asList(nums[i], nums[left], nums[right]));
-
-                    // Move pointers and skip duplicates for left and right
-                    while (left < right && nums[left] == nums[left + 1]) {
-                        left++;
-                    }
-                    while (left < right && nums[right] == nums[right - 1]) {
-                        right--;
-                    }
-
-                    left++;
-                    right--;
-                } else if (sum < 0) {
-                    left++;
-                } else {
-                    right--;
-                }
+    void twoSumII(int[] nums, int i, List<List<Integer>> res) {
+        int lo = i + 1, hi = nums.length - 1;
+        while (lo < hi) {
+            int sum = nums[i] + nums[lo] + nums[hi];
+            if (sum < 0) {
+                ++lo;
+            } else if (sum > 0) {
+                --hi;
+            } else {
+                res.add(Arrays.asList(nums[i], nums[lo++], nums[hi--]));
+                while (lo < hi && nums[lo] == nums[lo - 1]) ++lo;
             }
         }
-
-        return ans;
     }
 }
