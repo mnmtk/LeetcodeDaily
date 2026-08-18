@@ -4,7 +4,6 @@ class Solution {
 
         int left = 0;
         int right = 0;
-
         int res = 0;
 
         while(right < s.length()) {
