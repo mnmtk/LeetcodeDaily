@@ -1,6 +1,6 @@
 class Solution {
     public int coinChange(int[] coins, int amount) {
-        int max = amount + 1;
+        int max = Integer.MAX_VALUE - 1;   // now INF + 1 doesn't wrap
 
         int[] dp = new int[amount + 1];
 
@@ -14,6 +14,6 @@ class Solution {
             }
         }
 
-        return dp[amount] > amount ? -1 : dp[amount];
+        return dp[amount] >= Integer.MAX_VALUE - 1 ? -1 : dp[amount];
     }
 }
