@@ -2332,6 +2332,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/mnmtk/LeetcodeDaily/tree/master/0322-coin-change) |
 | [0474-ones-and-zeroes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0474-ones-and-zeroes) |
 | [0494-target-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0494-target-sum) |
+| [0518-coin-change-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0518-coin-change-ii) |
 ## 0-1 Knapsack
 |  |
 | ------- |
@@ -2352,4 +2353,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/mnmtk/LeetcodeDaily/tree/master/0322-coin-change) |
+| [0518-coin-change-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0518-coin-change-ii) |
 <!---LeetCode Topics End-->
