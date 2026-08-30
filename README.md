@@ -552,6 +552,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0808-number-of-matching-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/0808-number-of-matching-subsequences) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0875-koko-eating-bananas](https://github.com/mnmtk/LeetcodeDaily/tree/master/0875-koko-eating-bananas) |
+| [0877-stone-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0877-stone-game) |
 | [0889-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0889-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0907-koko-eating-bananas](https://github.com/mnmtk/LeetcodeDaily/tree/master/0907-koko-eating-bananas) |
 | [0909-stone-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0909-stone-game) |
@@ -1315,6 +1316,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0803-cheapest-flights-within-k-stops](https://github.com/mnmtk/LeetcodeDaily/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0808-number-of-matching-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/0808-number-of-matching-subsequences) |
 | [0834-sum-of-distances-in-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0834-sum-of-distances-in-tree) |
+| [0877-stone-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0877-stone-game) |
 | [0909-stone-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0909-stone-game) |
 | [0923-super-egg-drop](https://github.com/mnmtk/LeetcodeDaily/tree/master/0923-super-egg-drop) |
 | [0930-all-possible-full-binary-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0930-all-possible-full-binary-trees) |
@@ -1700,6 +1702,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0523-continuous-subarray-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0523-continuous-subarray-sum) |
 | [0539-minimum-time-difference](https://github.com/mnmtk/LeetcodeDaily/tree/master/0539-minimum-time-difference) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/mnmtk/LeetcodeDaily/tree/master/0668-kth-smallest-number-in-multiplication-table) |
+| [0877-stone-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0877-stone-game) |
 | [0909-stone-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0909-stone-game) |
 | [0912-random-pick-with-weight](https://github.com/mnmtk/LeetcodeDaily/tree/master/0912-random-pick-with-weight) |
 | [0914-random-point-in-non-overlapping-rectangles](https://github.com/mnmtk/LeetcodeDaily/tree/master/0914-random-point-in-non-overlapping-rectangles) |
@@ -2215,6 +2218,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0292-nim-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0292-nim-game) |
 | [0486-predict-the-winner](https://github.com/mnmtk/LeetcodeDaily/tree/master/0486-predict-the-winner) |
+| [0877-stone-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0877-stone-game) |
 | [0909-stone-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0909-stone-game) |
 | [2005-subtree-removal-game-with-fibonacci-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2005-subtree-removal-game-with-fibonacci-tree) |
 ## Topological Sort
@@ -2374,8 +2378,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/mnmtk/LeetcodeDaily/tree/master/0486-predict-the-winner) |
+| [0877-stone-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0877-stone-game) |
 ## Zero-Sum Game
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/mnmtk/LeetcodeDaily/tree/master/0486-predict-the-winner) |
+| [0877-stone-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0877-stone-game) |
 <!---LeetCode Topics End-->
