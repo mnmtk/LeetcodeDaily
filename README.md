@@ -512,6 +512,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0456-132-pattern](https://github.com/mnmtk/LeetcodeDaily/tree/master/0456-132-pattern) |
 | [0463-island-perimeter](https://github.com/mnmtk/LeetcodeDaily/tree/master/0463-island-perimeter) |
 | [0474-ones-and-zeroes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0474-ones-and-zeroes) |
+| [0486-predict-the-winner](https://github.com/mnmtk/LeetcodeDaily/tree/master/0486-predict-the-winner) |
 | [0490-the-maze](https://github.com/mnmtk/LeetcodeDaily/tree/master/0490-the-maze) |
 | [0493-reverse-pairs](https://github.com/mnmtk/LeetcodeDaily/tree/master/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0494-target-sum) |
@@ -1297,6 +1298,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0410-split-array-largest-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0410-split-array-largest-sum) |
 | [0413-arithmetic-slices](https://github.com/mnmtk/LeetcodeDaily/tree/master/0413-arithmetic-slices) |
 | [0474-ones-and-zeroes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0474-ones-and-zeroes) |
+| [0486-predict-the-winner](https://github.com/mnmtk/LeetcodeDaily/tree/master/0486-predict-the-winner) |
 | [0494-target-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0494-target-sum) |
 | [0509-fibonacci-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0509-fibonacci-number) |
 | [0516-longest-palindromic-subsequence](https://github.com/mnmtk/LeetcodeDaily/tree/master/0516-longest-palindromic-subsequence) |
@@ -1667,6 +1669,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0234-palindrome-linked-list](https://github.com/mnmtk/LeetcodeDaily/tree/master/0234-palindrome-linked-list) |
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0326-power-of-three](https://github.com/mnmtk/LeetcodeDaily/tree/master/0326-power-of-three) |
+| [0486-predict-the-winner](https://github.com/mnmtk/LeetcodeDaily/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0509-fibonacci-number) |
 | [0776-split-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0776-split-bst) |
 | [0930-all-possible-full-binary-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0930-all-possible-full-binary-trees) |
@@ -1692,6 +1695,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0326-power-of-three](https://github.com/mnmtk/LeetcodeDaily/tree/master/0326-power-of-three) |
 | [0384-shuffle-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0384-shuffle-an-array) |
 | [0412-fizz-buzz](https://github.com/mnmtk/LeetcodeDaily/tree/master/0412-fizz-buzz) |
+| [0486-predict-the-winner](https://github.com/mnmtk/LeetcodeDaily/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0509-fibonacci-number) |
 | [0523-continuous-subarray-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0523-continuous-subarray-sum) |
 | [0539-minimum-time-difference](https://github.com/mnmtk/LeetcodeDaily/tree/master/0539-minimum-time-difference) |
@@ -2210,6 +2214,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0292-nim-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0292-nim-game) |
+| [0486-predict-the-winner](https://github.com/mnmtk/LeetcodeDaily/tree/master/0486-predict-the-winner) |
 | [0909-stone-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0909-stone-game) |
 | [2005-subtree-removal-game-with-fibonacci-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2005-subtree-removal-game-with-fibonacci-tree) |
 ## Topological Sort
@@ -2365,4 +2370,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0139-word-break](https://github.com/mnmtk/LeetcodeDaily/tree/master/0139-word-break) |
+## Minimax
+|  |
+| ------- |
+| [0486-predict-the-winner](https://github.com/mnmtk/LeetcodeDaily/tree/master/0486-predict-the-winner) |
+## Zero-Sum Game
+|  |
+| ------- |
+| [0486-predict-the-winner](https://github.com/mnmtk/LeetcodeDaily/tree/master/0486-predict-the-winner) |
 <!---LeetCode Topics End-->
