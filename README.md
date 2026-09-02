@@ -2349,6 +2349,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Knapsack Problem
 |  |
 | ------- |
+| [0279-perfect-squares](https://github.com/mnmtk/LeetcodeDaily/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/mnmtk/LeetcodeDaily/tree/master/0322-coin-change) |
 | [0474-ones-and-zeroes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0474-ones-and-zeroes) |
 | [0494-target-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0494-target-sum) |
@@ -2372,6 +2373,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Complete Knapsack
 |  |
 | ------- |
+| [0279-perfect-squares](https://github.com/mnmtk/LeetcodeDaily/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/mnmtk/LeetcodeDaily/tree/master/0322-coin-change) |
 | [0518-coin-change-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0518-coin-change-ii) |
 ## Brute-Force Search
