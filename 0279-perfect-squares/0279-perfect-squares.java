@@ -1,17 +1,25 @@
 class Solution {
-    public int numSquares(int n) {
-        int[] memo = new int[n + 1];
-        Arrays.fill(memo, -1); 
-        return helper(n, memo);
+
+  public int numSquares(int n) {
+    int dp[] = new int[n + 1];
+    Arrays.fill(dp, Integer.MAX_VALUE);
+    // bottom case
+    dp[0] = 0;
+
+    // pre-calculate the square numbers.
+    int max_square_index = (int) Math.sqrt(n) + 1;
+    int square_nums[] = new int[max_square_index];
+    for (int i = 1; i < max_square_index; ++i) {
+      square_nums[i] = i * i;
     }
-    private int helper(int num, int[] memo) {
-        if (num == 0) return 0;
-        if (memo[num] != -1) return memo[num]; 
-        int minCount = num; 
-        for (int i = 1; i * i <= num; i++) {
-            minCount = Math.min(minCount, 1 + helper(num - i * i, memo));
-        }
-        memo[num] = minCount;
-        return minCount;
+
+    for (int i = 1; i <= n; ++i) {
+      for (int s = 1; s < max_square_index; ++s) {
+        if (i < square_nums[s])
+          break;
+        dp[i] = Math.min(dp[i], dp[i - square_nums[s]] + 1);
+      }
     }
+    return dp[n];
+  }
 }
