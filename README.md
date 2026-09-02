@@ -2354,11 +2354,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0474-ones-and-zeroes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0474-ones-and-zeroes) |
 | [0494-target-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0518-coin-change-ii) |
+| [1049-last-stone-weight-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1049-last-stone-weight-ii) |
 ## 0-1 Knapsack
 |  |
 | ------- |
 | [0474-ones-and-zeroes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0474-ones-and-zeroes) |
 | [0494-target-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0494-target-sum) |
+| [1049-last-stone-weight-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1049-last-stone-weight-ii) |
 ## Longest Common Subsequence
 |  |
 | ------- |
