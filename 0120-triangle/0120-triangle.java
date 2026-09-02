@@ -1,29 +1,24 @@
-import java.util.List;
-
 class Solution {
-    private int[][] memo;
-
     public int minimumTotal(List<List<Integer>> triangle) {
-        int n = triangle.size();
-        memo = new int[n][n];
-        for (int i = 0; i < n; i++) {
-            java.util.Arrays.fill(memo[i], Integer.MIN_VALUE);
-        }
-        return dfs(triangle, 0, 0);
-    }
+        for (int row = 1; row < triangle.size(); row++) {
+            for (int col = 0; col <= row; col++) {
+                int smallestAbove = Integer.MAX_VALUE;
 
-    private int dfs(List<List<Integer>> triangle, int row, int col) {
-        if (row == triangle.size()) {
-            return 0;
-        }
-        if (memo[row][col] != Integer.MIN_VALUE) {
-            return memo[row][col];
-        }
+                if (col > 0) {
+                    smallestAbove = triangle.get(row - 1).get(col - 1);
+                }
 
-        int left = dfs(triangle, row + 1, col);
-        int right = dfs(triangle, row + 1, col + 1);
-        
-        memo[row][col] = triangle.get(row).get(col) + Math.min(left, right);
-        return memo[row][col];
+                if (col < row) {
+                    smallestAbove = Math.min(
+                        smallestAbove,
+                        triangle.get(row - 1).get(col)
+                    );
+                }
+                
+                int path = smallestAbove + triangle.get(row).get(col);
+                triangle.get(row).set(col, path);
+            }
+        }
+        return Collections.min(triangle.get(triangle.size() - 1));
     }
 }
