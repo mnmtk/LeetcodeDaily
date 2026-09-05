@@ -1685,6 +1685,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0486-predict-the-winner](https://github.com/mnmtk/LeetcodeDaily/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0509-fibonacci-number) |
 | [0776-split-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0776-split-bst) |
+| [0779-k-th-symbol-in-grammar](https://github.com/mnmtk/LeetcodeDaily/tree/master/0779-k-th-symbol-in-grammar) |
 | [0930-all-possible-full-binary-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0930-all-possible-full-binary-trees) |
 ## Math
 |  |
@@ -1714,6 +1715,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0539-minimum-time-difference](https://github.com/mnmtk/LeetcodeDaily/tree/master/0539-minimum-time-difference) |
 | [0650-2-keys-keyboard](https://github.com/mnmtk/LeetcodeDaily/tree/master/0650-2-keys-keyboard) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/mnmtk/LeetcodeDaily/tree/master/0668-kth-smallest-number-in-multiplication-table) |
+| [0779-k-th-symbol-in-grammar](https://github.com/mnmtk/LeetcodeDaily/tree/master/0779-k-th-symbol-in-grammar) |
 | [0877-stone-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0877-stone-game) |
 | [0909-stone-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0909-stone-game) |
 | [0912-random-pick-with-weight](https://github.com/mnmtk/LeetcodeDaily/tree/master/0912-random-pick-with-weight) |
@@ -1746,6 +1748,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0287-find-the-duplicate-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0287-find-the-duplicate-number) |
 | [0351-android-unlock-patterns](https://github.com/mnmtk/LeetcodeDaily/tree/master/0351-android-unlock-patterns) |
 | [0461-hamming-distance](https://github.com/mnmtk/LeetcodeDaily/tree/master/0461-hamming-distance) |
+| [0779-k-th-symbol-in-grammar](https://github.com/mnmtk/LeetcodeDaily/tree/master/0779-k-th-symbol-in-grammar) |
 | [0980-unique-paths-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0980-unique-paths-iii) |
 | [1444-number-of-steps-to-reduce-a-number-to-zero](https://github.com/mnmtk/LeetcodeDaily/tree/master/1444-number-of-steps-to-reduce-a-number-to-zero) |
 | [1587-parallel-courses-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1587-parallel-courses-ii) |
