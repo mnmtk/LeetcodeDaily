@@ -257,6 +257,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0647-palindromic-substrings](https://github.com/mnmtk/LeetcodeDaily/tree/master/0647-palindromic-substrings) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0658-find-k-closest-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/0658-find-k-closest-elements) |
+| [0696-count-binary-substrings](https://github.com/mnmtk/LeetcodeDaily/tree/master/0696-count-binary-substrings) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/mnmtk/LeetcodeDaily/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [1002-maximum-width-ramp](https://github.com/mnmtk/LeetcodeDaily/tree/master/1002-maximum-width-ramp) |
 | [1214-two-sum-bsts](https://github.com/mnmtk/LeetcodeDaily/tree/master/1214-two-sum-bsts) |
@@ -1213,6 +1214,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0647-palindromic-substrings](https://github.com/mnmtk/LeetcodeDaily/tree/master/0647-palindromic-substrings) |
 | [0657-robot-return-to-origin](https://github.com/mnmtk/LeetcodeDaily/tree/master/0657-robot-return-to-origin) |
 | [0692-top-k-frequent-words](https://github.com/mnmtk/LeetcodeDaily/tree/master/0692-top-k-frequent-words) |
+| [0696-count-binary-substrings](https://github.com/mnmtk/LeetcodeDaily/tree/master/0696-count-binary-substrings) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/mnmtk/LeetcodeDaily/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0721-accounts-merge](https://github.com/mnmtk/LeetcodeDaily/tree/master/0721-accounts-merge) |
 | [0722-remove-comments](https://github.com/mnmtk/LeetcodeDaily/tree/master/0722-remove-comments) |
