@@ -1,32 +1,33 @@
 class Solution {
-    public int minRefuelStops(int target, int startFuel, int[][] stations) {
-        int N = stations.length;
-        // dp[i][t] = max distance reachable using a subset of first i stations with t stops
-        long[][] dp = new long[N + 1][N + 1];
-        
-        // Base case: 0 stations, 0 stops -> startFuel
-        dp[0][0] = startFuel;
-
-        for (int i = 1; i <= N; ++i) {
-            int pos = stations[i - 1][0];
-            int fuel = stations[i - 1][1];
-
-            for (int t = 0; t <= i; ++t) {
-                // Option 1: Do not stop at station i
-                dp[i][t] = dp[i - 1][t];
-
-                // Option 2: Refuel at station i (if reachable with t - 1 stops)
-                if (t > 0 && dp[i - 1][t - 1] >= pos) {
-                    dp[i][t] = Math.max(dp[i][t], dp[i - 1][t - 1] + fuel);
-                }
+    public int minRefuelStops(int target, int tank, int[][] stations) {
+        // pq is a maxheap of gas station capacities
+        PriorityQueue<Integer> pq = new PriorityQueue(Collections.reverseOrder());
+        int ans = 0, prev = 0;
+        for (int[] station: stations) {
+            int location = station[0];
+            int capacity = station[1];
+            tank -= location - prev;
+            
+            while (!pq.isEmpty() && tank < 0) {  // must refuel in past
+                tank += pq.poll();
+                ans++;
             }
+
+            if (tank < 0) return -1;
+            pq.offer(capacity);
+            prev = location;
         }
 
-        // Find the minimum stops needed to reach target
-        for (int t = 0; t <= N; ++t) {
-            if (dp[N][t] >= target) return t;
+        // Repeat body for station = (target, inf)
+        {
+            tank -= target - prev;
+            while (!pq.isEmpty() && tank < 0) {
+                tank += pq.poll();
+                ans++;
+            }
+            if (tank < 0) return -1;
         }
 
-        return -1;
+        return ans;
     }
 }
