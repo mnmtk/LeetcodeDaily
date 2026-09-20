@@ -1,29 +1,28 @@
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
-
-        Deque<Integer> dp = new ArrayDeque<>();
+        Deque<Integer> dq = new ArrayDeque<>();
         List<Integer> res = new ArrayList<>();
 
-        for(int i = 0; i < k ; i ++) {
-            while(!dp.isEmpty() && nums[i] >= nums[dp.peekLast()]) {
-                dp.pollLast();
+        for (int i = 0; i < k; i++) {
+            while (!dq.isEmpty() && nums[i] >= nums[dq.peekLast()]) {
+                dq.pollLast();
             }
-            dp.offerLast(i);
+            dq.offerLast(i);
         }
-        res.add(nums[dp.peekFirst()]);
+        res.add(nums[dq.peekFirst()]);
 
-        for(int i = k; i < nums.length; i++) {
-            if(dp.peekFirst() <= i - k) {
-                dp.pollFirst();
+        for (int i = k; i < nums.length; i++) {
+            if (dq.peekFirst() == i - k) {
+                dq.pollFirst();
+            }
+            while (!dq.isEmpty() && nums[i] >= nums[dq.peekLast()]) {
+                dq.pollLast();
             }
 
-             while(!dp.isEmpty() && nums[i] >= nums[dp.peekLast()]) {
-                dp.pollLast();
-            }
-            dp.offerLast(i);
-            res.add(nums[dp.peekFirst()]);
-
+            dq.offerLast(i);
+            res.add(nums[dq.peekFirst()]);
         }
+        // Return the result as an array.
         return res.stream().mapToInt(i->i).toArray();
     }
 }
