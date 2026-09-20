@@ -347,6 +347,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1966-frequency-of-the-most-frequent-element](https://github.com/mnmtk/LeetcodeDaily/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/mnmtk/LeetcodeDaily/tree/master/1977-minimum-interval-to-include-each-query) |
 | [2125-gcd-sort-of-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/2125-gcd-sort-of-an-array) |
+| [2171-removing-minimum-number-of-magic-beans](https://github.com/mnmtk/LeetcodeDaily/tree/master/2171-removing-minimum-number-of-magic-beans) |
 | [2412-minimum-amount-of-time-to-fill-cups](https://github.com/mnmtk/LeetcodeDaily/tree/master/2412-minimum-amount-of-time-to-fill-cups) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/mnmtk/LeetcodeDaily/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2583-kth-largest-sum-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2583-kth-largest-sum-in-a-binary-tree) |
@@ -621,6 +622,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2049-count-nodes-with-the-highest-score](https://github.com/mnmtk/LeetcodeDaily/tree/master/2049-count-nodes-with-the-highest-score) |
 | [2107-number-of-unique-flavors-after-sharing-k-candies](https://github.com/mnmtk/LeetcodeDaily/tree/master/2107-number-of-unique-flavors-after-sharing-k-candies) |
 | [2125-gcd-sort-of-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/2125-gcd-sort-of-an-array) |
+| [2171-removing-minimum-number-of-magic-beans](https://github.com/mnmtk/LeetcodeDaily/tree/master/2171-removing-minimum-number-of-magic-beans) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/mnmtk/LeetcodeDaily/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2206-detonate-the-maximum-bombs](https://github.com/mnmtk/LeetcodeDaily/tree/master/2206-detonate-the-maximum-bombs) |
 | [2215-find-the-difference-of-two-arrays](https://github.com/mnmtk/LeetcodeDaily/tree/master/2215-find-the-difference-of-two-arrays) |
@@ -1816,6 +1818,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1382-balance-a-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1382-balance-a-binary-search-tree) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/mnmtk/LeetcodeDaily/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/mnmtk/LeetcodeDaily/tree/master/1966-frequency-of-the-most-frequent-element) |
+| [2171-removing-minimum-number-of-magic-beans](https://github.com/mnmtk/LeetcodeDaily/tree/master/2171-removing-minimum-number-of-magic-beans) |
 | [2412-minimum-amount-of-time-to-fill-cups](https://github.com/mnmtk/LeetcodeDaily/tree/master/2412-minimum-amount-of-time-to-fill-cups) |
 | [2673-make-costs-of-paths-equal-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2673-make-costs-of-paths-equal-in-a-binary-tree) |
 | [2681-put-marbles-in-bags](https://github.com/mnmtk/LeetcodeDaily/tree/master/2681-put-marbles-in-bags) |
@@ -2060,6 +2063,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1732-find-the-highest-altitude](https://github.com/mnmtk/LeetcodeDaily/tree/master/1732-find-the-highest-altitude) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/mnmtk/LeetcodeDaily/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2171-removing-minimum-number-of-magic-beans](https://github.com/mnmtk/LeetcodeDaily/tree/master/2171-removing-minimum-number-of-magic-beans) |
 | [3265-maximum-good-subarray-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/3265-maximum-good-subarray-sum) |
 | [3643-zero-array-transformation-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/3643-zero-array-transformation-ii) |
 ## Memoization
@@ -2185,6 +2189,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0204-count-primes) |
+| [2171-removing-minimum-number-of-magic-beans](https://github.com/mnmtk/LeetcodeDaily/tree/master/2171-removing-minimum-number-of-magic-beans) |
 | [2266-minimum-cost-to-set-cooking-time](https://github.com/mnmtk/LeetcodeDaily/tree/master/2266-minimum-cost-to-set-cooking-time) |
 | [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/mnmtk/LeetcodeDaily/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/mnmtk/LeetcodeDaily/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
