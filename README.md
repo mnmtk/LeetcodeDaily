@@ -284,6 +284,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0308-range-sum-query-2d-mutable](https://github.com/mnmtk/LeetcodeDaily/tree/master/0308-range-sum-query-2d-mutable) |
 | [0341-flatten-nested-list-iterator](https://github.com/mnmtk/LeetcodeDaily/tree/master/0341-flatten-nested-list-iterator) |
 | [0362-design-hit-counter](https://github.com/mnmtk/LeetcodeDaily/tree/master/0362-design-hit-counter) |
+| [0380-insert-delete-getrandom-o1](https://github.com/mnmtk/LeetcodeDaily/tree/master/0380-insert-delete-getrandom-o1) |
 | [0384-shuffle-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0384-shuffle-an-array) |
 | [0431-encode-n-ary-tree-to-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0431-encode-n-ary-tree-to-binary-tree) |
 | [0631-design-excel-sum-formula](https://github.com/mnmtk/LeetcodeDaily/tree/master/0631-design-excel-sum-formula) |
@@ -508,6 +509,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0362-design-hit-counter](https://github.com/mnmtk/LeetcodeDaily/tree/master/0362-design-hit-counter) |
 | [0370-range-addition](https://github.com/mnmtk/LeetcodeDaily/tree/master/0370-range-addition) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/mnmtk/LeetcodeDaily/tree/master/0373-find-k-pairs-with-smallest-sums) |
+| [0380-insert-delete-getrandom-o1](https://github.com/mnmtk/LeetcodeDaily/tree/master/0380-insert-delete-getrandom-o1) |
 | [0384-shuffle-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0384-shuffle-an-array) |
 | [0399-evaluate-division](https://github.com/mnmtk/LeetcodeDaily/tree/master/0399-evaluate-division) |
 | [0406-queue-reconstruction-by-height](https://github.com/mnmtk/LeetcodeDaily/tree/master/0406-queue-reconstruction-by-height) |
@@ -694,6 +696,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/mnmtk/LeetcodeDaily/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0380-insert-delete-getrandom-o1](https://github.com/mnmtk/LeetcodeDaily/tree/master/0380-insert-delete-getrandom-o1) |
 | [0387-first-unique-character-in-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/mnmtk/LeetcodeDaily/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/mnmtk/LeetcodeDaily/tree/master/0451-sort-characters-by-frequency) |
@@ -1723,6 +1726,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0279-perfect-squares](https://github.com/mnmtk/LeetcodeDaily/tree/master/0279-perfect-squares) |
 | [0292-nim-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0292-nim-game) |
 | [0326-power-of-three](https://github.com/mnmtk/LeetcodeDaily/tree/master/0326-power-of-three) |
+| [0380-insert-delete-getrandom-o1](https://github.com/mnmtk/LeetcodeDaily/tree/master/0380-insert-delete-getrandom-o1) |
 | [0384-shuffle-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0384-shuffle-an-array) |
 | [0412-fizz-buzz](https://github.com/mnmtk/LeetcodeDaily/tree/master/0412-fizz-buzz) |
 | [0486-predict-the-winner](https://github.com/mnmtk/LeetcodeDaily/tree/master/0486-predict-the-winner) |
@@ -2342,6 +2346,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Randomized
 |  |
 | ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/mnmtk/LeetcodeDaily/tree/master/0380-insert-delete-getrandom-o1) |
 | [0384-shuffle-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0384-shuffle-an-array) |
 | [0912-random-pick-with-weight](https://github.com/mnmtk/LeetcodeDaily/tree/master/0912-random-pick-with-weight) |
 | [0914-random-point-in-non-overlapping-rectangles](https://github.com/mnmtk/LeetcodeDaily/tree/master/0914-random-point-in-non-overlapping-rectangles) |
