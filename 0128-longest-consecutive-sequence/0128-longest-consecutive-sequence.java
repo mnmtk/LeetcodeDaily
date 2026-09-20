@@ -11,13 +11,12 @@ class Solution {
         int longestStreak = 0;
 
         for (int num : nums) {
-            // If the element was already removed as part of a previously counted sequence, skip it
-            if (!numSet.contains(num)) {
+            // Attempt to remove the number. 
+            // If false, it was already processed in a previous sequence.
+            if (!numSet.remove(num)) {
                 continue;
             }
 
-            // Remove current element so it's never processed again
-            numSet.remove(num);
             int currentStreak = 1;
 
             // Expand rightward and delete
