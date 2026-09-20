@@ -1,24 +1,40 @@
+import java.util.HashSet;
+import java.util.Set;
+
 class Solution {
     public int longestConsecutive(int[] nums) {
-        Set<Integer> num_set = new HashSet<Integer>();
+        Set<Integer> numSet = new HashSet<>();
         for (int num : nums) {
-            num_set.add(num);
+            numSet.add(num);
         }
 
         int longestStreak = 0;
 
-        for (int num : num_set) {
-            if (!num_set.contains(num - 1)) {
-                int currentNum = num;
-                int currentStreak = 1;
-
-                while (num_set.contains(currentNum + 1)) {
-                    currentNum += 1;
-                    currentStreak += 1;
-                }
-
-                longestStreak = Math.max(longestStreak, currentStreak);
+        for (int num : nums) {
+            // If the element was already removed as part of a previously counted sequence, skip it
+            if (!numSet.contains(num)) {
+                continue;
             }
+
+            // Remove current element so it's never processed again
+            numSet.remove(num);
+            int currentStreak = 1;
+
+            // Expand rightward and delete
+            int right = num + 1;
+            while (numSet.remove(right)) {
+                currentStreak++;
+                right++;
+            }
+
+            // Expand leftward and delete
+            int left = num - 1;
+            while (numSet.remove(left)) {
+                currentStreak++;
+                left--;
+            }
+
+            longestStreak = Math.max(longestStreak, currentStreak);
         }
 
         return longestStreak;
