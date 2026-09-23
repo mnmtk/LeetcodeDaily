@@ -1203,6 +1203,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0179-largest-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0179-largest-number) |
 | [0208-implement-trie-prefix-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0208-implement-trie-prefix-tree) |
 | [0212-word-search-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0212-word-search-ii) |
+| [0227-basic-calculator-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0227-basic-calculator-ii) |
 | [0242-valid-anagram](https://github.com/mnmtk/LeetcodeDaily/tree/master/0242-valid-anagram) |
 | [0257-binary-tree-paths](https://github.com/mnmtk/LeetcodeDaily/tree/master/0257-binary-tree-paths) |
 | [0269-alien-dictionary](https://github.com/mnmtk/LeetcodeDaily/tree/master/0269-alien-dictionary) |
@@ -1455,6 +1456,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0145-binary-tree-postorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0145-binary-tree-postorder-traversal) |
 | [0155-min-stack](https://github.com/mnmtk/LeetcodeDaily/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/mnmtk/LeetcodeDaily/tree/master/0173-binary-search-tree-iterator) |
+| [0227-basic-calculator-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0227-basic-calculator-ii) |
 | [0234-palindrome-linked-list](https://github.com/mnmtk/LeetcodeDaily/tree/master/0234-palindrome-linked-list) |
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0272-closest-binary-search-tree-value-ii) |
@@ -1727,6 +1729,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0096-unique-binary-search-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0096-unique-binary-search-trees) |
 | [0189-rotate-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0204-count-primes) |
+| [0227-basic-calculator-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0227-basic-calculator-ii) |
 | [0268-missing-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0268-missing-number) |
 | [0279-perfect-squares](https://github.com/mnmtk/LeetcodeDaily/tree/master/0279-perfect-squares) |
 | [0292-nim-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0292-nim-game) |
