@@ -1,0 +1,44 @@
+class Solution {
+    public int minSizeSubarray(int[] nums, int target) {
+        long totalSum = 0;
+        
+        for(int data: nums){
+            totalSum += data;
+        }
+
+        // the number of times we can increase the arr
+        int count = 0;
+        int n = nums.length;
+
+        if(target > totalSum){
+            count = (int)(target / totalSum) * n;
+            target = (int)(target % totalSum);
+        }
+        
+
+        int left = 0, right = 0, possibleSize = Integer.MAX_VALUE;
+        long currSum = 0L;
+        
+
+        while(right < 2*n){
+            currSum += nums[right % n];
+
+            while(currSum > target && left <= right){
+                currSum -= nums[left % n];
+                left++;
+            }
+
+            if(currSum == target){
+                possibleSize = Math.min(possibleSize, right - left + 1);
+            }
+
+            right++;
+        }
+
+        return possibleSize == Integer.MAX_VALUE ? -1 : possibleSize + count;
+
+
+    }
+    
+    
+}
