@@ -1188,6 +1188,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0032-longest-valid-parentheses](https://github.com/mnmtk/LeetcodeDaily/tree/master/0032-longest-valid-parentheses) |
 | [0043-multiply-strings](https://github.com/mnmtk/LeetcodeDaily/tree/master/0043-multiply-strings) |
+| [0044-wildcard-matching](https://github.com/mnmtk/LeetcodeDaily/tree/master/0044-wildcard-matching) |
 | [0049-group-anagrams](https://github.com/mnmtk/LeetcodeDaily/tree/master/0049-group-anagrams) |
 | [0068-text-justification](https://github.com/mnmtk/LeetcodeDaily/tree/master/0068-text-justification) |
 | [0071-simplify-path](https://github.com/mnmtk/LeetcodeDaily/tree/master/0071-simplify-path) |
@@ -1295,6 +1296,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/mnmtk/LeetcodeDaily/tree/master/0005-longest-palindromic-substring) |
 | [0032-longest-valid-parentheses](https://github.com/mnmtk/LeetcodeDaily/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/mnmtk/LeetcodeDaily/tree/master/0042-trapping-rain-water) |
+| [0044-wildcard-matching](https://github.com/mnmtk/LeetcodeDaily/tree/master/0044-wildcard-matching) |
 | [0053-maximum-subarray](https://github.com/mnmtk/LeetcodeDaily/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/mnmtk/LeetcodeDaily/tree/master/0062-unique-paths) |
@@ -1706,6 +1708,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/mnmtk/LeetcodeDaily/tree/master/0021-merge-two-sorted-lists) |
+| [0044-wildcard-matching](https://github.com/mnmtk/LeetcodeDaily/tree/master/0044-wildcard-matching) |
 | [0050-powx-n](https://github.com/mnmtk/LeetcodeDaily/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/mnmtk/LeetcodeDaily/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/mnmtk/LeetcodeDaily/tree/master/0234-palindrome-linked-list) |
@@ -1822,6 +1825,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/mnmtk/LeetcodeDaily/tree/master/0011-container-with-most-water) |
+| [0044-wildcard-matching](https://github.com/mnmtk/LeetcodeDaily/tree/master/0044-wildcard-matching) |
 | [0055-jump-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0179-largest-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0179-largest-number) |
