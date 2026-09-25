@@ -660,6 +660,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/mnmtk/LeetcodeDaily/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/mnmtk/LeetcodeDaily/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
+| [3383-minimum-runes-to-add-to-cast-spell](https://github.com/mnmtk/LeetcodeDaily/tree/master/3383-minimum-runes-to-add-to-cast-spell) |
 | [3430-count-days-without-meetings](https://github.com/mnmtk/LeetcodeDaily/tree/master/3430-count-days-without-meetings) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/mnmtk/LeetcodeDaily/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3558-find-a-safe-walk-through-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/3558-find-a-safe-walk-through-a-grid) |
@@ -1660,6 +1661,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2793-count-the-number-of-complete-components](https://github.com/mnmtk/LeetcodeDaily/tree/master/2793-count-the-number-of-complete-components) |
 | [3157-find-the-level-of-tree-with-minimum-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/3157-find-the-level-of-tree-with-minimum-sum) |
 | [3319-k-th-largest-perfect-subtree-size-in-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/3319-k-th-largest-perfect-subtree-size-in-binary-tree) |
+| [3383-minimum-runes-to-add-to-cast-spell](https://github.com/mnmtk/LeetcodeDaily/tree/master/3383-minimum-runes-to-add-to-cast-spell) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 | [3613-maximize-amount-after-two-days-of-conversions](https://github.com/mnmtk/LeetcodeDaily/tree/master/3613-maximize-amount-after-two-days-of-conversions) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
@@ -2053,6 +2055,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2793-count-the-number-of-complete-components](https://github.com/mnmtk/LeetcodeDaily/tree/master/2793-count-the-number-of-complete-components) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/2914-find-the-safest-path-in-a-grid) |
 | [3157-find-the-level-of-tree-with-minimum-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/3157-find-the-level-of-tree-with-minimum-sum) |
+| [3383-minimum-runes-to-add-to-cast-spell](https://github.com/mnmtk/LeetcodeDaily/tree/master/3383-minimum-runes-to-add-to-cast-spell) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/mnmtk/LeetcodeDaily/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3558-find-a-safe-walk-through-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/3558-find-a-safe-walk-through-a-grid) |
@@ -2301,6 +2304,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/mnmtk/LeetcodeDaily/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/mnmtk/LeetcodeDaily/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/mnmtk/LeetcodeDaily/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
+| [3383-minimum-runes-to-add-to-cast-spell](https://github.com/mnmtk/LeetcodeDaily/tree/master/3383-minimum-runes-to-add-to-cast-spell) |
 | [3825-apply-substitutions](https://github.com/mnmtk/LeetcodeDaily/tree/master/3825-apply-substitutions) |
 ## Bitmask
 |  |
@@ -2405,6 +2409,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0997-find-the-town-judge](https://github.com/mnmtk/LeetcodeDaily/tree/master/0997-find-the-town-judge) |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/mnmtk/LeetcodeDaily/tree/master/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [1971-find-if-path-exists-in-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/1971-find-if-path-exists-in-graph) |
+| [3383-minimum-runes-to-add-to-cast-spell](https://github.com/mnmtk/LeetcodeDaily/tree/master/3383-minimum-runes-to-add-to-cast-spell) |
 ## Knapsack Problem
 |  |
 | ------- |
