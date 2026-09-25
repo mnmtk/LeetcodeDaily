@@ -5,6 +5,7 @@ class Solution {
         dp[0] = 0;
         
         for (int i = 0; i <= n; i++) {
+            
             int tapStart = Math.max(0, i - ranges[i]);
             int tapEnd = Math.min(n, i + ranges[i]);
             
