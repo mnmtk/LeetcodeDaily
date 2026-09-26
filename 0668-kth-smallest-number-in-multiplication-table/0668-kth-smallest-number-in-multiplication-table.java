@@ -5,6 +5,7 @@ class Solution {
 
         while(lo < hi) {
             int mid = lo + (hi - lo)/2;
+            
             if(enough(mid, m, n, k)) hi = mid;
             else lo = mid + 1;
         }
