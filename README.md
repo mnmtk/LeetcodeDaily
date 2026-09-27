@@ -268,6 +268,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1815-checking-existence-of-edge-length-limited-paths](https://github.com/mnmtk/LeetcodeDaily/tree/master/1815-checking-existence-of-edge-length-limited-paths) |
 | [1894-merge-strings-alternately](https://github.com/mnmtk/LeetcodeDaily/tree/master/1894-merge-strings-alternately) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/mnmtk/LeetcodeDaily/tree/master/2588-maximum-number-of-points-from-grid-queries) |
+| [2972-count-the-number-of-incremovable-subarrays-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/2972-count-the-number-of-incremovable-subarrays-ii) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/mnmtk/LeetcodeDaily/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 ## Design
 |  |
@@ -654,6 +655,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2827-greatest-common-divisor-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/2827-greatest-common-divisor-traversal) |
 | [2875-minimum-size-subarray-in-infinite-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/2875-minimum-size-subarray-in-infinite-array) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/2914-find-the-safest-path-in-a-grid) |
+| [2972-count-the-number-of-incremovable-subarrays-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/2972-count-the-number-of-incremovable-subarrays-ii) |
 | [3158-maximum-length-of-semi-decreasing-subarrays](https://github.com/mnmtk/LeetcodeDaily/tree/master/3158-maximum-length-of-semi-decreasing-subarrays) |
 | [3188-find-champion-i](https://github.com/mnmtk/LeetcodeDaily/tree/master/3188-find-champion-i) |
 | [3265-maximum-good-subarray-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/3265-maximum-good-subarray-sum) |
@@ -1444,6 +1446,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2665-minimum-time-to-repair-cars](https://github.com/mnmtk/LeetcodeDaily/tree/master/2665-minimum-time-to-repair-cars) |
 | [2690-house-robber-iv](https://github.com/mnmtk/LeetcodeDaily/tree/master/2690-house-robber-iv) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/2914-find-the-safest-path-in-a-grid) |
+| [2972-count-the-number-of-incremovable-subarrays-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/2972-count-the-number-of-incremovable-subarrays-ii) |
 | [3266-find-longest-special-substring-that-occurs-thrice-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/3266-find-longest-special-substring-that-occurs-thrice-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/3643-zero-array-transformation-ii) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
