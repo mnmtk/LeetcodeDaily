@@ -1265,6 +1265,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/mnmtk/LeetcodeDaily/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/mnmtk/LeetcodeDaily/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3613-maximize-amount-after-two-days-of-conversions](https://github.com/mnmtk/LeetcodeDaily/tree/master/3613-maximize-amount-after-two-days-of-conversions) |
+| [3628-maximum-number-of-subsequences-after-one-inserting](https://github.com/mnmtk/LeetcodeDaily/tree/master/3628-maximum-number-of-subsequences-after-one-inserting) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/mnmtk/LeetcodeDaily/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 | [3825-apply-substitutions](https://github.com/mnmtk/LeetcodeDaily/tree/master/3825-apply-substitutions) |
 ## Sliding Window
@@ -1384,6 +1385,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2526-longest-increasing-subsequence-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/2526-longest-increasing-subsequence-ii) |
 | [2673-make-costs-of-paths-equal-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2673-make-costs-of-paths-equal-in-a-binary-tree) |
 | [2755-extra-characters-in-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/2755-extra-characters-in-a-string) |
+| [3628-maximum-number-of-subsequences-after-one-inserting](https://github.com/mnmtk/LeetcodeDaily/tree/master/3628-maximum-number-of-subsequences-after-one-inserting) |
 | [3693-climbing-stairs-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/3693-climbing-stairs-ii) |
 ## Binary Search
 |  |
@@ -1853,6 +1855,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2412-minimum-amount-of-time-to-fill-cups](https://github.com/mnmtk/LeetcodeDaily/tree/master/2412-minimum-amount-of-time-to-fill-cups) |
 | [2673-make-costs-of-paths-equal-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2673-make-costs-of-paths-equal-in-a-binary-tree) |
 | [2681-put-marbles-in-bags](https://github.com/mnmtk/LeetcodeDaily/tree/master/2681-put-marbles-in-bags) |
+| [3628-maximum-number-of-subsequences-after-one-inserting](https://github.com/mnmtk/LeetcodeDaily/tree/master/3628-maximum-number-of-subsequences-after-one-inserting) |
 ## Trie
 |  |
 | ------- |
@@ -2098,6 +2101,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2171-removing-minimum-number-of-magic-beans](https://github.com/mnmtk/LeetcodeDaily/tree/master/2171-removing-minimum-number-of-magic-beans) |
 | [2875-minimum-size-subarray-in-infinite-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/2875-minimum-size-subarray-in-infinite-array) |
 | [3265-maximum-good-subarray-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/3265-maximum-good-subarray-sum) |
+| [3628-maximum-number-of-subsequences-after-one-inserting](https://github.com/mnmtk/LeetcodeDaily/tree/master/3628-maximum-number-of-subsequences-after-one-inserting) |
 | [3643-zero-array-transformation-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/3643-zero-array-transformation-ii) |
 ## Memoization
 |  |
