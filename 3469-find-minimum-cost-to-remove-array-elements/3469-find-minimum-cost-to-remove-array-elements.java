@@ -12,9 +12,11 @@ class Solution {
         }
         if (dp[prev][i] != 0)
             return dp[prev][i];
+            
         int a = Math.max(nums[i], nums[i + 1]) + recur(prev, i + 2, nums, n);
         int b = Math.max(nums[prev], nums[i + 1]) + recur(i, i + 2, nums, n);
         int c = Math.max(nums[prev], nums[i]) + recur(i + 1, i + 2, nums, n);
+
         return dp[prev][i] = Math.min(a, Math.min(b, c));
 
     }
