@@ -1,29 +1,39 @@
 class Solution {
-    private int[][] dp;
+    public int minCost(int[] arr) {
+        int n = arr.length;
+        int dp[][] = new int[n][n+1];
+        for (int i = 0; i < n; i++) {
+            dp[i][n] = arr[i];
+            dp[i][n-1] = Math.max(arr[i], arr[n-1]);
+        }
+        for (int index = n-2; index >= 0; index --) {
 
-    private int recur(int prev, int i, int nums[], int n) {
-        if (n <= 2) {
-            return Math.max(nums[0], nums[n - 1]);
-        }
-        if (i >= n)
-            return nums[prev];
-        if (i == n - 1) {
-            return Math.max(nums[prev], nums[i]);
-        }
-        if (dp[prev][i] != 0)
-            return dp[prev][i];
+            for (int firstIndex = 0; firstIndex < index; firstIndex ++) {
+                int path1 = Math.max(arr[firstIndex], arr[index]) 
+                + dp[index + 1][index + 2];
+                int path2 = Math.max(arr[firstIndex], arr[index + 1]) 
+                + dp[index][index + 2];
+                int path3 = Math.max(arr[index], arr[index + 1]) 
+                + dp[firstIndex][index + 2];
+                dp[firstIndex][index] = Math.min(path1, Math.min(path2, path3));
+            }
             
-        int a = Math.max(nums[i], nums[i + 1]) + recur(prev, i + 2, nums, n);
-        int b = Math.max(nums[prev], nums[i + 1]) + recur(i, i + 2, nums, n);
-        int c = Math.max(nums[prev], nums[i]) + recur(i + 1, i + 2, nums, n);
-
-        return dp[prev][i] = Math.min(a, Math.min(b, c));
-
+        }
+        return dp[0][1];
     }
 
-    public int minCost(int[] nums) {
-        int n = nums.length;
-        dp = new int[n][n];
-        return recur(0, 1, nums, n);
+/* refer to this recursive function for understanding the bottom up dp
+    private int f(int firstIndex, int index) {
+        if (index >= n) {
+            return arr[firstIndex];
+        }
+        if (index == n-1) {
+            return Math.max(arr[firstIndex], arr[n-1]);
+        }
+        int path1 = Math.max(arr[firstIndex], arr[index]) + f(index + 1, index + 2);
+        int path2 = Math.max(arr[firstIndex], arr[index + 1]) + f(index, index + 2);
+        int path3 = Math.max(arr[index], arr[index + 1]) + f(firstIndex, index + 2);
+        return Math.min(path1, Math.min(path2, path3));
     }
+    */
 }
