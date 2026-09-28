@@ -664,6 +664,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3383-minimum-runes-to-add-to-cast-spell](https://github.com/mnmtk/LeetcodeDaily/tree/master/3383-minimum-runes-to-add-to-cast-spell) |
 | [3430-count-days-without-meetings](https://github.com/mnmtk/LeetcodeDaily/tree/master/3430-count-days-without-meetings) |
+| [3469-find-minimum-cost-to-remove-array-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/3469-find-minimum-cost-to-remove-array-elements) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/mnmtk/LeetcodeDaily/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3558-find-a-safe-walk-through-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/3558-find-a-safe-walk-through-a-grid) |
 | [3613-maximize-amount-after-two-days-of-conversions](https://github.com/mnmtk/LeetcodeDaily/tree/master/3613-maximize-amount-after-two-days-of-conversions) |
@@ -1385,6 +1386,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2526-longest-increasing-subsequence-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/2526-longest-increasing-subsequence-ii) |
 | [2673-make-costs-of-paths-equal-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2673-make-costs-of-paths-equal-in-a-binary-tree) |
 | [2755-extra-characters-in-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/2755-extra-characters-in-a-string) |
+| [3469-find-minimum-cost-to-remove-array-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/3469-find-minimum-cost-to-remove-array-elements) |
 | [3628-maximum-number-of-subsequences-after-one-inserting](https://github.com/mnmtk/LeetcodeDaily/tree/master/3628-maximum-number-of-subsequences-after-one-inserting) |
 | [3693-climbing-stairs-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/3693-climbing-stairs-ii) |
 ## Binary Search
