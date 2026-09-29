@@ -339,6 +339,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/mnmtk/LeetcodeDaily/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
+| [1122-relative-sort-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/1122-relative-sort-array) |
 | [1305-all-elements-in-two-binary-search-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/1305-all-elements-in-two-binary-search-trees) |
 | [1308-smallest-string-with-swaps](https://github.com/mnmtk/LeetcodeDaily/tree/master/1308-smallest-string-with-swaps) |
 | [1367-maximum-height-by-stacking-cuboids](https://github.com/mnmtk/LeetcodeDaily/tree/master/1367-maximum-height-by-stacking-cuboids) |
@@ -592,6 +593,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/mnmtk/LeetcodeDaily/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/mnmtk/LeetcodeDaily/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/mnmtk/LeetcodeDaily/tree/master/1091-shortest-path-in-binary-matrix) |
+| [1122-relative-sort-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/1122-relative-sort-array) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/mnmtk/LeetcodeDaily/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1207-delete-nodes-and-return-forest](https://github.com/mnmtk/LeetcodeDaily/tree/master/1207-delete-nodes-and-return-forest) |
 | [1249-snapshot-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/1249-snapshot-array) |
@@ -738,6 +740,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0997-find-the-town-judge](https://github.com/mnmtk/LeetcodeDaily/tree/master/0997-find-the-town-judge) |
 | [0999-regions-cut-by-slashes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0999-regions-cut-by-slashes) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1122-relative-sort-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/1122-relative-sort-array) |
 | [1207-delete-nodes-and-return-forest](https://github.com/mnmtk/LeetcodeDaily/tree/master/1207-delete-nodes-and-return-forest) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/mnmtk/LeetcodeDaily/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1249-snapshot-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/1249-snapshot-array) |
@@ -2356,6 +2359,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0948-sort-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0948-sort-an-array) |
+| [1122-relative-sort-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/1122-relative-sort-array) |
 ## String Matching
 |  |
 | ------- |
@@ -2477,4 +2481,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0032-longest-valid-parentheses](https://github.com/mnmtk/LeetcodeDaily/tree/master/0032-longest-valid-parentheses) |
+## Quicksort
+|  |
+| ------- |
+| [1122-relative-sort-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/1122-relative-sort-array) |
+## Bubble Sort
+|  |
+| ------- |
+| [1122-relative-sort-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/1122-relative-sort-array) |
 <!---LeetCode Topics End-->
