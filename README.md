@@ -647,6 +647,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2564-most-profitable-path-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/mnmtk/LeetcodeDaily/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2617-time-taken-to-cross-the-door](https://github.com/mnmtk/LeetcodeDaily/tree/master/2617-time-taken-to-cross-the-door) |
+| [2660-determine-the-winner-of-a-bowling-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/2660-determine-the-winner-of-a-bowling-game) |
 | [2665-minimum-time-to-repair-cars](https://github.com/mnmtk/LeetcodeDaily/tree/master/2665-minimum-time-to-repair-cars) |
 | [2673-make-costs-of-paths-equal-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2673-make-costs-of-paths-equal-in-a-binary-tree) |
 | [2681-put-marbles-in-bags](https://github.com/mnmtk/LeetcodeDaily/tree/master/2681-put-marbles-in-bags) |
@@ -1832,6 +1833,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1642-water-bottles](https://github.com/mnmtk/LeetcodeDaily/tree/master/1642-water-bottles) |
 | [1929-concatenation-of-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/1929-concatenation-of-array) |
 | [2617-time-taken-to-cross-the-door](https://github.com/mnmtk/LeetcodeDaily/tree/master/2617-time-taken-to-cross-the-door) |
+| [2660-determine-the-winner-of-a-bowling-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/2660-determine-the-winner-of-a-bowling-game) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 ## Greedy
 |  |
