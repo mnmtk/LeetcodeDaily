@@ -643,6 +643,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2215-find-the-difference-of-two-arrays](https://github.com/mnmtk/LeetcodeDaily/tree/master/2215-find-the-difference-of-two-arrays) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/mnmtk/LeetcodeDaily/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2343-query-kth-smallest-trimmed-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/2343-query-kth-smallest-trimmed-number) |
+| [2352-equal-row-and-column-pairs](https://github.com/mnmtk/LeetcodeDaily/tree/master/2352-equal-row-and-column-pairs) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/mnmtk/LeetcodeDaily/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2412-minimum-amount-of-time-to-fill-cups](https://github.com/mnmtk/LeetcodeDaily/tree/master/2412-minimum-amount-of-time-to-fill-cups) |
 | [2445-number-of-nodes-with-value-one](https://github.com/mnmtk/LeetcodeDaily/tree/master/2445-number-of-nodes-with-value-one) |
@@ -773,6 +774,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2196-create-binary-tree-from-descriptions](https://github.com/mnmtk/LeetcodeDaily/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2215-find-the-difference-of-two-arrays](https://github.com/mnmtk/LeetcodeDaily/tree/master/2215-find-the-difference-of-two-arrays) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/mnmtk/LeetcodeDaily/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+| [2352-equal-row-and-column-pairs](https://github.com/mnmtk/LeetcodeDaily/tree/master/2352-equal-row-and-column-pairs) |
 | [2434-design-a-number-container-system](https://github.com/mnmtk/LeetcodeDaily/tree/master/2434-design-a-number-container-system) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/mnmtk/LeetcodeDaily/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
@@ -1853,6 +1855,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0735-asteroid-collision](https://github.com/mnmtk/LeetcodeDaily/tree/master/0735-asteroid-collision) |
 | [1642-water-bottles](https://github.com/mnmtk/LeetcodeDaily/tree/master/1642-water-bottles) |
 | [1929-concatenation-of-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/1929-concatenation-of-array) |
+| [2352-equal-row-and-column-pairs](https://github.com/mnmtk/LeetcodeDaily/tree/master/2352-equal-row-and-column-pairs) |
 | [2617-time-taken-to-cross-the-door](https://github.com/mnmtk/LeetcodeDaily/tree/master/2617-time-taken-to-cross-the-door) |
 | [2660-determine-the-winner-of-a-bowling-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/2660-determine-the-winner-of-a-bowling-game) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
@@ -1938,6 +1941,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1753-path-with-minimum-effort](https://github.com/mnmtk/LeetcodeDaily/tree/master/1753-path-with-minimum-effort) |
+| [2352-equal-row-and-column-pairs](https://github.com/mnmtk/LeetcodeDaily/tree/master/2352-equal-row-and-column-pairs) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/mnmtk/LeetcodeDaily/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/mnmtk/LeetcodeDaily/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
