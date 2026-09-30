@@ -1252,6 +1252,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1032-satisfiability-of-equality-equations](https://github.com/mnmtk/LeetcodeDaily/tree/master/1032-satisfiability-of-equality-equations) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/mnmtk/LeetcodeDaily/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+| [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/mnmtk/LeetcodeDaily/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1143-longest-common-subsequence](https://github.com/mnmtk/LeetcodeDaily/tree/master/1143-longest-common-subsequence) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/mnmtk/LeetcodeDaily/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1308-smallest-string-with-swaps](https://github.com/mnmtk/LeetcodeDaily/tree/master/1308-smallest-string-with-swaps) |
@@ -1485,6 +1486,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0897-increasing-order-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0897-increasing-order-search-tree) |
 | [1002-maximum-width-ramp](https://github.com/mnmtk/LeetcodeDaily/tree/master/1002-maximum-width-ramp) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/mnmtk/LeetcodeDaily/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1214-two-sum-bsts](https://github.com/mnmtk/LeetcodeDaily/tree/master/1214-two-sum-bsts) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/mnmtk/LeetcodeDaily/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/mnmtk/LeetcodeDaily/tree/master/1497-design-a-stack-with-increment-operation) |
@@ -2483,6 +2485,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0032-longest-valid-parentheses](https://github.com/mnmtk/LeetcodeDaily/tree/master/0032-longest-valid-parentheses) |
+| [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/mnmtk/LeetcodeDaily/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 ## Quicksort
 |  |
 | ------- |
