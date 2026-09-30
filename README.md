@@ -360,6 +360,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/mnmtk/LeetcodeDaily/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2681-put-marbles-in-bags](https://github.com/mnmtk/LeetcodeDaily/tree/master/2681-put-marbles-in-bags) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
+| [3085-minimum-deletions-to-make-string-k-special](https://github.com/mnmtk/LeetcodeDaily/tree/master/3085-minimum-deletions-to-make-string-k-special) |
 | [3158-maximum-length-of-semi-decreasing-subarrays](https://github.com/mnmtk/LeetcodeDaily/tree/master/3158-maximum-length-of-semi-decreasing-subarrays) |
 | [3319-k-th-largest-perfect-subtree-size-in-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/3319-k-th-largest-perfect-subtree-size-in-binary-tree) |
 | [3323-minimize-connected-groups-by-inserting-interval](https://github.com/mnmtk/LeetcodeDaily/tree/master/3323-minimize-connected-groups-by-inserting-interval) |
@@ -781,6 +782,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2755-extra-characters-in-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/2755-extra-characters-in-a-string) |
 | [2791-count-paths-that-can-form-a-palindrome-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2791-count-paths-that-can-form-a-palindrome-in-a-tree) |
 | [2875-minimum-size-subarray-in-infinite-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/2875-minimum-size-subarray-in-infinite-array) |
+| [3085-minimum-deletions-to-make-string-k-special](https://github.com/mnmtk/LeetcodeDaily/tree/master/3085-minimum-deletions-to-make-string-k-special) |
 | [3265-maximum-good-subarray-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/3265-maximum-good-subarray-sum) |
 | [3266-find-longest-special-substring-that-occurs-thrice-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/3266-find-longest-special-substring-that-occurs-thrice-ii) |
 | [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/mnmtk/LeetcodeDaily/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
@@ -836,6 +838,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0767-reorganize-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0767-reorganize-string) |
 | [0778-reorganize-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0778-reorganize-string) |
 | [1612-check-if-two-expression-trees-are-equivalent](https://github.com/mnmtk/LeetcodeDaily/tree/master/1612-check-if-two-expression-trees-are-equivalent) |
+| [3085-minimum-deletions-to-make-string-k-special](https://github.com/mnmtk/LeetcodeDaily/tree/master/3085-minimum-deletions-to-make-string-k-special) |
 | [3266-find-longest-special-substring-that-occurs-thrice-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/3266-find-longest-special-substring-that-occurs-thrice-ii) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/mnmtk/LeetcodeDaily/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Quickselect
@@ -1285,6 +1288,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2343-query-kth-smallest-trimmed-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/2343-query-kth-smallest-trimmed-number) |
 | [2755-extra-characters-in-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/2755-extra-characters-in-a-string) |
 | [2800-shortest-string-that-contains-three-strings](https://github.com/mnmtk/LeetcodeDaily/tree/master/2800-shortest-string-that-contains-three-strings) |
+| [3085-minimum-deletions-to-make-string-k-special](https://github.com/mnmtk/LeetcodeDaily/tree/master/3085-minimum-deletions-to-make-string-k-special) |
 | [3266-find-longest-special-substring-that-occurs-thrice-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/3266-find-longest-special-substring-that-occurs-thrice-ii) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/mnmtk/LeetcodeDaily/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/mnmtk/LeetcodeDaily/tree/master/3455-minimum-length-of-string-after-operations) |
@@ -1890,6 +1894,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2673-make-costs-of-paths-equal-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2673-make-costs-of-paths-equal-in-a-binary-tree) |
 | [2681-put-marbles-in-bags](https://github.com/mnmtk/LeetcodeDaily/tree/master/2681-put-marbles-in-bags) |
 | [2800-shortest-string-that-contains-three-strings](https://github.com/mnmtk/LeetcodeDaily/tree/master/2800-shortest-string-that-contains-three-strings) |
+| [3085-minimum-deletions-to-make-string-k-special](https://github.com/mnmtk/LeetcodeDaily/tree/master/3085-minimum-deletions-to-make-string-k-special) |
 | [3628-maximum-number-of-subsequences-after-one-inserting](https://github.com/mnmtk/LeetcodeDaily/tree/master/3628-maximum-number-of-subsequences-after-one-inserting) |
 ## Trie
 |  |
