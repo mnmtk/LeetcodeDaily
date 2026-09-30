@@ -353,6 +353,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2171-removing-minimum-number-of-magic-beans](https://github.com/mnmtk/LeetcodeDaily/tree/master/2171-removing-minimum-number-of-magic-beans) |
 | [2412-minimum-amount-of-time-to-fill-cups](https://github.com/mnmtk/LeetcodeDaily/tree/master/2412-minimum-amount-of-time-to-fill-cups) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/mnmtk/LeetcodeDaily/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
+| [2542-maximum-subsequence-score](https://github.com/mnmtk/LeetcodeDaily/tree/master/2542-maximum-subsequence-score) |
 | [2583-kth-largest-sum-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2583-kth-largest-sum-in-a-binary-tree) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/mnmtk/LeetcodeDaily/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2681-put-marbles-in-bags](https://github.com/mnmtk/LeetcodeDaily/tree/master/2681-put-marbles-in-bags) |
@@ -403,6 +404,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2412-minimum-amount-of-time-to-fill-cups](https://github.com/mnmtk/LeetcodeDaily/tree/master/2412-minimum-amount-of-time-to-fill-cups) |
 | [2434-design-a-number-container-system](https://github.com/mnmtk/LeetcodeDaily/tree/master/2434-design-a-number-container-system) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/mnmtk/LeetcodeDaily/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
+| [2542-maximum-subsequence-score](https://github.com/mnmtk/LeetcodeDaily/tree/master/2542-maximum-subsequence-score) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/mnmtk/LeetcodeDaily/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2681-put-marbles-in-bags](https://github.com/mnmtk/LeetcodeDaily/tree/master/2681-put-marbles-in-bags) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
@@ -644,6 +646,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2478-longest-nice-subarray](https://github.com/mnmtk/LeetcodeDaily/tree/master/2478-longest-nice-subarray) |
 | [2509-cycle-length-queries-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2509-cycle-length-queries-in-a-tree) |
 | [2526-longest-increasing-subsequence-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/2526-longest-increasing-subsequence-ii) |
+| [2542-maximum-subsequence-score](https://github.com/mnmtk/LeetcodeDaily/tree/master/2542-maximum-subsequence-score) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/mnmtk/LeetcodeDaily/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2617-time-taken-to-cross-the-door](https://github.com/mnmtk/LeetcodeDaily/tree/master/2617-time-taken-to-cross-the-door) |
@@ -1862,6 +1865,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1966-frequency-of-the-most-frequent-element](https://github.com/mnmtk/LeetcodeDaily/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2171-removing-minimum-number-of-magic-beans](https://github.com/mnmtk/LeetcodeDaily/tree/master/2171-removing-minimum-number-of-magic-beans) |
 | [2412-minimum-amount-of-time-to-fill-cups](https://github.com/mnmtk/LeetcodeDaily/tree/master/2412-minimum-amount-of-time-to-fill-cups) |
+| [2542-maximum-subsequence-score](https://github.com/mnmtk/LeetcodeDaily/tree/master/2542-maximum-subsequence-score) |
 | [2673-make-costs-of-paths-equal-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2673-make-costs-of-paths-equal-in-a-binary-tree) |
 | [2681-put-marbles-in-bags](https://github.com/mnmtk/LeetcodeDaily/tree/master/2681-put-marbles-in-bags) |
 | [3628-maximum-number-of-subsequences-after-one-inserting](https://github.com/mnmtk/LeetcodeDaily/tree/master/3628-maximum-number-of-subsequences-after-one-inserting) |
