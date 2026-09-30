@@ -263,6 +263,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1002-maximum-width-ramp](https://github.com/mnmtk/LeetcodeDaily/tree/master/1002-maximum-width-ramp) |
 | [1048-longest-string-chain](https://github.com/mnmtk/LeetcodeDaily/tree/master/1048-longest-string-chain) |
 | [1214-two-sum-bsts](https://github.com/mnmtk/LeetcodeDaily/tree/master/1214-two-sum-bsts) |
+| [1574-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/mnmtk/LeetcodeDaily/tree/master/1574-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/mnmtk/LeetcodeDaily/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1650-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1650-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [1768-merge-strings-alternately](https://github.com/mnmtk/LeetcodeDaily/tree/master/1768-merge-strings-alternately) |
@@ -625,6 +626,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/mnmtk/LeetcodeDaily/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/mnmtk/LeetcodeDaily/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/mnmtk/LeetcodeDaily/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [1574-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/mnmtk/LeetcodeDaily/tree/master/1574-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/mnmtk/LeetcodeDaily/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/mnmtk/LeetcodeDaily/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1628-design-an-expression-tree-with-evaluate-function](https://github.com/mnmtk/LeetcodeDaily/tree/master/1628-design-an-expression-tree-with-evaluate-function) |
@@ -1483,6 +1485,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/mnmtk/LeetcodeDaily/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/mnmtk/LeetcodeDaily/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/mnmtk/LeetcodeDaily/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
+| [1574-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/mnmtk/LeetcodeDaily/tree/master/1574-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/mnmtk/LeetcodeDaily/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/mnmtk/LeetcodeDaily/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1753-path-with-minimum-effort](https://github.com/mnmtk/LeetcodeDaily/tree/master/1753-path-with-minimum-effort) |
@@ -1528,6 +1531,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1214-two-sum-bsts](https://github.com/mnmtk/LeetcodeDaily/tree/master/1214-two-sum-bsts) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/mnmtk/LeetcodeDaily/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/mnmtk/LeetcodeDaily/tree/master/1497-design-a-stack-with-increment-operation) |
+| [1574-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/mnmtk/LeetcodeDaily/tree/master/1574-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1586-binary-search-tree-iterator-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1586-binary-search-tree-iterator-ii) |
 | [1628-design-an-expression-tree-with-evaluate-function](https://github.com/mnmtk/LeetcodeDaily/tree/master/1628-design-an-expression-tree-with-evaluate-function) |
 | [2434-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/2434-using-a-robot-to-print-the-lexicographically-smallest-string) |
@@ -2194,6 +2198,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0654-maximum-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0654-maximum-binary-tree) |
 | [1002-maximum-width-ramp](https://github.com/mnmtk/LeetcodeDaily/tree/master/1002-maximum-width-ramp) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1574-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/mnmtk/LeetcodeDaily/tree/master/1574-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [3158-maximum-length-of-semi-decreasing-subarrays](https://github.com/mnmtk/LeetcodeDaily/tree/master/3158-maximum-length-of-semi-decreasing-subarrays) |
 ## Graph
 |  |
