@@ -652,6 +652,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2206-detonate-the-maximum-bombs](https://github.com/mnmtk/LeetcodeDaily/tree/master/2206-detonate-the-maximum-bombs) |
 | [2215-find-the-difference-of-two-arrays](https://github.com/mnmtk/LeetcodeDaily/tree/master/2215-find-the-difference-of-two-arrays) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/mnmtk/LeetcodeDaily/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+| [2221-find-triangular-sum-of-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/2221-find-triangular-sum-of-an-array) |
 | [2343-query-kth-smallest-trimmed-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/2343-query-kth-smallest-trimmed-number) |
 | [2352-equal-row-and-column-pairs](https://github.com/mnmtk/LeetcodeDaily/tree/master/2352-equal-row-and-column-pairs) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/mnmtk/LeetcodeDaily/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
@@ -1829,6 +1830,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2005-subtree-removal-game-with-fibonacci-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2005-subtree-removal-game-with-fibonacci-tree) |
 | [2125-gcd-sort-of-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/2125-gcd-sort-of-an-array) |
 | [2206-detonate-the-maximum-bombs](https://github.com/mnmtk/LeetcodeDaily/tree/master/2206-detonate-the-maximum-bombs) |
+| [2221-find-triangular-sum-of-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/2221-find-triangular-sum-of-an-array) |
 | [2266-minimum-cost-to-set-cooking-time](https://github.com/mnmtk/LeetcodeDaily/tree/master/2266-minimum-cost-to-set-cooking-time) |
 | [2383-add-two-integers](https://github.com/mnmtk/LeetcodeDaily/tree/master/2383-add-two-integers) |
 | [2827-greatest-common-divisor-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/2827-greatest-common-divisor-traversal) |
@@ -1879,6 +1881,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0735-asteroid-collision](https://github.com/mnmtk/LeetcodeDaily/tree/master/0735-asteroid-collision) |
 | [1642-water-bottles](https://github.com/mnmtk/LeetcodeDaily/tree/master/1642-water-bottles) |
 | [1929-concatenation-of-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/1929-concatenation-of-array) |
+| [2221-find-triangular-sum-of-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/2221-find-triangular-sum-of-an-array) |
 | [2352-equal-row-and-column-pairs](https://github.com/mnmtk/LeetcodeDaily/tree/master/2352-equal-row-and-column-pairs) |
 | [2617-time-taken-to-cross-the-door](https://github.com/mnmtk/LeetcodeDaily/tree/master/2617-time-taken-to-cross-the-door) |
 | [2660-determine-the-winner-of-a-bowling-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/2660-determine-the-winner-of-a-bowling-game) |
@@ -2178,6 +2181,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0062-unique-paths](https://github.com/mnmtk/LeetcodeDaily/tree/master/0062-unique-paths) |
 | [1307-ugly-number-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1307-ugly-number-iii) |
+| [2221-find-triangular-sum-of-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/2221-find-triangular-sum-of-an-array) |
 ## Number Theory
 |  |
 | ------- |
@@ -2185,6 +2189,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0989-largest-component-size-by-common-factor](https://github.com/mnmtk/LeetcodeDaily/tree/master/0989-largest-component-size-by-common-factor) |
 | [1307-ugly-number-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1307-ugly-number-iii) |
 | [2125-gcd-sort-of-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/2125-gcd-sort-of-an-array) |
+| [2221-find-triangular-sum-of-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/2221-find-triangular-sum-of-an-array) |
 | [2827-greatest-common-divisor-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/2827-greatest-common-divisor-traversal) |
 ## Database
 |  |
