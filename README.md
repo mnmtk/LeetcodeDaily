@@ -644,6 +644,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1977-minimum-interval-to-include-each-query](https://github.com/mnmtk/LeetcodeDaily/tree/master/1977-minimum-interval-to-include-each-query) |
 | [2012-process-tasks-using-servers](https://github.com/mnmtk/LeetcodeDaily/tree/master/2012-process-tasks-using-servers) |
 | [2049-count-nodes-with-the-highest-score](https://github.com/mnmtk/LeetcodeDaily/tree/master/2049-count-nodes-with-the-highest-score) |
+| [2104-sum-of-subarray-ranges](https://github.com/mnmtk/LeetcodeDaily/tree/master/2104-sum-of-subarray-ranges) |
 | [2107-number-of-unique-flavors-after-sharing-k-candies](https://github.com/mnmtk/LeetcodeDaily/tree/master/2107-number-of-unique-flavors-after-sharing-k-candies) |
 | [2125-gcd-sort-of-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/2125-gcd-sort-of-an-array) |
 | [2171-removing-minimum-number-of-magic-beans](https://github.com/mnmtk/LeetcodeDaily/tree/master/2171-removing-minimum-number-of-magic-beans) |
@@ -1534,6 +1535,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1574-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/mnmtk/LeetcodeDaily/tree/master/1574-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1586-binary-search-tree-iterator-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1586-binary-search-tree-iterator-ii) |
 | [1628-design-an-expression-tree-with-evaluate-function](https://github.com/mnmtk/LeetcodeDaily/tree/master/1628-design-an-expression-tree-with-evaluate-function) |
+| [2104-sum-of-subarray-ranges](https://github.com/mnmtk/LeetcodeDaily/tree/master/2104-sum-of-subarray-ranges) |
 | [2434-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/2434-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2764-is-array-a-preorder-of-some-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2764-is-array-a-preorder-of-some-binary-tree) |
 | [3158-maximum-length-of-semi-decreasing-subarrays](https://github.com/mnmtk/LeetcodeDaily/tree/master/3158-maximum-length-of-semi-decreasing-subarrays) |
@@ -2199,6 +2201,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1002-maximum-width-ramp](https://github.com/mnmtk/LeetcodeDaily/tree/master/1002-maximum-width-ramp) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1574-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/mnmtk/LeetcodeDaily/tree/master/1574-shortest-subarray-to-be-removed-to-make-array-sorted) |
+| [2104-sum-of-subarray-ranges](https://github.com/mnmtk/LeetcodeDaily/tree/master/2104-sum-of-subarray-ranges) |
 | [3158-maximum-length-of-semi-decreasing-subarrays](https://github.com/mnmtk/LeetcodeDaily/tree/master/3158-maximum-length-of-semi-decreasing-subarrays) |
 ## Graph
 |  |
