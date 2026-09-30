@@ -752,6 +752,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1249-snapshot-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/1249-snapshot-array) |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
 | [1308-smallest-string-with-swaps](https://github.com/mnmtk/LeetcodeDaily/tree/master/1308-smallest-string-with-swaps) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/mnmtk/LeetcodeDaily/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1612-check-if-two-expression-trees-are-equivalent](https://github.com/mnmtk/LeetcodeDaily/tree/master/1612-check-if-two-expression-trees-are-equivalent) |
 | [1650-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1650-lowest-common-ancestor-of-a-binary-tree-iii) |
@@ -1262,6 +1263,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1146-greatest-common-divisor-of-strings](https://github.com/mnmtk/LeetcodeDaily/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1308-smallest-string-with-swaps](https://github.com/mnmtk/LeetcodeDaily/tree/master/1308-smallest-string-with-swaps) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/mnmtk/LeetcodeDaily/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/mnmtk/LeetcodeDaily/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/mnmtk/LeetcodeDaily/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/mnmtk/LeetcodeDaily/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1768-merge-strings-alternately](https://github.com/mnmtk/LeetcodeDaily/tree/master/1768-merge-strings-alternately) |
@@ -1297,6 +1299,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0718-maximum-length-of-repeated-subarray](https://github.com/mnmtk/LeetcodeDaily/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [1004-max-consecutive-ones-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1004-max-consecutive-ones-iii) |
 | [1046-max-consecutive-ones-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1046-max-consecutive-ones-iii) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/mnmtk/LeetcodeDaily/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/mnmtk/LeetcodeDaily/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/mnmtk/LeetcodeDaily/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/mnmtk/LeetcodeDaily/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
