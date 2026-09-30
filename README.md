@@ -1284,6 +1284,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/mnmtk/LeetcodeDaily/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2343-query-kth-smallest-trimmed-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/2343-query-kth-smallest-trimmed-number) |
 | [2755-extra-characters-in-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/2755-extra-characters-in-a-string) |
+| [2800-shortest-string-that-contains-three-strings](https://github.com/mnmtk/LeetcodeDaily/tree/master/2800-shortest-string-that-contains-three-strings) |
 | [3266-find-longest-special-substring-that-occurs-thrice-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/3266-find-longest-special-substring-that-occurs-thrice-ii) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/mnmtk/LeetcodeDaily/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/mnmtk/LeetcodeDaily/tree/master/3455-minimum-length-of-string-after-operations) |
@@ -1888,6 +1889,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2542-maximum-subsequence-score](https://github.com/mnmtk/LeetcodeDaily/tree/master/2542-maximum-subsequence-score) |
 | [2673-make-costs-of-paths-equal-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2673-make-costs-of-paths-equal-in-a-binary-tree) |
 | [2681-put-marbles-in-bags](https://github.com/mnmtk/LeetcodeDaily/tree/master/2681-put-marbles-in-bags) |
+| [2800-shortest-string-that-contains-three-strings](https://github.com/mnmtk/LeetcodeDaily/tree/master/2800-shortest-string-that-contains-three-strings) |
 | [3628-maximum-number-of-subsequences-after-one-inserting](https://github.com/mnmtk/LeetcodeDaily/tree/master/3628-maximum-number-of-subsequences-after-one-inserting) |
 ## Trie
 |  |
@@ -2262,6 +2264,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0204-count-primes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0204-count-primes) |
 | [2171-removing-minimum-number-of-magic-beans](https://github.com/mnmtk/LeetcodeDaily/tree/master/2171-removing-minimum-number-of-magic-beans) |
 | [2266-minimum-cost-to-set-cooking-time](https://github.com/mnmtk/LeetcodeDaily/tree/master/2266-minimum-cost-to-set-cooking-time) |
+| [2800-shortest-string-that-contains-three-strings](https://github.com/mnmtk/LeetcodeDaily/tree/master/2800-shortest-string-that-contains-three-strings) |
 | [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/mnmtk/LeetcodeDaily/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/mnmtk/LeetcodeDaily/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 ## Geometry
