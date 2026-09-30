@@ -780,6 +780,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/mnmtk/LeetcodeDaily/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2352-equal-row-and-column-pairs](https://github.com/mnmtk/LeetcodeDaily/tree/master/2352-equal-row-and-column-pairs) |
 | [2434-design-a-number-container-system](https://github.com/mnmtk/LeetcodeDaily/tree/master/2434-design-a-number-container-system) |
+| [2434-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/2434-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/mnmtk/LeetcodeDaily/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2755-extra-characters-in-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/2755-extra-characters-in-a-string) |
@@ -1289,6 +1290,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/mnmtk/LeetcodeDaily/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/mnmtk/LeetcodeDaily/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2343-query-kth-smallest-trimmed-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/2343-query-kth-smallest-trimmed-number) |
+| [2434-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/2434-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2755-extra-characters-in-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/2755-extra-characters-in-a-string) |
 | [2800-shortest-string-that-contains-three-strings](https://github.com/mnmtk/LeetcodeDaily/tree/master/2800-shortest-string-that-contains-three-strings) |
 | [3085-minimum-deletions-to-make-string-k-special](https://github.com/mnmtk/LeetcodeDaily/tree/master/3085-minimum-deletions-to-make-string-k-special) |
@@ -1522,6 +1524,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1497-design-a-stack-with-increment-operation](https://github.com/mnmtk/LeetcodeDaily/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1586-binary-search-tree-iterator-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1586-binary-search-tree-iterator-ii) |
 | [1628-design-an-expression-tree-with-evaluate-function](https://github.com/mnmtk/LeetcodeDaily/tree/master/1628-design-an-expression-tree-with-evaluate-function) |
+| [2434-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/2434-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2764-is-array-a-preorder-of-some-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2764-is-array-a-preorder-of-some-binary-tree) |
 | [3158-maximum-length-of-semi-decreasing-subarrays](https://github.com/mnmtk/LeetcodeDaily/tree/master/3158-maximum-length-of-semi-decreasing-subarrays) |
 ## Depth-First Search
@@ -1894,6 +1897,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1966-frequency-of-the-most-frequent-element](https://github.com/mnmtk/LeetcodeDaily/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2171-removing-minimum-number-of-magic-beans](https://github.com/mnmtk/LeetcodeDaily/tree/master/2171-removing-minimum-number-of-magic-beans) |
 | [2412-minimum-amount-of-time-to-fill-cups](https://github.com/mnmtk/LeetcodeDaily/tree/master/2412-minimum-amount-of-time-to-fill-cups) |
+| [2434-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/2434-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2542-maximum-subsequence-score](https://github.com/mnmtk/LeetcodeDaily/tree/master/2542-maximum-subsequence-score) |
 | [2673-make-costs-of-paths-equal-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2673-make-costs-of-paths-equal-in-a-binary-tree) |
 | [2681-put-marbles-in-bags](https://github.com/mnmtk/LeetcodeDaily/tree/master/2681-put-marbles-in-bags) |
