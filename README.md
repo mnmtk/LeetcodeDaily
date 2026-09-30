@@ -360,6 +360,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [3158-maximum-length-of-semi-decreasing-subarrays](https://github.com/mnmtk/LeetcodeDaily/tree/master/3158-maximum-length-of-semi-decreasing-subarrays) |
 | [3319-k-th-largest-perfect-subtree-size-in-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/3319-k-th-largest-perfect-subtree-size-in-binary-tree) |
+| [3323-minimize-connected-groups-by-inserting-interval](https://github.com/mnmtk/LeetcodeDaily/tree/master/3323-minimize-connected-groups-by-inserting-interval) |
 | [3430-count-days-without-meetings](https://github.com/mnmtk/LeetcodeDaily/tree/master/3430-count-days-without-meetings) |
 ## Heap (Priority Queue)
 |  |
@@ -666,6 +667,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3188-find-champion-i](https://github.com/mnmtk/LeetcodeDaily/tree/master/3188-find-champion-i) |
 | [3265-maximum-good-subarray-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/3265-maximum-good-subarray-sum) |
 | [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/mnmtk/LeetcodeDaily/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
+| [3323-minimize-connected-groups-by-inserting-interval](https://github.com/mnmtk/LeetcodeDaily/tree/master/3323-minimize-connected-groups-by-inserting-interval) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/mnmtk/LeetcodeDaily/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3383-minimum-runes-to-add-to-cast-spell](https://github.com/mnmtk/LeetcodeDaily/tree/master/3383-minimum-runes-to-add-to-cast-spell) |
@@ -1303,6 +1305,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2478-longest-nice-subarray](https://github.com/mnmtk/LeetcodeDaily/tree/master/2478-longest-nice-subarray) |
 | [2875-minimum-size-subarray-in-infinite-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/2875-minimum-size-subarray-in-infinite-array) |
 | [3266-find-longest-special-substring-that-occurs-thrice-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/3266-find-longest-special-substring-that-occurs-thrice-ii) |
+| [3323-minimize-connected-groups-by-inserting-interval](https://github.com/mnmtk/LeetcodeDaily/tree/master/3323-minimize-connected-groups-by-inserting-interval) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -1460,6 +1463,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2914-find-the-safest-path-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/2914-find-the-safest-path-in-a-grid) |
 | [2972-count-the-number-of-incremovable-subarrays-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/2972-count-the-number-of-incremovable-subarrays-ii) |
 | [3266-find-longest-special-substring-that-occurs-thrice-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/3266-find-longest-special-substring-that-occurs-thrice-ii) |
+| [3323-minimize-connected-groups-by-inserting-interval](https://github.com/mnmtk/LeetcodeDaily/tree/master/3323-minimize-connected-groups-by-inserting-interval) |
 | [3643-zero-array-transformation-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/3643-zero-array-transformation-ii) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 | [3763-separate-squares-i](https://github.com/mnmtk/LeetcodeDaily/tree/master/3763-separate-squares-i) |
