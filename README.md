@@ -253,6 +253,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0392-is-subsequence](https://github.com/mnmtk/LeetcodeDaily/tree/master/0392-is-subsequence) |
 | [0408-valid-word-abbreviation](https://github.com/mnmtk/LeetcodeDaily/tree/master/0408-valid-word-abbreviation) |
 | [0443-string-compression](https://github.com/mnmtk/LeetcodeDaily/tree/master/0443-string-compression) |
+| [0475-heaters](https://github.com/mnmtk/LeetcodeDaily/tree/master/0475-heaters) |
 | [0567-permutation-in-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/mnmtk/LeetcodeDaily/tree/master/0647-palindromic-substrings) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/mnmtk/LeetcodeDaily/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -324,6 +325,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0354-russian-doll-envelopes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0354-russian-doll-envelopes) |
 | [0406-queue-reconstruction-by-height](https://github.com/mnmtk/LeetcodeDaily/tree/master/0406-queue-reconstruction-by-height) |
 | [0451-sort-characters-by-frequency](https://github.com/mnmtk/LeetcodeDaily/tree/master/0451-sort-characters-by-frequency) |
+| [0475-heaters](https://github.com/mnmtk/LeetcodeDaily/tree/master/0475-heaters) |
 | [0539-minimum-time-difference](https://github.com/mnmtk/LeetcodeDaily/tree/master/0539-minimum-time-difference) |
 | [0621-task-scheduler](https://github.com/mnmtk/LeetcodeDaily/tree/master/0621-task-scheduler) |
 | [0646-maximum-length-of-pair-chain](https://github.com/mnmtk/LeetcodeDaily/tree/master/0646-maximum-length-of-pair-chain) |
@@ -529,6 +531,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0456-132-pattern](https://github.com/mnmtk/LeetcodeDaily/tree/master/0456-132-pattern) |
 | [0463-island-perimeter](https://github.com/mnmtk/LeetcodeDaily/tree/master/0463-island-perimeter) |
 | [0474-ones-and-zeroes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0474-ones-and-zeroes) |
+| [0475-heaters](https://github.com/mnmtk/LeetcodeDaily/tree/master/0475-heaters) |
 | [0486-predict-the-winner](https://github.com/mnmtk/LeetcodeDaily/tree/master/0486-predict-the-winner) |
 | [0490-the-maze](https://github.com/mnmtk/LeetcodeDaily/tree/master/0490-the-maze) |
 | [0493-reverse-pairs](https://github.com/mnmtk/LeetcodeDaily/tree/master/0493-reverse-pairs) |
@@ -1447,6 +1450,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0362-design-hit-counter](https://github.com/mnmtk/LeetcodeDaily/tree/master/0362-design-hit-counter) |
 | [0410-split-array-largest-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0410-split-array-largest-sum) |
 | [0456-132-pattern](https://github.com/mnmtk/LeetcodeDaily/tree/master/0456-132-pattern) |
+| [0475-heaters](https://github.com/mnmtk/LeetcodeDaily/tree/master/0475-heaters) |
 | [0493-reverse-pairs](https://github.com/mnmtk/LeetcodeDaily/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0540-single-element-in-a-sorted-array) |
 | [0644-maximum-average-subarray-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0644-maximum-average-subarray-ii) |
