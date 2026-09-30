@@ -23,16 +23,13 @@ class Solution {
             int num1 = pairs[i][0];
             int num2 = pairs[i][1];
             
-            // Add current nums1 value to our sum and heap
             pq.offer(num1);
             currentSum += num1;
             
-            // If we have more than k elements, remove the smallest nums1 value
             if (pq.size() > k) {
                 currentSum -= pq.poll();
             }
             
-            // If we have exactly k elements, calculate the score
             if (pq.size() == k) {
                 long currentScore = currentSum * num2;
                 maxScore = Math.max(maxScore, currentScore);
