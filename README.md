@@ -261,6 +261,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0696-count-binary-substrings](https://github.com/mnmtk/LeetcodeDaily/tree/master/0696-count-binary-substrings) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/mnmtk/LeetcodeDaily/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [1002-maximum-width-ramp](https://github.com/mnmtk/LeetcodeDaily/tree/master/1002-maximum-width-ramp) |
+| [1048-longest-string-chain](https://github.com/mnmtk/LeetcodeDaily/tree/master/1048-longest-string-chain) |
 | [1214-two-sum-bsts](https://github.com/mnmtk/LeetcodeDaily/tree/master/1214-two-sum-bsts) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/mnmtk/LeetcodeDaily/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1650-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1650-lowest-common-ancestor-of-a-binary-tree-iii) |
@@ -340,6 +341,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0976-minimum-area-rectangle](https://github.com/mnmtk/LeetcodeDaily/tree/master/0976-minimum-area-rectangle) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1048-longest-string-chain](https://github.com/mnmtk/LeetcodeDaily/tree/master/1048-longest-string-chain) |
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/mnmtk/LeetcodeDaily/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
 | [1122-relative-sort-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/1122-relative-sort-array) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/mnmtk/LeetcodeDaily/tree/master/1262-greatest-sum-divisible-by-three) |
@@ -598,6 +600,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1036-rotting-oranges](https://github.com/mnmtk/LeetcodeDaily/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1046-max-consecutive-ones-iii) |
 | [1046-last-stone-weight](https://github.com/mnmtk/LeetcodeDaily/tree/master/1046-last-stone-weight) |
+| [1048-longest-string-chain](https://github.com/mnmtk/LeetcodeDaily/tree/master/1048-longest-string-chain) |
 | [1049-last-stone-weight-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1049-last-stone-weight-ii) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/mnmtk/LeetcodeDaily/tree/master/1056-capacity-to-ship-packages-within-d-days) |
@@ -756,6 +759,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0997-find-the-town-judge](https://github.com/mnmtk/LeetcodeDaily/tree/master/0997-find-the-town-judge) |
 | [0999-regions-cut-by-slashes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0999-regions-cut-by-slashes) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1048-longest-string-chain](https://github.com/mnmtk/LeetcodeDaily/tree/master/1048-longest-string-chain) |
 | [1122-relative-sort-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/1122-relative-sort-array) |
 | [1207-delete-nodes-and-return-forest](https://github.com/mnmtk/LeetcodeDaily/tree/master/1207-delete-nodes-and-return-forest) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/mnmtk/LeetcodeDaily/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
@@ -1272,6 +1276,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0977-distinct-subsequences-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0977-distinct-subsequences-ii) |
 | [0988-smallest-string-starting-from-leaf](https://github.com/mnmtk/LeetcodeDaily/tree/master/0988-smallest-string-starting-from-leaf) |
 | [1032-satisfiability-of-equality-equations](https://github.com/mnmtk/LeetcodeDaily/tree/master/1032-satisfiability-of-equality-equations) |
+| [1048-longest-string-chain](https://github.com/mnmtk/LeetcodeDaily/tree/master/1048-longest-string-chain) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/mnmtk/LeetcodeDaily/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/mnmtk/LeetcodeDaily/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
@@ -1403,6 +1408,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0983-minimum-cost-for-tickets](https://github.com/mnmtk/LeetcodeDaily/tree/master/0983-minimum-cost-for-tickets) |
 | [1008-binary-tree-cameras](https://github.com/mnmtk/LeetcodeDaily/tree/master/1008-binary-tree-cameras) |
 | [1025-minimum-cost-for-tickets](https://github.com/mnmtk/LeetcodeDaily/tree/master/1025-minimum-cost-for-tickets) |
+| [1048-longest-string-chain](https://github.com/mnmtk/LeetcodeDaily/tree/master/1048-longest-string-chain) |
 | [1049-last-stone-weight-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1049-last-stone-weight-ii) |
 | [1137-n-th-tribonacci-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/1137-n-th-tribonacci-number) |
 | [1143-longest-common-subsequence](https://github.com/mnmtk/LeetcodeDaily/tree/master/1143-longest-common-subsequence) |
