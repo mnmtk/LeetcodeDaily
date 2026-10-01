@@ -338,6 +338,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0767-reorganize-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0767-reorganize-string) |
 | [0778-reorganize-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0778-reorganize-string) |
 | [0808-number-of-matching-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/0808-number-of-matching-subsequences) |
+| [0853-car-fleet](https://github.com/mnmtk/LeetcodeDaily/tree/master/0853-car-fleet) |
 | [0948-sort-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0948-sort-an-array) |
 | [0976-minimum-area-rectangle](https://github.com/mnmtk/LeetcodeDaily/tree/master/0976-minimum-area-rectangle) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
@@ -576,6 +577,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0794-swim-in-rising-water](https://github.com/mnmtk/LeetcodeDaily/tree/master/0794-swim-in-rising-water) |
 | [0808-number-of-matching-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/0808-number-of-matching-subsequences) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0852-peak-index-in-a-mountain-array) |
+| [0853-car-fleet](https://github.com/mnmtk/LeetcodeDaily/tree/master/0853-car-fleet) |
 | [0871-minimum-number-of-refueling-stops](https://github.com/mnmtk/LeetcodeDaily/tree/master/0871-minimum-number-of-refueling-stops) |
 | [0875-koko-eating-bananas](https://github.com/mnmtk/LeetcodeDaily/tree/master/0875-koko-eating-bananas) |
 | [0877-stone-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0877-stone-game) |
@@ -1531,6 +1533,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0536-construct-binary-tree-from-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0536-construct-binary-tree-from-string) |
 | [0654-maximum-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0654-maximum-binary-tree) |
 | [0735-asteroid-collision](https://github.com/mnmtk/LeetcodeDaily/tree/master/0735-asteroid-collision) |
+| [0853-car-fleet](https://github.com/mnmtk/LeetcodeDaily/tree/master/0853-car-fleet) |
 | [0897-increasing-order-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0897-increasing-order-search-tree) |
 | [1002-maximum-width-ramp](https://github.com/mnmtk/LeetcodeDaily/tree/master/1002-maximum-width-ramp) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -2210,6 +2213,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0456-132-pattern](https://github.com/mnmtk/LeetcodeDaily/tree/master/0456-132-pattern) |
 | [0654-maximum-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0654-maximum-binary-tree) |
+| [0853-car-fleet](https://github.com/mnmtk/LeetcodeDaily/tree/master/0853-car-fleet) |
 | [1002-maximum-width-ramp](https://github.com/mnmtk/LeetcodeDaily/tree/master/1002-maximum-width-ramp) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1574-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/mnmtk/LeetcodeDaily/tree/master/1574-shortest-subarray-to-be-removed-to-make-array-sorted) |
