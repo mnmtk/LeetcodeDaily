@@ -294,6 +294,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0431-encode-n-ary-tree-to-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0431-encode-n-ary-tree-to-binary-tree) |
 | [0631-design-excel-sum-formula](https://github.com/mnmtk/LeetcodeDaily/tree/master/0631-design-excel-sum-formula) |
 | [0919-complete-binary-tree-inserter](https://github.com/mnmtk/LeetcodeDaily/tree/master/0919-complete-binary-tree-inserter) |
+| [1244-design-a-leaderboard](https://github.com/mnmtk/LeetcodeDaily/tree/master/1244-design-a-leaderboard) |
 | [1249-snapshot-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/1249-snapshot-array) |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/mnmtk/LeetcodeDaily/tree/master/1497-design-a-stack-with-increment-operation) |
@@ -348,6 +349,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1048-longest-string-chain](https://github.com/mnmtk/LeetcodeDaily/tree/master/1048-longest-string-chain) |
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/mnmtk/LeetcodeDaily/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
 | [1122-relative-sort-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/1122-relative-sort-array) |
+| [1244-design-a-leaderboard](https://github.com/mnmtk/LeetcodeDaily/tree/master/1244-design-a-leaderboard) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/mnmtk/LeetcodeDaily/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1305-all-elements-in-two-binary-search-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/1305-all-elements-in-two-binary-search-trees) |
 | [1308-smallest-string-with-swaps](https://github.com/mnmtk/LeetcodeDaily/tree/master/1308-smallest-string-with-swaps) |
@@ -774,6 +776,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1122-relative-sort-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/1122-relative-sort-array) |
 | [1207-delete-nodes-and-return-forest](https://github.com/mnmtk/LeetcodeDaily/tree/master/1207-delete-nodes-and-return-forest) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/mnmtk/LeetcodeDaily/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [1244-design-a-leaderboard](https://github.com/mnmtk/LeetcodeDaily/tree/master/1244-design-a-leaderboard) |
 | [1249-snapshot-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/1249-snapshot-array) |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
 | [1308-smallest-string-with-swaps](https://github.com/mnmtk/LeetcodeDaily/tree/master/1308-smallest-string-with-swaps) |
