@@ -571,6 +571,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0733-flood-fill](https://github.com/mnmtk/LeetcodeDaily/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/mnmtk/LeetcodeDaily/tree/master/0735-asteroid-collision) |
 | [0746-min-cost-climbing-stairs](https://github.com/mnmtk/LeetcodeDaily/tree/master/0746-min-cost-climbing-stairs) |
+| [0752-open-the-lock](https://github.com/mnmtk/LeetcodeDaily/tree/master/0752-open-the-lock) |
 | [0772-construct-quad-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0772-construct-quad-tree) |
 | [0794-swim-in-rising-water](https://github.com/mnmtk/LeetcodeDaily/tree/master/0794-swim-in-rising-water) |
 | [0808-number-of-matching-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/0808-number-of-matching-subsequences) |
@@ -747,6 +748,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0694-number-of-distinct-islands](https://github.com/mnmtk/LeetcodeDaily/tree/master/0694-number-of-distinct-islands) |
 | [0711-number-of-distinct-islands-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0711-number-of-distinct-islands-ii) |
 | [0721-accounts-merge](https://github.com/mnmtk/LeetcodeDaily/tree/master/0721-accounts-merge) |
+| [0752-open-the-lock](https://github.com/mnmtk/LeetcodeDaily/tree/master/0752-open-the-lock) |
 | [0767-reorganize-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0767-reorganize-string) |
 | [0778-reorganize-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0778-reorganize-string) |
 | [0808-number-of-matching-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/0808-number-of-matching-subsequences) |
@@ -1275,6 +1277,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/mnmtk/LeetcodeDaily/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0721-accounts-merge](https://github.com/mnmtk/LeetcodeDaily/tree/master/0721-accounts-merge) |
 | [0722-remove-comments](https://github.com/mnmtk/LeetcodeDaily/tree/master/0722-remove-comments) |
+| [0752-open-the-lock](https://github.com/mnmtk/LeetcodeDaily/tree/master/0752-open-the-lock) |
 | [0767-reorganize-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0767-reorganize-string) |
 | [0778-reorganize-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0778-reorganize-string) |
 | [0808-number-of-matching-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/0808-number-of-matching-subsequences) |
@@ -2068,6 +2071,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0733-flood-fill](https://github.com/mnmtk/LeetcodeDaily/tree/master/0733-flood-fill) |
 | [0742-closest-leaf-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0742-closest-leaf-in-a-binary-tree) |
 | [0744-network-delay-time](https://github.com/mnmtk/LeetcodeDaily/tree/master/0744-network-delay-time) |
+| [0752-open-the-lock](https://github.com/mnmtk/LeetcodeDaily/tree/master/0752-open-the-lock) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0764-n-ary-tree-level-order-traversal) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [0794-swim-in-rising-water](https://github.com/mnmtk/LeetcodeDaily/tree/master/0794-swim-in-rising-water) |
@@ -2558,4 +2562,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1122-relative-sort-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/1122-relative-sort-array) |
+## Bidirectional Search
+|  |
+| ------- |
+| [0752-open-the-lock](https://github.com/mnmtk/LeetcodeDaily/tree/master/0752-open-the-lock) |
 <!---LeetCode Topics End-->
