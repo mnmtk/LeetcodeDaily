@@ -17,12 +17,21 @@ class Leaderboard {
     
     public int top(int K) {
         
-        List<Integer> values = new ArrayList<Integer>(this.scores.values());
-        Collections.sort(values, Collections.reverseOrder());
+        // A min-heap in java containing entries of a hash map. Note that we have to provide
+        // a comparator of our own to make sure we get the ordering right of these objects.
+        PriorityQueue<Map.Entry<Integer, Integer>> heap = new PriorityQueue<>((a, b) -> a.getValue() - b.getValue());
+        
+        for (Map.Entry<Integer, Integer> entry : this.scores.entrySet()) {
+            heap.offer(entry);
+            if (heap.size() > K) {
+                heap.poll();
+            }
+        }
         
         int total = 0;
-        for (int i = 0; i < K; i++) {
-            total += values.get(i);            
+        Iterator value = heap.iterator();
+        while (value.hasNext()) { 
+            total += ((Map.Entry<Integer, Integer>)value.next()).getValue();   
         }
         
         return total;
