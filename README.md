@@ -630,6 +630,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1367-maximum-height-by-stacking-cuboids](https://github.com/mnmtk/LeetcodeDaily/tree/master/1367-maximum-height-by-stacking-cuboids) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/mnmtk/LeetcodeDaily/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/mnmtk/LeetcodeDaily/tree/master/1431-kids-with-the-greatest-number-of-candies) |
+| [1434-number-of-ways-to-wear-different-hats-to-each-other](https://github.com/mnmtk/LeetcodeDaily/tree/master/1434-number-of-ways-to-wear-different-hats-to-each-other) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/mnmtk/LeetcodeDaily/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/mnmtk/LeetcodeDaily/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -1437,6 +1438,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1326-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/mnmtk/LeetcodeDaily/tree/master/1326-minimum-number-of-taps-to-open-to-water-a-garden) |
 | [1367-maximum-height-by-stacking-cuboids](https://github.com/mnmtk/LeetcodeDaily/tree/master/1367-maximum-height-by-stacking-cuboids) |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
+| [1434-number-of-ways-to-wear-different-hats-to-each-other](https://github.com/mnmtk/LeetcodeDaily/tree/master/1434-number-of-ways-to-wear-different-hats-to-each-other) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/mnmtk/LeetcodeDaily/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/mnmtk/LeetcodeDaily/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1587-parallel-courses-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1587-parallel-courses-ii) |
@@ -1865,6 +1867,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0461-hamming-distance](https://github.com/mnmtk/LeetcodeDaily/tree/master/0461-hamming-distance) |
 | [0779-k-th-symbol-in-grammar](https://github.com/mnmtk/LeetcodeDaily/tree/master/0779-k-th-symbol-in-grammar) |
 | [0980-unique-paths-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0980-unique-paths-iii) |
+| [1434-number-of-ways-to-wear-different-hats-to-each-other](https://github.com/mnmtk/LeetcodeDaily/tree/master/1434-number-of-ways-to-wear-different-hats-to-each-other) |
 | [1444-number-of-steps-to-reduce-a-number-to-zero](https://github.com/mnmtk/LeetcodeDaily/tree/master/1444-number-of-steps-to-reduce-a-number-to-zero) |
 | [1587-parallel-courses-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1587-parallel-courses-ii) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/mnmtk/LeetcodeDaily/tree/master/2059-unique-length-3-palindromic-subsequences) |
@@ -2412,6 +2415,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0351-android-unlock-patterns](https://github.com/mnmtk/LeetcodeDaily/tree/master/0351-android-unlock-patterns) |
+| [1434-number-of-ways-to-wear-different-hats-to-each-other](https://github.com/mnmtk/LeetcodeDaily/tree/master/1434-number-of-ways-to-wear-different-hats-to-each-other) |
 | [1587-parallel-courses-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1587-parallel-courses-ii) |
 ## Minimum Spanning Tree
 |  |
@@ -2589,4 +2593,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0881-boats-to-save-people](https://github.com/mnmtk/LeetcodeDaily/tree/master/0881-boats-to-save-people) |
+## Bipartite Graph
+|  |
+| ------- |
+| [1434-number-of-ways-to-wear-different-hats-to-each-other](https://github.com/mnmtk/LeetcodeDaily/tree/master/1434-number-of-ways-to-wear-different-hats-to-each-other) |
+## Matching (Graph)
+|  |
+| ------- |
+| [1434-number-of-ways-to-wear-different-hats-to-each-other](https://github.com/mnmtk/LeetcodeDaily/tree/master/1434-number-of-ways-to-wear-different-hats-to-each-other) |
+## Perfect Matching
+|  |
+| ------- |
+| [1434-number-of-ways-to-wear-different-hats-to-each-other](https://github.com/mnmtk/LeetcodeDaily/tree/master/1434-number-of-ways-to-wear-different-hats-to-each-other) |
 <!---LeetCode Topics End-->
