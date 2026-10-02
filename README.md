@@ -247,6 +247,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0283-move-zeroes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/mnmtk/LeetcodeDaily/tree/master/0295-find-median-from-data-stream) |
+| [0321-create-maximum-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0321-create-maximum-number) |
 | [0345-reverse-vowels-of-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0345-reverse-vowels-of-a-string) |
 | [0349-intersection-of-two-arrays](https://github.com/mnmtk/LeetcodeDaily/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -516,6 +517,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0308-range-sum-query-2d-mutable](https://github.com/mnmtk/LeetcodeDaily/tree/master/0308-range-sum-query-2d-mutable) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/mnmtk/LeetcodeDaily/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/mnmtk/LeetcodeDaily/tree/master/0315-count-of-smaller-numbers-after-self) |
+| [0321-create-maximum-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0321-create-maximum-number) |
 | [0322-coin-change](https://github.com/mnmtk/LeetcodeDaily/tree/master/0322-coin-change) |
 | [0324-wiggle-sort-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0324-wiggle-sort-ii) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/mnmtk/LeetcodeDaily/tree/master/0325-maximum-size-subarray-sum-equals-k) |
@@ -1536,6 +1538,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0234-palindrome-linked-list](https://github.com/mnmtk/LeetcodeDaily/tree/master/0234-palindrome-linked-list) |
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0272-closest-binary-search-tree-value-ii) |
+| [0321-create-maximum-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0321-create-maximum-number) |
 | [0341-flatten-nested-list-iterator](https://github.com/mnmtk/LeetcodeDaily/tree/master/0341-flatten-nested-list-iterator) |
 | [0456-132-pattern](https://github.com/mnmtk/LeetcodeDaily/tree/master/0456-132-pattern) |
 | [0536-construct-binary-tree-from-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/0536-construct-binary-tree-from-string) |
@@ -1912,6 +1915,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0179-largest-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0179-largest-number) |
 | [0253-meeting-rooms-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0253-meeting-rooms-ii) |
+| [0321-create-maximum-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0321-create-maximum-number) |
 | [0324-wiggle-sort-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0324-wiggle-sort-ii) |
 | [0334-increasing-triplet-subsequence](https://github.com/mnmtk/LeetcodeDaily/tree/master/0334-increasing-triplet-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0410-split-array-largest-sum) |
@@ -2221,6 +2225,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/mnmtk/LeetcodeDaily/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/mnmtk/LeetcodeDaily/tree/master/0084-largest-rectangle-in-histogram) |
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
+| [0321-create-maximum-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0321-create-maximum-number) |
 | [0456-132-pattern](https://github.com/mnmtk/LeetcodeDaily/tree/master/0456-132-pattern) |
 | [0654-maximum-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0654-maximum-binary-tree) |
 | [0853-car-fleet](https://github.com/mnmtk/LeetcodeDaily/tree/master/0853-car-fleet) |
