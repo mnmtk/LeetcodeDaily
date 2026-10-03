@@ -1,41 +1,61 @@
-import java.util.HashSet;
-import java.util.Set;
-
 class Solution {
+    class Dsu{
+        List<Integer> parent;
+       public List<Integer> size;
+
+        public Dsu(int n){
+            parent = new ArrayList<>();
+            size = new ArrayList<>();
+            for(int i =0;i<=n;i++){
+                parent.add(i);
+                size.add(1);
+            }
+        }
+        public int fParent(int n){
+            if(parent.get(n)==n){
+                return n;
+            }
+            int up = fParent(parent.get(n));
+            parent.set(n,up);
+            return up;
+        }
+        public void union(int u, int v){
+            int pu = fParent(u);
+            int pv = fParent(v);
+            if(pu==pv){
+                return;
+            }
+            if(size.get(pu)>size.get(pv)){
+                parent.set(pv,pu);
+                size.set(pu,size.get(pv) + size.get(pu));
+            }
+            else{
+                parent.set(pu,pv);
+                size.set(pv,size.get(pu)+size.get(pv));
+            }
+        }
+    }
     public int longestConsecutive(int[] nums) {
-        Set<Integer> numSet = new HashSet<>();
-        for (int num : nums) {
-            numSet.add(num);
+        Dsu d = new Dsu(nums.length);
+        Map<Integer,Integer> map = new HashMap<>();
+        for(int i =0;i<nums.length;i++){
+            
+            if(!map.containsKey(nums[i])){
+            map.put(nums[i],i);
+
+            if(map.containsKey(nums[i]+1)){
+                d.union(i,map.get(nums[i]+1));
+            }
+
+            if(map.containsKey(nums[i]-1)){
+                d.union(i,map.get(nums[i]-1));
+            }
+            }
         }
-
-        int longestStreak = 0;
-
-        for (int num : nums) {
-            // Attempt to remove the number. 
-            // If false, it was already processed in a previous sequence.
-            if (!numSet.remove(num)) {
-                continue;
-            }
-
-            int currentStreak = 1;
-
-            // Expand rightward and delete
-            int right = num + 1;
-            while (numSet.remove(right)) {
-                currentStreak++;
-                right++;
-            }
-
-            // Expand leftward and delete
-            int left = num - 1;
-            while (numSet.remove(left)) {
-                currentStreak++;
-                left--;
-            }
-
-            longestStreak = Math.max(longestStreak, currentStreak);
-        }
-
-        return longestStreak;
+         int max =0;
+    for(int i=0;i<nums.length;i++){
+        max = Math.max(max,d.size.get(i));
+    }
+    return max;
     }
 }
