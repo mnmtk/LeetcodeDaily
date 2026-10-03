@@ -1,21 +1,39 @@
-class H2O {
-    int hcount = 0;
+import java.util.concurrent.*;
 
-    public synchronized void hydrogen(Runnable releaseHydrogen) throws InterruptedException {
-        while (hcount == 2) {
-            wait();
-        }
-        releaseHydrogen.run();
-        hcount++;
-        notifyAll();
+class H2O {
+    
+    private final CyclicBarrier barrier = new CyclicBarrier(3);
+    private final Semaphore hSem = new Semaphore(2);
+    private final Semaphore oSem = new Semaphore(1);
+
+    public H2O() {
+        
     }
 
-    public synchronized void oxygen(Runnable releaseOxygen) throws InterruptedException {
-        while (hcount < 2) {
-            wait();
+    public void hydrogen(Runnable releaseHydrogen) throws InterruptedException {
+		try {
+            hSem.acquire();
+            barrier.await();
+             // releaseHydrogen.run() outputs "H". Do not change or remove this line.
+            releaseHydrogen.run();
+        } catch(Exception ignore) {
+            
+        } finally {
+            hSem.release();
         }
-        releaseOxygen.run();
-        hcount = 0;
-        notifyAll();
+
+    }
+
+    public void oxygen(Runnable releaseOxygen) throws InterruptedException {
+        try {
+            oSem.acquire();
+            barrier.await();
+            // releaseOxygen.run() outputs "O". Do not change or remove this line.
+            releaseOxygen.run();
+        } catch(Exception ignore) {
+            
+        } finally {
+            oSem.release();
+        }
     }
 }
