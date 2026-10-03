@@ -40,8 +40,8 @@ class Solution {
     public int shortestPath(int[][] grid, int k) {
         int rows = grid.length;
         int cols = grid[0].length;
-        
-        int[] target = {rows - 1, cols - 1};
+
+        int[] target = { rows - 1, cols - 1 };
 
         // if we have sufficient quotas to eliminate the obstacles in the worst case,
         // then the shortest distance is the Manhattan distance.
@@ -65,8 +65,11 @@ class Solution {
                 return curr.steps;
             }
 
-            int[] nextSteps = {curr.row, curr.col + 1, curr.row + 1, curr.col,
-                    curr.row, curr.col - 1, curr.row - 1, curr.col};
+            int[] nextSteps = {
+                    curr.row, curr.col + 1,
+                    curr.row + 1, curr.col,
+                    curr.row, curr.col - 1,
+                    curr.row - 1, curr.col };
 
             // explore the four directions in the next step
             for (int i = 0; i < nextSteps.length; i += 2) {
@@ -86,6 +89,7 @@ class Solution {
                     seen.add(newState);
                     queue.addLast(newState);
                 }
+
             }
         }
 
