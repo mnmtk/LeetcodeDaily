@@ -1694,6 +1694,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1207-delete-nodes-and-return-forest](https://github.com/mnmtk/LeetcodeDaily/tree/master/1207-delete-nodes-and-return-forest) |
 | [1214-two-sum-bsts](https://github.com/mnmtk/LeetcodeDaily/tree/master/1214-two-sum-bsts) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/mnmtk/LeetcodeDaily/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [1242-web-crawler-multithreaded](https://github.com/mnmtk/LeetcodeDaily/tree/master/1242-web-crawler-multithreaded) |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
 | [1275-validate-binary-tree-nodes](https://github.com/mnmtk/LeetcodeDaily/tree/master/1275-validate-binary-tree-nodes) |
 | [1300-critical-connections-in-a-network](https://github.com/mnmtk/LeetcodeDaily/tree/master/1300-critical-connections-in-a-network) |
@@ -2123,6 +2124,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1171-shortest-path-in-binary-matrix](https://github.com/mnmtk/LeetcodeDaily/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1177-tree-diameter](https://github.com/mnmtk/LeetcodeDaily/tree/master/1177-tree-diameter) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/mnmtk/LeetcodeDaily/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [1242-web-crawler-multithreaded](https://github.com/mnmtk/LeetcodeDaily/tree/master/1242-web-crawler-multithreaded) |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
 | [1275-validate-binary-tree-nodes](https://github.com/mnmtk/LeetcodeDaily/tree/master/1275-validate-binary-tree-nodes) |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/mnmtk/LeetcodeDaily/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
@@ -2624,4 +2626,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0785-is-graph-bipartite](https://github.com/mnmtk/LeetcodeDaily/tree/master/0785-is-graph-bipartite) |
+## Concurrency
+|  |
+| ------- |
+| [1242-web-crawler-multithreaded](https://github.com/mnmtk/LeetcodeDaily/tree/master/1242-web-crawler-multithreaded) |
 <!---LeetCode Topics End-->
