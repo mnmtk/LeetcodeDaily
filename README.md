@@ -2629,5 +2629,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Concurrency
 |  |
 | ------- |
+| [1115-print-foobar-alternately](https://github.com/mnmtk/LeetcodeDaily/tree/master/1115-print-foobar-alternately) |
 | [1242-web-crawler-multithreaded](https://github.com/mnmtk/LeetcodeDaily/tree/master/1242-web-crawler-multithreaded) |
 <!---LeetCode Topics End-->
