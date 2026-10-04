@@ -844,6 +844,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0215-kth-largest-element-in-an-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/0215-kth-largest-element-in-an-array) |
 | [0218-the-skyline-problem](https://github.com/mnmtk/LeetcodeDaily/tree/master/0218-the-skyline-problem) |
 | [0240-search-a-2d-matrix-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0240-search-a-2d-matrix-ii) |
+| [0307-range-sum-query-mutable](https://github.com/mnmtk/LeetcodeDaily/tree/master/0307-range-sum-query-mutable) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/mnmtk/LeetcodeDaily/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0324-wiggle-sort-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0324-wiggle-sort-ii) |
 | [0347-top-k-frequent-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/0347-top-k-frequent-elements) |
@@ -2652,4 +2653,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1115-print-foobar-alternately](https://github.com/mnmtk/LeetcodeDaily/tree/master/1115-print-foobar-alternately) |
 | [1117-building-h2o](https://github.com/mnmtk/LeetcodeDaily/tree/master/1117-building-h2o) |
 | [1242-web-crawler-multithreaded](https://github.com/mnmtk/LeetcodeDaily/tree/master/1242-web-crawler-multithreaded) |
+## Sqrt Decomposition
+|  |
+| ------- |
+| [0307-range-sum-query-mutable](https://github.com/mnmtk/LeetcodeDaily/tree/master/0307-range-sum-query-mutable) |
 <!---LeetCode Topics End-->
