@@ -718,6 +718,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3693-climbing-stairs-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/3693-climbing-stairs-ii) |
 | [3763-separate-squares-i](https://github.com/mnmtk/LeetcodeDaily/tree/master/3763-separate-squares-i) |
 | [3825-apply-substitutions](https://github.com/mnmtk/LeetcodeDaily/tree/master/3825-apply-substitutions) |
+| [4054-count-shadow-pairs-i](https://github.com/mnmtk/LeetcodeDaily/tree/master/4054-count-shadow-pairs-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -1576,6 +1577,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2434-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/2434-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2764-is-array-a-preorder-of-some-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2764-is-array-a-preorder-of-some-binary-tree) |
 | [3158-maximum-length-of-semi-decreasing-subarrays](https://github.com/mnmtk/LeetcodeDaily/tree/master/3158-maximum-length-of-semi-decreasing-subarrays) |
+| [4054-count-shadow-pairs-i](https://github.com/mnmtk/LeetcodeDaily/tree/master/4054-count-shadow-pairs-i) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -2260,6 +2262,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1574-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/mnmtk/LeetcodeDaily/tree/master/1574-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [2104-sum-of-subarray-ranges](https://github.com/mnmtk/LeetcodeDaily/tree/master/2104-sum-of-subarray-ranges) |
 | [3158-maximum-length-of-semi-decreasing-subarrays](https://github.com/mnmtk/LeetcodeDaily/tree/master/3158-maximum-length-of-semi-decreasing-subarrays) |
+| [4054-count-shadow-pairs-i](https://github.com/mnmtk/LeetcodeDaily/tree/master/4054-count-shadow-pairs-i) |
 ## Graph
 |  |
 | ------- |
