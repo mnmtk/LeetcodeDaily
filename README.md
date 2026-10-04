@@ -304,6 +304,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1953-finding-mk-average](https://github.com/mnmtk/LeetcodeDaily/tree/master/1953-finding-mk-average) |
 | [2254-design-video-sharing-platform](https://github.com/mnmtk/LeetcodeDaily/tree/master/2254-design-video-sharing-platform) |
 | [2434-design-a-number-container-system](https://github.com/mnmtk/LeetcodeDaily/tree/master/2434-design-a-number-container-system) |
+| [3829-design-ride-sharing-system](https://github.com/mnmtk/LeetcodeDaily/tree/master/3829-design-ride-sharing-system) |
 ## Sorting
 |  |
 | ------- |
@@ -436,6 +437,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0295-find-median-from-data-stream](https://github.com/mnmtk/LeetcodeDaily/tree/master/0295-find-median-from-data-stream) |
 | [0362-design-hit-counter](https://github.com/mnmtk/LeetcodeDaily/tree/master/0362-design-hit-counter) |
 | [1953-finding-mk-average](https://github.com/mnmtk/LeetcodeDaily/tree/master/1953-finding-mk-average) |
+| [3829-design-ride-sharing-system](https://github.com/mnmtk/LeetcodeDaily/tree/master/3829-design-ride-sharing-system) |
 ## Array
 |  |
 | ------- |
@@ -819,6 +821,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/mnmtk/LeetcodeDaily/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/mnmtk/LeetcodeDaily/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3825-apply-substitutions](https://github.com/mnmtk/LeetcodeDaily/tree/master/3825-apply-substitutions) |
+| [3829-design-ride-sharing-system](https://github.com/mnmtk/LeetcodeDaily/tree/master/3829-design-ride-sharing-system) |
 | [3879-maximum-distinct-path-sum-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/3879-maximum-distinct-path-sum-in-a-binary-tree) |
 ## Divide and Conquer
 |  |
@@ -2454,6 +2457,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1953-finding-mk-average](https://github.com/mnmtk/LeetcodeDaily/tree/master/1953-finding-mk-average) |
 | [2526-longest-increasing-subsequence-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/2526-longest-increasing-subsequence-ii) |
 | [2617-time-taken-to-cross-the-door](https://github.com/mnmtk/LeetcodeDaily/tree/master/2617-time-taken-to-cross-the-door) |
+| [3829-design-ride-sharing-system](https://github.com/mnmtk/LeetcodeDaily/tree/master/3829-design-ride-sharing-system) |
 ## Monotonic Queue
 |  |
 | ------- |
