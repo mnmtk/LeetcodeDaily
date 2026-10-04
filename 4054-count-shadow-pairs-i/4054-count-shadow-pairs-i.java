@@ -2,10 +2,10 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 class Solution {
-    // Helper class to store value and its frequency
     private static class Node {
         int val;
         int count;
+
         Node(int val, int count) {
             this.val = val;
             this.count = count;
@@ -18,24 +18,26 @@ class Solution {
         long totalInStack = 0;
 
         for (int num : nums) {
-            // 1. Pop elements strictly greater than num
+            // 1. Maintain monotonic property by popping strictly greater elements
             while (!stack.isEmpty() && stack.peek().val > num) {
                 totalInStack -= stack.pop().count;
             }
 
-            // 2. Count elements strictly smaller in O(1)
+            // 2. Calculate strictly smaller elements in O(1)
             long equalCount = (!stack.isEmpty() && stack.peek().val == num) 
                               ? stack.peek().count 
                               : 0;
             
-            totalPairs += (totalInStack - equalCount);
+            long smallerCount = totalInStack - equalCount;
+            totalPairs += smallerCount;
 
-            // 3. Push or update frequency
+            // 3. Push new element or increment duplicate frequency
             if (!stack.isEmpty() && stack.peek().val == num) {
                 stack.peek().count++;
             } else {
                 stack.push(new Node(num, 1));
             }
+            
             totalInStack++;
         }
 
