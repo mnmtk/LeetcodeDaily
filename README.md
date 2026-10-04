@@ -598,6 +598,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0877-stone-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0877-stone-game) |
 | [0881-boats-to-save-people](https://github.com/mnmtk/LeetcodeDaily/tree/master/0881-boats-to-save-people) |
 | [0889-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/mnmtk/LeetcodeDaily/tree/master/0889-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [0892-surface-area-of-3d-shapes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0892-surface-area-of-3d-shapes) |
 | [0907-koko-eating-bananas](https://github.com/mnmtk/LeetcodeDaily/tree/master/0907-koko-eating-bananas) |
 | [0909-stone-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0909-stone-game) |
 | [0912-random-pick-with-weight](https://github.com/mnmtk/LeetcodeDaily/tree/master/0912-random-pick-with-weight) |
@@ -1854,6 +1855,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/mnmtk/LeetcodeDaily/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [0779-k-th-symbol-in-grammar](https://github.com/mnmtk/LeetcodeDaily/tree/master/0779-k-th-symbol-in-grammar) |
 | [0877-stone-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0877-stone-game) |
+| [0892-surface-area-of-3d-shapes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0892-surface-area-of-3d-shapes) |
 | [0909-stone-game](https://github.com/mnmtk/LeetcodeDaily/tree/master/0909-stone-game) |
 | [0912-random-pick-with-weight](https://github.com/mnmtk/LeetcodeDaily/tree/master/0912-random-pick-with-weight) |
 | [0914-random-point-in-non-overlapping-rectangles](https://github.com/mnmtk/LeetcodeDaily/tree/master/0914-random-point-in-non-overlapping-rectangles) |
@@ -2005,6 +2007,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0733-flood-fill](https://github.com/mnmtk/LeetcodeDaily/tree/master/0733-flood-fill) |
 | [0772-construct-quad-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/0772-construct-quad-tree) |
 | [0794-swim-in-rising-water](https://github.com/mnmtk/LeetcodeDaily/tree/master/0794-swim-in-rising-water) |
+| [0892-surface-area-of-3d-shapes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0892-surface-area-of-3d-shapes) |
 | [0931-minimum-falling-path-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0931-minimum-falling-path-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/mnmtk/LeetcodeDaily/tree/master/0967-minimum-falling-path-sum) |
 | [0980-unique-paths-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/0980-unique-paths-iii) |
@@ -2359,6 +2362,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Geometry
 |  |
 | ------- |
+| [0892-surface-area-of-3d-shapes](https://github.com/mnmtk/LeetcodeDaily/tree/master/0892-surface-area-of-3d-shapes) |
 | [0976-minimum-area-rectangle](https://github.com/mnmtk/LeetcodeDaily/tree/master/0976-minimum-area-rectangle) |
 | [1003-minimum-area-rectangle-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1003-minimum-area-rectangle-ii) |
 | [2206-detonate-the-maximum-bombs](https://github.com/mnmtk/LeetcodeDaily/tree/master/2206-detonate-the-maximum-bombs) |
