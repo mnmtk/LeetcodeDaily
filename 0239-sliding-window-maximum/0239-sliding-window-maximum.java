@@ -12,6 +12,7 @@ class Solution {
         res.add(nums[dq.peekFirst()]);
 
         for (int i = k; i < nums.length; i++) {
+
             if (dq.peekFirst() == i - k) {
                 dq.pollFirst();
             }
@@ -21,6 +22,7 @@ class Solution {
 
             dq.offerLast(i);
             res.add(nums[dq.peekFirst()]);
+            
         }
         // Return the result as an array.
         return res.stream().mapToInt(i->i).toArray();
