@@ -302,6 +302,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1586-binary-search-tree-iterator-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1586-binary-search-tree-iterator-ii) |
 | [1628-design-an-expression-tree-with-evaluate-function](https://github.com/mnmtk/LeetcodeDaily/tree/master/1628-design-an-expression-tree-with-evaluate-function) |
 | [1953-finding-mk-average](https://github.com/mnmtk/LeetcodeDaily/tree/master/1953-finding-mk-average) |
+| [2254-design-video-sharing-platform](https://github.com/mnmtk/LeetcodeDaily/tree/master/2254-design-video-sharing-platform) |
 | [2434-design-a-number-container-system](https://github.com/mnmtk/LeetcodeDaily/tree/master/2434-design-a-number-container-system) |
 ## Sorting
 |  |
@@ -416,6 +417,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1953-finding-mk-average](https://github.com/mnmtk/LeetcodeDaily/tree/master/1953-finding-mk-average) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/mnmtk/LeetcodeDaily/tree/master/1977-minimum-interval-to-include-each-query) |
 | [2012-process-tasks-using-servers](https://github.com/mnmtk/LeetcodeDaily/tree/master/2012-process-tasks-using-servers) |
+| [2254-design-video-sharing-platform](https://github.com/mnmtk/LeetcodeDaily/tree/master/2254-design-video-sharing-platform) |
 | [2343-query-kth-smallest-trimmed-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/2343-query-kth-smallest-trimmed-number) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/mnmtk/LeetcodeDaily/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2412-minimum-amount-of-time-to-fill-cups](https://github.com/mnmtk/LeetcodeDaily/tree/master/2412-minimum-amount-of-time-to-fill-cups) |
@@ -800,6 +802,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2196-create-binary-tree-from-descriptions](https://github.com/mnmtk/LeetcodeDaily/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2215-find-the-difference-of-two-arrays](https://github.com/mnmtk/LeetcodeDaily/tree/master/2215-find-the-difference-of-two-arrays) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/mnmtk/LeetcodeDaily/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+| [2254-design-video-sharing-platform](https://github.com/mnmtk/LeetcodeDaily/tree/master/2254-design-video-sharing-platform) |
 | [2352-equal-row-and-column-pairs](https://github.com/mnmtk/LeetcodeDaily/tree/master/2352-equal-row-and-column-pairs) |
 | [2434-design-a-number-container-system](https://github.com/mnmtk/LeetcodeDaily/tree/master/2434-design-a-number-container-system) |
 | [2434-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/2434-using-a-robot-to-print-the-lexicographically-smallest-string) |
