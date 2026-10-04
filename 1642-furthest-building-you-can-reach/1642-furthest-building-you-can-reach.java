@@ -1,7 +1,7 @@
 class Solution {
     public int furthestBuilding(int[] heights, int bricks, int ladders) {
 
-        Queue<Integer> ladderAllocations = new PriorityQueue<>();
+        Queue<Integer> ladderAllocations = new PriorityQueue<>((a, b) -> a - b);
         
         for (int i = 0; i < heights.length - 1; i++) {
             int climb = heights[i + 1] - heights[i];
