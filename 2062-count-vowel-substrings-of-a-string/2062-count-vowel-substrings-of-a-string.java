@@ -1,31 +1,16 @@
-class Solution
-{
-    public int countVowelSubstrings(String word)
-    {
-        int vow = 0;
-        int n = word.length();
+class Solution {
+    public int countVowelSubstrings(String word) {
+        int count = 0;
+        Map<Character, Integer> lastSeen = new HashMap<>(Map.of('a', -1, 'e', -1, 'i', -1, 'o', -1, 'u', -1));
 
-        Set<Character> set = new HashSet<>();
-
-        for(int i = 0; i < n-4; i++)
-        {
-            set.clear();
-
-            for(int j = i; j < n; j++)
-            {
-                char ch = word.charAt(j);
-                if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
-                {
-                    set.add(ch);
-                    if(set.size() == 5)
-                        vow++;
-                }
-                
-                else
-                    break;
+        for (int i = 0, lastInvalidPos = -1; i < word.length(); ++i) {
+            if (lastSeen.containsKey(word.charAt(i))) {
+                lastSeen.put(word.charAt(i), i);
+                count += Math.max(Collections.min(lastSeen.values()) - lastInvalidPos, 0);
+            } else {
+                lastInvalidPos = i;
             }
         }
-
-        return vow;
+        return count;
     }
 }
