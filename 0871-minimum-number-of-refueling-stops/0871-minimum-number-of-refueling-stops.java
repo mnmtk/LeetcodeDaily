@@ -3,6 +3,7 @@ class Solution {
         // pq is a maxheap of gas station capacities
         PriorityQueue<Integer> pq = new PriorityQueue(Collections.reverseOrder());
         int ans = 0, prev = 0;
+        
         for (int[] station: stations) {
             int location = station[0];
             int capacity = station[1];
