@@ -1,35 +1,42 @@
+import java.util.ArrayDeque;
+import java.util.Deque;
+
 class Solution {
+    // Helper class to store value and its frequency
+    private static class Node {
+        int val;
+        int count;
+        Node(int val, int count) {
+            this.val = val;
+            this.count = count;
+        }
+    }
+
     public long shadowPairs(int[] nums) {
         long totalPairs = 0;
-        int n = nums.length;
-
-        // Monotonic stack storing elements in non-decreasing order
-        int[] stack = new int[n];
-        int stackSize = 0;
+        Deque<Node> stack = new ArrayDeque<>();
+        long totalInStack = 0;
 
         for (int num : nums) {
-            // 1. Maintain monotonic property: pop elements strictly greater than num
-            while (stackSize > 0 && stack[stackSize - 1] > num) {
-                stackSize--;
+            // 1. Pop elements strictly greater than num
+            while (!stack.isEmpty() && stack.peek().val > num) {
+                totalInStack -= stack.pop().count;
             }
 
-            // 2. Binary search for the first element >= num in the stack
-            int left = 0;
-            int right = stackSize;
-            while (left < right) {
-                int mid = left + (right - left) / 2;
-                if (stack[mid] < num) {
-                    left = mid + 1;
-                } else {
-                    right = mid;
-                }
+            // 2. Count elements strictly smaller in O(1)
+            long equalCount = (!stack.isEmpty() && stack.peek().val == num) 
+                              ? stack.peek().count 
+                              : 0;
+            
+            totalPairs += (totalInStack - equalCount);
+
+            // 3. Push or update frequency
+            if (!stack.isEmpty() && stack.peek().val == num) {
+                stack.peek().count++;
+            } else {
+                stack.push(new Node(num, 1));
             }
-
-            // 3. Elements at indices [0 ... left - 1] in stack are strictly smaller than num
-            totalPairs += left;
-
-            // 4. Push current element onto stack
-            stack[stackSize++] = num;
+            totalInStack++;
         }
 
         return totalPairs;
