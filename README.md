@@ -703,6 +703,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/mnmtk/LeetcodeDaily/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3383-minimum-runes-to-add-to-cast-spell](https://github.com/mnmtk/LeetcodeDaily/tree/master/3383-minimum-runes-to-add-to-cast-spell) |
 | [3430-count-days-without-meetings](https://github.com/mnmtk/LeetcodeDaily/tree/master/3430-count-days-without-meetings) |
+| [3459-length-of-longest-v-shaped-diagonal-segment](https://github.com/mnmtk/LeetcodeDaily/tree/master/3459-length-of-longest-v-shaped-diagonal-segment) |
 | [3469-find-minimum-cost-to-remove-array-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/3469-find-minimum-cost-to-remove-array-elements) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/mnmtk/LeetcodeDaily/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3558-find-a-safe-walk-through-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/3558-find-a-safe-walk-through-a-grid) |
@@ -1455,6 +1456,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2526-longest-increasing-subsequence-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/2526-longest-increasing-subsequence-ii) |
 | [2673-make-costs-of-paths-equal-in-a-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/2673-make-costs-of-paths-equal-in-a-binary-tree) |
 | [2755-extra-characters-in-a-string](https://github.com/mnmtk/LeetcodeDaily/tree/master/2755-extra-characters-in-a-string) |
+| [3459-length-of-longest-v-shaped-diagonal-segment](https://github.com/mnmtk/LeetcodeDaily/tree/master/3459-length-of-longest-v-shaped-diagonal-segment) |
 | [3469-find-minimum-cost-to-remove-array-elements](https://github.com/mnmtk/LeetcodeDaily/tree/master/3469-find-minimum-cost-to-remove-array-elements) |
 | [3628-maximum-number-of-subsequences-after-one-inserting](https://github.com/mnmtk/LeetcodeDaily/tree/master/3628-maximum-number-of-subsequences-after-one-inserting) |
 | [3693-climbing-stairs-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/3693-climbing-stairs-ii) |
@@ -2010,6 +2012,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/2914-find-the-safest-path-in-a-grid) |
 | [3188-find-champion-i](https://github.com/mnmtk/LeetcodeDaily/tree/master/3188-find-champion-i) |
+| [3459-length-of-longest-v-shaped-diagonal-segment](https://github.com/mnmtk/LeetcodeDaily/tree/master/3459-length-of-longest-v-shaped-diagonal-segment) |
 | [3558-find-a-safe-walk-through-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/3558-find-a-safe-walk-through-a-grid) |
 ## Union Find
 |  |
@@ -2214,6 +2217,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0509-fibonacci-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/0509-fibonacci-number) |
 | [0930-all-possible-full-binary-trees](https://github.com/mnmtk/LeetcodeDaily/tree/master/0930-all-possible-full-binary-trees) |
 | [1137-n-th-tribonacci-number](https://github.com/mnmtk/LeetcodeDaily/tree/master/1137-n-th-tribonacci-number) |
+| [3459-length-of-longest-v-shaped-diagonal-segment](https://github.com/mnmtk/LeetcodeDaily/tree/master/3459-length-of-longest-v-shaped-diagonal-segment) |
 ## Combinatorics
 |  |
 | ------- |
