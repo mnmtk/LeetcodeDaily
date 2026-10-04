@@ -299,6 +299,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1249-snapshot-array](https://github.com/mnmtk/LeetcodeDaily/tree/master/1249-snapshot-array) |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/mnmtk/LeetcodeDaily/tree/master/1497-design-a-stack-with-increment-operation) |
+| [1500-design-a-file-sharing-system](https://github.com/mnmtk/LeetcodeDaily/tree/master/1500-design-a-file-sharing-system) |
 | [1586-binary-search-tree-iterator-ii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1586-binary-search-tree-iterator-ii) |
 | [1628-design-an-expression-tree-with-evaluate-function](https://github.com/mnmtk/LeetcodeDaily/tree/master/1628-design-an-expression-tree-with-evaluate-function) |
 | [1953-finding-mk-average](https://github.com/mnmtk/LeetcodeDaily/tree/master/1953-finding-mk-average) |
@@ -359,6 +360,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1367-maximum-height-by-stacking-cuboids](https://github.com/mnmtk/LeetcodeDaily/tree/master/1367-maximum-height-by-stacking-cuboids) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/mnmtk/LeetcodeDaily/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/mnmtk/LeetcodeDaily/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
+| [1500-design-a-file-sharing-system](https://github.com/mnmtk/LeetcodeDaily/tree/master/1500-design-a-file-sharing-system) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/mnmtk/LeetcodeDaily/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1815-checking-existence-of-edge-length-limited-paths](https://github.com/mnmtk/LeetcodeDaily/tree/master/1815-checking-existence-of-edge-length-limited-paths) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/mnmtk/LeetcodeDaily/tree/master/1966-frequency-of-the-most-frequent-element) |
@@ -411,6 +413,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/mnmtk/LeetcodeDaily/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/mnmtk/LeetcodeDaily/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/mnmtk/LeetcodeDaily/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1500-design-a-file-sharing-system](https://github.com/mnmtk/LeetcodeDaily/tree/master/1500-design-a-file-sharing-system) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/mnmtk/LeetcodeDaily/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1642-furthest-building-you-can-reach](https://github.com/mnmtk/LeetcodeDaily/tree/master/1642-furthest-building-you-can-reach) |
 | [1753-path-with-minimum-effort](https://github.com/mnmtk/LeetcodeDaily/tree/master/1753-path-with-minimum-effort) |
@@ -436,6 +439,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/mnmtk/LeetcodeDaily/tree/master/0295-find-median-from-data-stream) |
 | [0362-design-hit-counter](https://github.com/mnmtk/LeetcodeDaily/tree/master/0362-design-hit-counter) |
+| [1500-design-a-file-sharing-system](https://github.com/mnmtk/LeetcodeDaily/tree/master/1500-design-a-file-sharing-system) |
 | [1953-finding-mk-average](https://github.com/mnmtk/LeetcodeDaily/tree/master/1953-finding-mk-average) |
 | [3829-design-ride-sharing-system](https://github.com/mnmtk/LeetcodeDaily/tree/master/3829-design-ride-sharing-system) |
 ## Array
@@ -790,6 +794,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
 | [1308-smallest-string-with-swaps](https://github.com/mnmtk/LeetcodeDaily/tree/master/1308-smallest-string-with-swaps) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/mnmtk/LeetcodeDaily/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [1500-design-a-file-sharing-system](https://github.com/mnmtk/LeetcodeDaily/tree/master/1500-design-a-file-sharing-system) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/mnmtk/LeetcodeDaily/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1612-check-if-two-expression-trees-are-equivalent](https://github.com/mnmtk/LeetcodeDaily/tree/master/1612-check-if-two-expression-trees-are-equivalent) |
 | [1650-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/mnmtk/LeetcodeDaily/tree/master/1650-lowest-common-ancestor-of-a-binary-tree-iii) |
