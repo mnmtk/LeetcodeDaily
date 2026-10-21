@@ -9,8 +9,10 @@ class Solution {
         Map<Integer, Integer> map = new HashMap<>();
 
         int index = 0;
+
         for(int num : nums) {
             int find = target - num;
+            
             if(map.containsKey(find)) {
                 return new int[] {index, map.get(find)};
             }
