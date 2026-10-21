@@ -1,61 +1,35 @@
+import java.util.HashSet;
+import java.util.Set;
+
 class Solution {
-    class Dsu{
-        List<Integer> parent;
-       public List<Integer> size;
-
-        public Dsu(int n){
-            parent = new ArrayList<>();
-            size = new ArrayList<>();
-            for(int i =0;i<=n;i++){
-                parent.add(i);
-                size.add(1);
-            }
-        }
-        public int fParent(int n){
-            if(parent.get(n)==n){
-                return n;
-            }
-            int up = fParent(parent.get(n));
-            parent.set(n,up);
-            return up;
-        }
-        public void union(int u, int v){
-            int pu = fParent(u);
-            int pv = fParent(v);
-            if(pu==pv){
-                return;
-            }
-            if(size.get(pu)>size.get(pv)){
-                parent.set(pv,pu);
-                size.set(pu,size.get(pv) + size.get(pu));
-            }
-            else{
-                parent.set(pu,pv);
-                size.set(pv,size.get(pu)+size.get(pv));
-            }
-        }
-    }
     public int longestConsecutive(int[] nums) {
-        Dsu d = new Dsu(nums.length);
-        Map<Integer,Integer> map = new HashMap<>();
-        for(int i =0;i<nums.length;i++){
-            
-            if(!map.containsKey(nums[i])){
-            map.put(nums[i],i);
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
 
-            if(map.containsKey(nums[i]+1)){
-                d.union(i,map.get(nums[i]+1));
-            }
+        Set<Integer> set = new HashSet<>();
+        for (int num : nums) {
+            set.add(num);
+        }
 
-            if(map.containsKey(nums[i]-1)){
-                d.union(i,map.get(nums[i]-1));
-            }
+        int longestStreak = 0;
+
+        for (int num : set) {
+   
+            if (!set.contains(num - 1)) {
+                int currentNum = num;
+                int currentStreak = 1;
+
+               
+                while (set.contains(currentNum + 1)) {
+                    currentNum++;
+                    currentStreak++;
+                }
+
+                longestStreak = Math.max(longestStreak, currentStreak);
             }
         }
-         int max =0;
-    for(int i=0;i<nums.length;i++){
-        max = Math.max(max,d.size.get(i));
-    }
-    return max;
+
+        return longestStreak;
     }
 }
