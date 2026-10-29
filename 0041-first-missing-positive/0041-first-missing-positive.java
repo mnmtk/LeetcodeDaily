@@ -7,6 +7,7 @@ class Solution {
         // Replace negative numbers, zeros,
         // and numbers larger than n with 1s.
         // After this nums contains only positive numbers.
+        
         for (int i = 0; i < n; i++) {
             // Check whether 1 is in the original array
             if (nums[i] == 1) {
