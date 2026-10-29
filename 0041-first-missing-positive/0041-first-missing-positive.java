@@ -1,29 +1,26 @@
 class Solution {
-    public int firstMissingPositive(int[] nums) {
-        int n = nums.length, i = 0;
-        while (i < n) {
-            int correctIdx = nums[i] - 1;
-            if (nums[i] > 0 && nums[i] < n && nums[i] != nums[correctIdx]) {
-                swap(nums, i, correctIdx);
-            } else {
-				i++;
-			}
-        }
 
-        for (i = 0; i < n; i++) {
-            if (nums[i] != i + 1) {
-                return i + 1;
+    public int firstMissingPositive(int[] nums) {
+        int n = nums.length;
+        boolean[] seen = new boolean[n + 1]; // Array for lookup
+
+        // Mark the elements from nums in the lookup array
+        for (int num : nums) {
+            if (num > 0 && num <= n) {
+                seen[num] = true;
             }
         }
 
+        // Iterate through integers 1 to n
+        // return smallest missing positive integer
+        for (int i = 1; i <= n; i++) {
+            if (!seen[i]) {
+                return i;
+            }
+        }
+
+        // If seen contains all elements 1 to n
+        // the smallest missing positive number is n + 1
         return n + 1;
     }
-
-    public void swap(int[] nums, int i, int j) {
-        int tmp = nums[i];
-        nums[i] = nums[j];
-        nums[j] = tmp;
-    }
 }
-
-// TC: O(n), SC: O(1)
